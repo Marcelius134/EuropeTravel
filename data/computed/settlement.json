@@ -1,0 +1,1642 @@
+{
+ "AL01": {
+  "urban_population": 462286,
+  "urban_density": 43.21,
+  "crowd": 0.41
+ },
+ "AL02": {
+  "urban_population": 589302,
+  "urban_density": 118.24,
+  "crowd": 0.67
+ },
+ "AL03": {
+  "urban_population": 578055,
+  "urban_density": 45.15,
+  "crowd": 0.437
+ },
+ "AT11": {
+  "urban_population": 54353,
+  "urban_density": 13.84,
+  "crowd": 0.092
+ },
+ "AT12": {
+  "urban_population": 176084,
+  "urban_density": 9.15,
+  "crowd": 0.043
+ },
+ "AT13": {
+  "urban_population": 3417161,
+  "urban_density": 10188.32,
+  "crowd": 0.988
+ },
+ "AT21": {
+  "urban_population": 224553,
+  "urban_density": 24.11,
+  "crowd": 0.183
+ },
+ "AT22": {
+  "urban_population": 523985,
+  "urban_density": 32.17,
+  "crowd": 0.291
+ },
+ "AT31": {
+  "urban_population": 303630,
+  "urban_density": 25.53,
+  "crowd": 0.208
+ },
+ "AT32": {
+  "urban_population": 174035,
+  "urban_density": 24.3,
+  "crowd": 0.187
+ },
+ "AT33": {
+  "urban_population": 233495,
+  "urban_density": 18.66,
+  "crowd": 0.131
+ },
+ "AT34": {
+  "urban_population": 166744,
+  "urban_density": 64.51,
+  "crowd": 0.541
+ },
+ "BE10": {
+  "urban_population": 2043045,
+  "urban_density": 12865.52,
+  "crowd": 0.997
+ },
+ "BE21": {
+  "urban_population": 1638293,
+  "urban_density": 560.96,
+  "crowd": 0.893
+ },
+ "BE22": {
+  "urban_population": 641293,
+  "urban_density": 271.68,
+  "crowd": 0.804
+ },
+ "BE23": {
+  "urban_population": 1180182,
+  "urban_density": 388.49,
+  "crowd": 0.859
+ },
+ "BE24": {
+  "urban_population": 679109,
+  "urban_density": 320.97,
+  "crowd": 0.829
+ },
+ "BE25": {
+  "urban_population": 807704,
+  "urban_density": 259.43,
+  "crowd": 0.795
+ },
+ "BE31": {
+  "urban_population": 194881,
+  "urban_density": 180.23,
+  "crowd": 0.746
+ },
+ "BE32": {
+  "urban_population": 1012704,
+  "urban_density": 270.34,
+  "crowd": 0.801
+ },
+ "BE33": {
+  "urban_population": 604231,
+  "urban_density": 156.41,
+  "crowd": 0.719
+ },
+ "BE34": {
+  "urban_population": 43035,
+  "urban_density": 9.84,
+  "crowd": 0.049
+ },
+ "BE35": {
+  "urban_population": 193829,
+  "urban_density": 51.67,
+  "crowd": 0.477
+ },
+ "BG31": {
+  "urban_population": 304712,
+  "urban_density": 16.22,
+  "crowd": 0.11
+ },
+ "BG32": {
+  "urban_population": 253259,
+  "urban_density": 17.16,
+  "crowd": 0.122
+ },
+ "BG33": {
+  "urban_population": 538877,
+  "urban_density": 36.94,
+  "crowd": 0.349
+ },
+ "BG34": {
+  "urban_population": 606971,
+  "urban_density": 30.61,
+  "crowd": 0.281
+ },
+ "BG41": {
+  "urban_population": 1511881,
+  "urban_density": 74.31,
+  "crowd": 0.572
+ },
+ "BG42": {
+  "urban_population": 774189,
+  "urban_density": 34.62,
+  "crowd": 0.321
+ },
+ "CH01": {
+  "urban_population": 687947,
+  "urban_density": 79.37,
+  "crowd": 0.59
+ },
+ "CH02": {
+  "urban_population": 478673,
+  "urban_density": 47.6,
+  "crowd": 0.453
+ },
+ "CH03": {
+  "urban_population": 272772,
+  "urban_density": 142.45,
+  "crowd": 0.706
+ },
+ "CH04": {
+  "urban_population": 1304681,
+  "urban_density": 746.68,
+  "crowd": 0.911
+ },
+ "CH05": {
+  "urban_population": 304570,
+  "urban_density": 27.05,
+  "crowd": 0.229
+ },
+ "CH06": {
+  "urban_population": 252603,
+  "urban_density": 58.14,
+  "crowd": 0.511
+ },
+ "CH07": {
+  "urban_population": 122229,
+  "urban_density": 44.04,
+  "crowd": 0.431
+ },
+ "CY00": {
+  "urban_population": 789379,
+  "urban_density": 85.89,
+  "crowd": 0.596
+ },
+ "CZ01": {
+  "urban_population": 2043990,
+  "urban_density": 4248.58,
+  "crowd": 0.969
+ },
+ "CZ02": {
+  "urban_population": 376242,
+  "urban_density": 34.67,
+  "crowd": 0.324
+ },
+ "CZ03": {
+  "urban_population": 396127,
+  "urban_density": 22.22,
+  "crowd": 0.168
+ },
+ "CZ04": {
+  "urban_population": 535809,
+  "urban_density": 63.01,
+  "crowd": 0.529
+ },
+ "CZ05": {
+  "urban_population": 520094,
+  "urban_density": 42.31,
+  "crowd": 0.398
+ },
+ "CZ06": {
+  "urban_population": 847090,
+  "urban_density": 61.24,
+  "crowd": 0.526
+ },
+ "CZ07": {
+  "urban_population": 459996,
+  "urban_density": 50.94,
+  "crowd": 0.474
+ },
+ "CZ08": {
+  "urban_population": 747618,
+  "urban_density": 138.27,
+  "crowd": 0.7
+ },
+ "DE11": {
+  "urban_population": 2539086,
+  "urban_density": 244.5,
+  "crowd": 0.786
+ },
+ "DE12": {
+  "urban_population": 1566325,
+  "urban_density": 232.97,
+  "crowd": 0.774
+ },
+ "DE13": {
+  "urban_population": 1046220,
+  "urban_density": 112.06,
+  "crowd": 0.654
+ },
+ "DE14": {
+  "urban_population": 984935,
+  "urban_density": 105.82,
+  "crowd": 0.648
+ },
+ "DE21": {
+  "urban_population": 2711489,
+  "urban_density": 156.83,
+  "crowd": 0.722
+ },
+ "DE22": {
+  "urban_population": 249307,
+  "urban_density": 24.89,
+  "crowd": 0.199
+ },
+ "DE23": {
+  "urban_population": 361365,
+  "urban_density": 37.37,
+  "crowd": 0.358
+ },
+ "DE24": {
+  "urban_population": 348850,
+  "urban_density": 48.68,
+  "crowd": 0.462
+ },
+ "DE25": {
+  "urban_population": 1005990,
+  "urban_density": 137.51,
+  "crowd": 0.694
+ },
+ "DE26": {
+  "urban_population": 362188,
+  "urban_density": 43.41,
+  "crowd": 0.413
+ },
+ "DE27": {
+  "urban_population": 783815,
+  "urban_density": 78.59,
+  "crowd": 0.587
+ },
+ "DE30": {
+  "urban_population": 7000919,
+  "urban_density": 8011.12,
+  "crowd": 0.979
+ },
+ "DE40": {
+  "urban_population": 1206696,
+  "urban_density": 41.3,
+  "crowd": 0.385
+ },
+ "DE50": {
+  "urban_population": 732868,
+  "urban_density": 1920.01,
+  "crowd": 0.945
+ },
+ "DE60": {
+  "urban_population": 5219961,
+  "urban_density": 6864.76,
+  "crowd": 0.976
+ },
+ "DE71": {
+  "urban_population": 3008294,
+  "urban_density": 410.47,
+  "crowd": 0.865
+ },
+ "DE72": {
+  "urban_population": 371966,
+  "urban_density": 69.16,
+  "crowd": 0.554
+ },
+ "DE73": {
+  "urban_population": 537100,
+  "urban_density": 65.39,
+  "crowd": 0.544
+ },
+ "DE80": {
+  "urban_population": 648992,
+  "urban_density": 28.36,
+  "crowd": 0.254
+ },
+ "DE91": {
+  "urban_population": 1029091,
+  "urban_density": 127.36,
+  "crowd": 0.682
+ },
+ "DE92": {
+  "urban_population": 1635229,
+  "urban_density": 178.6,
+  "crowd": 0.743
+ },
+ "DE93": {
+  "urban_population": 753479,
+  "urban_density": 48.85,
+  "crowd": 0.465
+ },
+ "DE94": {
+  "urban_population": 1414786,
+  "urban_density": 95.82,
+  "crowd": 0.63
+ },
+ "DEA1": {
+  "urban_population": 5497641,
+  "urban_density": 1044.78,
+  "crowd": 0.933
+ },
+ "DEA2": {
+  "urban_population": 4686199,
+  "urban_density": 640.51,
+  "crowd": 0.896
+ },
+ "DEA3": {
+  "urban_population": 2336586,
+  "urban_density": 337.94,
+  "crowd": 0.841
+ },
+ "DEA4": {
+  "urban_population": 1777715,
+  "urban_density": 274.84,
+  "crowd": 0.807
+ },
+ "DEA5": {
+  "urban_population": 3817576,
+  "urban_density": 477.58,
+  "crowd": 0.884
+ },
+ "DEB1": {
+  "urban_population": 410759,
+  "urban_density": 50.78,
+  "crowd": 0.471
+ },
+ "DEB2": {
+  "urban_population": 136555,
+  "urban_density": 28.48,
+  "crowd": 0.26
+ },
+ "DEB3": {
+  "urban_population": 1071945,
+  "urban_density": 155.61,
+  "crowd": 0.716
+ },
+ "DEC0": {
+  "urban_population": 761701,
+  "urban_density": 303.96,
+  "crowd": 0.823
+ },
+ "DED2": {
+  "urban_population": 1183147,
+  "urban_density": 149.61,
+  "crowd": 0.709
+ },
+ "DED4": {
+  "urban_population": 748819,
+  "urban_density": 112.93,
+  "crowd": 0.661
+ },
+ "DED5": {
+  "urban_population": 733461,
+  "urban_density": 194.11,
+  "crowd": 0.758
+ },
+ "DEE0": {
+  "urban_population": 1500793,
+  "urban_density": 73.07,
+  "crowd": 0.566
+ },
+ "DEF0": {
+  "urban_population": 1375346,
+  "urban_density": 89.19,
+  "crowd": 0.606
+ },
+ "DEG0": {
+  "urban_population": 1105914,
+  "urban_density": 69.32,
+  "crowd": 0.557
+ },
+ "DK01": {
+  "urban_population": 1968829,
+  "urban_density": 780.72,
+  "crowd": 0.917
+ },
+ "DK02": {
+  "urban_population": 391647,
+  "urban_density": 53.31,
+  "crowd": 0.489
+ },
+ "DK03": {
+  "urban_population": 558997,
+  "urban_density": 46.51,
+  "crowd": 0.446
+ },
+ "DK04": {
+  "urban_population": 697434,
+  "urban_density": 53.13,
+  "crowd": 0.483
+ },
+ "DK05": {
+  "urban_population": 214971,
+  "urban_density": 26.72,
+  "crowd": 0.223
+ },
+ "EE00": {
+  "urban_population": 1106943,
+  "urban_density": 24.61,
+  "crowd": 0.193
+ },
+ "EL30": {
+  "urban_population": 3390616,
+  "urban_density": 854.58,
+  "crowd": 0.92
+ },
+ "EL41": {
+  "urban_population": 52275,
+  "urban_density": 14.75,
+  "crowd": 0.104
+ },
+ "EL42": {
+  "urban_population": 75372,
+  "urban_density": 14.12,
+  "crowd": 0.095
+ },
+ "EL43": {
+  "urban_population": 223532,
+  "urban_density": 27.44,
+  "crowd": 0.232
+ },
+ "EL51": {
+  "urban_population": 261902,
+  "urban_density": 18.8,
+  "crowd": 0.138
+ },
+ "EL52": {
+  "urban_population": 1105847,
+  "urban_density": 58.2,
+  "crowd": 0.514
+ },
+ "EL53": {
+  "urban_population": 84212,
+  "urban_density": 9.02,
+  "crowd": 0.04
+ },
+ "EL54": {
+  "urban_population": 104752,
+  "urban_density": 11.56,
+  "crowd": 0.064
+ },
+ "EL61": {
+  "urban_population": 359300,
+  "urban_density": 25.59,
+  "crowd": 0.211
+ },
+ "EL62": {
+  "urban_population": 40047,
+  "urban_density": 18.48,
+  "crowd": 0.128
+ },
+ "EL63": {
+  "urban_population": 274517,
+  "urban_density": 24.97,
+  "crowd": 0.202
+ },
+ "EL64": {
+  "urban_population": 165033,
+  "urban_density": 10.37,
+  "crowd": 0.055
+ },
+ "EL65": {
+  "urban_population": 149285,
+  "urban_density": 9.77,
+  "crowd": 0.046
+ },
+ "ES11": {
+  "urban_population": 1599760,
+  "urban_density": 54.86,
+  "crowd": 0.495
+ },
+ "ES12": {
+  "urban_population": 711531,
+  "urban_density": 67.69,
+  "crowd": 0.55
+ },
+ "ES13": {
+  "urban_population": 309280,
+  "urban_density": 56.98,
+  "crowd": 0.502
+ },
+ "ES21": {
+  "urban_population": 1770693,
+  "urban_density": 254.92,
+  "crowd": 0.792
+ },
+ "ES22": {
+  "urban_population": 369018,
+  "urban_density": 35.9,
+  "crowd": 0.339
+ },
+ "ES23": {
+  "urban_population": 175951,
+  "urban_density": 35.24,
+  "crowd": 0.33
+ },
+ "ES24": {
+  "urban_population": 1069098,
+  "urban_density": 22.4,
+  "crowd": 0.174
+ },
+ "ES30": {
+  "urban_population": 12608343,
+  "urban_density": 1608.64,
+  "crowd": 0.942
+ },
+ "ES41": {
+  "urban_population": 1361989,
+  "urban_density": 14.49,
+  "crowd": 0.101
+ },
+ "ES42": {
+  "urban_population": 956228,
+  "urban_density": 12.1,
+  "crowd": 0.073
+ },
+ "ES43": {
+  "urban_population": 492721,
+  "urban_density": 11.85,
+  "crowd": 0.07
+ },
+ "ES51": {
+  "urban_population": 8865491,
+  "urban_density": 277.27,
+  "crowd": 0.813
+ },
+ "ES52": {
+  "urban_population": 3934663,
+  "urban_density": 170.91,
+  "crowd": 0.731
+ },
+ "ES53": {
+  "urban_population": 884380,
+  "urban_density": 175.58,
+  "crowd": 0.734
+ },
+ "ES61": {
+  "urban_population": 6287619,
+  "urban_density": 72.01,
+  "crowd": 0.563
+ },
+ "ES62": {
+  "urban_population": 1403088,
+  "urban_density": 125.43,
+  "crowd": 0.679
+ },
+ "ES63": {
+  "urban_population": 83179,
+  "urban_density": 8848.83,
+  "crowd": 0.985
+ },
+ "ES64": {
+  "urban_population": 85985,
+  "urban_density": 11942.36,
+  "crowd": 0.994
+ },
+ "FI19": {
+  "urban_population": 1049251,
+  "urban_density": 16.31,
+  "crowd": 0.113
+ },
+ "FI1B": {
+  "urban_population": 2368360,
+  "urban_density": 237.81,
+  "crowd": 0.78
+ },
+ "FI1C": {
+  "urban_population": 1004060,
+  "urban_density": 28.82,
+  "crowd": 0.269
+ },
+ "FI1D": {
+  "urban_population": 843513,
+  "urban_density": 3.75,
+  "crowd": 0.024
+ },
+ "FI20": {
+  "urban_population": 0,
+  "urban_density": 0.0,
+  "crowd": 0.002
+ },
+ "FR10": {
+  "urban_population": 13048987,
+  "urban_density": 1070.69,
+  "crowd": 0.936
+ },
+ "FRB0": {
+  "urban_population": 827495,
+  "urban_density": 21.09,
+  "crowd": 0.159
+ },
+ "FRC1": {
+  "urban_population": 490205,
+  "urban_density": 15.59,
+  "crowd": 0.107
+ },
+ "FRC2": {
+  "urban_population": 314191,
+  "urban_density": 19.37,
+  "crowd": 0.15
+ },
+ "FRD1": {
+  "urban_population": 344227,
+  "urban_density": 19.63,
+  "crowd": 0.153
+ },
+ "FRD2": {
+  "urban_population": 644607,
+  "urban_density": 52.12,
+  "crowd": 0.48
+ },
+ "FRE1": {
+  "urban_population": 1685969,
+  "urban_density": 138.01,
+  "crowd": 0.697
+ },
+ "FRE2": {
+  "urban_population": 515336,
+  "urban_density": 26.76,
+  "crowd": 0.226
+ },
+ "FRF1": {
+  "urban_population": 655685,
+  "urban_density": 78.29,
+  "crowd": 0.584
+ },
+ "FRF2": {
+  "urban_population": 486873,
+  "urban_density": 19.21,
+  "crowd": 0.147
+ },
+ "FRF3": {
+  "urban_population": 618116,
+  "urban_density": 26.39,
+  "crowd": 0.22
+ },
+ "FRG0": {
+  "urban_population": 1273125,
+  "urban_density": 39.57,
+  "crowd": 0.37
+ },
+ "FRH0": {
+  "urban_population": 864151,
+  "urban_density": 31.73,
+  "crowd": 0.284
+ },
+ "FRI1": {
+  "urban_population": 1157962,
+  "urban_density": 27.68,
+  "crowd": 0.239
+ },
+ "FRI2": {
+  "urban_population": 227464,
+  "urban_density": 13.37,
+  "crowd": 0.089
+ },
+ "FRI3": {
+  "urban_population": 423675,
+  "urban_density": 16.49,
+  "crowd": 0.116
+ },
+ "FRJ1": {
+  "urban_population": 909998,
+  "urban_density": 32.94,
+  "crowd": 0.312
+ },
+ "FRJ2": {
+  "urban_population": 1006670,
+  "urban_density": 22.25,
+  "crowd": 0.171
+ },
+ "FRK1": {
+  "urban_population": 375653,
+  "urban_density": 14.46,
+  "crowd": 0.098
+ },
+ "FRK2": {
+  "urban_population": 2853729,
+  "urban_density": 63.61,
+  "crowd": 0.535
+ },
+ "FRL0": {
+  "urban_population": 4254173,
+  "urban_density": 135.14,
+  "crowd": 0.688
+ },
+ "FRM0": {
+  "urban_population": 95365,
+  "urban_density": 11.26,
+  "crowd": 0.061
+ },
+ "HR02": {
+  "urban_population": 298831,
+  "urban_density": 12.94,
+  "crowd": 0.086
+ },
+ "HR03": {
+  "urban_population": 456356,
+  "urban_density": 18.76,
+  "crowd": 0.135
+ },
+ "HR05": {
+  "urban_population": 755905,
+  "urban_density": 1196.81,
+  "crowd": 0.939
+ },
+ "HR06": {
+  "urban_population": 139242,
+  "urban_density": 17.1,
+  "crowd": 0.119
+ },
+ "HU11": {
+  "urban_population": 5842598,
+  "urban_density": 11270.44,
+  "crowd": 0.991
+ },
+ "HU12": {
+  "urban_population": 477730,
+  "urban_density": 75.61,
+  "crowd": 0.575
+ },
+ "HU21": {
+  "urban_population": 450027,
+  "urban_density": 40.52,
+  "crowd": 0.382
+ },
+ "HU22": {
+  "urban_population": 444173,
+  "urban_density": 39.66,
+  "crowd": 0.373
+ },
+ "HU23": {
+  "urban_population": 353850,
+  "urban_density": 25.4,
+  "crowd": 0.205
+ },
+ "HU31": {
+  "urban_population": 429755,
+  "urban_density": 32.56,
+  "crowd": 0.3
+ },
+ "HU32": {
+  "urban_population": 627803,
+  "urban_density": 35.69,
+  "crowd": 0.336
+ },
+ "HU33": {
+  "urban_population": 721592,
+  "urban_density": 39.08,
+  "crowd": 0.367
+ },
+ "IE04": {
+  "urban_population": 129067,
+  "urban_density": 5.08,
+  "crowd": 0.031
+ },
+ "IE05": {
+  "urban_population": 592948,
+  "urban_density": 20.25,
+  "crowd": 0.156
+ },
+ "IE06": {
+  "urban_population": 1998743,
+  "urban_density": 140.31,
+  "crowd": 0.703
+ },
+ "IS00": {
+  "urban_population": 245356,
+  "urban_density": 2.42,
+  "crowd": 0.018
+ },
+ "ITC1": {
+  "urban_population": 3840458,
+  "urban_density": 152.12,
+  "crowd": 0.713
+ },
+ "ITC2": {
+  "urban_population": 35261,
+  "urban_density": 11.2,
+  "crowd": 0.058
+ },
+ "ITC3": {
+  "urban_population": 956287,
+  "urban_density": 177.16,
+  "crowd": 0.74
+ },
+ "ITC4": {
+  "urban_population": 4766320,
+  "urban_density": 201.25,
+  "crowd": 0.761
+ },
+ "ITF1": {
+  "urban_population": 515642,
+  "urban_density": 47.37,
+  "crowd": 0.45
+ },
+ "ITF2": {
+  "urban_population": 97219,
+  "urban_density": 21.7,
+  "crowd": 0.165
+ },
+ "ITF3": {
+  "urban_population": 4512605,
+  "urban_density": 332.42,
+  "crowd": 0.838
+ },
+ "ITF4": {
+  "urban_population": 2628439,
+  "urban_density": 136.16,
+  "crowd": 0.691
+ },
+ "ITF5": {
+  "urban_population": 116836,
+  "urban_density": 11.63,
+  "crowd": 0.067
+ },
+ "ITF6": {
+  "urban_population": 692161,
+  "urban_density": 45.99,
+  "crowd": 0.44
+ },
+ "ITG1": {
+  "urban_population": 3180667,
+  "urban_density": 124.1,
+  "crowd": 0.676
+ },
+ "ITG2": {
+  "urban_population": 683690,
+  "urban_density": 28.41,
+  "crowd": 0.257
+ },
+ "ITH1": {
+  "urban_population": 179417,
+  "urban_density": 24.3,
+  "crowd": 0.19
+ },
+ "ITH2": {
+  "urban_population": 172192,
+  "urban_density": 27.63,
+  "crowd": 0.235
+ },
+ "ITH3": {
+  "urban_population": 1679102,
+  "urban_density": 92.94,
+  "crowd": 0.627
+ },
+ "ITH4": {
+  "urban_population": 413680,
+  "urban_density": 53.53,
+  "crowd": 0.492
+ },
+ "ITH5": {
+  "urban_population": 2293040,
+  "urban_density": 102.32,
+  "crowd": 0.645
+ },
+ "ITI1": {
+  "urban_population": 2111755,
+  "urban_density": 91.71,
+  "crowd": 0.621
+ },
+ "ITI2": {
+  "urban_population": 363183,
+  "urban_density": 43.85,
+  "crowd": 0.428
+ },
+ "ITI3": {
+  "urban_population": 594979,
+  "urban_density": 64.19,
+  "crowd": 0.538
+ },
+ "ITI4": {
+  "urban_population": 4048333,
+  "urban_density": 234.54,
+  "crowd": 0.777
+ },
+ "LI00": {
+  "urban_population": 5197,
+  "urban_density": 32.46,
+  "crowd": 0.297
+ },
+ "LT01": {
+  "urban_population": 941996,
+  "urban_density": 99.97,
+  "crowd": 0.639
+ },
+ "LT02": {
+  "urban_population": 1161137,
+  "urban_density": 21.12,
+  "crowd": 0.162
+ },
+ "LU00": {
+  "urban_population": 113309,
+  "urban_density": 43.59,
+  "crowd": 0.422
+ },
+ "LV00": {
+  "urban_population": 1206422,
+  "urban_density": 18.87,
+  "crowd": 0.141
+ },
+ "ME00": {
+  "urban_population": 400353,
+  "urban_density": 28.8,
+  "crowd": 0.266
+ },
+ "MK00": {
+  "urban_population": 1754303,
+  "urban_density": 69.49,
+  "crowd": 0.56
+ },
+ "MT00": {
+  "urban_population": 141714,
+  "urban_density": 521.77,
+  "crowd": 0.89
+ },
+ "NL11": {
+  "urban_population": 397958,
+  "urban_density": 167.34,
+  "crowd": 0.728
+ },
+ "NL12": {
+  "urban_population": 261691,
+  "urban_density": 67.65,
+  "crowd": 0.547
+ },
+ "NL13": {
+  "urban_population": 195297,
+  "urban_density": 74.02,
+  "crowd": 0.569
+ },
+ "NL21": {
+  "urban_population": 939775,
+  "urban_density": 278.06,
+  "crowd": 0.817
+ },
+ "NL22": {
+  "urban_population": 1392764,
+  "urban_density": 274.98,
+  "crowd": 0.81
+ },
+ "NL23": {
+  "urban_population": 371920,
+  "urban_density": 163.41,
+  "crowd": 0.725
+ },
+ "NL31": {
+  "urban_population": 1097182,
+  "urban_density": 718.47,
+  "crowd": 0.905
+ },
+ "NL32": {
+  "urban_population": 2512682,
+  "urban_density": 730.86,
+  "crowd": 0.908
+ },
+ "NL33": {
+  "urban_population": 3292208,
+  "urban_density": 1028.3,
+  "crowd": 0.93
+ },
+ "NL34": {
+  "urban_population": 178904,
+  "urban_density": 92.49,
+  "crowd": 0.624
+ },
+ "NL41": {
+  "urban_population": 1744360,
+  "urban_density": 351.36,
+  "crowd": 0.844
+ },
+ "NL42": {
+  "urban_population": 688007,
+  "urban_density": 312.56,
+  "crowd": 0.826
+ },
+ "NO02": {
+  "urban_population": 76086,
+  "urban_density": 1.47,
+  "crowd": 0.009
+ },
+ "NO06": {
+  "urban_population": 252382,
+  "urban_density": 5.88,
+  "crowd": 0.037
+ },
+ "NO07": {
+  "urban_population": 149192,
+  "urban_density": 1.28,
+  "crowd": 0.006
+ },
+ "NO08": {
+  "urban_population": 1572282,
+  "urban_density": 63.29,
+  "crowd": 0.532
+ },
+ "NO09": {
+  "urban_population": 427165,
+  "urban_density": 12.61,
+  "crowd": 0.08
+ },
+ "NO0A": {
+  "urban_population": 779458,
+  "urban_density": 12.35,
+  "crowd": 0.076
+ },
+ "NO0B": {
+  "urban_population": 0,
+  "urban_density": 0.0,
+  "crowd": 0.002
+ },
+ "PL21": {
+  "urban_population": 1475821,
+  "urban_density": 98.05,
+  "crowd": 0.636
+ },
+ "PL22": {
+  "urban_population": 3477842,
+  "urban_density": 282.44,
+  "crowd": 0.82
+ },
+ "PL41": {
+  "urban_population": 1468878,
+  "urban_density": 49.77,
+  "crowd": 0.468
+ },
+ "PL42": {
+  "urban_population": 930013,
+  "urban_density": 41.67,
+  "crowd": 0.391
+ },
+ "PL43": {
+  "urban_population": 448319,
+  "urban_density": 32.26,
+  "crowd": 0.294
+ },
+ "PL51": {
+  "urban_population": 2340332,
+  "urban_density": 117.47,
+  "crowd": 0.667
+ },
+ "PL52": {
+  "urban_population": 398187,
+  "urban_density": 42.66,
+  "crowd": 0.401
+ },
+ "PL61": {
+  "urban_population": 1027903,
+  "urban_density": 57.35,
+  "crowd": 0.508
+ },
+ "PL62": {
+  "urban_population": 667671,
+  "urban_density": 27.92,
+  "crowd": 0.248
+ },
+ "PL63": {
+  "urban_population": 1617120,
+  "urban_density": 89.5,
+  "crowd": 0.609
+ },
+ "PL71": {
+  "urban_population": 1409943,
+  "urban_density": 78.27,
+  "crowd": 0.581
+ },
+ "PL72": {
+  "urban_population": 465473,
+  "urban_density": 39.74,
+  "crowd": 0.376
+ },
+ "PL81": {
+  "urban_population": 857200,
+  "urban_density": 34.43,
+  "crowd": 0.318
+ },
+ "PL82": {
+  "urban_population": 714876,
+  "urban_density": 40.07,
+  "crowd": 0.379
+ },
+ "PL84": {
+  "urban_population": 601920,
+  "urban_density": 29.9,
+  "crowd": 0.275
+ },
+ "PL91": {
+  "urban_population": 3961974,
+  "urban_density": 663.4,
+  "crowd": 0.902
+ },
+ "PL92": {
+  "urban_population": 856638,
+  "urban_density": 29.32,
+  "crowd": 0.272
+ },
+ "PT11": {
+  "urban_population": 1940272,
+  "urban_density": 91.34,
+  "crowd": 0.618
+ },
+ "PT15": {
+  "urban_population": 306275,
+  "urban_density": 60.88,
+  "crowd": 0.523
+ },
+ "PT16": {
+  "urban_population": 1033827,
+  "urban_density": 37.07,
+  "crowd": 0.355
+ },
+ "PT17": {
+  "urban_population": 2930276,
+  "urban_density": 940.52,
+  "crowd": 0.924
+ },
+ "PT18": {
+  "urban_population": 161526,
+  "urban_density": 5.12,
+  "crowd": 0.034
+ },
+ "PT20": {
+  "urban_population": 20056,
+  "urban_density": 23.8,
+  "crowd": 0.18
+ },
+ "PT30": {
+  "urban_population": 213794,
+  "urban_density": 239.57,
+  "crowd": 0.783
+ },
+ "RO11": {
+  "urban_population": 1107509,
+  "urban_density": 32.6,
+  "crowd": 0.303
+ },
+ "RO12": {
+  "urban_population": 1246689,
+  "urban_density": 36.88,
+  "crowd": 0.346
+ },
+ "RO21": {
+  "urban_population": 1287147,
+  "urban_density": 35.23,
+  "crowd": 0.327
+ },
+ "RO22": {
+  "urban_population": 1155522,
+  "urban_density": 32.77,
+  "crowd": 0.309
+ },
+ "RO31": {
+  "urban_population": 884524,
+  "urban_density": 25.81,
+  "crowd": 0.214
+ },
+ "RO32": {
+  "urban_population": 3788216,
+  "urban_density": 2231.25,
+  "crowd": 0.951
+ },
+ "RO41": {
+  "urban_population": 718808,
+  "urban_density": 24.62,
+  "crowd": 0.196
+ },
+ "RO42": {
+  "urban_population": 881625,
+  "urban_density": 27.9,
+  "crowd": 0.245
+ },
+ "RS11": {
+  "urban_population": 1492614,
+  "urban_density": 463.43,
+  "crowd": 0.881
+ },
+ "RS12": {
+  "urban_population": 879908,
+  "urban_density": 41.45,
+  "crowd": 0.388
+ },
+ "RS21": {
+  "urban_population": 861392,
+  "urban_density": 32.7,
+  "crowd": 0.306
+ },
+ "RS22": {
+  "urban_population": 731843,
+  "urban_density": 28.29,
+  "crowd": 0.251
+ },
+ "SE11": {
+  "urban_population": 2876083,
+  "urban_density": 355.49,
+  "crowd": 0.847
+ },
+ "SE12": {
+  "urban_population": 984700,
+  "urban_density": 22.72,
+  "crowd": 0.177
+ },
+ "SE21": {
+  "urban_population": 359388,
+  "urban_density": 10.01,
+  "crowd": 0.052
+ },
+ "SE22": {
+  "urban_population": 837041,
+  "urban_density": 58.52,
+  "crowd": 0.517
+ },
+ "SE23": {
+  "urban_population": 1293567,
+  "urban_density": 36.97,
+  "crowd": 0.352
+ },
+ "SE31": {
+  "urban_population": 290229,
+  "urban_density": 4.04,
+  "crowd": 0.028
+ },
+ "SE32": {
+  "urban_population": 164917,
+  "urban_density": 2.17,
+  "crowd": 0.015
+ },
+ "SE33": {
+  "urban_population": 300506,
+  "urban_density": 1.84,
+  "crowd": 0.012
+ },
+ "SI03": {
+  "urban_population": 216188,
+  "urban_density": 17.68,
+  "crowd": 0.125
+ },
+ "SI04": {
+  "urban_population": 335939,
+  "urban_density": 43.06,
+  "crowd": 0.407
+ },
+ "SK01": {
+  "urban_population": 808049,
+  "urban_density": 406.95,
+  "crowd": 0.862
+ },
+ "SK02": {
+  "urban_population": 710731,
+  "urban_density": 48.12,
+  "crowd": 0.459
+ },
+ "SK03": {
+  "urban_population": 427386,
+  "urban_density": 26.34,
+  "crowd": 0.217
+ },
+ "SK04": {
+  "urban_population": 602235,
+  "urban_density": 38.77,
+  "crowd": 0.364
+ },
+ "TR10": {
+  "urban_population": 24914037,
+  "urban_density": 4989.99,
+  "crowd": 0.972
+ },
+ "TR21": {
+  "urban_population": 893281,
+  "urban_density": 47.79,
+  "crowd": 0.456
+ },
+ "TR22": {
+  "urban_population": 887419,
+  "urban_density": 37.83,
+  "crowd": 0.361
+ },
+ "TR31": {
+  "urban_population": 5016102,
+  "urban_density": 440.36,
+  "crowd": 0.875
+ },
+ "TR32": {
+  "urban_population": 1468932,
+  "urban_density": 46.32,
+  "crowd": 0.443
+ },
+ "TR33": {
+  "urban_population": 1917130,
+  "urban_density": 41.93,
+  "crowd": 0.394
+ },
+ "TR41": {
+  "urban_population": 5293662,
+  "urban_density": 183.02,
+  "crowd": 0.749
+ },
+ "TR42": {
+  "urban_population": 1832835,
+  "urban_density": 90.72,
+  "crowd": 0.615
+ },
+ "TR51": {
+  "urban_population": 5188838,
+  "urban_density": 204.12,
+  "crowd": 0.765
+ },
+ "TR52": {
+  "urban_population": 2147522,
+  "urban_density": 43.41,
+  "crowd": 0.416
+ },
+ "TR61": {
+  "urban_population": 2971364,
+  "urban_density": 82.16,
+  "crowd": 0.593
+ },
+ "TR62": {
+  "urban_population": 3311776,
+  "urban_density": 113.02,
+  "crowd": 0.664
+ },
+ "TR63": {
+  "urban_population": 2036057,
+  "urban_density": 86.98,
+  "crowd": 0.599
+ },
+ "TR71": {
+  "urban_population": 1006828,
+  "urban_density": 31.94,
+  "crowd": 0.287
+ },
+ "TR72": {
+  "urban_population": 2111045,
+  "urban_density": 35.27,
+  "crowd": 0.333
+ },
+ "TR81": {
+  "urban_population": 500156,
+  "urban_density": 53.26,
+  "crowd": 0.486
+ },
+ "TR82": {
+  "urban_population": 338043,
+  "urban_density": 12.68,
+  "crowd": 0.083
+ },
+ "TR83": {
+  "urban_population": 1650863,
+  "urban_density": 43.68,
+  "crowd": 0.425
+ },
+ "TR90": {
+  "urban_population": 1552615,
+  "urban_density": 44.52,
+  "crowd": 0.434
+ },
+ "TRA1": {
+  "urban_population": 1158270,
+  "urban_density": 28.57,
+  "crowd": 0.263
+ },
+ "TRA2": {
+  "urban_population": 565176,
+  "urban_density": 19.05,
+  "crowd": 0.144
+ },
+ "TRB1": {
+  "urban_population": 1592196,
+  "urban_density": 42.8,
+  "crowd": 0.404
+ },
+ "TRB2": {
+  "urban_population": 1228951,
+  "urban_density": 27.86,
+  "crowd": 0.242
+ },
+ "TRC1": {
+  "urban_population": 2901252,
+  "urban_density": 187.84,
+  "crowd": 0.752
+ },
+ "TRC2": {
+  "urban_population": 3117306,
+  "urban_density": 90.42,
+  "crowd": 0.612
+ },
+ "TRC3": {
+  "urban_population": 1465263,
+  "urban_density": 57.26,
+  "crowd": 0.505
+ },
+ "UKC1": {
+  "urban_population": 793225,
+  "urban_density": 268.03,
+  "crowd": 0.798
+ },
+ "UKC2": {
+  "urban_population": 1215471,
+  "urban_density": 221.02,
+  "crowd": 0.768
+ },
+ "UKD1": {
+  "urban_population": 224026,
+  "urban_density": 33.04,
+  "crowd": 0.315
+ },
+ "UKD3": {
+  "urban_population": 2708077,
+  "urban_density": 2225.57,
+  "crowd": 0.948
+ },
+ "UKD4": {
+  "urban_population": 1423492,
+  "urban_density": 462.56,
+  "crowd": 0.878
+ },
+ "UKD6": {
+  "urban_population": 747052,
+  "urban_density": 324.19,
+  "crowd": 0.832
+ },
+ "UKD7": {
+  "urban_population": 1893827,
+  "urban_density": 2812.75,
+  "crowd": 0.954
+ },
+ "UKE1": {
+  "urban_population": 627183,
+  "urban_density": 176.24,
+  "crowd": 0.737
+ },
+ "UKE2": {
+  "urban_population": 364998,
+  "urban_density": 43.46,
+  "crowd": 0.419
+ },
+ "UKE3": {
+  "urban_population": 1174941,
+  "urban_density": 752.11,
+  "crowd": 0.914
+ },
+ "UKE4": {
+  "urban_population": 1937294,
+  "urban_density": 989.93,
+  "crowd": 0.927
+ },
+ "UKF1": {
+  "urban_population": 1756497,
+  "urban_density": 369.63,
+  "crowd": 0.856
+ },
+ "UKF2": {
+  "urban_population": 1235528,
+  "urban_density": 248.65,
+  "crowd": 0.789
+ },
+ "UKF3": {
+  "urban_population": 325034,
+  "urban_density": 55.29,
+  "crowd": 0.498
+ },
+ "UKG1": {
+  "urban_population": 790068,
+  "urban_density": 132.56,
+  "crowd": 0.685
+ },
+ "UKG2": {
+  "urban_population": 1123603,
+  "urban_density": 188.64,
+  "crowd": 0.755
+ },
+ "UKG3": {
+  "urban_population": 3039978,
+  "urban_density": 3884.96,
+  "crowd": 0.963
+ },
+ "UKH1": {
+  "urban_population": 1233474,
+  "urban_density": 100.1,
+  "crowd": 0.642
+ },
+ "UKH2": {
+  "urban_population": 1384073,
+  "urban_density": 492.66,
+  "crowd": 0.887
+ },
+ "UKH3": {
+  "urban_population": 1480357,
+  "urban_density": 436.55,
+  "crowd": 0.872
+ },
+ "UKI3": {
+  "urban_population": 9786510,
+  "urban_density": 92763.13,
+  "crowd": 1.0
+ },
+ "UKI4": {
+  "urban_population": 1506345,
+  "urban_density": 8012.47,
+  "crowd": 0.982
+ },
+ "UKI5": {
+  "urban_population": 1738856,
+  "urban_density": 4192.03,
+  "crowd": 0.966
+ },
+ "UKI6": {
+  "urban_population": 990808,
+  "urban_density": 3105.01,
+  "crowd": 0.957
+ },
+ "UKI7": {
+  "urban_population": 1635552,
+  "urban_density": 3600.95,
+  "crowd": 0.96
+ },
+ "UKJ1": {
+  "urban_population": 1899620,
+  "urban_density": 328.64,
+  "crowd": 0.835
+ },
+ "UKJ2": {
+  "urban_population": 2333285,
+  "urban_density": 424.65,
+  "crowd": 0.869
+ },
+ "UKJ3": {
+  "urban_population": 1390380,
+  "urban_density": 356.21,
+  "crowd": 0.85
+ },
+ "UKJ4": {
+  "urban_population": 1307664,
+  "urban_density": 357.73,
+  "crowd": 0.853
+ },
+ "UKK1": {
+  "urban_population": 1630312,
+  "urban_density": 223.23,
+  "crowd": 0.771
+ },
+ "UKK2": {
+  "urban_population": 765570,
+  "urban_density": 122.5,
+  "crowd": 0.673
+ },
+ "UKK3": {
+  "urban_population": 215065,
+  "urban_density": 60.59,
+  "crowd": 0.52
+ },
+ "UKK4": {
+  "urban_population": 741873,
+  "urban_density": 112.18,
+  "crowd": 0.657
+ },
+ "UKL1": {
+  "urban_population": 1204853,
+  "urban_density": 95.84,
+  "crowd": 0.633
+ },
+ "UKL2": {
+  "urban_population": 868401,
+  "urban_density": 111.8,
+  "crowd": 0.651
+ },
+ "UKM5": {
+  "urban_population": 234050,
+  "urban_density": 36.55,
+  "crowd": 0.343
+ },
+ "UKM6": {
+  "urban_population": 107087,
+  "urban_density": 2.54,
+  "crowd": 0.021
+ },
+ "UKM7": {
+  "urban_population": 1160550,
+  "urban_density": 88.67,
+  "crowd": 0.602
+ },
+ "UKM8": {
+  "urban_population": 1249210,
+  "urban_density": 655.82,
+  "crowd": 0.899
+ },
+ "UKM9": {
+  "urban_population": 471864,
+  "urban_density": 30.45,
+  "crowd": 0.278
+ },
+ "UKN0": {
+  "urban_population": 1086280,
+  "urban_density": 78.14,
+  "crowd": 0.578
+ }
+}

@@ -2,12 +2,41 @@
 
 Run locally with:  flask run   (or: python app.py)
 """
-from flask import Flask, jsonify, render_template
+from flask import Flask, jsonify, render_template, request
+
+import matcher
+from store import Store
 
 
-def create_app():
+def region_payload(region, month=None):
+    """Everything the region card shows."""
+    values = {name: matcher.feature_value(region, name, month) for name in matcher.FILTERS}
+    return {
+        "id": region["id"],
+        "name": region["name"],
+        "country_name": region["country_name"],
+        "centroid": region["centroid"],
+        "summary": region["summary"] or matcher.describe(region),
+        "summary_is_generated": region["summary"] is None,
+        "highlights": region["highlights"],
+        "climate": region["climate"],
+        "levels": {
+            name: {
+                "label": matcher.FILTERS[name]["label"],
+                "value": None if value is None else round(value, 2),
+                "level": matcher.level_of(value),
+                "level_label": matcher.FILTERS[name]["levels"].get(matcher.level_of(value)),
+            }
+            for name, value in values.items()
+        },
+        "sources": region["sources"],
+    }
+
+
+def create_app(store=None):
     app = Flask(__name__)
     app.json.sort_keys = False
+    store = store or Store()
 
     @app.get("/")
     def index():
@@ -15,7 +44,51 @@ def create_app():
 
     @app.get("/api/health")
     def health():
-        return jsonify({"status": "ok"})
+        return jsonify({"status": "ok", "regions": len(store.regions)})
+
+    @app.get("/api/meta")
+    def meta():
+        """What the filter panel needs to draw itself."""
+        return jsonify({
+            "filters": [
+                {"name": name, "label": spec["label"], "levels": spec["levels"], "seasonal": spec["seasonal"]}
+                for name, spec in matcher.FILTERS.items()
+            ],
+            "months": matcher.MONTH_NAMES,
+            "default_threshold": matcher.DEFAULT_THRESHOLD,
+            "region_count": len(store.regions),
+        })
+
+    @app.post("/api/match")
+    def match():
+        body = request.get_json(silent=True)
+        if not isinstance(body, dict):
+            return jsonify({"error": "Send a JSON object with 'filters' and an optional 'month'."}), 400
+        try:
+            results = matcher.score_all(store.regions, body.get("filters", {}), body.get("month"))
+        except matcher.FilterError as error:
+            return jsonify({"error": str(error)}), 400
+        return jsonify({"results": results})
+
+    @app.get("/api/regions")
+    def region_list():
+        """Names for tooltips and the results list."""
+        return jsonify({
+            "regions": [
+                {"id": region["id"], "name": region["name"], "country_name": region["country_name"]}
+                for region in store.regions
+            ]
+        })
+
+    @app.get("/api/regions/<region_id>")
+    def region_detail(region_id):
+        region = store.region(region_id.upper())
+        if region is None:
+            return jsonify({"error": f"No region with id '{region_id}'."}), 404
+        month = request.args.get("month", type=int)
+        if month is not None and not 1 <= month <= 12:
+            return jsonify({"error": "'month' must be a number from 1 to 12."}), 400
+        return jsonify(region_payload(region, month))
 
     return app
 

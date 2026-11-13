@@ -4,14 +4,70 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>EuropeTravel</title>
+  <meta name="description" content="Pick the climate, coast, nature and history you want, and see which regions of Europe fit.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Marcellus&display=swap">
   <link rel="stylesheet" href="{{ url_for('static', filename='vendor/leaflet/leaflet.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
-  <header class="brand">
-    <h1 class="brand__name">EuropeTravel</h1>
-  </header>
   <main id="map" aria-label="Map of Europe"></main>
+
+  <div class="basemaps" role="group" aria-label="Map style">
+    <button type="button" data-basemap="dark" aria-pressed="true">Dark</button>
+    <button type="button" data-basemap="terrain" aria-pressed="false">Terrain</button>
+    <button type="button" data-basemap="satellite" aria-pressed="false">Satellite</button>
+  </div>
+
+  <aside id="sidebar" class="sidebar" aria-label="Trip filters">
+    <button type="button" id="sidebar-toggle" class="sidebar__toggle" aria-expanded="false" aria-controls="sidebar-body">
+      <span id="sidebar-toggle-label">Filters</span>
+    </button>
+    <div id="sidebar-body" class="sidebar__body">
+      <header class="sidebar__head">
+        <h1 class="wordmark">EuropeTravel</h1>
+        <p class="lead">Choose what you want from a trip. The regions that fit light up.</p>
+      </header>
+
+      <div id="filter-list" class="filters"></div>
+
+      <section class="when" aria-labelledby="when-title">
+        <h2 id="when-title" class="section-title">When are you going?</h2>
+        <div id="month-list" class="months" role="group" aria-labelledby="when-title"></div>
+        <p id="month-note" class="note"></p>
+      </section>
+
+      <section class="threshold">
+        <label for="threshold" class="section-title">How close a fit?</label>
+        <div class="threshold__row">
+          <input type="range" id="threshold" min="50" max="95" step="5" value="70">
+          <output id="threshold-value" for="threshold">70%</output>
+        </div>
+        <p class="note">Regions scoring at least this much light up. Brighter means a closer fit.</p>
+      </section>
+
+      <section class="results" aria-live="polite">
+        <div id="results"></div>
+        <button type="button" id="clear-filters" class="text-button" hidden>Clear filters</button>
+      </section>
+    </div>
+  </aside>
+
+  <aside id="drawer" class="drawer" aria-labelledby="drawer-title" hidden>
+    <header class="drawer__head">
+      <button type="button" id="drawer-back" class="text-button drawer__back" hidden></button>
+      <button type="button" id="drawer-close" class="icon-button" aria-label="Close">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+      <p id="drawer-kicker" class="drawer__kicker"></p>
+      <h2 id="drawer-title" class="drawer__title" tabindex="-1"></h2>
+    </header>
+    <div id="drawer-body" class="drawer__body"></div>
+  </aside>
+
+  <p id="status" class="status" role="status" hidden></p>
+
   <script src="{{ url_for('static', filename='vendor/leaflet/leaflet.js') }}"></script>
   <script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </body>

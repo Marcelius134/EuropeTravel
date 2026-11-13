@@ -1,0 +1,2121 @@
+{
+ "_note": "Hand-written estimates from general knowledge. Climate values are typical monthly figures for the region's main destination, not measurements. Measured climate replaces these when the build script has run.",
+ "regions": {
+  "ITI1": {
+   "name": "Tuscany",
+   "features": {
+    "nature": 0.6,
+    "historic": 0.95,
+    "crowd": 0.7
+   },
+   "climate": {
+    "temp_max_c": [
+     11,
+     13,
+     16,
+     20,
+     24,
+     29,
+     32,
+     32,
+     27,
+     21,
+     15,
+     11
+    ],
+    "precip_mm": [
+     60,
+     65,
+     65,
+     85,
+     70,
+     55,
+     35,
+     55,
+     80,
+     105,
+     115,
+     80
+    ]
+   },
+   "summary": "Rolling vineyard hills, walled medieval towns and the Renaissance art of Florence, with a quieter coast on the Tyrrhenian Sea.",
+   "highlights": [
+    "Renaissance art and museums",
+    "Wine tasting in Chianti",
+    "Hill towns such as Siena and San Gimignano",
+    "Cycling country roads",
+    "Thermal springs"
+   ]
+  },
+  "ITI4": {
+   "name": "Lazio",
+   "features": {
+    "nature": 0.4,
+    "historic": 1.0,
+    "crowd": 0.85
+   },
+   "climate": {
+    "temp_max_c": [
+     12,
+     13,
+     16,
+     19,
+     23,
+     28,
+     31,
+     31,
+     27,
+     22,
+     16,
+     13
+    ],
+    "precip_mm": [
+     70,
+     70,
+     60,
+     65,
+     50,
+     35,
+     20,
+     35,
+     70,
+     115,
+     115,
+     85
+    ]
+   },
+   "summary": "Rome and its countryside: ancient ruins, baroque squares and Vatican City, with volcanic lakes and beaches a short train ride away.",
+   "highlights": [
+    "Ancient Roman sites",
+    "Vatican museums",
+    "Roman food and street life",
+    "Day trips to Tivoli and Ostia",
+    "Lake Bracciano"
+   ]
+  },
+  "ITF4": {
+   "name": "Apulia",
+   "features": {
+    "nature": 0.45,
+    "historic": 0.7,
+    "crowd": 0.55
+   },
+   "climate": {
+    "temp_max_c": [
+     12,
+     13,
+     15,
+     18,
+     23,
+     27,
+     30,
+     30,
+     26,
+     21,
+     17,
+     13
+    ],
+    "precip_mm": [
+     55,
+     60,
+     50,
+     45,
+     35,
+     30,
+     25,
+     30,
+     55,
+     65,
+     70,
+     65
+    ]
+   },
+   "summary": "The heel of Italy: whitewashed towns, olive groves and a long coastline on both the Adriatic and Ionian seas.",
+   "highlights": [
+    "Swimming along the Adriatic coast",
+    "Trulli houses of Alberobello",
+    "Baroque Lecce",
+    "Seafood and orecchiette",
+    "Coastal caves near Polignano"
+   ]
+  },
+  "ITF3": {
+   "name": "Campania",
+   "features": {
+    "nature": 0.6,
+    "historic": 0.9,
+    "crowd": 0.8
+   },
+   "climate": {
+    "temp_max_c": [
+     13,
+     13,
+     16,
+     19,
+     23,
+     27,
+     30,
+     31,
+     27,
+     22,
+     17,
+     14
+    ],
+    "precip_mm": [
+     100,
+     95,
+     80,
+     85,
+     50,
+     35,
+     25,
+     40,
+     80,
+     130,
+     160,
+     120
+    ]
+   },
+   "summary": "Naples, Vesuvius and the Amalfi Coast: Roman ruins, cliffside villages and some of Italy's best-loved food.",
+   "highlights": [
+    "Pompeii and Herculaneum",
+    "Amalfi Coast drives and boat trips",
+    "Pizza in Naples",
+    "Capri and Ischia",
+    "Hiking Vesuvius"
+   ]
+  },
+  "ITG1": {
+   "name": "Sicily",
+   "features": {
+    "nature": 0.65,
+    "historic": 0.9,
+    "crowd": 0.55
+   },
+   "climate": {
+    "temp_max_c": [
+     15,
+     15,
+     17,
+     19,
+     23,
+     27,
+     30,
+     31,
+     28,
+     24,
+     19,
+     16
+    ],
+    "precip_mm": [
+     70,
+     65,
+     60,
+     45,
+     25,
+     10,
+     5,
+     15,
+     45,
+     100,
+     95,
+     80
+    ]
+   },
+   "summary": "The largest Mediterranean island, with Greek temples, baroque towns, long beaches and Mount Etna above them all.",
+   "highlights": [
+    "Greek temples at Agrigento",
+    "Climbing Etna",
+    "Beaches and island hopping",
+    "Street food in Palermo",
+    "Baroque towns of the southeast"
+   ]
+  },
+  "ITH3": {
+   "name": "Veneto",
+   "features": {
+    "nature": 0.55,
+    "historic": 0.95,
+    "crowd": 0.85
+   },
+   "climate": {
+    "temp_max_c": [
+     7,
+     9,
+     13,
+     17,
+     22,
+     26,
+     29,
+     28,
+     24,
+     18,
+     12,
+     8
+    ],
+    "precip_mm": [
+     50,
+     50,
+     55,
+     70,
+     70,
+     75,
+     65,
+     80,
+     70,
+     75,
+     85,
+     55
+    ]
+   },
+   "summary": "Venice and its lagoon, Verona, Lake Garda's eastern shore and the Dolomites to the north.",
+   "highlights": [
+    "Venice canals and islands",
+    "Verona's Roman arena",
+    "Prosecco hills",
+    "Dolomites hiking and skiing",
+    "Lake Garda"
+   ]
+  },
+  "ES61": {
+   "name": "Andalusia",
+   "features": {
+    "nature": 0.6,
+    "historic": 0.95,
+    "crowd": 0.6
+   },
+   "climate": {
+    "temp_max_c": [
+     16,
+     18,
+     22,
+     24,
+     28,
+     33,
+     36,
+     36,
+     32,
+     26,
+     20,
+     17
+    ],
+    "precip_mm": [
+     65,
+     50,
+     35,
+     55,
+     30,
+     10,
+     2,
+     5,
+     25,
+     70,
+     85,
+     95
+    ]
+   },
+   "summary": "Moorish palaces, flamenco and very hot summers, with beaches on both the Mediterranean and the Atlantic and the Sierra Nevada inland.",
+   "highlights": [
+    "Alhambra and the Mezquita",
+    "Flamenco and tapas",
+    "Costa del Sol and Costa de la Luz beaches",
+    "White villages",
+    "Hiking in the Sierra Nevada"
+   ]
+  },
+  "ES51": {
+   "name": "Catalonia",
+   "features": {
+    "nature": 0.65,
+    "historic": 0.85,
+    "crowd": 0.8
+   },
+   "climate": {
+    "temp_max_c": [
+     14,
+     15,
+     17,
+     19,
+     22,
+     26,
+     29,
+     29,
+     26,
+     22,
+     17,
+     14
+    ],
+    "precip_mm": [
+     40,
+     40,
+     35,
+     40,
+     55,
+     30,
+     20,
+     60,
+     85,
+     90,
+     60,
+     40
+    ]
+   },
+   "summary": "Barcelona's architecture and beaches, the rocky Costa Brava and the Pyrenees within a few hours of each other.",
+   "highlights": [
+    "Gaudi architecture",
+    "Costa Brava coves",
+    "City beaches",
+    "Pyrenees hiking and skiing",
+    "Food markets"
+   ]
+  },
+  "ES53": {
+   "name": "Balearic Islands",
+   "features": {
+    "nature": 0.6,
+    "historic": 0.5,
+    "crowd": 0.85
+   },
+   "climate": {
+    "temp_max_c": [
+     15,
+     16,
+     18,
+     20,
+     24,
+     28,
+     31,
+     31,
+     28,
+     24,
+     19,
+     16
+    ],
+    "precip_mm": [
+     40,
+     35,
+     25,
+     35,
+     35,
+     10,
+     5,
+     20,
+     50,
+     65,
+     60,
+     50
+    ]
+   },
+   "summary": "Mallorca, Menorca, Ibiza and Formentera: clear water, small coves and busy summers.",
+   "highlights": [
+    "Beaches and coves",
+    "Sailing and boat trips",
+    "Serra de Tramuntana hikes",
+    "Nightlife in Ibiza",
+    "Cycling"
+   ]
+  },
+  "PT15": {
+   "name": "Algarve",
+   "features": {
+    "nature": 0.6,
+    "historic": 0.4,
+    "crowd": 0.7
+   },
+   "climate": {
+    "temp_max_c": [
+     16,
+     17,
+     19,
+     21,
+     24,
+     27,
+     29,
+     29,
+     27,
+     23,
+     19,
+     17
+    ],
+    "precip_mm": [
+     60,
+     50,
+     40,
+     40,
+     20,
+     5,
+     1,
+     4,
+     20,
+     60,
+     90,
+     95
+    ]
+   },
+   "summary": "Portugal's sunny south coast: golden cliffs, sea caves and long sandy beaches on the Atlantic.",
+   "highlights": [
+    "Beaches",
+    "Surfing on the west coast",
+    "Boat trips to sea caves",
+    "Cliff-top walks",
+    "Golf"
+   ]
+  },
+  "PT17": {
+   "name": "Lisbon",
+   "features": {
+    "nature": 0.35,
+    "historic": 0.85,
+    "crowd": 0.8
+   },
+   "climate": {
+    "temp_max_c": [
+     15,
+     16,
+     19,
+     20,
+     22,
+     26,
+     28,
+     28,
+     27,
+     22,
+     18,
+     15
+    ],
+    "precip_mm": [
+     100,
+     85,
+     55,
+     70,
+     55,
+     15,
+     5,
+     7,
+     30,
+     100,
+     125,
+     125
+    ]
+   },
+   "summary": "Portugal's hilly capital on the Tagus, with tiled streets, old trams and Atlantic beaches close by.",
+   "highlights": [
+    "Historic quarters and viewpoints",
+    "Belem monuments",
+    "Day trips to Sintra",
+    "Seafood and pastries",
+    "Beaches at Cascais and Caparica"
+   ]
+  },
+  "PT11": {
+   "name": "Northern Portugal",
+   "features": {
+    "nature": 0.65,
+    "historic": 0.8,
+    "crowd": 0.55
+   },
+   "climate": {
+    "temp_max_c": [
+     14,
+     15,
+     17,
+     18,
+     20,
+     24,
+     25,
+     26,
+     24,
+     21,
+     17,
+     14
+    ],
+    "precip_mm": [
+     150,
+     110,
+     95,
+     115,
+     90,
+     40,
+     20,
+     30,
+     70,
+     160,
+     165,
+     180
+    ]
+   },
+   "summary": "Porto, the terraced vineyards of the Douro valley and green, rainy mountains towards Spain.",
+   "highlights": [
+    "Port wine cellars",
+    "Douro valley cruises",
+    "Historic Porto and Guimaraes",
+    "Peneda-Geres National Park",
+    "Atlantic beaches"
+   ]
+  },
+  "EL43": {
+   "name": "Crete",
+   "features": {
+    "nature": 0.8,
+    "historic": 0.8,
+    "crowd": 0.6
+   },
+   "climate": {
+    "temp_max_c": [
+     15,
+     16,
+     17,
+     20,
+     24,
+     27,
+     29,
+     29,
+     27,
+     23,
+     20,
+     17
+    ],
+    "precip_mm": [
+     90,
+     70,
+     55,
+     30,
+     15,
+     3,
+     1,
+     1,
+     15,
+     65,
+     60,
+     80
+    ]
+   },
+   "summary": "Greece's largest island: Minoan palaces, mountain villages, deep gorges and clear water.",
+   "highlights": [
+    "Minoan ruins at Knossos",
+    "Beaches such as Elafonisi and Balos",
+    "Hiking the Samaria Gorge",
+    "Venetian harbours",
+    "Cretan food"
+   ]
+  },
+  "EL42": {
+   "name": "South Aegean",
+   "features": {
+    "nature": 0.6,
+    "historic": 0.75,
+    "crowd": 0.8
+   },
+   "climate": {
+    "temp_max_c": [
+     15,
+     15,
+     17,
+     20,
+     24,
+     28,
+     30,
+     30,
+     28,
+     24,
+     20,
+     17
+    ],
+    "precip_mm": [
+     130,
+     95,
+     65,
+     25,
+     15,
+     2,
+     0,
+     0,
+     10,
+     60,
+     90,
+     140
+    ]
+   },
+   "summary": "The Cyclades and Dodecanese: Santorini, Mykonos, Rhodes and dozens of smaller islands.",
+   "highlights": [
+    "Island hopping by ferry",
+    "Sunsets in Santorini",
+    "Beaches",
+    "Old town of Rhodes",
+    "Sailing"
+   ]
+  },
+  "EL30": {
+   "name": "Attica",
+   "features": {
+    "nature": 0.3,
+    "historic": 1.0,
+    "crowd": 0.9
+   },
+   "climate": {
+    "temp_max_c": [
+     13,
+     14,
+     16,
+     20,
+     25,
+     30,
+     33,
+     33,
+     29,
+     23,
+     18,
+     14
+    ],
+    "precip_mm": [
+     55,
+     45,
+     45,
+     30,
+     20,
+     10,
+     8,
+     6,
+     12,
+     50,
+     65,
+     70
+    ]
+   },
+   "summary": "Athens and its coast: the Acropolis, world-class museums and beaches along the Athens Riviera.",
+   "highlights": [
+    "Acropolis and ancient Agora",
+    "Archaeological museums",
+    "Temple of Poseidon at Sounion",
+    "Athens Riviera beaches",
+    "Tavernas and nightlife"
+   ]
+  },
+  "FRH0": {
+   "name": "Brittany",
+   "features": {
+    "nature": 0.65,
+    "historic": 0.6,
+    "crowd": 0.4
+   },
+   "climate": {
+    "temp_max_c": [
+     9,
+     10,
+     12,
+     14,
+     17,
+     20,
+     22,
+     22,
+     20,
+     16,
+     12,
+     10
+    ],
+    "precip_mm": [
+     110,
+     85,
+     70,
+     70,
+     65,
+     50,
+     55,
+     55,
+     65,
+     105,
+     110,
+     120
+    ]
+   },
+   "summary": "A wild Atlantic coast of lighthouses and granite, with standing stones, walled ports and a strong Celtic identity.",
+   "highlights": [
+    "Coastal path walks",
+    "Seafood and crepes",
+    "Sailing",
+    "Megaliths at Carnac",
+    "Walled town of Saint-Malo"
+   ]
+  },
+  "FRL0": {
+   "name": "Provence-Alpes-Cote d'Azur",
+   "features": {
+    "nature": 0.8,
+    "historic": 0.75,
+    "crowd": 0.75
+   },
+   "climate": {
+    "temp_max_c": [
+     13,
+     13,
+     16,
+     18,
+     22,
+     26,
+     29,
+     29,
+     25,
+     21,
+     16,
+     13
+    ],
+    "precip_mm": [
+     70,
+     45,
+     40,
+     65,
+     45,
+     30,
+     15,
+     25,
+     75,
+     130,
+     105,
+     90
+    ]
+   },
+   "summary": "Lavender fields, Roman towns and the French Riviera, rising quickly to the southern Alps.",
+   "highlights": [
+    "Riviera beaches",
+    "Calanques near Marseille",
+    "Roman sites in Arles and Orange",
+    "Hill villages",
+    "Alpine hiking and skiing"
+   ]
+  },
+  "FR10": {
+   "name": "Ile-de-France",
+   "features": {
+    "nature": 0.15,
+    "historic": 0.95,
+    "crowd": 1.0
+   },
+   "climate": {
+    "temp_max_c": [
+     7,
+     8,
+     12,
+     16,
+     20,
+     23,
+     25,
+     25,
+     21,
+     16,
+     11,
+     8
+    ],
+    "precip_mm": [
+     50,
+     40,
+     48,
+     52,
+     65,
+     55,
+     62,
+     53,
+     48,
+     62,
+     52,
+     58
+    ]
+   },
+   "summary": "Paris and its surroundings: museums, monuments, cafe life and royal palaces such as Versailles.",
+   "highlights": [
+    "Museums and galleries",
+    "Landmarks and river walks",
+    "Food and cafes",
+    "Versailles and Fontainebleau",
+    "Shopping"
+   ]
+  },
+  "FRK2": {
+   "name": "Rhone-Alpes",
+   "features": {
+    "nature": 0.95,
+    "historic": 0.6,
+    "crowd": 0.5
+   },
+   "climate": {
+    "temp_max_c": [
+     6,
+     8,
+     13,
+     16,
+     21,
+     25,
+     28,
+     27,
+     23,
+     17,
+     11,
+     7
+    ],
+    "precip_mm": [
+     50,
+     45,
+     55,
+     75,
+     90,
+     75,
+     65,
+     65,
+     85,
+     100,
+     85,
+     55
+    ]
+   },
+   "summary": "Lyon's food scene and the French Alps, including Mont Blanc and many of Europe's largest ski areas.",
+   "highlights": [
+    "Skiing",
+    "Alpine hiking",
+    "Mont Blanc and Chamonix",
+    "Lyon's restaurants",
+    "Lake Annecy"
+   ]
+  },
+  "HR03": {
+   "name": "Adriatic Croatia",
+   "features": {
+    "nature": 0.8,
+    "historic": 0.8,
+    "crowd": 0.7
+   },
+   "climate": {
+    "temp_max_c": [
+     11,
+     12,
+     15,
+     18,
+     24,
+     28,
+     31,
+     31,
+     26,
+     21,
+     15,
+     12
+    ],
+    "precip_mm": [
+     75,
+     65,
+     65,
+     60,
+     55,
+     50,
+     25,
+     35,
+     75,
+     80,
+     115,
+     105
+    ]
+   },
+   "summary": "The Dalmatian coast and Istria: walled cities, over a thousand islands and national parks with lakes and waterfalls.",
+   "highlights": [
+    "Old towns of Dubrovnik and Split",
+    "Island hopping",
+    "Swimming and sailing",
+    "Plitvice and Krka waterfalls",
+    "Seafood"
+   ]
+  },
+  "AT33": {
+   "name": "Tyrol",
+   "features": {
+    "nature": 1.0,
+    "historic": 0.5,
+    "crowd": 0.5
+   },
+   "climate": {
+    "temp_max_c": [
+     4,
+     6,
+     12,
+     16,
+     21,
+     24,
+     26,
+     25,
+     21,
+     16,
+     9,
+     4
+    ],
+    "precip_mm": [
+     40,
+     40,
+     55,
+     55,
+     90,
+     110,
+     135,
+     125,
+     80,
+     65,
+     55,
+     50
+    ]
+   },
+   "summary": "High Alpine valleys around Innsbruck, known for skiing in winter and hiking in summer.",
+   "highlights": [
+    "Skiing and snowboarding",
+    "Mountain hiking",
+    "Innsbruck old town",
+    "Mountain huts",
+    "Cycling"
+   ]
+  },
+  "AT13": {
+   "name": "Vienna",
+   "features": {
+    "nature": 0.15,
+    "historic": 0.95,
+    "crowd": 0.85
+   },
+   "climate": {
+    "temp_max_c": [
+     3,
+     5,
+     10,
+     16,
+     21,
+     24,
+     27,
+     26,
+     21,
+     15,
+     8,
+     4
+    ],
+    "precip_mm": [
+     38,
+     40,
+     50,
+     45,
+     70,
+     70,
+     70,
+     70,
+     60,
+     40,
+     45,
+     45
+    ]
+   },
+   "summary": "Austria's imperial capital: palaces, concert halls, coffee houses and wine taverns at the edge of the city.",
+   "highlights": [
+    "Palaces and museums",
+    "Classical music",
+    "Coffee houses",
+    "Christmas markets",
+    "Wine taverns"
+   ]
+  },
+  "CH01": {
+   "name": "Lake Geneva region",
+   "features": {
+    "nature": 0.9,
+    "historic": 0.6,
+    "crowd": 0.55
+   },
+   "climate": {
+    "temp_max_c": [
+     5,
+     6,
+     11,
+     15,
+     20,
+     24,
+     27,
+     26,
+     21,
+     15,
+     9,
+     5
+    ],
+    "precip_mm": [
+     75,
+     65,
+     70,
+     70,
+     80,
+     85,
+     75,
+     80,
+     95,
+     100,
+     90,
+     90
+    ]
+   },
+   "summary": "Geneva, Lausanne and Montreux on the lake, with terraced vineyards and the Alps of Valais behind.",
+   "highlights": [
+    "Lake cruises",
+    "Lavaux vineyard walks",
+    "Skiing in Zermatt and Verbier",
+    "Chillon Castle",
+    "Alpine hiking"
+   ]
+  },
+  "CH06": {
+   "name": "Central Switzerland",
+   "features": {
+    "nature": 1.0,
+    "historic": 0.55,
+    "crowd": 0.5
+   },
+   "climate": {
+    "temp_max_c": [
+     3,
+     5,
+     10,
+     14,
+     19,
+     22,
+     25,
+     24,
+     19,
+     14,
+     8,
+     4
+    ],
+    "precip_mm": [
+     55,
+     55,
+     75,
+     90,
+     130,
+     155,
+     150,
+     150,
+     110,
+     80,
+     75,
+     70
+    ]
+   },
+   "summary": "Lucerne and its lake surrounded by classic Swiss peaks such as Pilatus, Rigi and Titlis.",
+   "highlights": [
+    "Mountain railways and cable cars",
+    "Lake Lucerne boat trips",
+    "Hiking",
+    "Skiing",
+    "Lucerne old town"
+   ]
+  },
+  "DE21": {
+   "name": "Upper Bavaria",
+   "features": {
+    "nature": 0.75,
+    "historic": 0.75,
+    "crowd": 0.65
+   },
+   "climate": {
+    "temp_max_c": [
+     3,
+     5,
+     10,
+     14,
+     19,
+     22,
+     24,
+     24,
+     19,
+     14,
+     7,
+     4
+    ],
+    "precip_mm": [
+     50,
+     45,
+     65,
+     60,
+     105,
+     120,
+     120,
+     115,
+     80,
+     65,
+     60,
+     60
+    ]
+   },
+   "summary": "Munich, clear lakes and the Bavarian Alps, with castles and beer gardens along the way.",
+   "highlights": [
+    "Munich museums and beer gardens",
+    "Alpine hiking",
+    "Lakes",
+    "Castles",
+    "Skiing"
+   ]
+  },
+  "DE30": {
+   "name": "Berlin",
+   "features": {
+    "nature": 0.15,
+    "historic": 0.8,
+    "crowd": 0.9
+   },
+   "climate": {
+    "temp_max_c": [
+     3,
+     5,
+     9,
+     15,
+     20,
+     23,
+     25,
+     25,
+     20,
+     14,
+     8,
+     4
+    ],
+    "precip_mm": [
+     45,
+     35,
+     40,
+     30,
+     55,
+     60,
+     70,
+     55,
+     45,
+     40,
+     40,
+     45
+    ]
+   },
+   "summary": "Germany's capital: twentieth-century history, a large museum scene and famous nightlife.",
+   "highlights": [
+    "Museums",
+    "Cold War history",
+    "Nightlife",
+    "Street food and markets",
+    "Parks and lakes"
+   ]
+  },
+  "NL32": {
+   "name": "North Holland",
+   "features": {
+    "nature": 0.2,
+    "historic": 0.85,
+    "crowd": 0.95
+   },
+   "climate": {
+    "temp_max_c": [
+     6,
+     7,
+     10,
+     14,
+     18,
+     20,
+     22,
+     22,
+     19,
+     15,
+     10,
+     7
+    ],
+    "precip_mm": [
+     70,
+     55,
+     55,
+     40,
+     55,
+     65,
+     80,
+     100,
+     85,
+     90,
+     90,
+     85
+    ]
+   },
+   "summary": "Amsterdam's canals and museums, with windmills, tulip fields and North Sea beaches nearby.",
+   "highlights": [
+    "Canal walks and boat trips",
+    "Art museums",
+    "Cycling",
+    "Tulip fields in spring",
+    "North Sea beaches"
+   ]
+  },
+  "CZ01": {
+   "name": "Prague",
+   "features": {
+    "nature": 0.1,
+    "historic": 1.0,
+    "crowd": 0.95
+   },
+   "climate": {
+    "temp_max_c": [
+     2,
+     4,
+     9,
+     15,
+     20,
+     23,
+     25,
+     25,
+     20,
+     14,
+     7,
+     3
+    ],
+    "precip_mm": [
+     25,
+     23,
+     30,
+     35,
+     70,
+     75,
+     80,
+     70,
+     45,
+     30,
+     30,
+     25
+    ]
+   },
+   "summary": "A compact capital of Gothic and baroque streets, a hilltop castle and a long beer tradition.",
+   "highlights": [
+    "Old Town and Charles Bridge",
+    "Prague Castle",
+    "Beer halls",
+    "Classical concerts",
+    "Christmas markets"
+   ]
+  },
+  "HU11": {
+   "name": "Budapest",
+   "features": {
+    "nature": 0.15,
+    "historic": 0.9,
+    "crowd": 0.85
+   },
+   "climate": {
+    "temp_max_c": [
+     3,
+     6,
+     11,
+     17,
+     22,
+     26,
+     28,
+     28,
+     22,
+     16,
+     9,
+     4
+    ],
+    "precip_mm": [
+     35,
+     30,
+     30,
+     40,
+     65,
+     65,
+     60,
+     55,
+     50,
+     45,
+     50,
+     45
+    ]
+   },
+   "summary": "Hungary's capital on the Danube, known for thermal baths, grand nineteenth-century buildings and ruin bars.",
+   "highlights": [
+    "Thermal baths",
+    "Castle Hill",
+    "Danube cruises",
+    "Ruin bars",
+    "Markets"
+   ]
+  },
+  "PL21": {
+   "name": "Lesser Poland",
+   "features": {
+    "nature": 0.7,
+    "historic": 0.9,
+    "crowd": 0.6
+   },
+   "climate": {
+    "temp_max_c": [
+     1,
+     3,
+     8,
+     14,
+     20,
+     23,
+     25,
+     25,
+     19,
+     14,
+     7,
+     2
+    ],
+    "precip_mm": [
+     38,
+     32,
+     38,
+     48,
+     80,
+     95,
+     100,
+     80,
+     65,
+     50,
+     42,
+     38
+    ]
+   },
+   "summary": "Krakow's medieval centre and the Tatra mountains around Zakopane to the south.",
+   "highlights": [
+    "Krakow old town",
+    "Wieliczka salt mine",
+    "Tatra hiking",
+    "Skiing in Zakopane",
+    "Auschwitz memorial"
+   ]
+  },
+  "IE04": {
+   "name": "Northern and Western Ireland",
+   "features": {
+    "nature": 0.85,
+    "historic": 0.5,
+    "crowd": 0.2
+   },
+   "climate": {
+    "temp_max_c": [
+     9,
+     9,
+     11,
+     13,
+     16,
+     18,
+     19,
+     19,
+     17,
+     14,
+     11,
+     9
+    ],
+    "precip_mm": [
+     115,
+     90,
+     95,
+     70,
+     75,
+     80,
+     85,
+     105,
+     100,
+     130,
+     125,
+     125
+    ]
+   },
+   "summary": "Ireland's Atlantic edge: Galway, Connemara, Donegal and long stretches of empty coast.",
+   "highlights": [
+    "Wild Atlantic Way drive",
+    "Traditional music in pubs",
+    "Coastal walks",
+    "Surfing",
+    "Connemara and the Aran Islands"
+   ]
+  },
+  "UKM6": {
+   "name": "Scottish Highlands and Islands",
+   "features": {
+    "nature": 1.0,
+    "historic": 0.5,
+    "crowd": 0.15
+   },
+   "climate": {
+    "temp_max_c": [
+     7,
+     7,
+     9,
+     12,
+     15,
+     17,
+     19,
+     18,
+     16,
+     13,
+     9,
+     7
+    ],
+    "precip_mm": [
+     150,
+     110,
+     115,
+     75,
+     70,
+     75,
+     80,
+     100,
+     115,
+     150,
+     150,
+     150
+    ]
+   },
+   "summary": "Mountains, lochs and remote islands, with castles, whisky distilleries and very few people.",
+   "highlights": [
+    "Hill walking",
+    "Lochs and castles",
+    "Whisky distilleries",
+    "Isle of Skye",
+    "Wildlife watching"
+   ]
+  },
+  "UKI3": {
+   "name": "Inner London West",
+   "features": {
+    "nature": 0.05,
+    "historic": 1.0,
+    "crowd": 1.0
+   },
+   "climate": {
+    "temp_max_c": [
+     8,
+     9,
+     12,
+     15,
+     18,
+     21,
+     24,
+     23,
+     20,
+     16,
+     11,
+     9
+    ],
+    "precip_mm": [
+     55,
+     40,
+     40,
+     45,
+     50,
+     45,
+     45,
+     50,
+     50,
+     70,
+     60,
+     55
+    ]
+   },
+   "summary": "Central London: Westminster, royal parks, free national museums and West End theatre.",
+   "highlights": [
+    "Museums and galleries",
+    "Royal landmarks",
+    "Theatre",
+    "Markets and food",
+    "Parks"
+   ]
+  },
+  "DK01": {
+   "name": "Copenhagen region",
+   "features": {
+    "nature": 0.2,
+    "historic": 0.8,
+    "crowd": 0.75
+   },
+   "climate": {
+    "temp_max_c": [
+     3,
+     3,
+     6,
+     11,
+     16,
+     19,
+     22,
+     22,
+     17,
+     12,
+     7,
+     4
+    ],
+    "precip_mm": [
+     55,
+     40,
+     40,
+     35,
+     45,
+     60,
+     65,
+     70,
+     60,
+     65,
+     55,
+     55
+    ]
+   },
+   "summary": "Denmark's capital region: harbour baths, design, cycling everywhere and castles along the coast.",
+   "highlights": [
+    "Cycling the city",
+    "Harbour swimming",
+    "Design and food",
+    "Tivoli Gardens",
+    "Kronborg Castle"
+   ]
+  },
+  "SE11": {
+   "name": "Stockholm",
+   "features": {
+    "nature": 0.5,
+    "historic": 0.75,
+    "crowd": 0.6
+   },
+   "climate": {
+    "temp_max_c": [
+     0,
+     0,
+     4,
+     10,
+     16,
+     20,
+     23,
+     21,
+     16,
+     10,
+     5,
+     1
+    ],
+    "precip_mm": [
+     40,
+     30,
+     30,
+     30,
+     35,
+     60,
+     65,
+     70,
+     55,
+     50,
+     50,
+     45
+    ]
+   },
+   "summary": "A capital spread over islands, with a medieval old town and an archipelago of thousands more islands.",
+   "highlights": [
+    "Old town",
+    "Archipelago boat trips",
+    "Museums",
+    "Swimming and kayaking",
+    "Cafes"
+   ]
+  },
+  "NO0A": {
+   "name": "Western Norway",
+   "features": {
+    "nature": 1.0,
+    "historic": 0.45,
+    "crowd": 0.3
+   },
+   "climate": {
+    "temp_max_c": [
+     4,
+     4,
+     7,
+     11,
+     15,
+     18,
+     20,
+     19,
+     16,
+     11,
+     7,
+     5
+    ],
+    "precip_mm": [
+     200,
+     160,
+     150,
+     115,
+     105,
+     135,
+     150,
+     190,
+     240,
+     260,
+     240,
+     230
+    ]
+   },
+   "summary": "The fjords: steep walls, waterfalls and glaciers, with Bergen as the gateway. Expect rain in any month.",
+   "highlights": [
+    "Fjord cruises",
+    "Mountain hiking",
+    "Bergen's old wharf",
+    "Kayaking",
+    "Glacier walks"
+   ]
+  },
+  "FI1D": {
+   "name": "North and East Finland",
+   "features": {
+    "nature": 0.95,
+    "historic": 0.15,
+    "crowd": 0.05
+   },
+   "climate": {
+    "temp_max_c": [
+     -8,
+     -8,
+     -2,
+     4,
+     11,
+     17,
+     20,
+     17,
+     11,
+     3,
+     -3,
+     -6
+    ],
+    "precip_mm": [
+     40,
+     30,
+     30,
+     30,
+     40,
+     60,
+     75,
+     70,
+     55,
+     55,
+     45,
+     40
+    ]
+   },
+   "summary": "Lapland and the lake country: forests, northern lights in winter and midnight sun in summer.",
+   "highlights": [
+    "Northern lights",
+    "Husky and reindeer safaris",
+    "Skiing",
+    "Sauna and lake swimming",
+    "Hiking in national parks"
+   ]
+  },
+  "IS00": {
+   "name": "Iceland",
+   "features": {
+    "nature": 1.0,
+    "historic": 0.3,
+    "crowd": 0.25
+   },
+   "climate": {
+    "temp_max_c": [
+     3,
+     3,
+     4,
+     7,
+     10,
+     13,
+     15,
+     14,
+     11,
+     7,
+     4,
+     3
+    ],
+    "precip_mm": [
+     85,
+     85,
+     80,
+     60,
+     50,
+     45,
+     50,
+     65,
+     85,
+     95,
+     85,
+     95
+    ]
+   },
+   "summary": "Volcanoes, glaciers, waterfalls and geothermal pools on a cool, windy island.",
+   "highlights": [
+    "Golden Circle and ring road",
+    "Geothermal pools",
+    "Glacier hikes",
+    "Northern lights",
+    "Whale watching"
+   ]
+  },
+  "TR10": {
+   "name": "Istanbul",
+   "features": {
+    "nature": 0.15,
+    "historic": 1.0,
+    "crowd": 1.0
+   },
+   "climate": {
+    "temp_max_c": [
+     9,
+     9,
+     12,
+     17,
+     22,
+     27,
+     29,
+     29,
+     25,
+     20,
+     15,
+     11
+    ],
+    "precip_mm": [
+     100,
+     80,
+     70,
+     45,
+     35,
+     35,
+     35,
+     40,
+     60,
+     90,
+     100,
+     125
+    ]
+   },
+   "summary": "A huge city across two continents, with Byzantine and Ottoman monuments, bazaars and the Bosphorus.",
+   "highlights": [
+    "Hagia Sophia and the Blue Mosque",
+    "Bosphorus ferries",
+    "Grand Bazaar",
+    "Topkapi Palace",
+    "Food from street stalls to meyhanes"
+   ]
+  },
+  "TR61": {
+   "name": "Antalya",
+   "features": {
+    "nature": 0.8,
+    "historic": 0.8,
+    "crowd": 0.7
+   },
+   "climate": {
+    "temp_max_c": [
+     15,
+     16,
+     18,
+     22,
+     26,
+     31,
+     34,
+     34,
+     31,
+     27,
+     21,
+     17
+    ],
+    "precip_mm": [
+     230,
+     150,
+     95,
+     50,
+     30,
+     8,
+     3,
+     3,
+     15,
+     75,
+     135,
+     265
+    ]
+   },
+   "summary": "The Turkish Riviera: long hot summers, turquoise water, ancient cities and the Taurus mountains behind the coast.",
+   "highlights": [
+    "Beaches",
+    "Ancient cities such as Perge and Aspendos",
+    "Boat trips",
+    "Antalya old town",
+    "Hiking the Lycian Way"
+   ]
+  },
+  "TR32": {
+   "name": "Aegean coast of Turkey (Mugla and Aydin)",
+   "features": {
+    "nature": 0.75,
+    "historic": 0.85,
+    "crowd": 0.6
+   },
+   "climate": {
+    "temp_max_c": [
+     15,
+     15,
+     18,
+     22,
+     27,
+     32,
+     35,
+     35,
+     31,
+     25,
+     20,
+     16
+    ],
+    "precip_mm": [
+     130,
+     105,
+     65,
+     40,
+     20,
+     5,
+     2,
+     2,
+     15,
+     45,
+     90,
+     145
+    ]
+   },
+   "summary": "Bodrum, Marmaris and Fethiye on the coast, with Pamukkale's white terraces and Greek and Roman ruins inland.",
+   "highlights": [
+    "Blue cruise boat trips",
+    "Beaches and coves",
+    "Pamukkale terraces",
+    "Ruins at Aphrodisias and Hierapolis",
+    "Paragliding at Oludeniz"
+   ]
+  },
+  "TR71": {
+   "name": "Cappadocia",
+   "features": {
+    "nature": 0.75,
+    "historic": 0.85,
+    "crowd": 0.4
+   },
+   "climate": {
+    "temp_max_c": [
+     4,
+     6,
+     11,
+     17,
+     22,
+     26,
+     30,
+     30,
+     26,
+     19,
+     12,
+     6
+    ],
+    "precip_mm": [
+     45,
+     40,
+     45,
+     50,
+     55,
+     35,
+     10,
+     8,
+     15,
+     30,
+     35,
+     45
+    ]
+   },
+   "summary": "A high plateau of rock chimneys, cave churches and underground cities in central Turkey.",
+   "highlights": [
+    "Hot-air balloon flights",
+    "Valley hikes",
+    "Cave churches at Goreme",
+    "Underground cities",
+    "Cave hotels"
+   ]
+  },
+  "MT00": {
+   "name": "Malta",
+   "features": {
+    "nature": 0.3,
+    "historic": 0.95,
+    "crowd": 0.85
+   },
+   "climate": {
+    "temp_max_c": [
+     16,
+     16,
+     17,
+     20,
+     24,
+     28,
+     31,
+     32,
+     28,
+     25,
+     21,
+     17
+    ],
+    "precip_mm": [
+     95,
+     60,
+     40,
+     25,
+     10,
+     3,
+     0,
+     7,
+     60,
+     80,
+     90,
+     110
+    ]
+   },
+   "summary": "Three small islands with fortified harbours, prehistoric temples and clear water for diving.",
+   "highlights": [
+    "Valletta's fortifications",
+    "Prehistoric temples",
+    "Diving and snorkelling",
+    "Blue Lagoon on Comino",
+    "Mdina"
+   ]
+  },
+  "CY00": {
+   "name": "Cyprus",
+   "features": {
+    "nature": 0.55,
+    "historic": 0.8,
+    "crowd": 0.55
+   },
+   "climate": {
+    "temp_max_c": [
+     17,
+     17,
+     19,
+     23,
+     27,
+     31,
+     33,
+     33,
+     31,
+     28,
+     23,
+     19
+    ],
+    "precip_mm": [
+     90,
+     65,
+     40,
+     20,
+     10,
+     2,
+     1,
+     1,
+     5,
+     25,
+     60,
+     100
+    ]
+   },
+   "summary": "A warm island with long beach seasons, Roman mosaics, painted mountain churches and the Troodos range.",
+   "highlights": [
+    "Beaches",
+    "Paphos mosaics",
+    "Troodos villages",
+    "Diving",
+    "Meze"
+   ]
+  },
+  "ME00": {
+   "name": "Montenegro",
+   "features": {
+    "nature": 0.9,
+    "historic": 0.65,
+    "crowd": 0.4
+   },
+   "climate": {
+    "temp_max_c": [
+     10,
+     12,
+     15,
+     19,
+     24,
+     29,
+     32,
+     32,
+     27,
+     21,
+     15,
+     11
+    ],
+    "precip_mm": [
+     190,
+     170,
+     150,
+     140,
+     90,
+     60,
+     35,
+     60,
+     115,
+     170,
+     240,
+     220
+    ]
+   },
+   "summary": "A small country of steep mountains and a short Adriatic coast, with the fjord-like Bay of Kotor.",
+   "highlights": [
+    "Bay of Kotor",
+    "Old towns of Kotor and Budva",
+    "Durmitor hiking and rafting",
+    "Beaches",
+    "Lake Skadar"
+   ]
+  },
+  "EE00": {
+   "name": "Estonia",
+   "features": {
+    "nature": 0.65,
+    "historic": 0.6,
+    "crowd": 0.25
+   },
+   "climate": {
+    "temp_max_c": [
+     -1,
+     -1,
+     3,
+     9,
+     15,
+     19,
+     22,
+     20,
+     15,
+     9,
+     4,
+     1
+    ],
+    "precip_mm": [
+     55,
+     35,
+     35,
+     35,
+     40,
+     65,
+     80,
+     85,
+     60,
+     75,
+     65,
+     60
+    ]
+   },
+   "summary": "Tallinn's medieval old town, with forests, bogs and quiet Baltic islands beyond it.",
+   "highlights": [
+    "Tallinn old town",
+    "Bog walks",
+    "Islands of Saaremaa and Hiiumaa",
+    "Saunas",
+    "National parks"
+   ]
+  }
+ }
+}

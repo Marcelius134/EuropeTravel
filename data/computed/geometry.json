@@ -1,0 +1,3282 @@
+{
+ "AL01": {
+  "centroid": [
+   41.931,
+   19.9827
+  ],
+  "area_km2": 10699.7,
+  "coast_share": 0.202,
+  "coast": 0.403,
+  "mountain_share": 0.303
+ },
+ "AL02": {
+  "centroid": [
+   41.1795,
+   20.0255
+  ],
+  "area_km2": 4984.0,
+  "coast_share": 0.149,
+  "coast": 0.299,
+  "mountain_share": 0.61
+ },
+ "AL03": {
+  "centroid": [
+   40.3915,
+   20.1318
+  ],
+  "area_km2": 12804.3,
+  "coast_share": 0.362,
+  "coast": 0.724,
+  "mountain_share": 0.558
+ },
+ "AT11": {
+  "centroid": [
+   47.5255,
+   16.4859
+  ],
+  "area_km2": 3927.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "AT12": {
+  "centroid": [
+   48.2075,
+   15.5295
+  ],
+  "area_km2": 19241.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.255
+ },
+ "AT13": {
+  "centroid": [
+   48.208,
+   16.3768
+  ],
+  "area_km2": 335.4,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "AT21": {
+  "centroid": [
+   46.7635,
+   13.9222
+  ],
+  "area_km2": 9315.4,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 1.0
+ },
+ "AT22": {
+  "centroid": [
+   47.202,
+   14.9808
+  ],
+  "area_km2": 16288.4,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.741
+ },
+ "AT31": {
+  "centroid": [
+   48.1455,
+   13.6567
+  ],
+  "area_km2": 11892.7,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.447
+ },
+ "AT32": {
+  "centroid": [
+   47.487,
+   13.1067
+  ],
+  "area_km2": 7163.4,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 1.0
+ },
+ "AT33": {
+  "centroid": [
+   47.2125,
+   11.1533
+  ],
+  "area_km2": 12512.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 1.0
+ },
+ "AT34": {
+  "centroid": [
+   47.214,
+   9.8851
+  ],
+  "area_km2": 2584.7,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 1.0
+ },
+ "BE10": {
+  "centroid": [
+   50.8525,
+   4.3716
+  ],
+  "area_km2": 158.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "BE21": {
+  "centroid": [
+   51.205,
+   4.7673
+  ],
+  "area_km2": 2920.5,
+  "coast_share": 0.064,
+  "coast": 0.128,
+  "mountain_share": 0.0
+ },
+ "BE22": {
+  "centroid": [
+   50.972,
+   5.4118
+  ],
+  "area_km2": 2360.5,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "BE23": {
+  "centroid": [
+   51.0675,
+   3.7891
+  ],
+  "area_km2": 3037.9,
+  "coast_share": 0.073,
+  "coast": 0.147,
+  "mountain_share": 0.0
+ },
+ "BE24": {
+  "centroid": [
+   50.8525,
+   4.8048
+  ],
+  "area_km2": 2115.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "BE25": {
+  "centroid": [
+   51.045,
+   2.9789
+  ],
+  "area_km2": 3113.4,
+  "coast_share": 0.333,
+  "coast": 0.666,
+  "mountain_share": 0.0
+ },
+ "BE31": {
+  "centroid": [
+   50.6645,
+   4.5733
+  ],
+  "area_km2": 1081.3,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "BE32": {
+  "centroid": [
+   50.349,
+   4.3135
+  ],
+  "area_km2": 3746.1,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.085
+ },
+ "BE33": {
+  "centroid": [
+   50.4565,
+   5.7578
+  ],
+  "area_km2": 3863.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.052
+ },
+ "BE34": {
+  "centroid": [
+   49.987,
+   5.4406
+  ],
+  "area_km2": 4374.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.883
+ },
+ "BE35": {
+  "centroid": [
+   50.2245,
+   4.8185
+  ],
+  "area_km2": 3751.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.759
+ },
+ "BG31": {
+  "centroid": [
+   43.481,
+   23.8734
+  ],
+  "area_km2": 18784.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.613
+ },
+ "BG32": {
+  "centroid": [
+   43.431,
+   25.597
+  ],
+  "area_km2": 14760.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.427
+ },
+ "BG33": {
+  "centroid": [
+   43.452,
+   27.6524
+  ],
+  "area_km2": 14587.1,
+  "coast_share": 0.248,
+  "coast": 0.496,
+  "mountain_share": 0.396
+ },
+ "BG34": {
+  "centroid": [
+   42.4835,
+   26.3437
+  ],
+  "area_km2": 19831.8,
+  "coast_share": 0.192,
+  "coast": 0.384,
+  "mountain_share": 0.289
+ },
+ "BG41": {
+  "centroid": [
+   42.2595,
+   23.154
+  ],
+  "area_km2": 20344.3,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.233
+ },
+ "BG42": {
+  "centroid": [
+   42.008,
+   25.1598
+  ],
+  "area_km2": 22359.5,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.054
+ },
+ "CH01": {
+  "centroid": [
+   46.394,
+   7.9234
+  ],
+  "area_km2": 8667.4,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.772
+ },
+ "CH02": {
+  "centroid": [
+   46.9115,
+   7.4892
+  ],
+  "area_km2": 10055.2,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.871
+ },
+ "CH03": {
+  "centroid": [
+   47.3705,
+   8.1955
+  ],
+  "area_km2": 1914.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.371
+ },
+ "CH04": {
+  "centroid": [
+   47.4205,
+   8.6509
+  ],
+  "area_km2": 1747.3,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.646
+ },
+ "CH05": {
+  "centroid": [
+   46.9595,
+   9.4074
+  ],
+  "area_km2": 11259.2,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.948
+ },
+ "CH06": {
+  "centroid": [
+   46.888,
+   8.406
+  ],
+  "area_km2": 4344.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.996
+ },
+ "CH07": {
+  "centroid": [
+   46.2095,
+   8.829
+  ],
+  "area_km2": 2775.4,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.966
+ },
+ "CY00": {
+  "centroid": [
+   35.1225,
+   33.2332
+  ],
+  "area_km2": 9190.9,
+  "coast_share": 1.0,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "CZ01": {
+  "centroid": [
+   50.0615,
+   14.473
+  ],
+  "area_km2": 481.1,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "CZ02": {
+  "centroid": [
+   50.0685,
+   13.8651
+  ],
+  "area_km2": 10852.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "CZ03": {
+  "centroid": [
+   49.3405,
+   13.9083
+  ],
+  "area_km2": 17831.1,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.274
+ },
+ "CZ04": {
+  "centroid": [
+   50.476,
+   13.7433
+  ],
+  "area_km2": 8503.5,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.247
+ },
+ "CZ05": {
+  "centroid": [
+   50.308,
+   15.8346
+  ],
+  "area_km2": 12292.1,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.123
+ },
+ "CZ06": {
+  "centroid": [
+   49.1895,
+   16.2328
+  ],
+  "area_km2": 13832.7,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "CZ07": {
+  "centroid": [
+   49.6535,
+   17.2785
+  ],
+  "area_km2": 9030.7,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.519
+ },
+ "CZ08": {
+  "centroid": [
+   49.8485,
+   17.9557
+  ],
+  "area_km2": 5407.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.61
+ },
+ "DE11": {
+  "centroid": [
+   49.1275,
+   9.5279
+  ],
+  "area_km2": 10384.7,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "DE12": {
+  "centroid": [
+   48.9855,
+   8.5807
+  ],
+  "area_km2": 6723.2,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "DE13": {
+  "centroid": [
+   48.1405,
+   8.2078
+  ],
+  "area_km2": 9336.3,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "DE14": {
+  "centroid": [
+   48.0405,
+   9.5488
+  ],
+  "area_km2": 9307.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.061
+ },
+ "DE21": {
+  "centroid": [
+   48.2515,
+   11.9935
+  ],
+  "area_km2": 17289.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.451
+ },
+ "DE22": {
+  "centroid": [
+   48.665,
+   12.7469
+  ],
+  "area_km2": 10017.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.246
+ },
+ "DE23": {
+  "centroid": [
+   49.387,
+   12.0903
+  ],
+  "area_km2": 9670.7,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.198
+ },
+ "DE24": {
+  "centroid": [
+   50.019,
+   11.4337
+  ],
+  "area_km2": 7166.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.165
+ },
+ "DE25": {
+  "centroid": [
+   49.273,
+   10.7024
+  ],
+  "area_km2": 7315.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "DE26": {
+  "centroid": [
+   50.03,
+   9.9003
+  ],
+  "area_km2": 8343.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "DE27": {
+  "centroid": [
+   48.136,
+   10.4723
+  ],
+  "area_km2": 9974.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.278
+ },
+ "DE30": {
+  "centroid": [
+   52.5235,
+   13.3859
+  ],
+  "area_km2": 873.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "DE40": {
+  "centroid": [
+   52.4455,
+   14.1402
+  ],
+  "area_km2": 29217.1,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "DE50": {
+  "centroid": [
+   53.117,
+   8.81
+  ],
+  "area_km2": 381.7,
+  "coast_share": 0.322,
+  "coast": 0.645,
+  "mountain_share": 0.0
+ },
+ "DE60": {
+  "centroid": [
+   53.6045,
+   10.0059
+  ],
+  "area_km2": 760.4,
+  "coast_share": 0.154,
+  "coast": 0.308,
+  "mountain_share": 0.0
+ },
+ "DE71": {
+  "centroid": [
+   49.986,
+   8.6583
+  ],
+  "area_km2": 7328.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "DE72": {
+  "centroid": [
+   50.6125,
+   8.8578
+  ],
+  "area_km2": 5378.5,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "DE73": {
+  "centroid": [
+   51.001,
+   9.2929
+  ],
+  "area_km2": 8213.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "DE80": {
+  "centroid": [
+   53.9,
+   12.5348
+  ],
+  "area_km2": 22883.2,
+  "coast_share": 0.506,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "DE91": {
+  "centroid": [
+   52.053,
+   10.5405
+  ],
+  "area_km2": 8080.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.426
+ },
+ "DE92": {
+  "centroid": [
+   52.354,
+   9.5996
+  ],
+  "area_km2": 9155.7,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.118
+ },
+ "DE93": {
+  "centroid": [
+   53.1795,
+   9.9283
+  ],
+  "area_km2": 15424.2,
+  "coast_share": 0.29,
+  "coast": 0.581,
+  "mountain_share": 0.0
+ },
+ "DE94": {
+  "centroid": [
+   52.929,
+   7.9068
+  ],
+  "area_km2": 14764.9,
+  "coast_share": 0.393,
+  "coast": 0.787,
+  "mountain_share": 0.0
+ },
+ "DEA1": {
+  "centroid": [
+   51.454,
+   6.6635
+  ],
+  "area_km2": 5262.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "DEA2": {
+  "centroid": [
+   50.786,
+   6.8134
+  ],
+  "area_km2": 7316.3,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "DEA3": {
+  "centroid": [
+   51.995,
+   7.4391
+  ],
+  "area_km2": 6914.3,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "DEA4": {
+  "centroid": [
+   51.9895,
+   8.6894
+  ],
+  "area_km2": 6468.1,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "DEA5": {
+  "centroid": [
+   51.18,
+   8.0865
+  ],
+  "area_km2": 7993.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "DEB1": {
+  "centroid": [
+   50.235,
+   7.5354
+  ],
+  "area_km2": 8088.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.024
+ },
+ "DEB2": {
+  "centroid": [
+   49.9225,
+   6.728
+  ],
+  "area_km2": 4794.3,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "DEB3": {
+  "centroid": [
+   49.493,
+   7.8574
+  ],
+  "area_km2": 6888.5,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.526
+ },
+ "DEC0": {
+  "centroid": [
+   49.3895,
+   6.9633
+  ],
+  "area_km2": 2505.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.151
+ },
+ "DED2": {
+  "centroid": [
+   51.1835,
+   14.1145
+  ],
+  "area_km2": 7908.3,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.299
+ },
+ "DED4": {
+  "centroid": [
+   50.7025,
+   12.9485
+  ],
+  "area_km2": 6631.1,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.388
+ },
+ "DED5": {
+  "centroid": [
+   51.3045,
+   12.6926
+  ],
+  "area_km2": 3778.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "DEE0": {
+  "centroid": [
+   51.992,
+   11.6319
+  ],
+  "area_km2": 20539.2,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.142
+ },
+ "DEF0": {
+  "centroid": [
+   54.1175,
+   9.8958
+  ],
+  "area_km2": 15420.6,
+  "coast_share": 0.67,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "DEG0": {
+  "centroid": [
+   50.9335,
+   11.3382
+  ],
+  "area_km2": 15954.4,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.105
+ },
+ "DK01": {
+  "centroid": [
+   55.827,
+   12.2524
+  ],
+  "area_km2": 2521.8,
+  "coast_share": 0.815,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "DK02": {
+  "centroid": [
+   55.2715,
+   11.7944
+  ],
+  "area_km2": 7346.7,
+  "coast_share": 0.866,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "DK03": {
+  "centroid": [
+   55.3695,
+   9.1419
+  ],
+  "area_km2": 12017.7,
+  "coast_share": 0.81,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "DK04": {
+  "centroid": [
+   56.235,
+   9.2613
+  ],
+  "area_km2": 13127.0,
+  "coast_share": 0.738,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "DK05": {
+  "centroid": [
+   57.1335,
+   9.7047
+  ],
+  "area_km2": 8045.6,
+  "coast_share": 0.897,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "EE00": {
+  "centroid": [
+   58.513,
+   25.5631
+  ],
+  "area_km2": 44984.2,
+  "coast_share": 0.652,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "EL30": {
+  "centroid": [
+   38.0035,
+   23.8152
+  ],
+  "area_km2": 3967.6,
+  "coast_share": 0.639,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "EL41": {
+  "centroid": [
+   39.1685,
+   26.1898
+  ],
+  "area_km2": 3545.2,
+  "coast_share": 0.89,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "EL42": {
+  "centroid": [
+   36.237,
+   27.979
+  ],
+  "area_km2": 5338.7,
+  "coast_share": 0.795,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "EL43": {
+  "centroid": [
+   35.3085,
+   24.4878
+  ],
+  "area_km2": 8144.9,
+  "coast_share": 0.94,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "EL51": {
+  "centroid": [
+   41.1965,
+   25.0533
+  ],
+  "area_km2": 13931.9,
+  "coast_share": 0.408,
+  "coast": 0.815,
+  "mountain_share": 0.0
+ },
+ "EL52": {
+  "centroid": [
+   40.659,
+   22.8185
+  ],
+  "area_km2": 19000.6,
+  "coast_share": 0.538,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "EL53": {
+  "centroid": [
+   40.419,
+   21.4416
+  ],
+  "area_km2": 9336.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.108
+ },
+ "EL54": {
+  "centroid": [
+   39.681,
+   20.7011
+  ],
+  "area_km2": 9061.3,
+  "coast_share": 0.354,
+  "coast": 0.708,
+  "mountain_share": 0.834
+ },
+ "EL61": {
+  "centroid": [
+   39.5525,
+   22.0806
+  ],
+  "area_km2": 14039.6,
+  "coast_share": 0.435,
+  "coast": 0.87,
+  "mountain_share": 0.235
+ },
+ "EL62": {
+  "centroid": [
+   38.27,
+   20.5012
+  ],
+  "area_km2": 2166.6,
+  "coast_share": 0.962,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "EL63": {
+  "centroid": [
+   37.8525,
+   21.523
+  ],
+  "area_km2": 10992.0,
+  "coast_share": 0.601,
+  "coast": 1.0,
+  "mountain_share": 0.326
+ },
+ "EL64": {
+  "centroid": [
+   38.597,
+   22.653
+  ],
+  "area_km2": 15912.5,
+  "coast_share": 0.693,
+  "coast": 1.0,
+  "mountain_share": 0.161
+ },
+ "EL65": {
+  "centroid": [
+   37.2245,
+   22.2461
+  ],
+  "area_km2": 15272.9,
+  "coast_share": 0.808,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "ES11": {
+  "centroid": [
+   42.783,
+   -7.9993
+  ],
+  "area_km2": 29160.8,
+  "coast_share": 0.52,
+  "coast": 1.0,
+  "mountain_share": 0.066
+ },
+ "ES12": {
+  "centroid": [
+   43.2575,
+   -5.8405
+  ],
+  "area_km2": 10511.6,
+  "coast_share": 0.438,
+  "coast": 0.876,
+  "mountain_share": 0.695
+ },
+ "ES13": {
+  "centroid": [
+   43.0875,
+   -4.2784
+  ],
+  "area_km2": 5427.7,
+  "coast_share": 0.34,
+  "coast": 0.68,
+  "mountain_share": 0.782
+ },
+ "ES21": {
+  "centroid": [
+   42.9405,
+   -2.6445
+  ],
+  "area_km2": 6946.2,
+  "coast_share": 0.256,
+  "coast": 0.511,
+  "mountain_share": 0.731
+ },
+ "ES22": {
+  "centroid": [
+   42.6185,
+   -1.7851
+  ],
+  "area_km2": 10279.7,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.413
+ },
+ "ES23": {
+  "centroid": [
+   42.29,
+   -2.4753
+  ],
+  "area_km2": 4993.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "ES24": {
+  "centroid": [
+   41.3795,
+   -0.8832
+  ],
+  "area_km2": 47717.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.102
+ },
+ "ES30": {
+  "centroid": [
+   40.6245,
+   -3.7805
+  ],
+  "area_km2": 7837.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "ES41": {
+  "centroid": [
+   41.682,
+   -4.1324
+  ],
+  "area_km2": 94003.7,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.1
+ },
+ "ES42": {
+  "centroid": [
+   39.6315,
+   -3.2773
+  ],
+  "area_km2": 78999.3,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.089
+ },
+ "ES43": {
+  "centroid": [
+   39.172,
+   -5.9746
+  ],
+  "area_km2": 41587.7,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.064
+ },
+ "ES51": {
+  "centroid": [
+   41.682,
+   1.6018
+  ],
+  "area_km2": 31973.8,
+  "coast_share": 0.421,
+  "coast": 0.843,
+  "mountain_share": 0.312
+ },
+ "ES52": {
+  "centroid": [
+   39.348,
+   -0.8221
+  ],
+  "area_km2": 23022.3,
+  "coast_share": 0.399,
+  "coast": 0.798,
+  "mountain_share": 0.0
+ },
+ "ES53": {
+  "centroid": [
+   39.6095,
+   2.8952
+  ],
+  "area_km2": 5036.9,
+  "coast_share": 1.0,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "ES61": {
+  "centroid": [
+   37.4415,
+   -4.6223
+  ],
+  "area_km2": 87317.6,
+  "coast_share": 0.474,
+  "coast": 0.949,
+  "mountain_share": 0.48
+ },
+ "ES62": {
+  "centroid": [
+   38.059,
+   -1.6478
+  ],
+  "area_km2": 11186.4,
+  "coast_share": 0.283,
+  "coast": 0.566,
+  "mountain_share": 0.0
+ },
+ "ES63": {
+  "centroid": [
+   35.894,
+   -5.3506
+  ],
+  "area_km2": 9.4,
+  "coast_share": 1.0,
+  "coast": 1.0,
+  "mountain_share": 0.021
+ },
+ "ES64": {
+  "centroid": [
+   35.3045,
+   -2.9536
+  ],
+  "area_km2": 7.2,
+  "coast_share": 1.0,
+  "coast": 1.0,
+  "mountain_share": 0.948
+ },
+ "FI19": {
+  "centroid": [
+   62.382,
+   23.9808
+  ],
+  "area_km2": 64343.1,
+  "coast_share": 0.326,
+  "coast": 0.651,
+  "mountain_share": 0.0
+ },
+ "FI1B": {
+  "centroid": [
+   60.3335,
+   24.9087
+  ],
+  "area_km2": 9959.2,
+  "coast_share": 0.505,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "FI1C": {
+  "centroid": [
+   60.923,
+   25.4136
+  ],
+  "area_km2": 34842.1,
+  "coast_share": 0.308,
+  "coast": 0.615,
+  "mountain_share": 0.0
+ },
+ "FI1D": {
+  "centroid": [
+   65.6155,
+   27.3427
+  ],
+  "area_km2": 224912.0,
+  "coast_share": 0.122,
+  "coast": 0.244,
+  "mountain_share": 0.009
+ },
+ "FI20": {
+  "centroid": [
+   60.2305,
+   19.8904
+  ],
+  "area_km2": 1299.2,
+  "coast_share": 0.627,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "FR10": {
+  "centroid": [
+   48.7035,
+   2.5364
+  ],
+  "area_km2": 12187.4,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "FRB0": {
+  "centroid": [
+   47.651,
+   1.7155
+  ],
+  "area_km2": 39233.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "FRC1": {
+  "centroid": [
+   47.268,
+   4.2221
+  ],
+  "area_km2": 31451.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "FRC2": {
+  "centroid": [
+   47.072,
+   6.0151
+  ],
+  "area_km2": 16223.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.346
+ },
+ "FRD1": {
+  "centroid": [
+   48.885,
+   -0.5237
+  ],
+  "area_km2": 17532.0,
+  "coast_share": 0.487,
+  "coast": 0.975,
+  "mountain_share": 0.0
+ },
+ "FRD2": {
+  "centroid": [
+   49.358,
+   1.0286
+  ],
+  "area_km2": 12366.7,
+  "coast_share": 0.393,
+  "coast": 0.787,
+  "mountain_share": 0.0
+ },
+ "FRE1": {
+  "centroid": [
+   50.6155,
+   2.4333
+  ],
+  "area_km2": 12215.9,
+  "coast_share": 0.254,
+  "coast": 0.508,
+  "mountain_share": 0.0
+ },
+ "FRE2": {
+  "centroid": [
+   49.554,
+   2.8956
+  ],
+  "area_km2": 19256.9,
+  "coast_share": 0.082,
+  "coast": 0.163,
+  "mountain_share": 0.006
+ },
+ "FRF1": {
+  "centroid": [
+   48.1895,
+   7.3702
+  ],
+  "area_km2": 8375.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.467
+ },
+ "FRF2": {
+  "centroid": [
+   48.935,
+   4.2715
+  ],
+  "area_km2": 25351.3,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.134
+ },
+ "FRF3": {
+  "centroid": [
+   48.7095,
+   6.1211
+  ],
+  "area_km2": 23418.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.217
+ },
+ "FRG0": {
+  "centroid": [
+   47.4125,
+   -1.1662
+  ],
+  "area_km2": 32173.2,
+  "coast_share": 0.239,
+  "coast": 0.478,
+  "mountain_share": 0.0
+ },
+ "FRH0": {
+  "centroid": [
+   48.1565,
+   -2.7161
+  ],
+  "area_km2": 27237.3,
+  "coast_share": 0.689,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "FRI1": {
+  "centroid": [
+   44.2555,
+   -0.2035
+  ],
+  "area_km2": 41833.7,
+  "coast_share": 0.29,
+  "coast": 0.581,
+  "mountain_share": 0.128
+ },
+ "FRI2": {
+  "centroid": [
+   45.6595,
+   1.6045
+  ],
+  "area_km2": 17015.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "FRI3": {
+  "centroid": [
+   46.1565,
+   -0.1686
+  ],
+  "area_km2": 25697.7,
+  "coast_share": 0.227,
+  "coast": 0.453,
+  "mountain_share": 0.0
+ },
+ "FRJ1": {
+  "centroid": [
+   43.6605,
+   3.6623
+  ],
+  "area_km2": 27621.8,
+  "coast_share": 0.201,
+  "coast": 0.402,
+  "mountain_share": 0.162
+ },
+ "FRJ2": {
+  "centroid": [
+   43.766,
+   1.4278
+  ],
+  "area_km2": 45252.5,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.192
+ },
+ "FRK1": {
+  "centroid": [
+   45.625,
+   3.1801
+  ],
+  "area_km2": 25982.1,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "FRK2": {
+  "centroid": [
+   45.297,
+   5.757
+  ],
+  "area_km2": 44862.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.42
+ },
+ "FRL0": {
+  "centroid": [
+   44.0885,
+   6.2184
+  ],
+  "area_km2": 31480.1,
+  "coast_share": 0.352,
+  "coast": 0.704,
+  "mountain_share": 0.511
+ },
+ "FRM0": {
+  "centroid": [
+   42.106,
+   9.0731
+  ],
+  "area_km2": 8470.0,
+  "coast_share": 1.0,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "HR02": {
+  "centroid": [
+   45.4565,
+   17.1557
+  ],
+  "area_km2": 23094.3,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.206
+ },
+ "HR03": {
+  "centroid": [
+   44.2745,
+   15.7367
+  ],
+  "area_km2": 24323.1,
+  "coast_share": 0.666,
+  "coast": 1.0,
+  "mountain_share": 0.71
+ },
+ "HR05": {
+  "centroid": [
+   45.7815,
+   16.0065
+  ],
+  "area_km2": 631.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "HR06": {
+  "centroid": [
+   46.0095,
+   16.2153
+  ],
+  "area_km2": 8141.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.003
+ },
+ "HU11": {
+  "centroid": [
+   47.4925,
+   19.1416
+  ],
+  "area_km2": 518.4,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "HU12": {
+  "centroid": [
+   47.4925,
+   19.5583
+  ],
+  "area_km2": 6318.1,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "HU21": {
+  "centroid": [
+   47.2045,
+   18.0537
+  ],
+  "area_km2": 11106.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "HU22": {
+  "centroid": [
+   47.218,
+   16.8405
+  ],
+  "area_km2": 11198.3,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "HU23": {
+  "centroid": [
+   46.3795,
+   17.9987
+  ],
+  "area_km2": 13932.2,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "HU31": {
+  "centroid": [
+   47.9895,
+   20.0506
+  ],
+  "area_km2": 13197.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.387
+ },
+ "HU32": {
+  "centroid": [
+   47.5985,
+   21.4125
+  ],
+  "area_km2": 17591.5,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "HU33": {
+  "centroid": [
+   46.5145,
+   20.104
+  ],
+  "area_km2": 18466.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "IE04": {
+  "centroid": [
+   54.14,
+   -8.6971
+  ],
+  "area_km2": 25402.0,
+  "coast_share": 0.553,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "IE05": {
+  "centroid": [
+   52.347,
+   -8.1388
+  ],
+  "area_km2": 29276.8,
+  "coast_share": 0.707,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "IE06": {
+  "centroid": [
+   53.475,
+   -7.0429
+  ],
+  "area_km2": 14244.8,
+  "coast_share": 0.31,
+  "coast": 0.619,
+  "mountain_share": 0.0
+ },
+ "IS00": {
+  "centroid": [
+   64.982,
+   -18.2766
+  ],
+  "area_km2": 101222.5,
+  "coast_share": 1.0,
+  "coast": 1.0,
+  "mountain_share": 0.087
+ },
+ "ITC1": {
+  "centroid": [
+   45.27,
+   7.8178
+  ],
+  "area_km2": 25246.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.406
+ },
+ "ITC2": {
+  "centroid": [
+   45.6755,
+   7.4233
+  ],
+  "area_km2": 3148.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 1.0
+ },
+ "ITC3": {
+  "centroid": [
+   44.2895,
+   9.5542
+  ],
+  "area_km2": 5397.9,
+  "coast_share": 0.461,
+  "coast": 0.923,
+  "mountain_share": 0.147
+ },
+ "ITC4": {
+  "centroid": [
+   45.7165,
+   9.6884
+  ],
+  "area_km2": 23683.5,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.37
+ },
+ "ITF1": {
+  "centroid": [
+   42.31,
+   13.8537
+  ],
+  "area_km2": 10886.1,
+  "coast_share": 0.283,
+  "coast": 0.566,
+  "mountain_share": 0.653
+ },
+ "ITF2": {
+  "centroid": [
+   41.728,
+   14.588
+  ],
+  "area_km2": 4480.8,
+  "coast_share": 0.151,
+  "coast": 0.302,
+  "mountain_share": 0.758
+ },
+ "ITF3": {
+  "centroid": [
+   40.79,
+   14.829
+  ],
+  "area_km2": 13574.9,
+  "coast_share": 0.477,
+  "coast": 0.953,
+  "mountain_share": 0.567
+ },
+ "ITF4": {
+  "centroid": [
+   40.8655,
+   16.8412
+  ],
+  "area_km2": 19304.3,
+  "coast_share": 0.665,
+  "coast": 1.0,
+  "mountain_share": 0.072
+ },
+ "ITF5": {
+  "centroid": [
+   40.608,
+   16.1038
+  ],
+  "area_km2": 10046.2,
+  "coast_share": 0.184,
+  "coast": 0.368,
+  "mountain_share": 0.553
+ },
+ "ITF6": {
+  "centroid": [
+   38.995,
+   16.6413
+  ],
+  "area_km2": 15049.7,
+  "coast_share": 0.886,
+  "coast": 1.0,
+  "mountain_share": 0.978
+ },
+ "ITG1": {
+  "centroid": [
+   37.5265,
+   14.0607
+  ],
+  "area_km2": 25630.3,
+  "coast_share": 0.899,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "ITG2": {
+  "centroid": [
+   40.1435,
+   9.0643
+  ],
+  "area_km2": 24067.7,
+  "coast_share": 0.98,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "ITH1": {
+  "centroid": [
+   46.668,
+   11.4267
+  ],
+  "area_km2": 7383.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 1.0
+ },
+ "ITH2": {
+  "centroid": [
+   46.134,
+   11.168
+  ],
+  "area_km2": 6231.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 1.0
+ },
+ "ITH3": {
+  "centroid": [
+   45.7495,
+   12.1095
+  ],
+  "area_km2": 18065.7,
+  "coast_share": 0.242,
+  "coast": 0.483,
+  "mountain_share": 0.293
+ },
+ "ITH4": {
+  "centroid": [
+   46.0955,
+   12.9985
+  ],
+  "area_km2": 7727.3,
+  "coast_share": 0.293,
+  "coast": 0.586,
+  "mountain_share": 0.464
+ },
+ "ITH5": {
+  "centroid": [
+   44.4445,
+   11.131
+  ],
+  "area_km2": 22411.3,
+  "coast_share": 0.172,
+  "coast": 0.343,
+  "mountain_share": 0.472
+ },
+ "ITI1": {
+  "centroid": [
+   43.465,
+   11.2429
+  ],
+  "area_km2": 23027.2,
+  "coast_share": 0.387,
+  "coast": 0.775,
+  "mountain_share": 0.223
+ },
+ "ITI2": {
+  "centroid": [
+   43.064,
+   12.4229
+  ],
+  "area_km2": 8282.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.619
+ },
+ "ITI3": {
+  "centroid": [
+   43.3635,
+   13.2529
+  ],
+  "area_km2": 9268.6,
+  "coast_share": 0.39,
+  "coast": 0.781,
+  "mountain_share": 0.602
+ },
+ "ITI4": {
+  "centroid": [
+   42.0235,
+   12.5074
+  ],
+  "area_km2": 17260.5,
+  "coast_share": 0.345,
+  "coast": 0.69,
+  "mountain_share": 0.377
+ },
+ "LI00": {
+  "centroid": [
+   47.2115,
+   9.5458
+  ],
+  "area_km2": 160.1,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 1.0
+ },
+ "LT01": {
+  "centroid": [
+   54.845,
+   25.2535
+  ],
+  "area_km2": 9422.4,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "LT02": {
+  "centroid": [
+   55.138,
+   23.1606
+  ],
+  "area_km2": 54986.8,
+  "coast_share": 0.083,
+  "coast": 0.167,
+  "mountain_share": 0.0
+ },
+ "LU00": {
+  "centroid": [
+   49.8345,
+   6.0911
+  ],
+  "area_km2": 2599.5,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.261
+ },
+ "LV00": {
+  "centroid": [
+   56.916,
+   24.4642
+  ],
+  "area_km2": 63937.2,
+  "coast_share": 0.35,
+  "coast": 0.699,
+  "mountain_share": 0.0
+ },
+ "ME00": {
+  "centroid": [
+   42.701,
+   19.3066
+  ],
+  "area_km2": 13902.9,
+  "coast_share": 0.216,
+  "coast": 0.433,
+  "mountain_share": 0.98
+ },
+ "MK00": {
+  "centroid": [
+   41.601,
+   21.769
+  ],
+  "area_km2": 25244.3,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.004
+ },
+ "MT00": {
+  "centroid": [
+   35.93,
+   14.3862
+  ],
+  "area_km2": 271.6,
+  "coast_share": 1.0,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "NL11": {
+  "centroid": [
+   53.137,
+   6.9132
+  ],
+  "area_km2": 2378.1,
+  "coast_share": 0.447,
+  "coast": 0.894,
+  "mountain_share": 0.0
+ },
+ "NL12": {
+  "centroid": [
+   53.047,
+   5.7983
+  ],
+  "area_km2": 3868.2,
+  "coast_share": 0.554,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "NL13": {
+  "centroid": [
+   52.888,
+   6.6441
+  ],
+  "area_km2": 2638.4,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "NL21": {
+  "centroid": [
+   52.502,
+   6.3073
+  ],
+  "area_km2": 3379.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "NL22": {
+  "centroid": [
+   52.175,
+   6.022
+  ],
+  "area_km2": 5064.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "NL23": {
+  "centroid": [
+   52.5485,
+   5.4684
+  ],
+  "area_km2": 2276.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "NL31": {
+  "centroid": [
+   52.134,
+   5.1596
+  ],
+  "area_km2": 1527.1,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "NL32": {
+  "centroid": [
+   52.636,
+   4.9137
+  ],
+  "area_km2": 3438.0,
+  "coast_share": 0.508,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "NL33": {
+  "centroid": [
+   51.9865,
+   4.4596
+  ],
+  "area_km2": 3201.6,
+  "coast_share": 0.492,
+  "coast": 0.984,
+  "mountain_share": 0.0
+ },
+ "NL34": {
+  "centroid": [
+   51.577,
+   3.9806
+  ],
+  "area_km2": 1934.4,
+  "coast_share": 0.81,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "NL41": {
+  "centroid": [
+   51.535,
+   5.0394
+  ],
+  "area_km2": 4964.6,
+  "coast_share": 0.108,
+  "coast": 0.217,
+  "mountain_share": 0.0
+ },
+ "NL42": {
+  "centroid": [
+   51.295,
+   5.9326
+  ],
+  "area_km2": 2201.2,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "NO02": {
+  "centroid": [
+   61.232,
+   10.4561
+  ],
+  "area_km2": 51907.5,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.549
+ },
+ "NO06": {
+  "centroid": [
+   63.69,
+   11.6226
+  ],
+  "area_km2": 42906.8,
+  "coast_share": 0.388,
+  "coast": 0.776,
+  "mountain_share": 0.831
+ },
+ "NO07": {
+  "centroid": [
+   68.032,
+   16.6495
+  ],
+  "area_km2": 116308.5,
+  "coast_share": 0.602,
+  "coast": 1.0,
+  "mountain_share": 0.393
+ },
+ "NO08": {
+  "centroid": [
+   59.99,
+   10.4213
+  ],
+  "area_km2": 24844.3,
+  "coast_share": 0.177,
+  "coast": 0.355,
+  "mountain_share": 0.332
+ },
+ "NO09": {
+  "centroid": [
+   59.0785,
+   8.5238
+  ],
+  "area_km2": 33863.1,
+  "coast_share": 0.447,
+  "coast": 0.894,
+  "mountain_share": 0.405
+ },
+ "NO0A": {
+  "centroid": [
+   60.869,
+   6.4464
+  ],
+  "area_km2": 63122.3,
+  "coast_share": 0.594,
+  "coast": 1.0,
+  "mountain_share": 0.613
+ },
+ "NO0B": {
+  "centroid": [
+   78.3075,
+   17.3165
+  ],
+  "area_km2": 56323.5,
+  "coast_share": 0.921,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "PL21": {
+  "centroid": [
+   49.8985,
+   20.2188
+  ],
+  "area_km2": 15051.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.652
+ },
+ "PL22": {
+  "centroid": [
+   50.2125,
+   18.8068
+  ],
+  "area_km2": 12313.5,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.234
+ },
+ "PL41": {
+  "centroid": [
+   52.402,
+   17.2646
+  ],
+  "area_km2": 29511.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "PL42": {
+  "centroid": [
+   53.5595,
+   15.5208
+  ],
+  "area_km2": 22319.0,
+  "coast_share": 0.361,
+  "coast": 0.721,
+  "mountain_share": 0.0
+ },
+ "PL43": {
+  "centroid": [
+   52.2505,
+   15.2624
+  ],
+  "area_km2": 13898.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "PL51": {
+  "centroid": [
+   50.931,
+   16.3567
+  ],
+  "area_km2": 19923.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.308
+ },
+ "PL52": {
+  "centroid": [
+   50.581,
+   17.8597
+  ],
+  "area_km2": 9333.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.045
+ },
+ "PL61": {
+  "centroid": [
+   53.0445,
+   18.5034
+  ],
+  "area_km2": 17924.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "PL62": {
+  "centroid": [
+   53.793,
+   21.0201
+  ],
+  "area_km2": 23912.0,
+  "coast_share": 0.008,
+  "coast": 0.016,
+  "mountain_share": 0.0
+ },
+ "PL63": {
+  "centroid": [
+   54.1585,
+   18.0037
+  ],
+  "area_km2": 18067.6,
+  "coast_share": 0.412,
+  "coast": 0.824,
+  "mountain_share": 0.0
+ },
+ "PL71": {
+  "centroid": [
+   51.624,
+   19.3843
+  ],
+  "area_km2": 18014.7,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "PL72": {
+  "centroid": [
+   50.765,
+   20.7953
+  ],
+  "area_km2": 11713.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "PL81": {
+  "centroid": [
+   51.1745,
+   22.8093
+  ],
+  "area_km2": 24898.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "PL82": {
+  "centroid": [
+   49.908,
+   22.1721
+  ],
+  "area_km2": 17840.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.422
+ },
+ "PL84": {
+  "centroid": [
+   53.336,
+   22.7181
+  ],
+  "area_km2": 20132.5,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "PL91": {
+  "centroid": [
+   52.2675,
+   21.0921
+  ],
+  "area_km2": 5972.2,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "PL92": {
+  "centroid": [
+   52.257,
+   22.4661
+  ],
+  "area_km2": 29214.4,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "PT11": {
+  "centroid": [
+   41.426,
+   -7.5379
+  ],
+  "area_km2": 21241.5,
+  "coast_share": 0.194,
+  "coast": 0.388,
+  "mountain_share": 0.0
+ },
+ "PT15": {
+  "centroid": [
+   37.26,
+   -8.1537
+  ],
+  "area_km2": 5031.0,
+  "coast_share": 0.594,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "PT16": {
+  "centroid": [
+   40.011,
+   -7.906
+  ],
+  "area_km2": 27888.2,
+  "coast_share": 0.31,
+  "coast": 0.621,
+  "mountain_share": 0.0
+ },
+ "PT17": {
+  "centroid": [
+   38.748,
+   -9.0127
+  ],
+  "area_km2": 3115.6,
+  "coast_share": 0.7,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "PT18": {
+  "centroid": [
+   38.487,
+   -8.0208
+  ],
+  "area_km2": 31566.6,
+  "coast_share": 0.211,
+  "coast": 0.421,
+  "mountain_share": 0.0
+ },
+ "PT20": {
+  "centroid": [
+   37.798,
+   -25.4681
+  ],
+  "area_km2": 842.7,
+  "coast_share": 1.0,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "PT30": {
+  "centroid": [
+   32.7585,
+   -17.005
+  ],
+  "area_km2": 892.4,
+  "coast_share": 0.617,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "RO11": {
+  "centroid": [
+   47.267,
+   23.4794
+  ],
+  "area_km2": 33972.5,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.849
+ },
+ "RO12": {
+  "centroid": [
+   46.2825,
+   24.6047
+  ],
+  "area_km2": 33801.5,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 1.0
+ },
+ "RO21": {
+  "centroid": [
+   47.1545,
+   26.6336
+  ],
+  "area_km2": 36532.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.553
+ },
+ "RO22": {
+  "centroid": [
+   45.016,
+   28.0846
+  ],
+  "area_km2": 35265.7,
+  "coast_share": 0.21,
+  "coast": 0.42,
+  "mountain_share": 0.166
+ },
+ "RO31": {
+  "centroid": [
+   44.6235,
+   27.173
+  ],
+  "area_km2": 34272.5,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.222
+ },
+ "RO32": {
+  "centroid": [
+   44.43,
+   26.1309
+  ],
+  "area_km2": 1697.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "RO41": {
+  "centroid": [
+   44.651,
+   23.6173
+  ],
+  "area_km2": 29197.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.386
+ },
+ "RO42": {
+  "centroid": [
+   45.678,
+   22.1062
+  ],
+  "area_km2": 31595.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.659
+ },
+ "RS11": {
+  "centroid": [
+   44.691,
+   20.4054
+  ],
+  "area_km2": 3220.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.223
+ },
+ "RS12": {
+  "centroid": [
+   45.4105,
+   19.9584
+  ],
+  "area_km2": 21230.1,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "RS21": {
+  "centroid": [
+   43.8775,
+   20.5257
+  ],
+  "area_km2": 26340.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.89
+ },
+ "RS22": {
+  "centroid": [
+   43.6385,
+   21.9849
+  ],
+  "area_km2": 25865.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.147
+ },
+ "SE11": {
+  "centroid": [
+   59.5225,
+   18.1566
+  ],
+  "area_km2": 8090.5,
+  "coast_share": 0.414,
+  "coast": 0.827,
+  "mountain_share": 0.0
+ },
+ "SE12": {
+  "centroid": [
+   59.118,
+   15.8034
+  ],
+  "area_km2": 43344.9,
+  "coast_share": 0.229,
+  "coast": 0.458,
+  "mountain_share": 0.0
+ },
+ "SE21": {
+  "centroid": [
+   57.357,
+   14.9999
+  ],
+  "area_km2": 35909.4,
+  "coast_share": 0.543,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "SE22": {
+  "centroid": [
+   55.921,
+   13.5882
+  ],
+  "area_km2": 14302.8,
+  "coast_share": 0.706,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "SE23": {
+  "centroid": [
+   57.793,
+   12.6671
+  ],
+  "area_km2": 34992.5,
+  "coast_share": 0.355,
+  "coast": 0.71,
+  "mountain_share": 0.0
+ },
+ "SE31": {
+  "centroid": [
+   60.5745,
+   14.9291
+  ],
+  "area_km2": 71889.0,
+  "coast_share": 0.135,
+  "coast": 0.271,
+  "mountain_share": 0.0
+ },
+ "SE32": {
+  "centroid": [
+   63.3455,
+   15.6318
+  ],
+  "area_km2": 76134.1,
+  "coast_share": 0.178,
+  "coast": 0.357,
+  "mountain_share": 0.153
+ },
+ "SE33": {
+  "centroid": [
+   66.258,
+   19.5428
+  ],
+  "area_km2": 163562.3,
+  "coast_share": 0.241,
+  "coast": 0.482,
+  "mountain_share": 0.191
+ },
+ "SI03": {
+  "centroid": [
+   46.134,
+   15.2323
+  ],
+  "area_km2": 12226.1,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.412
+ },
+ "SI04": {
+  "centroid": [
+   46.019,
+   14.1926
+  ],
+  "area_km2": 7800.8,
+  "coast_share": 0.149,
+  "coast": 0.297,
+  "mountain_share": 0.577
+ },
+ "SK01": {
+  "centroid": [
+   48.3325,
+   17.167
+  ],
+  "area_km2": 1985.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "SK02": {
+  "centroid": [
+   48.5125,
+   17.9164
+  ],
+  "area_km2": 14770.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.319
+ },
+ "SK03": {
+  "centroid": [
+   48.809,
+   19.5118
+  ],
+  "area_km2": 16222.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.964
+ },
+ "SK04": {
+  "centroid": [
+   48.8915,
+   21.2686
+  ],
+  "area_km2": 15531.7,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.916
+ },
+ "TR10": {
+  "centroid": [
+   41.4125,
+   28.3358
+  ],
+  "area_km2": 4992.8,
+  "coast_share": 0.762,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "TR21": {
+  "centroid": [
+   41.3065,
+   27.2656
+  ],
+  "area_km2": 18693.1,
+  "coast_share": 0.438,
+  "coast": 0.876,
+  "mountain_share": 0.0
+ },
+ "TR22": {
+  "centroid": [
+   39.8165,
+   27.2699
+  ],
+  "area_km2": 23457.2,
+  "coast_share": 0.563,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "TR31": {
+  "centroid": [
+   38.6395,
+   27.0156
+  ],
+  "area_km2": 11391.0,
+  "coast_share": 0.462,
+  "coast": 0.925,
+  "mountain_share": 0.0
+ },
+ "TR32": {
+  "centroid": [
+   37.4745,
+   28.381
+  ],
+  "area_km2": 31715.3,
+  "coast_share": 0.501,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "TR33": {
+  "centroid": [
+   38.838,
+   29.3962
+  ],
+  "area_km2": 45725.2,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "TR41": {
+  "centroid": [
+   39.852,
+   30.8006
+  ],
+  "area_km2": 28924.2,
+  "coast_share": 0.113,
+  "coast": 0.227,
+  "mountain_share": 0.0
+ },
+ "TR42": {
+  "centroid": [
+   40.652,
+   30.7686
+  ],
+  "area_km2": 20202.7,
+  "coast_share": 0.335,
+  "coast": 0.671,
+  "mountain_share": 0.0
+ },
+ "TR51": {
+  "centroid": [
+   39.698,
+   32.5756
+  ],
+  "area_km2": 25420.6,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "TR52": {
+  "centroid": [
+   37.856,
+   32.8395
+  ],
+  "area_km2": 49470.7,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.385
+ },
+ "TR61": {
+  "centroid": [
+   37.214,
+   30.6765
+  ],
+  "area_km2": 36165.0,
+  "coast_share": 0.36,
+  "coast": 0.72,
+  "mountain_share": 0.159
+ },
+ "TR62": {
+  "centroid": [
+   37.179,
+   35.0968
+  ],
+  "area_km2": 29302.0,
+  "coast_share": 0.359,
+  "coast": 0.719,
+  "mountain_share": 0.454
+ },
+ "TR63": {
+  "centroid": [
+   37.2695,
+   36.3477
+  ],
+  "area_km2": 23409.0,
+  "coast_share": 0.173,
+  "coast": 0.345,
+  "mountain_share": 0.0
+ },
+ "TR71": {
+  "centroid": [
+   38.8235,
+   34.3805
+  ],
+  "area_km2": 31526.2,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.065
+ },
+ "TR72": {
+  "centroid": [
+   39.119,
+   36.5398
+  ],
+  "area_km2": 59861.3,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.019
+ },
+ "TR81": {
+  "centroid": [
+   41.3745,
+   32.2935
+  ],
+  "area_km2": 9390.4,
+  "coast_share": 0.385,
+  "coast": 0.771,
+  "mountain_share": 0.0
+ },
+ "TR82": {
+  "centroid": [
+   41.178,
+   33.5779
+  ],
+  "area_km2": 26669.3,
+  "coast_share": 0.326,
+  "coast": 0.652,
+  "mountain_share": 0.251
+ },
+ "TR83": {
+  "centroid": [
+   40.7885,
+   35.4069
+  ],
+  "area_km2": 37794.2,
+  "coast_share": 0.191,
+  "coast": 0.382,
+  "mountain_share": 0.383
+ },
+ "TR90": {
+  "centroid": [
+   40.642,
+   39.0324
+  ],
+  "area_km2": 34877.1,
+  "coast_share": 0.333,
+  "coast": 0.665,
+  "mountain_share": 0.82
+ },
+ "TRA1": {
+  "centroid": [
+   39.975,
+   41.1424
+  ],
+  "area_km2": 40538.3,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.09
+ },
+ "TRA2": {
+  "centroid": [
+   40.236,
+   42.9471
+  ],
+  "area_km2": 29663.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.061
+ },
+ "TRB1": {
+  "centroid": [
+   38.7495,
+   39.3443
+  ],
+  "area_km2": 37197.9,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "TRB2": {
+  "centroid": [
+   38.2125,
+   43.0939
+  ],
+  "area_km2": 44119.2,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "TRC1": {
+  "centroid": [
+   37.4085,
+   37.7569
+  ],
+  "area_km2": 15445.4,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "TRC2": {
+  "centroid": [
+   37.6895,
+   39.7656
+  ],
+  "area_km2": 34476.2,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "TRC3": {
+  "centroid": [
+   37.7385,
+   42.1372
+  ],
+  "area_km2": 25587.7,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "UKC1": {
+  "centroid": [
+   54.6835,
+   -1.7664
+  ],
+  "area_km2": 2959.5,
+  "coast_share": 0.329,
+  "coast": 0.658,
+  "mountain_share": 0.0
+ },
+ "UKC2": {
+  "centroid": [
+   55.363,
+   -1.9764
+  ],
+  "area_km2": 5499.3,
+  "coast_share": 0.407,
+  "coast": 0.813,
+  "mountain_share": 0.0
+ },
+ "UKD1": {
+  "centroid": [
+   54.645,
+   -2.9248
+  ],
+  "area_km2": 6780.9,
+  "coast_share": 0.473,
+  "coast": 0.946,
+  "mountain_share": 0.0
+ },
+ "UKD3": {
+  "centroid": [
+   53.5145,
+   -2.3357
+  ],
+  "area_km2": 1216.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "UKD4": {
+  "centroid": [
+   53.863,
+   -2.5561
+  ],
+  "area_km2": 3077.4,
+  "coast_share": 0.413,
+  "coast": 0.825,
+  "mountain_share": 0.0
+ },
+ "UKD6": {
+  "centroid": [
+   53.2075,
+   -2.483
+  ],
+  "area_km2": 2304.4,
+  "coast_share": 0.21,
+  "coast": 0.419,
+  "mountain_share": 0.0
+ },
+ "UKD7": {
+  "centroid": [
+   53.512,
+   -2.9834
+  ],
+  "area_km2": 673.3,
+  "coast_share": 0.748,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "UKE1": {
+  "centroid": [
+   53.8205,
+   -0.4925
+  ],
+  "area_km2": 3558.7,
+  "coast_share": 0.517,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "UKE2": {
+  "centroid": [
+   54.0725,
+   -1.5786
+  ],
+  "area_km2": 8397.7,
+  "coast_share": 0.182,
+  "coast": 0.363,
+  "mountain_share": 0.0
+ },
+ "UKE3": {
+  "centroid": [
+   53.4905,
+   -1.3788
+  ],
+  "area_km2": 1562.2,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "UKE4": {
+  "centroid": [
+   53.7125,
+   -1.708
+  ],
+  "area_km2": 1957.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "UKF1": {
+  "centroid": [
+   53.1625,
+   -1.314
+  ],
+  "area_km2": 4752.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "UKF2": {
+  "centroid": [
+   52.5325,
+   -0.9053
+  ],
+  "area_km2": 4969.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "UKF3": {
+  "centroid": [
+   53.174,
+   -0.1984
+  ],
+  "area_km2": 5879.1,
+  "coast_share": 0.355,
+  "coast": 0.71,
+  "mountain_share": 0.0
+ },
+ "UKG1": {
+  "centroid": [
+   52.2545,
+   -2.1601
+  ],
+  "area_km2": 5960.1,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.008
+ },
+ "UKG2": {
+  "centroid": [
+   52.791,
+   -2.3697
+  ],
+  "area_km2": 5956.3,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.002
+ },
+ "UKG3": {
+  "centroid": [
+   52.485,
+   -1.9133
+  ],
+  "area_km2": 782.5,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "UKH1": {
+  "centroid": [
+   52.3975,
+   0.6304
+  ],
+  "area_km2": 12322.0,
+  "coast_share": 0.511,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "UKH2": {
+  "centroid": [
+   51.9405,
+   -0.279
+  ],
+  "area_km2": 2809.4,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "UKH3": {
+  "centroid": [
+   51.748,
+   0.4686
+  ],
+  "area_km2": 3391.0,
+  "coast_share": 0.393,
+  "coast": 0.786,
+  "mountain_share": 0.0
+ },
+ "UKI3": {
+  "centroid": [
+   51.5295,
+   -0.155
+  ],
+  "area_km2": 105.5,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "UKI4": {
+  "centroid": [
+   51.559,
+   -0.0679
+  ],
+  "area_km2": 188.0,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "UKI5": {
+  "centroid": [
+   51.585,
+   0.1101
+  ],
+  "area_km2": 414.8,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "UKI6": {
+  "centroid": [
+   51.38,
+   -0.0991
+  ],
+  "area_km2": 319.1,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "UKI7": {
+  "centroid": [
+   51.5295,
+   -0.3701
+  ],
+  "area_km2": 454.2,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "UKJ1": {
+  "centroid": [
+   51.7375,
+   -1.1523
+  ],
+  "area_km2": 5780.2,
+  "coast_share": 0.0,
+  "coast": 0.0,
+  "mountain_share": 0.0
+ },
+ "UKJ2": {
+  "centroid": [
+   51.1175,
+   -0.3105
+  ],
+  "area_km2": 5494.6,
+  "coast_share": 0.434,
+  "coast": 0.867,
+  "mountain_share": 0.0
+ },
+ "UKJ3": {
+  "centroid": [
+   51.0435,
+   -1.2333
+  ],
+  "area_km2": 3903.3,
+  "coast_share": 0.462,
+  "coast": 0.925,
+  "mountain_share": 0.0
+ },
+ "UKJ4": {
+  "centroid": [
+   51.2195,
+   0.7139
+  ],
+  "area_km2": 3655.5,
+  "coast_share": 0.656,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "UKK1": {
+  "centroid": [
+   51.535,
+   -2.1429
+  ],
+  "area_km2": 7303.3,
+  "coast_share": 0.201,
+  "coast": 0.402,
+  "mountain_share": 0.0
+ },
+ "UKK2": {
+  "centroid": [
+   50.973,
+   -2.7495
+  ],
+  "area_km2": 6249.5,
+  "coast_share": 0.512,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "UKK3": {
+  "centroid": [
+   50.455,
+   -4.6445
+  ],
+  "area_km2": 3549.7,
+  "coast_share": 0.783,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "UKK4": {
+  "centroid": [
+   50.7705,
+   -3.6644
+  ],
+  "area_km2": 6613.2,
+  "coast_share": 0.673,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "UKL1": {
+  "centroid": [
+   52.464,
+   -3.9194
+  ],
+  "area_km2": 12571.9,
+  "coast_share": 0.682,
+  "coast": 1.0,
+  "mountain_share": 0.439
+ },
+ "UKL2": {
+  "centroid": [
+   52.362,
+   -3.3463
+  ],
+  "area_km2": 7767.6,
+  "coast_share": 0.237,
+  "coast": 0.475,
+  "mountain_share": 0.666
+ },
+ "UKM5": {
+  "centroid": [
+   57.1905,
+   -2.662
+  ],
+  "area_km2": 6404.1,
+  "coast_share": 0.468,
+  "coast": 0.936,
+  "mountain_share": 0.38
+ },
+ "UKM6": {
+  "centroid": [
+   57.002,
+   -4.7755
+  ],
+  "area_km2": 42081.8,
+  "coast_share": 0.839,
+  "coast": 1.0,
+  "mountain_share": 0.036
+ },
+ "UKM7": {
+  "centroid": [
+   56.3675,
+   -4.0215
+  ],
+  "area_km2": 13088.2,
+  "coast_share": 0.453,
+  "coast": 0.906,
+  "mountain_share": 0.336
+ },
+ "UKM8": {
+  "centroid": [
+   56.0015,
+   -4.5891
+  ],
+  "area_km2": 1904.8,
+  "coast_share": 0.333,
+  "coast": 0.667,
+  "mountain_share": 0.049
+ },
+ "UKM9": {
+  "centroid": [
+   55.363,
+   -3.569
+  ],
+  "area_km2": 15497.7,
+  "coast_share": 0.567,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ },
+ "UKN0": {
+  "centroid": [
+   54.641,
+   -6.8142
+  ],
+  "area_km2": 13902.1,
+  "coast_share": 0.545,
+  "coast": 1.0,
+  "mountain_share": 0.0
+ }
+}

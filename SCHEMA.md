@@ -38,8 +38,10 @@ Temperature and rainfall are not stored as features. The matcher derives them
 from `climate` for the chosen month (or for June to August when no month is
 chosen):
 
-- temperature: 10 °C or colder is 0, 30 °C or hotter is 1
-- rainfall: 0 mm in the month is 0, 120 mm or more is 1
+- temperature: 10 °C or colder is 0, 34 °C or hotter is 1. In thirds: cool is
+  below 18 °C, mild is 18 to 26 °C, hot is above 26 °C.
+- rainfall: 0 mm in the month is 0, 120 mm or more is 1. In thirds: dry is
+  below 40 mm, some rain is 40 to 80 mm, rainy is above 80 mm.
 
 ### Sources
 
@@ -83,11 +85,11 @@ chosen):
 
 `matcher.py` turns the filters into a score per region.
 
-1. Each chosen filter has a target: low is 0, medium is 0.5, high is 1.
-2. For one filter, `match = 1 - |value - target| / largest possible distance`.
-   The largest distance is 1 for low and high, and 0.5 for medium.
-3. The region's score is the average match over the chosen filters, as a
-   percentage.
+1. Every value is on a 0 to 1 scale, cut into thirds: low, medium, high.
+2. For one filter, the match is 100% when the region's value is in the wanted
+   third. Outside it the match falls in a straight line, reaching 0% when the
+   value is 0.2 away from the wanted third.
+3. The region's score is the average match over the chosen filters.
 4. A region with no value for a chosen filter gets no score. It is drawn
    with a dashed outline rather than counted as a poor match.
 
