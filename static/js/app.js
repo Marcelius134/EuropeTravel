@@ -91,6 +91,7 @@
     maxBoundsViscosity: 0.6,
   }).setView([53, 12], 4);
   L.control.zoom({ position: "bottomright" }).addTo(map);
+  map.attributionControl.setPrefix('<a href="https://leafletjs.com">Leaflet</a>');
 
   // Panes stack bottom to top: tiles, glow, region outlines, labels, cities, places.
   [["glow", 390], ["labels", 450], ["cities", 460], ["places", 470]].forEach(([name, zIndex]) => {
