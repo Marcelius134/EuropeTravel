@@ -372,6 +372,52 @@ ul { padding: 0; list-style: none; }
 
 .fact { color: var(--text-soft); }
 
+/* ---------- Places ---------- */
+
+.place-pin {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--text);
+  color: var(--sea);
+  border: 2px solid var(--sea);
+  display: grid;
+  place-items: center;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+.place-pin svg { width: 16px; height: 16px; display: block; }
+.place-pin.is-active { background: var(--glow); transform: scale(1.25); }
+.leaflet-marker-icon.place-marker { background: transparent; border: 0; }
+.leaflet-marker-icon.place-marker:focus-visible { outline: 2px solid var(--city); outline-offset: 2px; border-radius: 50%; }
+
+.place-list { border-top: 1px solid var(--hairline); }
+.place-list li { border-bottom: 1px solid var(--hairline); }
+.place-list button {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  gap: 12px;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  padding: 12px 2px;
+  text-align: left;
+}
+.place-list__icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--hairline);
+  display: grid;
+  place-items: center;
+  color: var(--text);
+}
+.place-list__icon svg { width: 16px; height: 16px; }
+.place-list__name { display: block; font-weight: 600; }
+.place-list__kind { display: block; color: var(--text-soft); font-size: 12px; }
+.place-list__text { display: block; margin-top: 4px; color: var(--text-soft); font-size: 14px; }
+.place-list li.is-active .place-list__icon { background: var(--glow); border-color: var(--glow); color: var(--glow-ink); }
+.place-list li.is-active .place-list__name { color: var(--glow); }
+
 /* ---------- Status message ---------- */
 
 .status {
@@ -434,6 +480,7 @@ ul { padding: 0; list-style: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .place-pin { transition: none; }
   .leaflet-glow-pane { transition: none; }
   .leaflet-glow-pane.is-arriving { animation: none; }
 }

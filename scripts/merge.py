@@ -171,6 +171,49 @@ def build_cities():
     return cities
 
 
+def merge_places(cities, curated_places, fetched_places):
+    """Build the place list. Hand-written places win for a city that has them."""
+    city_ids = {city["id"] for city in cities}
+    unknown = sorted(set(curated_places) - city_ids)
+    if unknown:
+        raise RuntimeError("data/curated/places.json names cities that do not exist: " + ", ".join(unknown))
+    places = []
+    used_ids = set()
+    for city in cities:
+        city_id = city["id"]
+        if city_id in curated_places:
+            entries, source = curated_places[city_id], "curated-estimate"
+        else:
+            entries, source = fetched_places.get(city_id, []), "wikivoyage"
+        for entry in entries:
+            place_id = city_id + "-" + slugify(entry["name"])
+            while place_id in used_ids:
+                place_id += "-2"
+            used_ids.add(place_id)
+            places.append({
+                "id": place_id,
+                "city_id": city_id,
+                "name": entry["name"],
+                "category": entry["category"],
+                "lat": entry["lat"],
+                "lon": entry["lon"],
+                "description": entry.get("description", ""),
+                "source": source,
+            })
+    return places
+
+
+def build_places(cities=None):
+    cities = cities or load_json(DATA / "cities.json", [])
+    curated = load_json(CURATED / "places.json", {"places": {}})["places"]
+    fetched = load_json(COMPUTED / "places.json", {})
+    places = merge_places(cities, curated, fetched)
+    save_json(DATA / "places.json", places)
+    print(f"merge: wrote {len(places)} places to data/places.json")
+    return places
+
+
 def build_all_outputs():
     build_regions()
-    build_cities()
+    cities = build_cities()
+    build_places(cities)

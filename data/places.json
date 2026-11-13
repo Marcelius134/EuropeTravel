@@ -1,0 +1,712 @@
+[
+ {
+  "id": "athens-gr-acropolis",
+  "city_id": "athens-gr",
+  "name": "Acropolis",
+  "category": "historic",
+  "lat": 37.9715,
+  "lon": 23.7257,
+  "description": "The rock above the city with the Parthenon on top. Go at opening time; there is little shade.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "athens-gr-acropolis-museum",
+  "city_id": "athens-gr",
+  "name": "Acropolis Museum",
+  "category": "museum",
+  "lat": 37.9684,
+  "lon": 23.7285,
+  "description": "A modern museum for the sculptures found on the Acropolis, built over an excavated neighbourhood.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "athens-gr-ancient-agora",
+  "city_id": "athens-gr",
+  "name": "Ancient Agora",
+  "category": "historic",
+  "lat": 37.9747,
+  "lon": 23.722,
+  "description": "The marketplace of classical Athens, with the well-preserved Temple of Hephaestus.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "athens-gr-plaka",
+  "city_id": "athens-gr",
+  "name": "Plaka",
+  "category": "food",
+  "lat": 37.973,
+  "lon": 23.73,
+  "description": "The old quarter below the Acropolis, with stepped lanes and tavernas.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "athens-gr-mount-lycabettus",
+  "city_id": "athens-gr",
+  "name": "Mount Lycabettus",
+  "category": "viewpoint",
+  "lat": 37.9819,
+  "lon": 23.7431,
+  "description": "The highest hill in central Athens. Walk or take the funicular for the view.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "heraklion-gr-palace-of-knossos",
+  "city_id": "heraklion-gr",
+  "name": "Palace of Knossos",
+  "category": "historic",
+  "lat": 35.298,
+  "lon": 25.1631,
+  "description": "The largest Minoan palace, partly reconstructed, a short bus ride south of the city.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "heraklion-gr-heraklion-archaeological-museum",
+  "city_id": "heraklion-gr",
+  "name": "Heraklion Archaeological Museum",
+  "category": "museum",
+  "lat": 35.3387,
+  "lon": 25.1372,
+  "description": "The best collection of Minoan art anywhere, including the frescoes from Knossos.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "heraklion-gr-koules-fortress",
+  "city_id": "heraklion-gr",
+  "name": "Koules Fortress",
+  "category": "historic",
+  "lat": 35.3445,
+  "lon": 25.1367,
+  "description": "A Venetian sea fort at the mouth of the old harbour.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "heraklion-gr-ammoudara-beach",
+  "city_id": "heraklion-gr",
+  "name": "Ammoudara beach",
+  "category": "beach",
+  "lat": 35.337,
+  "lon": 25.07,
+  "description": "A long sandy beach just west of the city.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "barcelona-es-sagrada-familia",
+  "city_id": "barcelona-es",
+  "name": "Sagrada Familia",
+  "category": "historic",
+  "lat": 41.4036,
+  "lon": 2.1744,
+  "description": "Gaudi's unfinished basilica. Entry is by timed ticket and often sells out.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "barcelona-es-park-guell",
+  "city_id": "barcelona-es",
+  "name": "Park Guell",
+  "category": "viewpoint",
+  "lat": 41.4145,
+  "lon": 2.1527,
+  "description": "A hillside park of mosaic terraces and odd pavilions, with views to the sea.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "barcelona-es-gothic-quarter",
+  "city_id": "barcelona-es",
+  "name": "Gothic Quarter",
+  "category": "historic",
+  "lat": 41.3833,
+  "lon": 2.1767,
+  "description": "The medieval core of the city, around the cathedral.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "barcelona-es-la-boqueria-market",
+  "city_id": "barcelona-es",
+  "name": "La Boqueria market",
+  "category": "food",
+  "lat": 41.3817,
+  "lon": 2.1716,
+  "description": "The big covered food market off La Rambla. Go in the morning.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "barcelona-es-barceloneta-beach",
+  "city_id": "barcelona-es",
+  "name": "Barceloneta beach",
+  "category": "beach",
+  "lat": 41.3784,
+  "lon": 2.1925,
+  "description": "The closest city beach, wide and busy, with a long promenade.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "seville-es-royal-alcazar",
+  "city_id": "seville-es",
+  "name": "Royal Alcazar",
+  "category": "historic",
+  "lat": 37.3831,
+  "lon": -5.9902,
+  "description": "A palace in Moorish style with tiled halls and large gardens. Book ahead in high season.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "seville-es-seville-cathedral-and-giralda",
+  "city_id": "seville-es",
+  "name": "Seville Cathedral and Giralda",
+  "category": "historic",
+  "lat": 37.3858,
+  "lon": -5.9931,
+  "description": "One of the largest Gothic churches anywhere. The bell tower was once a minaret and can be climbed by ramp.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "seville-es-plaza-de-espana",
+  "city_id": "seville-es",
+  "name": "Plaza de Espana",
+  "category": "historic",
+  "lat": 37.3772,
+  "lon": -5.9869,
+  "description": "A sweeping half-circle of brick and painted tiles beside Maria Luisa Park.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "seville-es-triana",
+  "city_id": "seville-es",
+  "name": "Triana",
+  "category": "food",
+  "lat": 37.3838,
+  "lon": -6.003,
+  "description": "The old potters' and flamenco quarter across the river, with a covered market and many tapas bars.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "seville-es-metropol-parasol",
+  "city_id": "seville-es",
+  "name": "Metropol Parasol",
+  "category": "viewpoint",
+  "lat": 37.3933,
+  "lon": -5.9917,
+  "description": "A huge wooden canopy with a rooftop walkway and views over the old town.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "paris-fr-eiffel-tower",
+  "city_id": "paris-fr",
+  "name": "Eiffel Tower",
+  "category": "viewpoint",
+  "lat": 48.8584,
+  "lon": 2.2945,
+  "description": "The iron tower from 1889. Book a lift ticket ahead, or climb the stairs to the second floor.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "paris-fr-louvre",
+  "city_id": "paris-fr",
+  "name": "Louvre",
+  "category": "museum",
+  "lat": 48.8606,
+  "lon": 2.3376,
+  "description": "The largest art museum in the world. Choose a few sections; it can't be seen in a day.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "paris-fr-musee-d-orsay",
+  "city_id": "paris-fr",
+  "name": "Musee d'Orsay",
+  "category": "museum",
+  "lat": 48.86,
+  "lon": 2.3266,
+  "description": "Impressionist and nineteenth-century art in a former railway station.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "paris-fr-notre-dame",
+  "city_id": "paris-fr",
+  "name": "Notre-Dame",
+  "category": "historic",
+  "lat": 48.853,
+  "lon": 2.3499,
+  "description": "The Gothic cathedral on an island in the Seine.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "paris-fr-montmartre-and-sacre-coeur",
+  "city_id": "paris-fr",
+  "name": "Montmartre and Sacre-Coeur",
+  "category": "viewpoint",
+  "lat": 48.8867,
+  "lon": 2.3431,
+  "description": "A hill of steep streets topped by a white basilica, with a view across the city.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "paris-fr-luxembourg-gardens",
+  "city_id": "paris-fr",
+  "name": "Luxembourg Gardens",
+  "category": "nature",
+  "lat": 48.8462,
+  "lon": 2.3372,
+  "description": "A formal park on the Left Bank with chairs around a pond.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "saint-malo-fr-ramparts",
+  "city_id": "saint-malo-fr",
+  "name": "Ramparts",
+  "category": "historic",
+  "lat": 48.65,
+  "lon": -2.025,
+  "description": "A walk around the top of the old town's granite walls, above the beaches.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "saint-malo-fr-fort-national",
+  "city_id": "saint-malo-fr",
+  "name": "Fort National",
+  "category": "historic",
+  "lat": 48.6548,
+  "lon": -2.0235,
+  "description": "A seventeenth-century fort on a tidal rock, reached on foot at low tide.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "saint-malo-fr-grand-be",
+  "city_id": "saint-malo-fr",
+  "name": "Grand Be",
+  "category": "nature",
+  "lat": 48.653,
+  "lon": -2.0335,
+  "description": "A tidal island with a wide sea view. Check the tide times before crossing.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "saint-malo-fr-plage-du-sillon",
+  "city_id": "saint-malo-fr",
+  "name": "Plage du Sillon",
+  "category": "beach",
+  "lat": 48.656,
+  "lon": -2.01,
+  "description": "A three-kilometre sandy beach along the sea wall.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "dubrovnik-hr-city-walls",
+  "city_id": "dubrovnik-hr",
+  "name": "City walls",
+  "category": "historic",
+  "lat": 42.641,
+  "lon": 18.107,
+  "description": "A two-kilometre walk around the top of the old town's walls. Start early in summer.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "dubrovnik-hr-stradun",
+  "city_id": "dubrovnik-hr",
+  "name": "Stradun",
+  "category": "historic",
+  "lat": 42.6413,
+  "lon": 18.1087,
+  "description": "The polished limestone main street of the old town.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "dubrovnik-hr-mount-srd",
+  "city_id": "dubrovnik-hr",
+  "name": "Mount Srd",
+  "category": "viewpoint",
+  "lat": 42.6497,
+  "lon": 18.1136,
+  "description": "The hill behind the city, reached by cable car or a steep path, with a view over the roofs and islands.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "dubrovnik-hr-banje-beach",
+  "city_id": "dubrovnik-hr",
+  "name": "Banje beach",
+  "category": "beach",
+  "lat": 42.6417,
+  "lon": 18.1167,
+  "description": "A pebble beach just outside the eastern gate, looking back at the walls.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "dubrovnik-hr-lokrum-island",
+  "city_id": "dubrovnik-hr",
+  "name": "Lokrum island",
+  "category": "nature",
+  "lat": 42.6267,
+  "lon": 18.1217,
+  "description": "A wooded island fifteen minutes away by boat, with rocks for swimming and a small salt lake.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "bari-it-basilica-of-san-nicola",
+  "city_id": "bari-it",
+  "name": "Basilica of San Nicola",
+  "category": "historic",
+  "lat": 41.1302,
+  "lon": 16.8704,
+  "description": "An eleventh-century church built to hold the relics of Saint Nicholas, and a place of pilgrimage ever since.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "bari-it-bari-vecchia",
+  "city_id": "bari-it",
+  "name": "Bari Vecchia",
+  "category": "historic",
+  "lat": 41.1285,
+  "lon": 16.869,
+  "description": "The old town on its peninsula. Locals still make orecchiette pasta at tables in the street.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "bari-it-swabian-castle",
+  "city_id": "bari-it",
+  "name": "Swabian Castle",
+  "category": "historic",
+  "lat": 41.1281,
+  "lon": 16.8656,
+  "description": "A moated fortress at the edge of the old town, rebuilt by Frederick II.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "bari-it-pane-e-pomodoro-beach",
+  "city_id": "bari-it",
+  "name": "Pane e Pomodoro beach",
+  "category": "beach",
+  "lat": 41.1175,
+  "lon": 16.887,
+  "description": "The city beach: free, sandy and a short walk from the centre. People swim here from late spring to autumn.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "bari-it-lungomare-nazario-sauro",
+  "city_id": "bari-it",
+  "name": "Lungomare Nazario Sauro",
+  "category": "viewpoint",
+  "lat": 41.122,
+  "lon": 16.879,
+  "description": "A long seafront promenade lined with old street lamps, best around sunset.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "florence-it-florence-cathedral",
+  "city_id": "florence-it",
+  "name": "Florence Cathedral",
+  "category": "historic",
+  "lat": 43.7731,
+  "lon": 11.256,
+  "description": "The Duomo, with Brunelleschi's brick dome. You can climb the dome with a timed ticket.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "florence-it-uffizi-gallery",
+  "city_id": "florence-it",
+  "name": "Uffizi Gallery",
+  "category": "museum",
+  "lat": 43.7678,
+  "lon": 11.2553,
+  "description": "The great collection of Renaissance painting, including Botticelli's Birth of Venus.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "florence-it-galleria-dell-accademia",
+  "city_id": "florence-it",
+  "name": "Galleria dell'Accademia",
+  "category": "museum",
+  "lat": 43.7768,
+  "lon": 11.2586,
+  "description": "Home of Michelangelo's David.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "florence-it-ponte-vecchio",
+  "city_id": "florence-it",
+  "name": "Ponte Vecchio",
+  "category": "historic",
+  "lat": 43.768,
+  "lon": 11.2531,
+  "description": "A medieval bridge still lined with goldsmiths' shops.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "florence-it-piazzale-michelangelo",
+  "city_id": "florence-it",
+  "name": "Piazzale Michelangelo",
+  "category": "viewpoint",
+  "lat": 43.7629,
+  "lon": 11.265,
+  "description": "A terrace above the river with the classic view over the city. Walk up for sunset.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "rome-it-colosseum",
+  "city_id": "rome-it",
+  "name": "Colosseum",
+  "category": "historic",
+  "lat": 41.8902,
+  "lon": 12.4922,
+  "description": "The largest amphitheatre of the Roman world. Go at opening time or late afternoon to avoid the worst queues.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "rome-it-roman-forum",
+  "city_id": "rome-it",
+  "name": "Roman Forum",
+  "category": "historic",
+  "lat": 41.8925,
+  "lon": 12.4853,
+  "description": "The ruined centre of ancient Rome, covered by the same ticket as the Colosseum.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "rome-it-pantheon",
+  "city_id": "rome-it",
+  "name": "Pantheon",
+  "category": "historic",
+  "lat": 41.8986,
+  "lon": 12.4769,
+  "description": "A two-thousand-year-old temple with an open hole in its dome, still in use as a church.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "rome-it-trevi-fountain",
+  "city_id": "rome-it",
+  "name": "Trevi Fountain",
+  "category": "historic",
+  "lat": 41.9009,
+  "lon": 12.4833,
+  "description": "Rome's best-known baroque fountain. Quietest before breakfast.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "rome-it-vatican-museums",
+  "city_id": "rome-it",
+  "name": "Vatican Museums",
+  "category": "museum",
+  "lat": 41.9065,
+  "lon": 12.4536,
+  "description": "The papal collections, ending in the Sistine Chapel. Book a timed ticket ahead.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "rome-it-trastevere",
+  "city_id": "rome-it",
+  "name": "Trastevere",
+  "category": "food",
+  "lat": 41.8897,
+  "lon": 12.47,
+  "description": "A neighbourhood of narrow lanes across the Tiber, full of trattorias and bars.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "bergen-no-bryggen",
+  "city_id": "bergen-no",
+  "name": "Bryggen",
+  "category": "historic",
+  "lat": 60.3975,
+  "lon": 5.3245,
+  "description": "A row of wooden merchant houses on the old Hanseatic wharf.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "bergen-no-mount-floyen",
+  "city_id": "bergen-no",
+  "name": "Mount Floyen",
+  "category": "viewpoint",
+  "lat": 60.3944,
+  "lon": 5.3433,
+  "description": "A hilltop above the centre, reached by funicular, with forest trails behind it.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "bergen-no-fish-market",
+  "city_id": "bergen-no",
+  "name": "Fish Market",
+  "category": "food",
+  "lat": 60.3948,
+  "lon": 5.3252,
+  "description": "Seafood stalls on the harbour, indoors and out.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "bergen-no-kode-art-museums",
+  "city_id": "bergen-no",
+  "name": "KODE art museums",
+  "category": "museum",
+  "lat": 60.3907,
+  "lon": 5.3275,
+  "description": "Four buildings by the city lake with Norwegian art, including works by Munch.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "bergen-no-mount-ulriken",
+  "city_id": "bergen-no",
+  "name": "Mount Ulriken",
+  "category": "nature",
+  "lat": 60.3775,
+  "lon": 5.387,
+  "description": "The highest of Bergen's seven mountains. A cable car runs up, and a ridge walk leads across to Floyen.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "lagos-pt-ponta-da-piedade",
+  "city_id": "lagos-pt",
+  "name": "Ponta da Piedade",
+  "category": "nature",
+  "lat": 37.0803,
+  "lon": -8.6694,
+  "description": "A headland of golden cliffs, arches and sea caves. Walk the boardwalk or see it by kayak from below.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "lagos-pt-praia-dona-ana",
+  "city_id": "lagos-pt",
+  "name": "Praia Dona Ana",
+  "category": "beach",
+  "lat": 37.0911,
+  "lon": -8.6689,
+  "description": "A sheltered cove under tall cliffs, within walking distance of town.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "lagos-pt-praia-do-camilo",
+  "city_id": "lagos-pt",
+  "name": "Praia do Camilo",
+  "category": "beach",
+  "lat": 37.087,
+  "lon": -8.6686,
+  "description": "A small beach reached by a long wooden staircase. It fills up early in summer.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "lagos-pt-meia-praia",
+  "city_id": "lagos-pt",
+  "name": "Meia Praia",
+  "category": "beach",
+  "lat": 37.113,
+  "lon": -8.65,
+  "description": "Several kilometres of open sand east of the harbour, with room even in August.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "lagos-pt-lagos-old-town",
+  "city_id": "lagos-pt",
+  "name": "Lagos old town",
+  "category": "historic",
+  "lat": 37.102,
+  "lon": -8.673,
+  "description": "Cobbled streets inside the old walls, with restaurants and a small fort by the water.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "lisbon-pt-belem-tower",
+  "city_id": "lisbon-pt",
+  "name": "Belem Tower",
+  "category": "historic",
+  "lat": 38.6916,
+  "lon": -9.216,
+  "description": "A small sixteenth-century fortress on the river, from the age of Portuguese exploration.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "lisbon-pt-jeronimos-monastery",
+  "city_id": "lisbon-pt",
+  "name": "Jeronimos Monastery",
+  "category": "historic",
+  "lat": 38.6979,
+  "lon": -9.2068,
+  "description": "A richly carved monastery in the Manueline style. The famous custard tart bakery is next door.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "lisbon-pt-sao-jorge-castle",
+  "city_id": "lisbon-pt",
+  "name": "Sao Jorge Castle",
+  "category": "historic",
+  "lat": 38.7139,
+  "lon": -9.1335,
+  "description": "A hilltop castle above the Alfama quarter with wide views over the river.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "lisbon-pt-miradouro-da-senhora-do-monte",
+  "city_id": "lisbon-pt",
+  "name": "Miradouro da Senhora do Monte",
+  "category": "viewpoint",
+  "lat": 38.719,
+  "lon": -9.1326,
+  "description": "One of the highest viewpoints in the city, popular at sunset.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "lisbon-pt-time-out-market",
+  "city_id": "lisbon-pt",
+  "name": "Time Out Market",
+  "category": "food",
+  "lat": 38.707,
+  "lon": -9.1459,
+  "description": "A food hall in the old Ribeira market with stalls from well-known Lisbon kitchens.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "istanbul-tr-hagia-sophia",
+  "city_id": "istanbul-tr",
+  "name": "Hagia Sophia",
+  "category": "historic",
+  "lat": 41.0086,
+  "lon": 28.9802,
+  "description": "Built as a cathedral in the sixth century and now a mosque, with a vast dome.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "istanbul-tr-blue-mosque",
+  "city_id": "istanbul-tr",
+  "name": "Blue Mosque",
+  "category": "historic",
+  "lat": 41.0054,
+  "lon": 28.9768,
+  "description": "The Sultan Ahmed Mosque, known for its blue tiles and six minarets.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "istanbul-tr-topkapi-palace",
+  "city_id": "istanbul-tr",
+  "name": "Topkapi Palace",
+  "category": "museum",
+  "lat": 41.0115,
+  "lon": 28.9834,
+  "description": "The palace of the Ottoman sultans, with courtyards, treasury and harem.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "istanbul-tr-grand-bazaar",
+  "city_id": "istanbul-tr",
+  "name": "Grand Bazaar",
+  "category": "other",
+  "lat": 41.0107,
+  "lon": 28.9681,
+  "description": "One of the world's oldest covered markets, with thousands of small shops.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "istanbul-tr-galata-tower",
+  "city_id": "istanbul-tr",
+  "name": "Galata Tower",
+  "category": "viewpoint",
+  "lat": 41.0256,
+  "lon": 28.9741,
+  "description": "A medieval stone tower across the Golden Horn with a viewing balcony.",
+  "source": "curated-estimate"
+ },
+ {
+  "id": "istanbul-tr-kadikoy-market",
+  "city_id": "istanbul-tr",
+  "name": "Kadikoy market",
+  "category": "food",
+  "lat": 40.9905,
+  "lon": 29.025,
+  "description": "Food streets on the Asian side, a short ferry ride away.",
+  "source": "curated-estimate"
+ }
+]

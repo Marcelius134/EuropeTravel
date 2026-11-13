@@ -114,3 +114,15 @@ def test_city_detail(client):
 
 def test_unknown_city_is_a_404(client):
     assert client.get("/api/cities/atlantis-xx").status_code == 404
+
+
+def test_city_detail_includes_its_places(client):
+    places = client.get("/api/cities/rome-it").get_json()["places"]
+    assert "Colosseum" in [place["name"] for place in places]
+    colosseum = next(place for place in places if place["name"] == "Colosseum")
+    assert colosseum["category"] == "historic"
+    assert abs(colosseum["lat"] - 41.89) < 0.01 and abs(colosseum["lon"] - 12.49) < 0.01
+
+
+def test_city_without_places_returns_an_empty_list(client):
+    assert client.get("/api/cities/telfs-at").get_json()["places"] == []

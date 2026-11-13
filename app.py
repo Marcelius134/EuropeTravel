@@ -119,6 +119,7 @@ def create_app(store=None):
             **city,
             "region_name": region["name"],
             "country_name": region["country_name"],
+            "places": store.places_in(city["id"]),
         })
 
     return app

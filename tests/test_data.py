@@ -55,3 +55,18 @@ def test_every_curated_city_made_it_into_the_city_list():
         by_region.setdefault(city["region_id"], set()).add(city["name"])
     for entry in curated:
         assert entry["name"] in by_region[entry["region_id"]], entry["name"]
+
+
+PLACE_CATEGORIES = {"historic", "museum", "beach", "nature", "viewpoint", "food", "other"}
+
+
+def test_places_belong_to_known_cities_and_sit_near_them():
+    cities = {city["id"]: city for city in load("data/cities.json")}
+    places = load("data/places.json")
+    ids = [place["id"] for place in places]
+    assert len(ids) == len(set(ids))
+    for place in places:
+        assert place["category"] in PLACE_CATEGORIES, place["id"]
+        city = cities[place["city_id"]]
+        # Half a degree is roughly 40 to 55 km: far enough for a day trip, close enough to catch typos.
+        assert abs(place["lat"] - city["lat"]) < 0.5 and abs(place["lon"] - city["lon"]) < 0.5, place["id"]

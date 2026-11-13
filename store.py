@@ -15,6 +15,9 @@ class Store:
         self.cities_by_region = {}
         for city in self.cities:
             self.cities_by_region.setdefault(city["region_id"], []).append(city)
+        self.places_by_city = {}
+        for place in self._read("places.json"):
+            self.places_by_city.setdefault(place["city_id"], []).append(place)
 
     def _read(self, name):
         path = self.data_dir / name
@@ -31,3 +34,6 @@ class Store:
 
     def cities_in(self, region_id):
         return self.cities_by_region.get(region_id, [])
+
+    def places_in(self, city_id):
+        return self.places_by_city.get(city_id, [])

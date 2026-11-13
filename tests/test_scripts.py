@@ -175,3 +175,128 @@ def test_merge_cities_adds_a_curated_city_missing_from_geonames():
     assert cities[0]["id"] == "sagres-pt"
     assert cities[0]["population"] is None
     assert cities[0]["sources"]["position"] == "curated-estimate"
+
+
+# ---------- Wikivoyage parsing ----------
+
+from scripts import places  # noqa: E402
+
+BARI_WIKITEXT = """{{pagebanner|Bari banner.jpg}}
+'''Bari''' is the capital of [[Apulia]] in [[Italy]].<ref>source</ref>
+
+==See==
+* {{see
+| name=Basilica di San Nicola | alt= | url=http://www.basilicasannicola.it/ | email=
+| address=Largo Abate Elia | lat=41.1302 | long=16.8704 | directions=
+| phone= | hours=07:00-20:30 | price=Free
+| content=A [[Romanesque architecture|Romanesque]] church holding the relics of '''Saint Nicholas'''. Very busy in May.
+}}
+* {{see | name=Museo Archeologico | lat=41.1295 | long=16.8660 | content=Finds from {{convert|2000|year}} of history.}}
+* {{see | name=No position here | content=Skipped because it has no coordinates.}}
+* {{see | name=Castel del Monte | lat=41.0847 | long=16.2709 | content=A castle far outside the city.}}
+
+==Do==
+* {{do | name=Pane e Pomodoro | lat=41.1175 | long=16.8870 | content=The city beach.}}
+
+==Eat==
+* {{eat | name=Some trattoria | lat=41.12 | long=16.87 | content=Not collected.}}
+
+{{geo|41.1253|16.8667}}
+{{IsPartOf|Apulia}}
+"""
+
+
+def test_plain_text_strips_wiki_markup():
+    text = places.plain_text("A [[Romanesque architecture|Romanesque]] church in '''Bari'''{{citation needed}}.<ref>x</ref>")
+    assert text == "A Romanesque church in Bari."
+
+
+def test_split_parameters_ignores_pipes_inside_links():
+    assert places.split_parameters("name=A|content=See [[B|b]] and {{c|d}}|lat=1") == [
+        "name=A", "content=See [[B|b]] and {{c|d}}", "lat=1",
+    ]
+
+
+def test_article_position_reads_the_geo_template():
+    assert places.article_position(BARI_WIKITEXT) == (41.1253, 16.8667)
+    assert places.article_position("no template here") is None
+
+
+def test_parse_listings_keeps_see_and_do_with_a_nearby_position():
+    found = places.parse_listings(BARI_WIKITEXT, 41.1177, 16.8512)
+    assert [place["name"] for place in found] == ["Basilica di San Nicola", "Museo Archeologico", "Pane e Pomodoro"]
+    basilica, museum, beach = found
+    assert basilica["category"] == "historic"
+    assert basilica["description"].startswith("A Romanesque church holding the relics of Saint Nicholas.")
+    assert museum["category"] == "museum"
+    assert museum["description"] == "Finds from of history."
+    assert beach["category"] == "beach"
+    assert (beach["lat"], beach["lon"]) == (41.1175, 16.887)
+
+
+def wikivoyage_payload(wikitext, extract="Bari is a port city. It faces the Adriatic."):
+    return {"query": {"pages": [{
+        "title": "Bari", "extract": extract,
+        "revisions": [{"slots": {"main": {"content": wikitext}}}],
+    }]}}
+
+
+def test_parse_article_accepts_the_right_city():
+    article = places.parse_article(wikivoyage_payload(BARI_WIKITEXT), 41.1177, 16.8512)
+    assert article["title"] == "Bari"
+    assert article["summary"] == "Bari is a port city. It faces the Adriatic."
+    assert len(article["places"]) == 3
+
+
+def test_parse_article_rejects_a_same_named_city_elsewhere():
+    # Lagos in Portugal must not pick up the article about Lagos in Nigeria.
+    nigeria = "'''Lagos''' is the largest city in Nigeria.\n{{geo|6.45|3.39}}"
+    assert places.parse_article(wikivoyage_payload(nigeria), 37.10, -8.67) is None
+
+
+def test_parse_article_rejects_disambiguation_and_missing_pages():
+    assert places.parse_article(wikivoyage_payload("{{disamb}}\n* [[Bergen (Norway)]]"), 60.39, 5.32) is None
+    assert places.parse_article({"query": {"pages": [{"title": "Nowhere", "missing": True}]}}, 0, 0) is None
+    assert places.parse_article({}, 0, 0) is None
+
+
+def test_shorten_cuts_at_a_sentence_end():
+    text = "First sentence here. Second sentence is quite a bit longer than the first one."
+    assert places.shorten(text, 40) == "First sentence here."
+    assert places.shorten("Short.", 40) == "Short."
+
+
+def test_merge_places_prefers_hand_written_places():
+    cities = [{"id": "bari-it"}, {"id": "lecce-it"}]
+    curated = {"bari-it": [{"name": "Old Town", "category": "historic", "lat": 41.1, "lon": 16.8, "description": "x"}]}
+    fetched = {
+        "bari-it": [{"name": "Ignored", "category": "other", "lat": 41.1, "lon": 16.8, "description": ""}],
+        "lecce-it": [{"name": "Duomo", "category": "historic", "lat": 40.35, "lon": 18.17, "description": "y"}],
+    }
+    result = merge.merge_places(cities, curated, fetched)
+    assert [(p["id"], p["source"]) for p in result] == [
+        ("bari-it-old-town", "curated-estimate"), ("lecce-it-duomo", "wikivoyage"),
+    ]
+
+
+def test_merge_places_rejects_an_unknown_city():
+    with pytest.raises(RuntimeError):
+        merge.merge_places([{"id": "bari-it"}], {"atlantis-xx": []}, {})
+
+
+def test_fill_empty_holes_keeps_holes_that_hold_another_region():
+    from shapely.geometry import Polygon
+
+    from scripts.geometry import fill_empty_holes
+
+    outer = [(0, 0), (10, 0), (10, 10), (0, 10)]
+    city_hole = [(1, 1), (3, 1), (3, 3), (1, 3)]
+    empty_hole = [(6, 6), (8, 6), (8, 8), (6, 8)]
+    shapes = {
+        "AA01": Polygon(outer, [city_hole, empty_hole]),
+        "AA02": Polygon(city_hole),
+    }
+    filled = fill_empty_holes(shapes)
+    assert len(filled["AA01"].interiors) == 1
+    assert filled["AA01"].contains(Polygon(empty_hole).representative_point())
+    assert not filled["AA01"].contains(Polygon(city_hole).representative_point())

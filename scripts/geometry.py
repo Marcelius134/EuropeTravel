@@ -24,20 +24,54 @@ COAST_TOLERANCE_DEGREES = 0.08
 COAST_SHARE_FOR_FULL_SCORE = 0.5
 
 
+def fill_empty_holes(shapes):
+    """Close holes in a region that no other region occupies.
+
+    The simplified outline of Lazio has a hole for Vatican City that is far
+    larger than the real thing and swallows central Rome. Holes that contain
+    another region (Berlin inside Brandenburg, for example) are kept.
+    """
+    from shapely.geometry import MultiPolygon, Polygon
+
+    filled = {}
+    for region_id, geometry in shapes.items():
+        parts = []
+        for part in getattr(geometry, "geoms", [geometry]):
+            kept_holes = []
+            for ring in part.interiors:
+                point = Polygon(ring).representative_point()
+                occupied = any(
+                    other_id != region_id and other.contains(point) for other_id, other in shapes.items()
+                )
+                if occupied:
+                    kept_holes.append(ring)
+            parts.append(Polygon(part.exterior, kept_holes))
+        filled[region_id] = parts[0] if len(parts) == 1 else MultiPolygon(parts)
+    return filled
+
+
 def build_boundaries():
     """Download the NUTS-2 polygons and save the GeoJSON the map draws."""
+    from shapely.geometry import mapping, shape
+
     raw = fetch(NUTS_URL, cache_file=CACHE / "nutsrg_2.json")
-    features = []
+    names = {}
+    shapes = {}
     for feature in raw["features"]:
         region_id = feature["properties"]["id"]
         if region_id[:2] not in COUNTRY_NAMES or region_id.endswith("ZZ"):
             continue
-        features.append({
+        names[region_id] = feature["properties"]["na"]
+        shapes[region_id] = shape(feature["geometry"])
+    shapes = fill_empty_holes(shapes)
+    features = [
+        {
             "type": "Feature",
-            "properties": {"id": region_id, "name": feature["properties"]["na"]},
-            "geometry": feature["geometry"],
-        })
-    features.sort(key=lambda f: f["properties"]["id"])
+            "properties": {"id": region_id, "name": names[region_id]},
+            "geometry": mapping(shapes[region_id]),
+        }
+        for region_id in sorted(shapes)
+    ]
     save_json(GEO / "nuts2.geojson", {"type": "FeatureCollection", "features": features}, compact=True)
     print(f"boundaries: wrote {len(features)} regions to static/geo/nuts2.geojson")
     return features

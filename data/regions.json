@@ -5999,7 +5999,7 @@
    42.0235,
    12.5074
   ],
-  "area_km2": 17260.5,
+  "area_km2": 17332.9,
   "climate": {
    "temp_max_c": [
     12,
@@ -6031,7 +6031,7 @@
    ]
   },
   "features": {
-   "coast": 0.69,
+   "coast": 0.724,
    "nature": 0.4,
    "historic": 1.0,
    "crowd": 0.85
