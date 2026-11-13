@@ -60,17 +60,17 @@ The 46 regions and 14 cities with hand-written content are listed in `data/curat
 
 | Commit | Contents |
 |---|---|
-| `08d97d0` | Skeleton, base map, docs |
-| `ec97650` | Phase 1: regions, filters, matching, glow |
-| `190d3c4` | Phase 2: cities |
-| `9ef4cb5` | Phase 3: places |
+| `8414f2e` | Skeleton, base map, docs |
+| `885f174` | Phase 1: regions, filters, matching, glow |
+| `f0b0ae3` | Phase 2: cities |
+| `793ea21` | Phase 3: places |
 
 To go back to any of them: `git checkout <commit>`. To tag them:
 
 ```bash
-git tag v0.1-scaffold 08d97d0
-git tag v0.2-phase1 ec97650
-git tag v0.3-phase2 190d3c4
-git tag v0.4-phase3 9ef4cb5
+git tag v0.1-scaffold 8414f2e
+git tag v0.2-phase1 885f174
+git tag v0.3-phase2 f0b0ae3
+git tag v0.4-phase3 793ea21
 git push --tags
 ```
