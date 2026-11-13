@@ -1,0 +1,5 @@
+# Only needed to rebuild the data sets (python -m scripts.build_data ...).
+# The app itself runs without these.
+requests>=2.31
+shapely>=2.0
+geonamescache>=2.0

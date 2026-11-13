@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# EuropeTravel: raw downloads used by scripts/build_data.py
+data/cache/

@@ -1,0 +1,23 @@
+:root {
+  --sea: #0b1420;
+  --panel: #111b29;
+  --line: #7f93a8;
+  --text: #eef2f6;
+  --glow: #f5b942;
+  --city: #4dd0e1;
+}
+
+* { box-sizing: border-box; }
+
+html, body { height: 100%; margin: 0; }
+
+body {
+  background: var(--sea);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+}
+
+#map { position: absolute; inset: 0; background: var(--sea); }
+
+.brand { position: absolute; z-index: 1000; top: 16px; left: 56px; }
+.brand__name { margin: 0; font-size: 1.25rem; font-weight: 500; }
