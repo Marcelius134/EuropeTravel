@@ -36,3 +36,22 @@ def test_every_value_says_where_it_came_from():
         for name, value in region["features"].items():
             assert (value is None) == (region["sources"][name] is None), (region["id"], name)
         assert (region["climate"] is None) == (region["sources"]["climate"] is None), region["id"]
+
+
+def test_cities_belong_to_known_regions_and_have_unique_ids():
+    region_ids = {r["id"] for r in load("data/regions.json")}
+    cities = load("data/cities.json")
+    ids = [city["id"] for city in cities]
+    assert len(ids) == len(set(ids))
+    for city in cities:
+        assert city["region_id"] in region_ids, city["id"]
+        assert 25 < city["lat"] < 82 and -35 < city["lon"] < 50, city["id"]
+
+
+def test_every_curated_city_made_it_into_the_city_list():
+    curated = load("data/curated/cities.json")["cities"]
+    by_region = {}
+    for city in load("data/cities.json"):
+        by_region.setdefault(city["region_id"], set()).add(city["name"])
+    for entry in curated:
+        assert entry["name"] in by_region[entry["region_id"]], entry["name"]

@@ -19,6 +19,7 @@
     scores: {},
     ranked: [],
     selected: null,
+    view: null, // what the drawer shows: "region", "city" or null
     names: {},
   };
 
@@ -330,7 +331,6 @@
     state.month = state.month === month ? null : month;
     renderMonths();
     runMatch();
-    if (state.selected) selectRegion(state.selected, { keepView: true });
   }
 
   thresholdInput.addEventListener("input", () => {
@@ -375,7 +375,8 @@
     restyleRegions(true);
     renderResults();
     emit("match:updated", state);
-    if (state.selected) selectRegion(state.selected, { keepView: true });
+    // Keep an open region card in step with the new filters or month.
+    if (state.selected && state.view === "region") selectRegion(state.selected, { keepView: true });
   }
 
   function renderResults() {
@@ -490,6 +491,7 @@
     drawer.hidden = true;
     const previous = state.selected;
     state.selected = null;
+    state.view = null;
     restyleRegions();
     emit("drawer:closed", { regionId: previous });
   }
@@ -506,8 +508,9 @@
   async function selectRegion(id, options) {
     const keepView = options && options.keepView;
     const request = ++regionRequest;
-    const changed = state.selected !== id;
+    const changed = state.selected !== id || state.view !== "region";
     state.selected = id;
+    state.view = "region";
     restyleRegions();
     if (!keepView && layersById[id]) {
       map.fitBounds(layersById[id].getBounds(), {
@@ -536,13 +539,13 @@
     const fit = fitBlock(region);
     if (fit) body.push(fit);
 
-    body.push(h("section", {}, h("p", {}, region.summary)));
+    body.push(h("section", { "data-section": "summary" }, h("p", {}, region.summary)));
 
     if (region.highlights.length > 0) {
       body.push(
         h(
           "section",
-          {},
+          { "data-section": "highlights" },
           h("h3", {}, "What people come for"),
           h("ul", { class: "bullets" }, region.highlights.map((item) => h("li", {}, item)))
         )
@@ -552,7 +555,7 @@
     body.push(
       h(
         "section",
-        {},
+        { "data-section": "climate" },
         h("h3", {}, "Through the year"),
         region.climate
           ? climateChart(region.climate)
@@ -563,7 +566,7 @@
     body.push(
       h(
         "section",
-        {},
+        { "data-section": "glance" },
         h("h3", {}, "At a glance"),
         h(
           "div",
@@ -728,9 +731,18 @@
     );
   }
 
+  // Centre a point in the part of the map that the drawer does not cover.
+  function focusOn(latlng, zoom) {
+    const shift = isNarrow() ? [0, window.innerHeight * 0.3] : [-DRAWER_PADDING / 2, 0];
+    const target = map.project(latlng, zoom).add(shift);
+    map.flyTo(map.unproject(target, zoom), zoom, { duration: 0.8 });
+  }
+
   // ---------- Start ----------
 
-  window.ET = { map, state, on, emit, h, api, showStatus, openDrawer, closeDrawer, selectRegion, isNarrow, layersById };
+  window.ET = {
+    map, state, on, emit, h, api, showStatus, openDrawer, closeDrawer, selectRegion, restyleRegions, focusOn, isNarrow, layersById,
+  };
 
   async function start() {
     setBasemap("dark");

@@ -1,0 +1,9322 @@
+{
+ "AL01": [
+  {
+   "geonameid": 3185728,
+   "name": "Durrës",
+   "lat": 41.3235,
+   "lon": 19.4547,
+   "population": 195920
+  },
+  {
+   "geonameid": 3184081,
+   "name": "Shkodër",
+   "lat": 42.0683,
+   "lon": 19.5126,
+   "population": 95553
+  },
+  {
+   "geonameid": 3185082,
+   "name": "Krujë",
+   "lat": 41.5092,
+   "lon": 19.7928,
+   "population": 51191
+  },
+  {
+   "geonameid": 782661,
+   "name": "Kukës",
+   "lat": 42.0769,
+   "lon": 20.4219,
+   "population": 36125
+  }
+ ],
+ "AL02": [
+  {
+   "geonameid": 3183875,
+   "name": "Tirana",
+   "lat": 41.3274,
+   "lon": 19.8187,
+   "population": 418495
+  },
+  {
+   "geonameid": 783263,
+   "name": "Elbasan",
+   "lat": 41.1114,
+   "lon": 20.0822,
+   "population": 100903
+  },
+  {
+   "geonameid": 3185211,
+   "name": "Kavajë",
+   "lat": 41.1856,
+   "lon": 19.5569,
+   "population": 30012
+  },
+  {
+   "geonameid": 782519,
+   "name": "Librazhd",
+   "lat": 41.1794,
+   "lon": 20.315,
+   "population": 23312
+  }
+ ],
+ "AL03": [
+  {
+   "geonameid": 3183719,
+   "name": "Vlorë",
+   "lat": 40.4696,
+   "lon": 19.4838,
+   "population": 115261
+  },
+  {
+   "geonameid": 3184862,
+   "name": "Lushnjë",
+   "lat": 40.9419,
+   "lon": 19.705,
+   "population": 63135
+  },
+  {
+   "geonameid": 3186084,
+   "name": "Berat",
+   "lat": 40.7058,
+   "lon": 19.9522,
+   "population": 62232
+  },
+  {
+   "geonameid": 3185670,
+   "name": "Fier-Çifçi",
+   "lat": 40.7167,
+   "lon": 19.5667,
+   "population": 60995
+  }
+ ],
+ "AT11": [
+  {
+   "geonameid": 2780180,
+   "name": "Eisenzicken",
+   "lat": 47.276,
+   "lon": 16.2591,
+   "population": 54353
+  }
+ ],
+ "AT12": [
+  {
+   "geonameid": 2761353,
+   "name": "Wiener Neustadt",
+   "lat": 47.8049,
+   "lon": 16.232,
+   "population": 44820
+  },
+  {
+   "geonameid": 2782067,
+   "name": "Baden",
+   "lat": 48.0054,
+   "lon": 16.2326,
+   "population": 26286
+  },
+  {
+   "geonameid": 2766429,
+   "name": "Sankt Pölten",
+   "lat": 48.2076,
+   "lon": 15.6372,
+   "population": 21911
+  },
+  {
+   "geonameid": 2771335,
+   "name": "Mödling",
+   "lat": 48.0861,
+   "lon": 16.2892,
+   "population": 20555
+  }
+ ],
+ "AT13": [
+  {
+   "geonameid": 2761369,
+   "name": "Vienna",
+   "lat": 48.2085,
+   "lon": 16.3721,
+   "population": 1691468
+  },
+  {
+   "geonameid": 2782315,
+   "name": "Aspern",
+   "lat": 48.2181,
+   "lon": 16.4831,
+   "population": 50687
+  }
+ ],
+ "AT21": [
+  {
+   "geonameid": 2774326,
+   "name": "Klagenfurt am Wörthersee",
+   "lat": 46.6247,
+   "lon": 14.3053,
+   "population": 100316
+  },
+  {
+   "geonameid": 2762372,
+   "name": "Villach",
+   "lat": 46.6103,
+   "lon": 13.8558,
+   "population": 58882
+  },
+  {
+   "geonameid": 2760910,
+   "name": "Wolfsberg",
+   "lat": 46.8406,
+   "lon": 14.8442,
+   "population": 25035
+  }
+ ],
+ "AT22": [
+  {
+   "geonameid": 2778067,
+   "name": "Graz",
+   "lat": 47.0673,
+   "lon": 15.442,
+   "population": 303270
+  }
+ ],
+ "AT31": [
+  {
+   "geonameid": 2772400,
+   "name": "Linz",
+   "lat": 48.3064,
+   "lon": 14.2861,
+   "population": 204846
+  },
+  {
+   "geonameid": 2764359,
+   "name": "Steyr",
+   "lat": 48.0427,
+   "lon": 14.4213,
+   "population": 38331
+  },
+  {
+   "geonameid": 2763423,
+   "name": "Traun",
+   "lat": 48.2209,
+   "lon": 14.2383,
+   "population": 25345
+  },
+  {
+   "geonameid": 2761524,
+   "name": "Wels",
+   "lat": 48.1667,
+   "lon": 14.0333,
+   "population": 16857
+  }
+ ],
+ "AT32": [
+  {
+   "geonameid": 2766824,
+   "name": "Salzburg",
+   "lat": 47.7994,
+   "lon": 13.044,
+   "population": 157245
+  },
+  {
+   "geonameid": 2766922,
+   "name": "Saalfelden am Steinernen Meer",
+   "lat": 47.4268,
+   "lon": 12.848,
+   "population": 16790
+  }
+ ],
+ "AT33": [
+  {
+   "geonameid": 2775220,
+   "name": "Innsbruck",
+   "lat": 47.2627,
+   "lon": 11.3945,
+   "population": 132493
+  },
+  {
+   "geonameid": 2763810,
+   "name": "Telfs",
+   "lat": 47.3071,
+   "lon": 11.0682,
+   "population": 15229
+  }
+ ],
+ "AT34": [
+  {
+   "geonameid": 2780741,
+   "name": "Dornbirn",
+   "lat": 47.4143,
+   "lon": 9.7419,
+   "population": 49278
+  },
+  {
+   "geonameid": 2779674,
+   "name": "Feldkirch",
+   "lat": 47.2364,
+   "lon": 9.5973,
+   "population": 33420
+  },
+  {
+   "geonameid": 2781503,
+   "name": "Bregenz",
+   "lat": 47.5031,
+   "lon": 9.7471,
+   "population": 29806
+  },
+  {
+   "geonameid": 2781680,
+   "name": "Bludenz",
+   "lat": 47.1548,
+   "lon": 9.8225,
+   "population": 15102
+  }
+ ],
+ "BE10": [
+  {
+   "geonameid": 2800866,
+   "name": "Brussels",
+   "lat": 50.8505,
+   "lon": 4.3488,
+   "population": 1019022
+  }
+ ],
+ "BE21": [
+  {
+   "geonameid": 2803138,
+   "name": "Antwerp",
+   "lat": 51.2205,
+   "lon": 4.4003,
+   "population": 529247
+  },
+  {
+   "geonameid": 2791537,
+   "name": "Mechelen",
+   "lat": 51.0257,
+   "lon": 4.4776,
+   "population": 77530
+  },
+  {
+   "geonameid": 2785141,
+   "name": "Turnhout",
+   "lat": 51.3225,
+   "lon": 4.9447,
+   "population": 44000
+  },
+  {
+   "geonameid": 2796153,
+   "name": "Heist-op-den-Berg",
+   "lat": 51.0754,
+   "lon": 4.7283,
+   "population": 37873
+  }
+ ],
+ "BE22": [
+  {
+   "geonameid": 2796491,
+   "name": "Hasselt",
+   "lat": 50.9311,
+   "lon": 5.3378,
+   "population": 77651
+  },
+  {
+   "geonameid": 2797670,
+   "name": "Genk",
+   "lat": 50.965,
+   "lon": 5.5008,
+   "population": 63666
+  },
+  {
+   "geonameid": 2802170,
+   "name": "Beringen",
+   "lat": 51.0495,
+   "lon": 5.2261,
+   "population": 40930
+  },
+  {
+   "geonameid": 2786545,
+   "name": "Sint-Truiden",
+   "lat": 50.8168,
+   "lon": 5.1865,
+   "population": 37859
+  }
+ ],
+ "BE23": [
+  {
+   "geonameid": 2797656,
+   "name": "Gent",
+   "lat": 51.05,
+   "lon": 3.7167,
+   "population": 265086
+  },
+  {
+   "geonameid": 2803448,
+   "name": "Aalst",
+   "lat": 50.936,
+   "lon": 4.0355,
+   "population": 77534
+  },
+  {
+   "geonameid": 2786578,
+   "name": "Sint-Niklaas",
+   "lat": 51.1651,
+   "lon": 4.1437,
+   "population": 69010
+  },
+  {
+   "geonameid": 2799645,
+   "name": "Dendermonde",
+   "lat": 51.0287,
+   "lon": 4.1011,
+   "population": 45673
+  }
+ ],
+ "BE24": [
+  {
+   "geonameid": 2792482,
+   "name": "Leuven",
+   "lat": 50.8796,
+   "lon": 4.7009,
+   "population": 101032
+  },
+  {
+   "geonameid": 2799365,
+   "name": "Dilbeek",
+   "lat": 50.848,
+   "lon": 4.2597,
+   "population": 39482
+  },
+  {
+   "geonameid": 2797114,
+   "name": "Grimbergen",
+   "lat": 50.9341,
+   "lon": 4.3721,
+   "population": 37000
+  },
+  {
+   "geonameid": 2796696,
+   "name": "Halle",
+   "lat": 50.7338,
+   "lon": 4.2345,
+   "population": 34479
+  }
+ ],
+ "BE25": [
+  {
+   "geonameid": 2800931,
+   "name": "Brugge",
+   "lat": 51.2089,
+   "lon": 3.2242,
+   "population": 118509
+  },
+  {
+   "geonameid": 2794055,
+   "name": "Kortrijk",
+   "lat": 50.828,
+   "lon": 3.2649,
+   "population": 73879
+  },
+  {
+   "geonameid": 2789786,
+   "name": "Ostend",
+   "lat": 51.2155,
+   "lon": 2.927,
+   "population": 69011
+  },
+  {
+   "geonameid": 2787889,
+   "name": "Roeselare",
+   "lat": 50.9465,
+   "lon": 3.1227,
+   "population": 56016
+  }
+ ],
+ "BE31": [
+  {
+   "geonameid": 2801154,
+   "name": "Braine-l'Alleud",
+   "lat": 50.6836,
+   "lon": 4.3678,
+   "population": 37512
+  },
+  {
+   "geonameid": 2783941,
+   "name": "Wavre",
+   "lat": 50.7172,
+   "lon": 4.6014,
+   "population": 34305
+  },
+  {
+   "geonameid": 2790101,
+   "name": "Nivelles",
+   "lat": 50.5983,
+   "lon": 4.3285,
+   "population": 24149
+  },
+  {
+   "geonameid": 2785169,
+   "name": "Tubize",
+   "lat": 50.6906,
+   "lon": 4.2009,
+   "population": 18000
+  }
+ ],
+ "BE32": [
+  {
+   "geonameid": 2800481,
+   "name": "Charleroi",
+   "lat": 50.4114,
+   "lon": 4.4445,
+   "population": 200132
+  },
+  {
+   "geonameid": 2790869,
+   "name": "Mons",
+   "lat": 50.4541,
+   "lon": 3.9523,
+   "population": 95299
+  },
+  {
+   "geonameid": 2793508,
+   "name": "La Louvière",
+   "lat": 50.4866,
+   "lon": 4.1879,
+   "population": 76668
+  },
+  {
+   "geonameid": 2785341,
+   "name": "Tournai",
+   "lat": 50.6071,
+   "lon": 3.3893,
+   "population": 69554
+  }
+ ],
+ "BE33": [
+  {
+   "geonameid": 2792413,
+   "name": "Liège",
+   "lat": 50.6337,
+   "lon": 5.5675,
+   "population": 195278
+  },
+  {
+   "geonameid": 2784821,
+   "name": "Verviers",
+   "lat": 50.5891,
+   "lon": 5.8624,
+   "population": 52824
+  },
+  {
+   "geonameid": 2798307,
+   "name": "Flémalle-Haute",
+   "lat": 50.5999,
+   "lon": 5.4447,
+   "population": 25144
+  },
+  {
+   "geonameid": 2789471,
+   "name": "Oupeye",
+   "lat": 50.7118,
+   "lon": 5.6468,
+   "population": 23594
+  }
+ ],
+ "BE34": [
+  {
+   "geonameid": 2803073,
+   "name": "Arlon",
+   "lat": 49.6833,
+   "lon": 5.8167,
+   "population": 26179
+  },
+  {
+   "geonameid": 2791744,
+   "name": "Marche-en-Famenne",
+   "lat": 50.2268,
+   "lon": 5.3442,
+   "population": 16856
+  }
+ ],
+ "BE35": [
+  {
+   "geonameid": 2790471,
+   "name": "Namur",
+   "lat": 50.4669,
+   "lon": 4.8675,
+   "population": 110939
+  },
+  {
+   "geonameid": 2803204,
+   "name": "Andenne",
+   "lat": 50.4894,
+   "lon": 5.0951,
+   "population": 24055
+  },
+  {
+   "geonameid": 2797713,
+   "name": "Gembloux",
+   "lat": 50.5615,
+   "lon": 4.6989,
+   "population": 21676
+  },
+  {
+   "geonameid": 2784189,
+   "name": "Walcourt",
+   "lat": 50.254,
+   "lon": 4.438,
+   "population": 17501
+  }
+ ],
+ "BG31": [
+  {
+   "geonameid": 728203,
+   "name": "Pleven",
+   "lat": 43.4179,
+   "lon": 24.6167,
+   "population": 90209
+  },
+  {
+   "geonameid": 725712,
+   "name": "Vratsa",
+   "lat": 43.2105,
+   "lon": 23.5631,
+   "population": 49569
+  },
+  {
+   "geonameid": 729114,
+   "name": "Montana",
+   "lat": 43.4128,
+   "lon": 23.2217,
+   "population": 47445
+  },
+  {
+   "geonameid": 725905,
+   "name": "Vidin",
+   "lat": 43.9916,
+   "lon": 22.8824,
+   "population": 34797
+  }
+ ],
+ "BG32": [
+  {
+   "geonameid": 725993,
+   "name": "Veliko Tŭrnovo",
+   "lat": 43.0812,
+   "lon": 25.629,
+   "population": 59166
+  },
+  {
+   "geonameid": 731549,
+   "name": "Gabrovo",
+   "lat": 42.8742,
+   "lon": 25.3182,
+   "population": 48133
+  },
+  {
+   "geonameid": 726534,
+   "name": "Svishtov",
+   "lat": 43.6187,
+   "lon": 25.3503,
+   "population": 30157
+  },
+  {
+   "geonameid": 727221,
+   "name": "Silistra",
+   "lat": 44.1171,
+   "lon": 27.2606,
+   "population": 29498
+  }
+ ],
+ "BG33": [
+  {
+   "geonameid": 726050,
+   "name": "Varna",
+   "lat": 43.2191,
+   "lon": 27.9102,
+   "population": 318737
+  },
+  {
+   "geonameid": 727233,
+   "name": "Shumen",
+   "lat": 43.2706,
+   "lon": 26.9229,
+   "population": 72342
+  },
+  {
+   "geonameid": 726418,
+   "name": "Dobrich",
+   "lat": 43.5649,
+   "lon": 27.8314,
+   "population": 69434
+  },
+  {
+   "geonameid": 726174,
+   "name": "Targovishte",
+   "lat": 43.2512,
+   "lon": 26.5722,
+   "population": 34793
+  }
+ ],
+ "BG34": [
+  {
+   "geonameid": 732770,
+   "name": "Burgas",
+   "lat": 42.5065,
+   "lon": 27.4689,
+   "population": 210646
+  },
+  {
+   "geonameid": 726848,
+   "name": "Stara Zagora",
+   "lat": 42.432,
+   "lon": 25.6426,
+   "population": 121582
+  },
+  {
+   "geonameid": 727079,
+   "name": "Sliven",
+   "lat": 42.6861,
+   "lon": 26.3256,
+   "population": 83740
+  },
+  {
+   "geonameid": 725578,
+   "name": "Yambol",
+   "lat": 42.4824,
+   "lon": 26.5001,
+   "population": 63656
+  }
+ ],
+ "BG41": [
+  {
+   "geonameid": 727011,
+   "name": "Sofia",
+   "lat": 42.6975,
+   "lon": 23.3241,
+   "population": 1152556
+  },
+  {
+   "geonameid": 728330,
+   "name": "Pernik",
+   "lat": 42.5967,
+   "lon": 23.0332,
+   "population": 82467
+  },
+  {
+   "geonameid": 733191,
+   "name": "Blagoevgrad",
+   "lat": 42.0146,
+   "lon": 23.098,
+   "population": 67810
+  },
+  {
+   "geonameid": 729730,
+   "name": "Kyustendil",
+   "lat": 42.2831,
+   "lon": 22.6922,
+   "population": 46856
+  }
+ ],
+ "BG42": [
+  {
+   "geonameid": 728193,
+   "name": "Plovdiv",
+   "lat": 42.1539,
+   "lon": 24.75,
+   "population": 329489
+  },
+  {
+   "geonameid": 730435,
+   "name": "Haskovo",
+   "lat": 41.9342,
+   "lon": 25.5556,
+   "population": 64564
+  },
+  {
+   "geonameid": 728378,
+   "name": "Pazardzhik",
+   "lat": 42.1993,
+   "lon": 24.3332,
+   "population": 55220
+  },
+  {
+   "geonameid": 733618,
+   "name": "Asenovgrad",
+   "lat": 42.0167,
+   "lon": 24.8667,
+   "population": 54778
+  }
+ ],
+ "CH01": [
+  {
+   "geonameid": 2660646,
+   "name": "Geneva",
+   "lat": 46.2022,
+   "lon": 6.1457,
+   "population": 201741
+  },
+  {
+   "geonameid": 2659994,
+   "name": "Lausanne",
+   "lat": 46.516,
+   "lon": 6.6328,
+   "population": 139111
+  },
+  {
+   "geonameid": 2658576,
+   "name": "Sitten",
+   "lat": 46.2274,
+   "lon": 7.3556,
+   "population": 34708
+  },
+  {
+   "geonameid": 2657941,
+   "name": "Yverdon-les-Bains",
+   "lat": 46.7785,
+   "lon": 6.6411,
+   "population": 30157
+  }
+ ],
+ "CH02": [
+  {
+   "geonameid": 2661552,
+   "name": "Bern",
+   "lat": 46.9481,
+   "lon": 7.4474,
+   "population": 121631
+  },
+  {
+   "geonameid": 2661513,
+   "name": "Biel/Bienne",
+   "lat": 47.1371,
+   "lon": 7.2461,
+   "population": 55120
+  },
+  {
+   "geonameid": 2658377,
+   "name": "Thun",
+   "lat": 46.7512,
+   "lon": 7.6217,
+   "population": 43723
+  },
+  {
+   "geonameid": 2660718,
+   "name": "Fribourg",
+   "lat": 46.8024,
+   "lon": 7.1513,
+   "population": 38365
+  }
+ ],
+ "CH03": [
+  {
+   "geonameid": 2661604,
+   "name": "Basel",
+   "lat": 47.5584,
+   "lon": 7.5733,
+   "population": 177595
+  },
+  {
+   "geonameid": 2661881,
+   "name": "Aarau",
+   "lat": 47.3925,
+   "lon": 8.0442,
+   "population": 21503
+  },
+  {
+   "geonameid": 2661646,
+   "name": "Baden",
+   "lat": 47.4733,
+   "lon": 8.3059,
+   "population": 19340
+  }
+ ],
+ "CH04": [
+  {
+   "geonameid": 2657896,
+   "name": "Zürich",
+   "lat": 47.3667,
+   "lon": 8.55,
+   "population": 415367
+  },
+  {
+   "geonameid": 2657970,
+   "name": "Winterthur",
+   "lat": 47.5056,
+   "lon": 8.7241,
+   "population": 111840
+  },
+  {
+   "geonameid": 2658216,
+   "name": "Uster",
+   "lat": 47.3471,
+   "lon": 8.7209,
+   "population": 34715
+  },
+  {
+   "geonameid": 2660305,
+   "name": "Horgen",
+   "lat": 47.2598,
+   "lon": 8.5978,
+   "population": 22662
+  }
+ ],
+ "CH05": [
+  {
+   "geonameid": 2658822,
+   "name": "Sankt Gallen",
+   "lat": 47.4239,
+   "lon": 9.3748,
+   "population": 75833
+  },
+  {
+   "geonameid": 2658761,
+   "name": "Schaffhausen",
+   "lat": 47.6973,
+   "lon": 8.6349,
+   "population": 36587
+  },
+  {
+   "geonameid": 2661169,
+   "name": "Chur",
+   "lat": 46.8499,
+   "lon": 9.5329,
+   "population": 35373
+  },
+  {
+   "geonameid": 2659099,
+   "name": "Rapperswil",
+   "lat": 47.2256,
+   "lon": 8.8223,
+   "population": 34776
+  }
+ ],
+ "CH06": [
+  {
+   "geonameid": 2659811,
+   "name": "Luzern",
+   "lat": 47.0505,
+   "lon": 8.3064,
+   "population": 81691
+  },
+  {
+   "geonameid": 2657908,
+   "name": "Zug",
+   "lat": 47.1724,
+   "lon": 8.5175,
+   "population": 30542
+  },
+  {
+   "geonameid": 2660925,
+   "name": "Einsiedeln",
+   "lat": 47.1285,
+   "lon": 8.7474,
+   "population": 15867
+  },
+  {
+   "geonameid": 2658665,
+   "name": "Schwyz",
+   "lat": 47.0208,
+   "lon": 8.6541,
+   "population": 15181
+  }
+ ],
+ "CH07": [
+  {
+   "geonameid": 2659836,
+   "name": "Lugano",
+   "lat": 46.0101,
+   "lon": 8.96,
+   "population": 63185
+  },
+  {
+   "geonameid": 2661567,
+   "name": "Bellinzona",
+   "lat": 46.1928,
+   "lon": 9.017,
+   "population": 43220
+  },
+  {
+   "geonameid": 2659869,
+   "name": "Locarno",
+   "lat": 46.1709,
+   "lon": 8.7995,
+   "population": 15824
+  }
+ ],
+ "CY00": [
+  {
+   "geonameid": 146268,
+   "name": "Nicosia",
+   "lat": 35.1728,
+   "lon": 33.354,
+   "population": 200452
+  },
+  {
+   "geonameid": 146384,
+   "name": "Limassol",
+   "lat": 34.6841,
+   "lon": 33.0379,
+   "population": 154000
+  },
+  {
+   "geonameid": 146400,
+   "name": "Larnaca",
+   "lat": 34.9221,
+   "lon": 33.6279,
+   "population": 72000
+  },
+  {
+   "geonameid": 146617,
+   "name": "Famagusta",
+   "lat": 35.1249,
+   "lon": 33.9413,
+   "population": 42526
+  }
+ ],
+ "CZ01": [
+  {
+   "geonameid": 3067696,
+   "name": "Prague",
+   "lat": 50.088,
+   "lon": 14.4208,
+   "population": 1165581
+  },
+  {
+   "geonameid": 3065112,
+   "name": "Stodůlky",
+   "lat": 50.05,
+   "lon": 14.3167,
+   "population": 60758
+  },
+  {
+   "geonameid": 3077700,
+   "name": "Chodov",
+   "lat": 50.0367,
+   "lon": 14.5044,
+   "population": 50043
+  },
+  {
+   "geonameid": 6269470,
+   "name": "Černý Most",
+   "lat": 50.1048,
+   "lon": 14.5797,
+   "population": 22466
+  }
+ ],
+ "CZ02": [
+  {
+   "geonameid": 3073699,
+   "name": "Kladno",
+   "lat": 50.1473,
+   "lon": 14.1029,
+   "population": 69664
+  },
+  {
+   "geonameid": 3070544,
+   "name": "Mladá Boleslav",
+   "lat": 50.4113,
+   "lon": 14.9032,
+   "population": 43684
+  },
+  {
+   "geonameid": 3073371,
+   "name": "Kolín",
+   "lat": 50.0281,
+   "lon": 15.1998,
+   "population": 33444
+  },
+  {
+   "geonameid": 3067542,
+   "name": "Příbram",
+   "lat": 49.6899,
+   "lon": 14.0104,
+   "population": 32773
+  }
+ ],
+ "CZ03": [
+  {
+   "geonameid": 3068160,
+   "name": "Pilsen",
+   "lat": 49.7475,
+   "lon": 13.3776,
+   "population": 168733
+  },
+  {
+   "geonameid": 3077916,
+   "name": "České Budějovice",
+   "lat": 48.9745,
+   "lon": 14.4743,
+   "population": 93426
+  },
+  {
+   "geonameid": 3064379,
+   "name": "Tábor",
+   "lat": 49.4144,
+   "lon": 14.6578,
+   "population": 36264
+  },
+  {
+   "geonameid": 3068293,
+   "name": "Písek",
+   "lat": 49.3088,
+   "lon": 14.1475,
+   "population": 29774
+  }
+ ],
+ "CZ04": [
+  {
+   "geonameid": 3063548,
+   "name": "Ústí nad Labem",
+   "lat": 50.6607,
+   "lon": 14.0323,
+   "population": 90378
+  },
+  {
+   "geonameid": 3070291,
+   "name": "Most",
+   "lat": 50.503,
+   "lon": 13.6362,
+   "population": 63474
+  },
+  {
+   "geonameid": 3064288,
+   "name": "Teplice",
+   "lat": 50.6404,
+   "lon": 13.8245,
+   "population": 50912
+  },
+  {
+   "geonameid": 3077685,
+   "name": "Chomutov",
+   "lat": 50.4605,
+   "lon": 13.4178,
+   "population": 46771
+  }
+ ],
+ "CZ05": [
+  {
+   "geonameid": 3071961,
+   "name": "Liberec",
+   "lat": 50.7671,
+   "lon": 15.0562,
+   "population": 102951
+  },
+  {
+   "geonameid": 3074967,
+   "name": "Hradec Králové",
+   "lat": 50.2092,
+   "lon": 15.8328,
+   "population": 90596
+  },
+  {
+   "geonameid": 3068582,
+   "name": "Pardubice",
+   "lat": 50.0408,
+   "lon": 15.7766,
+   "population": 88520
+  },
+  {
+   "geonameid": 3074603,
+   "name": "Jablonec nad Nisou",
+   "lat": 50.7243,
+   "lon": 15.1711,
+   "population": 46209
+  }
+ ],
+ "CZ06": [
+  {
+   "geonameid": 3078610,
+   "name": "Brno",
+   "lat": 49.1952,
+   "lon": 16.608,
+   "population": 379466
+  },
+  {
+   "geonameid": 3074199,
+   "name": "Jihlava",
+   "lat": 49.3961,
+   "lon": 15.5912,
+   "population": 50108
+  },
+  {
+   "geonameid": 3061344,
+   "name": "Znojmo",
+   "lat": 48.8555,
+   "lon": 16.0488,
+   "population": 35280
+  },
+  {
+   "geonameid": 3064104,
+   "name": "Třebíč",
+   "lat": 49.2149,
+   "lon": 15.8817,
+   "population": 34530
+  }
+ ],
+ "CZ07": [
+  {
+   "geonameid": 3069011,
+   "name": "Olomouc",
+   "lat": 49.5955,
+   "lon": 17.2518,
+   "population": 99496
+  },
+  {
+   "geonameid": 3061370,
+   "name": "Zlín",
+   "lat": 49.2264,
+   "lon": 17.6706,
+   "population": 72973
+  },
+  {
+   "geonameid": 3067421,
+   "name": "Prostějov",
+   "lat": 49.4719,
+   "lon": 17.1118,
+   "population": 43408
+  },
+  {
+   "geonameid": 3067580,
+   "name": "Přerov",
+   "lat": 49.4551,
+   "lon": 17.4509,
+   "population": 40906
+  }
+ ],
+ "CZ08": [
+  {
+   "geonameid": 3068799,
+   "name": "Ostrava",
+   "lat": 49.8347,
+   "lon": 18.282,
+   "population": 279791
+  },
+  {
+   "geonameid": 3075921,
+   "name": "Havířov",
+   "lat": 49.7798,
+   "lon": 18.4369,
+   "population": 82768
+  },
+  {
+   "geonameid": 3068927,
+   "name": "Opava",
+   "lat": 49.9387,
+   "lon": 17.9026,
+   "population": 60252
+  },
+  {
+   "geonameid": 3076127,
+   "name": "Frýdek-Místek",
+   "lat": 49.6833,
+   "lon": 18.35,
+   "population": 53590
+  }
+ ],
+ "DE11": [
+  {
+   "geonameid": 2825297,
+   "name": "Stuttgart",
+   "lat": 48.7823,
+   "lon": 9.177,
+   "population": 612663
+  },
+  {
+   "geonameid": 2907669,
+   "name": "Heilbronn",
+   "lat": 49.1399,
+   "lon": 9.2205,
+   "population": 120733
+  },
+  {
+   "geonameid": 2928751,
+   "name": "Esslingen",
+   "lat": 48.7396,
+   "lon": 9.3047,
+   "population": 92390
+  },
+  {
+   "geonameid": 2875392,
+   "name": "Ludwigsburg",
+   "lat": 48.8973,
+   "lon": 9.1916,
+   "population": 87603
+  }
+ ],
+ "DE12": [
+  {
+   "geonameid": 2873891,
+   "name": "Mannheim",
+   "lat": 49.4891,
+   "lon": 8.4669,
+   "population": 307960
+  },
+  {
+   "geonameid": 2892794,
+   "name": "Karlsruhe",
+   "lat": 49.0094,
+   "lon": 8.4044,
+   "population": 283799
+  },
+  {
+   "geonameid": 2907911,
+   "name": "Heidelberg",
+   "lat": 49.4077,
+   "lon": 8.6908,
+   "population": 143345
+  },
+  {
+   "geonameid": 2853969,
+   "name": "Pforzheim",
+   "lat": 48.8844,
+   "lon": 8.6989,
+   "population": 119313
+  }
+ ],
+ "DE13": [
+  {
+   "geonameid": 2925177,
+   "name": "Freiburg",
+   "lat": 47.9959,
+   "lon": 7.8522,
+   "population": 237460
+  },
+  {
+   "geonameid": 2817220,
+   "name": "Villingen-Schwenningen",
+   "lat": 48.0623,
+   "lon": 8.4936,
+   "population": 81770
+  },
+  {
+   "geonameid": 2885679,
+   "name": "Konstanz",
+   "lat": 47.6603,
+   "lon": 9.1758,
+   "population": 81275
+  },
+  {
+   "geonameid": 2857798,
+   "name": "Offenburg",
+   "lat": 48.4738,
+   "lon": 7.945,
+   "population": 59238
+  }
+ ],
+ "DE14": [
+  {
+   "geonameid": 2820256,
+   "name": "Ulm",
+   "lat": 48.3984,
+   "lon": 9.9916,
+   "population": 120451
+  },
+  {
+   "geonameid": 2847736,
+   "name": "Reutlingen",
+   "lat": 48.4914,
+   "lon": 9.2043,
+   "population": 112627
+  },
+  {
+   "geonameid": 2820860,
+   "name": "Tübingen",
+   "lat": 48.5227,
+   "lon": 9.0522,
+   "population": 92322
+  },
+  {
+   "geonameid": 2924585,
+   "name": "Friedrichshafen",
+   "lat": 47.6569,
+   "lon": 9.4755,
+   "population": 58403
+  }
+ ],
+ "DE21": [
+  {
+   "geonameid": 2867714,
+   "name": "Munich",
+   "lat": 48.1374,
+   "lon": 11.5755,
+   "population": 1505005
+  },
+  {
+   "geonameid": 2895992,
+   "name": "Ingolstadt",
+   "lat": 48.7651,
+   "lon": 11.4237,
+   "population": 120658
+  },
+  {
+   "geonameid": 2844988,
+   "name": "Rosenheim",
+   "lat": 47.8564,
+   "lon": 12.1225,
+   "population": 60167
+  },
+  {
+   "geonameid": 2925034,
+   "name": "Freising",
+   "lat": 48.4035,
+   "lon": 11.7488,
+   "population": 42570
+  }
+ ],
+ "DE22": [
+  {
+   "geonameid": 2881485,
+   "name": "Landshut",
+   "lat": 48.5296,
+   "lon": 12.1618,
+   "population": 71863
+  },
+  {
+   "geonameid": 2855328,
+   "name": "Passau",
+   "lat": 48.5665,
+   "lon": 13.4312,
+   "population": 50560
+  },
+  {
+   "geonameid": 2826099,
+   "name": "Straubing",
+   "lat": 48.8813,
+   "lon": 12.5739,
+   "population": 44580
+  },
+  {
+   "geonameid": 2938540,
+   "name": "Deggendorf",
+   "lat": 48.8409,
+   "lon": 12.9607,
+   "population": 31081
+  }
+ ],
+ "DE23": [
+  {
+   "geonameid": 2849483,
+   "name": "Regensburg",
+   "lat": 49.0151,
+   "lon": 12.1016,
+   "population": 151389
+  },
+  {
+   "geonameid": 2956656,
+   "name": "Amberg",
+   "lat": 49.4429,
+   "lon": 11.8627,
+   "population": 44737
+  },
+  {
+   "geonameid": 2813040,
+   "name": "Weiden",
+   "lat": 49.6768,
+   "lon": 12.1561,
+   "population": 42550
+  },
+  {
+   "geonameid": 2864549,
+   "name": "Neumarkt in der Oberpfalz",
+   "lat": 49.2803,
+   "lon": 11.4628,
+   "population": 39557
+  }
+ ],
+ "DE24": [
+  {
+   "geonameid": 2951825,
+   "name": "Bayreuth",
+   "lat": 49.9478,
+   "lon": 11.5789,
+   "population": 72940
+  },
+  {
+   "geonameid": 2952984,
+   "name": "Bamberg",
+   "lat": 49.8987,
+   "lon": 10.9007,
+   "population": 70047
+  },
+  {
+   "geonameid": 2902768,
+   "name": "Hof",
+   "lat": 50.313,
+   "lon": 11.9126,
+   "population": 49239
+  },
+  {
+   "geonameid": 2939951,
+   "name": "Coburg",
+   "lat": 50.2594,
+   "lon": 10.9638,
+   "population": 41901
+  }
+ ],
+ "DE25": [
+  {
+   "geonameid": 2861650,
+   "name": "Nuremberg",
+   "lat": 49.4542,
+   "lon": 11.0775,
+   "population": 515543
+  },
+  {
+   "geonameid": 2929567,
+   "name": "Erlangen",
+   "lat": 49.591,
+   "lon": 11.0078,
+   "population": 102675
+  },
+  {
+   "geonameid": 2835537,
+   "name": "Schwabach",
+   "lat": 49.3305,
+   "lon": 11.0235,
+   "population": 38554
+  },
+  {
+   "geonameid": 2955936,
+   "name": "Ansbach",
+   "lat": 49.3048,
+   "lon": 10.5931,
+   "population": 31839
+  }
+ ],
+ "DE26": [
+  {
+   "geonameid": 2805615,
+   "name": "Würzburg",
+   "lat": 49.7939,
+   "lon": 9.9512,
+   "population": 133731
+  },
+  {
+   "geonameid": 2955272,
+   "name": "Aschaffenburg",
+   "lat": 49.977,
+   "lon": 9.1521,
+   "population": 68551
+  },
+  {
+   "geonameid": 2834498,
+   "name": "Schweinfurt",
+   "lat": 50.0494,
+   "lon": 10.2218,
+   "population": 54012
+  },
+  {
+   "geonameid": 2890158,
+   "name": "Kitzingen",
+   "lat": 49.7397,
+   "lon": 10.1507,
+   "population": 21387
+  }
+ ],
+ "DE27": [
+  {
+   "geonameid": 2954172,
+   "name": "Augsburg",
+   "lat": 48.3715,
+   "lon": 10.8985,
+   "population": 301105
+  },
+  {
+   "geonameid": 2891621,
+   "name": "Kempten (Allgäu)",
+   "lat": 47.7267,
+   "lon": 10.3139,
+   "population": 61399
+  },
+  {
+   "geonameid": 2871992,
+   "name": "Memmingen",
+   "lat": 47.9837,
+   "lon": 10.1853,
+   "population": 44192
+  },
+  {
+   "geonameid": 2892080,
+   "name": "Kaufbeuren",
+   "lat": 47.8824,
+   "lon": 10.6219,
+   "population": 42505
+  }
+ ],
+ "DE30": [
+  {
+   "geonameid": 2950159,
+   "name": "Berlin",
+   "lat": 52.5244,
+   "lon": 13.4105,
+   "population": 3426354
+  },
+  {
+   "geonameid": 2940187,
+   "name": "Charlottenburg",
+   "lat": 52.5167,
+   "lon": 13.2833,
+   "population": 129359
+  },
+  {
+   "geonameid": 2873074,
+   "name": "Marzahn",
+   "lat": 52.5453,
+   "lon": 13.5698,
+   "population": 111508
+  },
+  {
+   "geonameid": 2878018,
+   "name": "Lichterfelde",
+   "lat": 52.4333,
+   "lon": 13.3076,
+   "population": 85885
+  }
+ ],
+ "DE40": [
+  {
+   "geonameid": 2852458,
+   "name": "Potsdam",
+   "lat": 52.3989,
+   "lon": 13.0657,
+   "population": 184754
+  },
+  {
+   "geonameid": 2939811,
+   "name": "Cottbus",
+   "lat": 51.7577,
+   "lon": 14.3289,
+   "population": 84754
+  },
+  {
+   "geonameid": 2945358,
+   "name": "Brandenburg an der Havel",
+   "lat": 52.4167,
+   "lon": 12.55,
+   "population": 59826
+  },
+  {
+   "geonameid": 2925535,
+   "name": "Frankfurt (Oder)",
+   "lat": 52.3471,
+   "lon": 14.5506,
+   "population": 57107
+  }
+ ],
+ "DE50": [
+  {
+   "geonameid": 2944388,
+   "name": "Bremen",
+   "lat": 53.0758,
+   "lon": 8.8072,
+   "population": 546501
+  },
+  {
+   "geonameid": 2944368,
+   "name": "Bremerhaven",
+   "lat": 53.5536,
+   "lon": 8.5755,
+   "population": 118610
+  },
+  {
+   "geonameid": 2817783,
+   "name": "Vegesack",
+   "lat": 53.1792,
+   "lon": 8.6223,
+   "population": 34757
+  }
+ ],
+ "DE60": [
+  {
+   "geonameid": 2911298,
+   "name": "Hamburg",
+   "lat": 53.5507,
+   "lon": 9.993,
+   "population": 1973896
+  },
+  {
+   "geonameid": 2910685,
+   "name": "Harburg",
+   "lat": 53.4606,
+   "lon": 9.9839,
+   "population": 169221
+  },
+  {
+   "geonameid": 7290243,
+   "name": "Bergedorf",
+   "lat": 53.4846,
+   "lon": 10.229,
+   "population": 119665
+  },
+  {
+   "geonameid": 2850872,
+   "name": "Rahlstedt",
+   "lat": 53.6019,
+   "lon": 10.1567,
+   "population": 92511
+  }
+ ],
+ "DE71": [
+  {
+   "geonameid": 2925533,
+   "name": "Frankfurt am Main",
+   "lat": 50.1155,
+   "lon": 8.6842,
+   "population": 650000
+  },
+  {
+   "geonameid": 2809346,
+   "name": "Wiesbaden",
+   "lat": 50.086,
+   "lon": 8.2444,
+   "population": 288850
+  },
+  {
+   "geonameid": 2938913,
+   "name": "Darmstadt",
+   "lat": 49.8717,
+   "lon": 8.6503,
+   "population": 167029
+  },
+  {
+   "geonameid": 2911007,
+   "name": "Hanau am Main",
+   "lat": 50.1342,
+   "lon": 8.9142,
+   "population": 88648
+  }
+ ],
+ "DE72": [
+  {
+   "geonameid": 2920512,
+   "name": "Gießen",
+   "lat": 50.5873,
+   "lon": 8.6755,
+   "population": 89179
+  },
+  {
+   "geonameid": 2873759,
+   "name": "Marburg an der Lahn",
+   "lat": 50.809,
+   "lon": 8.7707,
+   "population": 78895
+  },
+  {
+   "geonameid": 2809889,
+   "name": "Wetzlar",
+   "lat": 50.5611,
+   "lon": 8.5049,
+   "population": 52656
+  },
+  {
+   "geonameid": 2877648,
+   "name": "Limburg an der Lahn",
+   "lat": 50.3836,
+   "lon": 8.0503,
+   "population": 33820
+  }
+ ],
+ "DE73": [
+  {
+   "geonameid": 2892518,
+   "name": "Kassel",
+   "lat": 51.3167,
+   "lon": 9.5,
+   "population": 197230
+  },
+  {
+   "geonameid": 2923822,
+   "name": "Fulda",
+   "lat": 50.5516,
+   "lon": 9.6752,
+   "population": 63760
+  },
+  {
+   "geonameid": 2953439,
+   "name": "Bad Hersfeld",
+   "lat": 50.872,
+   "lon": 9.7089,
+   "population": 30725
+  },
+  {
+   "geonameid": 2951923,
+   "name": "Baunatal",
+   "lat": 51.2518,
+   "lon": 9.4075,
+   "population": 27929
+  }
+ ],
+ "DE80": [
+  {
+   "geonameid": 2844588,
+   "name": "Rostock",
+   "lat": 54.0887,
+   "lon": 12.1405,
+   "population": 198293
+  },
+  {
+   "geonameid": 2834282,
+   "name": "Schwerin",
+   "lat": 53.6294,
+   "lon": 11.4132,
+   "population": 96641
+  },
+  {
+   "geonameid": 2866135,
+   "name": "Neubrandenburg",
+   "lat": 53.5573,
+   "lon": 13.261,
+   "population": 68082
+  },
+  {
+   "geonameid": 2826287,
+   "name": "Stralsund",
+   "lat": 54.3091,
+   "lon": 13.0818,
+   "population": 58976
+  }
+ ],
+ "DE91": [
+  {
+   "geonameid": 2945024,
+   "name": "Braunschweig",
+   "lat": 52.2659,
+   "lon": 10.5267,
+   "population": 244715
+  },
+  {
+   "geonameid": 2806654,
+   "name": "Wolfsburg",
+   "lat": 52.4245,
+   "lon": 10.7815,
+   "population": 123064
+  },
+  {
+   "geonameid": 2918632,
+   "name": "Göttingen",
+   "lat": 51.5344,
+   "lon": 9.9323,
+   "population": 122149
+  },
+  {
+   "geonameid": 2842150,
+   "name": "Salzgitter",
+   "lat": 52.157,
+   "lon": 10.4154,
+   "population": 104970
+  }
+ ],
+ "DE92": [
+  {
+   "geonameid": 2910831,
+   "name": "Hannover",
+   "lat": 52.3705,
+   "lon": 9.7332,
+   "population": 515140
+  },
+  {
+   "geonameid": 2904789,
+   "name": "Hildesheim",
+   "lat": 52.1508,
+   "lon": 9.9511,
+   "population": 103052
+  },
+  {
+   "geonameid": 2922586,
+   "name": "Garbsen",
+   "lat": 52.4137,
+   "lon": 9.5899,
+   "population": 63355
+  },
+  {
+   "geonameid": 2911271,
+   "name": "Hameln",
+   "lat": 52.104,
+   "lon": 9.3562,
+   "population": 58666
+  }
+ ],
+ "DE93": [
+  {
+   "geonameid": 2875115,
+   "name": "Lüneburg",
+   "lat": 53.2512,
+   "lon": 10.4155,
+   "population": 71260
+  },
+  {
+   "geonameid": 2940213,
+   "name": "Celle",
+   "lat": 52.6226,
+   "lon": 10.0805,
+   "population": 71010
+  },
+  {
+   "geonameid": 2939658,
+   "name": "Cuxhaven",
+   "lat": 53.8683,
+   "lon": 8.699,
+   "population": 52677
+  },
+  {
+   "geonameid": 2829901,
+   "name": "Hansestadt Stade",
+   "lat": 53.5941,
+   "lon": 9.473,
+   "population": 45634
+  }
+ ],
+ "DE94": [
+  {
+   "geonameid": 2856883,
+   "name": "Osnabrück",
+   "lat": 52.2726,
+   "lon": 8.0498,
+   "population": 166462
+  },
+  {
+   "geonameid": 2857458,
+   "name": "Oldenburg",
+   "lat": 53.1404,
+   "lon": 8.2148,
+   "population": 159218
+  },
+  {
+   "geonameid": 2808720,
+   "name": "Wilhelmshaven",
+   "lat": 53.5476,
+   "lon": 8.1039,
+   "population": 84393
+  },
+  {
+   "geonameid": 2938323,
+   "name": "Delmenhorst",
+   "lat": 53.0511,
+   "lon": 8.6309,
+   "population": 75893
+  }
+ ],
+ "DEA1": [
+  {
+   "geonameid": 2934246,
+   "name": "Düsseldorf",
+   "lat": 51.2232,
+   "lon": 6.7793,
+   "population": 618685
+  },
+  {
+   "geonameid": 2928810,
+   "name": "Essen",
+   "lat": 51.4566,
+   "lon": 7.0123,
+   "population": 593085
+  },
+  {
+   "geonameid": 2934691,
+   "name": "Duisburg",
+   "lat": 51.4325,
+   "lon": 6.7652,
+   "population": 504358
+  },
+  {
+   "geonameid": 2805753,
+   "name": "Wuppertal",
+   "lat": 51.2563,
+   "lon": 7.1482,
+   "population": 360797
+  }
+ ],
+ "DEA2": [
+  {
+   "geonameid": 2886242,
+   "name": "Köln",
+   "lat": 50.9333,
+   "lon": 6.95,
+   "population": 1024621
+  },
+  {
+   "geonameid": 2946447,
+   "name": "Bonn",
+   "lat": 50.7344,
+   "lon": 7.0955,
+   "population": 330579
+  },
+  {
+   "geonameid": 3247449,
+   "name": "Aachen",
+   "lat": 50.7766,
+   "lon": 6.0834,
+   "population": 265208
+  },
+  {
+   "geonameid": 2878234,
+   "name": "Leverkusen",
+   "lat": 51.0303,
+   "lon": 6.9843,
+   "population": 162738
+  }
+ ],
+ "DEA3": [
+  {
+   "geonameid": 2867543,
+   "name": "Münster",
+   "lat": 51.9624,
+   "lon": 7.6257,
+   "population": 308258
+  },
+  {
+   "geonameid": 2921466,
+   "name": "Gelsenkirchen",
+   "lat": 51.5051,
+   "lon": 7.0965,
+   "population": 270028
+  },
+  {
+   "geonameid": 2849647,
+   "name": "Recklinghausen",
+   "lat": 51.6138,
+   "lon": 7.1974,
+   "population": 122438
+  },
+  {
+   "geonameid": 2945756,
+   "name": "Bottrop",
+   "lat": 51.5239,
+   "lon": 6.9285,
+   "population": 119909
+  }
+ ],
+ "DEA4": [
+  {
+   "geonameid": 2949186,
+   "name": "Bielefeld",
+   "lat": 52.0333,
+   "lon": 8.5333,
+   "population": 331906
+  },
+  {
+   "geonameid": 2855745,
+   "name": "Paderborn",
+   "lat": 51.7191,
+   "lon": 8.7544,
+   "population": 142161
+  },
+  {
+   "geonameid": 2913366,
+   "name": "Gütersloh",
+   "lat": 51.9069,
+   "lon": 8.3785,
+   "population": 96180
+  },
+  {
+   "geonameid": 2871039,
+   "name": "Minden",
+   "lat": 52.2895,
+   "lon": 8.9146,
+   "population": 82879
+  }
+ ],
+ "DEA5": [
+  {
+   "geonameid": 2935517,
+   "name": "Dortmund",
+   "lat": 51.5149,
+   "lon": 7.466,
+   "population": 588462
+  },
+  {
+   "geonameid": 2947416,
+   "name": "Bochum",
+   "lat": 51.4817,
+   "lon": 7.2165,
+   "population": 385729
+  },
+  {
+   "geonameid": 2912621,
+   "name": "Hagen",
+   "lat": 51.3608,
+   "lon": 7.4717,
+   "population": 198972
+  },
+  {
+   "geonameid": 2911240,
+   "name": "Hamm",
+   "lat": 51.6803,
+   "lon": 7.8209,
+   "population": 178967
+  }
+ ],
+ "DEB1": [
+  {
+   "geonameid": 2886946,
+   "name": "Koblenz",
+   "lat": 50.3536,
+   "lon": 7.5788,
+   "population": 107319
+  },
+  {
+   "geonameid": 2863840,
+   "name": "Neuwied",
+   "lat": 50.4336,
+   "lon": 7.4706,
+   "population": 66805
+  },
+  {
+   "geonameid": 2953416,
+   "name": "Bad Kreuznach",
+   "lat": 49.8414,
+   "lon": 7.8671,
+   "population": 43213
+  },
+  {
+   "geonameid": 2896753,
+   "name": "Idar-Oberstein",
+   "lat": 49.7144,
+   "lon": 7.3078,
+   "population": 29158
+  }
+ ],
+ "DEB2": [
+  {
+   "geonameid": 2821164,
+   "name": "Trier",
+   "lat": 49.7557,
+   "lon": 6.6394,
+   "population": 100129
+  },
+  {
+   "geonameid": 2807240,
+   "name": "Wittlich",
+   "lat": 49.986,
+   "lon": 6.8931,
+   "population": 17887
+  }
+ ],
+ "DEB3": [
+  {
+   "geonameid": 2874225,
+   "name": "Mainz",
+   "lat": 49.9819,
+   "lon": 8.2801,
+   "population": 222889
+  },
+  {
+   "geonameid": 2875376,
+   "name": "Ludwigshafen am Rhein",
+   "lat": 49.4812,
+   "lon": 8.4464,
+   "population": 163196
+  },
+  {
+   "geonameid": 2894003,
+   "name": "Kaiserslautern",
+   "lat": 49.443,
+   "lon": 7.7716,
+   "population": 98732
+  },
+  {
+   "geonameid": 2806142,
+   "name": "Worms",
+   "lat": 49.6328,
+   "lon": 8.3592,
+   "population": 81099
+  }
+ ],
+ "DEC0": [
+  {
+   "geonameid": 2842647,
+   "name": "Saarbrücken",
+   "lat": 49.2326,
+   "lon": 7.0098,
+   "population": 182971
+  },
+  {
+   "geonameid": 2864435,
+   "name": "Neunkirchen",
+   "lat": 49.3445,
+   "lon": 7.1805,
+   "population": 49843
+  },
+  {
+   "geonameid": 2899449,
+   "name": "Homburg",
+   "lat": 49.3264,
+   "lon": 7.3387,
+   "population": 44607
+  },
+  {
+   "geonameid": 2816630,
+   "name": "Völklingen",
+   "lat": 49.2516,
+   "lon": 6.8587,
+   "population": 40952
+  }
+ ],
+ "DED2": [
+  {
+   "geonameid": 2935022,
+   "name": "Dresden",
+   "lat": 51.0509,
+   "lon": 13.7383,
+   "population": 564904
+  },
+  {
+   "geonameid": 2918987,
+   "name": "Görlitz",
+   "lat": 51.1552,
+   "lon": 14.9885,
+   "population": 57751
+  },
+  {
+   "geonameid": 2951881,
+   "name": "Bautzen",
+   "lat": 51.1803,
+   "lon": 14.4349,
+   "population": 41972
+  },
+  {
+   "geonameid": 2853572,
+   "name": "Pirna",
+   "lat": 50.9584,
+   "lon": 13.937,
+   "population": 40322
+  }
+ ],
+ "DED4": [
+  {
+   "geonameid": 2940132,
+   "name": "Chemnitz",
+   "lat": 50.8357,
+   "lon": 12.9292,
+   "population": 247220
+  },
+  {
+   "geonameid": 2803560,
+   "name": "Zwickau",
+   "lat": 50.7272,
+   "lon": 12.4884,
+   "population": 98796
+  },
+  {
+   "geonameid": 2853292,
+   "name": "Plauen",
+   "lat": 50.4973,
+   "lon": 12.1378,
+   "population": 66412
+  },
+  {
+   "geonameid": 2925192,
+   "name": "Freiberg",
+   "lat": 50.9109,
+   "lon": 13.3388,
+   "population": 43670
+  }
+ ],
+ "DED5": [
+  {
+   "geonameid": 2879139,
+   "name": "Leipzig",
+   "lat": 51.3396,
+   "lon": 12.3713,
+   "population": 504971
+  },
+  {
+   "geonameid": 2917325,
+   "name": "Grimma",
+   "lat": 51.2337,
+   "lon": 12.7196,
+   "population": 27529
+  },
+  {
+   "geonameid": 2938376,
+   "name": "Delitzsch",
+   "lat": 51.5255,
+   "lon": 12.3428,
+   "population": 25895
+  },
+  {
+   "geonameid": 2946172,
+   "name": "Borna",
+   "lat": 51.1242,
+   "lon": 12.4964,
+   "population": 18806
+  }
+ ],
+ "DEE0": [
+  {
+   "geonameid": 2874545,
+   "name": "Magdeburg",
+   "lat": 52.1313,
+   "lon": 11.6319,
+   "population": 244329
+  },
+  {
+   "geonameid": 2911522,
+   "name": "Halle (Saale)",
+   "lat": 51.4816,
+   "lon": 11.9795,
+   "population": 237865
+  },
+  {
+   "geonameid": 2937959,
+   "name": "Dessau",
+   "lat": 51.8386,
+   "lon": 12.2455,
+   "population": 67747
+  },
+  {
+   "geonameid": 2911665,
+   "name": "Halberstadt",
+   "lat": 51.8956,
+   "lon": 11.0562,
+   "population": 39729
+  }
+ ],
+ "DEF0": [
+  {
+   "geonameid": 2891122,
+   "name": "Kiel",
+   "lat": 54.3213,
+   "lon": 10.1349,
+   "population": 252668
+  },
+  {
+   "geonameid": 2875601,
+   "name": "Lübeck",
+   "lat": 53.8689,
+   "lon": 10.6873,
+   "population": 212207
+  },
+  {
+   "geonameid": 2926271,
+   "name": "Flensburg",
+   "lat": 54.788,
+   "lon": 9.4372,
+   "population": 85838
+  },
+  {
+   "geonameid": 2862026,
+   "name": "Norderstedt",
+   "lat": 53.7018,
+   "lon": 9.9933,
+   "population": 82844
+  }
+ ],
+ "DEG0": [
+  {
+   "geonameid": 2929670,
+   "name": "Erfurt",
+   "lat": 50.9773,
+   "lon": 11.0354,
+   "population": 218793
+  },
+  {
+   "geonameid": 2895044,
+   "name": "Jena",
+   "lat": 50.9288,
+   "lon": 11.5899,
+   "population": 104712
+  },
+  {
+   "geonameid": 2921232,
+   "name": "Gera",
+   "lat": 50.8803,
+   "lon": 12.0819,
+   "population": 104659
+  },
+  {
+   "geonameid": 2812482,
+   "name": "Weimar",
+   "lat": 50.9803,
+   "lon": 11.329,
+   "population": 64727
+  }
+ ],
+ "DK01": [
+  {
+   "geonameid": 2618425,
+   "name": "Copenhagen",
+   "lat": 55.6759,
+   "lon": 12.5655,
+   "population": 1153615
+  },
+  {
+   "geonameid": 2624427,
+   "name": "Avedøre",
+   "lat": 55.6272,
+   "lon": 12.4564,
+   "population": 53443
+  },
+  {
+   "geonameid": 2619856,
+   "name": "Hørsholm",
+   "lat": 55.881,
+   "lon": 12.5011,
+   "population": 47680
+  },
+  {
+   "geonameid": 2623188,
+   "name": "Charlottenlund",
+   "lat": 55.7524,
+   "lon": 12.5745,
+   "population": 40000
+  }
+ ],
+ "DK02": [
+  {
+   "geonameid": 2618741,
+   "name": "Klinteby Frihed",
+   "lat": 55.197,
+   "lon": 11.596,
+   "population": 53443
+  },
+  {
+   "geonameid": 2614481,
+   "name": "Roskilde",
+   "lat": 55.6415,
+   "lon": 12.0803,
+   "population": 51916
+  },
+  {
+   "geonameid": 2621215,
+   "name": "Greve",
+   "lat": 55.5833,
+   "lon": 12.3,
+   "population": 47671
+  },
+  {
+   "geonameid": 2616038,
+   "name": "Næstved",
+   "lat": 55.2299,
+   "lon": 11.7609,
+   "population": 44331
+  }
+ ],
+ "DK03": [
+  {
+   "geonameid": 2615876,
+   "name": "Odense",
+   "lat": 55.3959,
+   "lon": 10.3883,
+   "population": 180863
+  },
+  {
+   "geonameid": 2622447,
+   "name": "Esbjerg",
+   "lat": 55.4703,
+   "lon": 8.4519,
+   "population": 71698
+  },
+  {
+   "geonameid": 2618528,
+   "name": "Kolding",
+   "lat": 55.4904,
+   "lon": 9.4722,
+   "population": 61638
+  },
+  {
+   "geonameid": 2610613,
+   "name": "Vejle",
+   "lat": 55.7093,
+   "lon": 9.5357,
+   "population": 60231
+  }
+ ],
+ "DK04": [
+  {
+   "geonameid": 2624652,
+   "name": "Århus",
+   "lat": 56.1567,
+   "lon": 10.2108,
+   "population": 285273
+  },
+  {
+   "geonameid": 2615006,
+   "name": "Randers",
+   "lat": 56.4607,
+   "lon": 10.0364,
+   "population": 62802
+  },
+  {
+   "geonameid": 2619771,
+   "name": "Horsens",
+   "lat": 55.8607,
+   "lon": 9.8503,
+   "population": 61074
+  },
+  {
+   "geonameid": 2620425,
+   "name": "Herning",
+   "lat": 56.1362,
+   "lon": 8.9766,
+   "population": 50565
+  }
+ ],
+ "DK05": [
+  {
+   "geonameid": 2624886,
+   "name": "Aalborg",
+   "lat": 57.048,
+   "lon": 9.9187,
+   "population": 142937
+  },
+  {
+   "geonameid": 2620214,
+   "name": "Hjørring",
+   "lat": 57.4642,
+   "lon": 9.9823,
+   "population": 25644
+  },
+  {
+   "geonameid": 2621927,
+   "name": "Frederikshavn",
+   "lat": 57.4407,
+   "lon": 10.5366,
+   "population": 22672
+  }
+ ],
+ "EE00": [
+  {
+   "geonameid": 588409,
+   "name": "Tallinn",
+   "lat": 59.437,
+   "lon": 24.7535,
+   "population": 394024
+  },
+  {
+   "geonameid": 588335,
+   "name": "Tartu",
+   "lat": 58.3806,
+   "lon": 26.7251,
+   "population": 91407
+  },
+  {
+   "geonameid": 590031,
+   "name": "Narva",
+   "lat": 59.3772,
+   "lon": 28.1903,
+   "population": 54409
+  },
+  {
+   "geonameid": 589580,
+   "name": "Pärnu",
+   "lat": 58.3859,
+   "lon": 24.4971,
+   "population": 40228
+  }
+ ],
+ "EL30": [
+  {
+   "geonameid": 264371,
+   "name": "Athens",
+   "lat": 37.9838,
+   "lon": 23.7278,
+   "population": 664046
+  },
+  {
+   "geonameid": 255274,
+   "name": "Piraeus",
+   "lat": 37.942,
+   "lon": 23.6462,
+   "population": 163688
+  },
+  {
+   "geonameid": 255524,
+   "name": "Peristéri",
+   "lat": 38.0154,
+   "lon": 23.6919,
+   "population": 139981
+  },
+  {
+   "geonameid": 265488,
+   "name": "Acharnés",
+   "lat": 38.0833,
+   "lon": 23.7333,
+   "population": 99346
+  },
+  {
+   "geonameid": 262036,
+   "name": "Glyfáda",
+   "lat": 37.8629,
+   "lon": 23.758,
+   "population": 87305
+  }
+ ],
+ "EL41": [
+  {
+   "geonameid": 256866,
+   "name": "Mytilene",
+   "lat": 39.1077,
+   "lon": 26.5553,
+   "population": 28322
+  },
+  {
+   "geonameid": 259973,
+   "name": "Chios",
+   "lat": 38.3687,
+   "lon": 26.1372,
+   "population": 23953
+  }
+ ],
+ "EL42": [
+  {
+   "geonameid": 400666,
+   "name": "Ródos",
+   "lat": 36.4356,
+   "lon": 28.222,
+   "population": 56128
+  },
+  {
+   "geonameid": 259245,
+   "name": "Kos",
+   "lat": 36.8929,
+   "lon": 27.2877,
+   "population": 19244
+  }
+ ],
+ "EL43": [
+  {
+   "geonameid": 261745,
+   "name": "Irákleion",
+   "lat": 35.3279,
+   "lon": 25.1434,
+   "population": 137154
+  },
+  {
+   "geonameid": 260114,
+   "name": "Chaniá",
+   "lat": 35.5112,
+   "lon": 24.0292,
+   "population": 53910
+  },
+  {
+   "geonameid": 254352,
+   "name": "Rethymno",
+   "lat": 35.3655,
+   "lon": 24.4823,
+   "population": 32468
+  }
+ ],
+ "EL51": [
+  {
+   "geonameid": 735861,
+   "name": "Kavála",
+   "lat": 40.9396,
+   "lon": 24.4069,
+   "population": 54027
+  },
+  {
+   "geonameid": 736928,
+   "name": "Alexandroupoli",
+   "lat": 40.8499,
+   "lon": 25.8764,
+   "population": 52979
+  },
+  {
+   "geonameid": 733840,
+   "name": "Xánthi",
+   "lat": 41.1349,
+   "lon": 24.888,
+   "population": 48221
+  },
+  {
+   "geonameid": 735640,
+   "name": "Komotiní",
+   "lat": 41.1176,
+   "lon": 25.4059,
+   "population": 45631
+  }
+ ],
+ "EL52": [
+  {
+   "geonameid": 734077,
+   "name": "Thessaloníki",
+   "lat": 40.6407,
+   "lon": 22.9349,
+   "population": 317778
+  },
+  {
+   "geonameid": 734330,
+   "name": "Sérres",
+   "lat": 41.085,
+   "lon": 23.5476,
+   "population": 58287
+  },
+  {
+   "geonameid": 735914,
+   "name": "Kateríni",
+   "lat": 40.2696,
+   "lon": 22.5061,
+   "population": 53293
+  },
+  {
+   "geonameid": 733905,
+   "name": "Véroia",
+   "lat": 40.5244,
+   "lon": 22.2024,
+   "population": 44464
+  }
+ ],
+ "EL53": [
+  {
+   "geonameid": 735563,
+   "name": "Kozáni",
+   "lat": 40.2993,
+   "lon": 21.7898,
+   "population": 36481
+  },
+  {
+   "geonameid": 734426,
+   "name": "Ptolemaḯda",
+   "lat": 40.5147,
+   "lon": 21.6786,
+   "population": 30045
+  },
+  {
+   "geonameid": 736229,
+   "name": "Flórina",
+   "lat": 40.782,
+   "lon": 21.4098,
+   "population": 17686
+  }
+ ],
+ "EL54": [
+  {
+   "geonameid": 261779,
+   "name": "Ioánnina",
+   "lat": 39.6634,
+   "lon": 20.8519,
+   "population": 65574
+  },
+  {
+   "geonameid": 264559,
+   "name": "Árta",
+   "lat": 39.1601,
+   "lon": 20.9856,
+   "population": 21895
+  },
+  {
+   "geonameid": 254698,
+   "name": "Préveza",
+   "lat": 38.9562,
+   "lon": 20.7505,
+   "population": 17283
+  }
+ ],
+ "EL61": [
+  {
+   "geonameid": 258576,
+   "name": "Lárisa",
+   "lat": 39.6285,
+   "lon": 22.4211,
+   "population": 146926
+  },
+  {
+   "geonameid": 251833,
+   "name": "Volos",
+   "lat": 39.3692,
+   "lon": 22.9477,
+   "population": 86048
+  },
+  {
+   "geonameid": 252664,
+   "name": "Tríkala",
+   "lat": 39.5549,
+   "lon": 21.7684,
+   "population": 61653
+  },
+  {
+   "geonameid": 260989,
+   "name": "Kardítsa",
+   "lat": 39.3648,
+   "lon": 21.9219,
+   "population": 32789
+  }
+ ],
+ "EL62": [
+  {
+   "geonameid": 2463679,
+   "name": "Corfu",
+   "lat": 39.6244,
+   "lon": 19.9202,
+   "population": 40047
+  }
+ ],
+ "EL63": [
+  {
+   "geonameid": 255683,
+   "name": "Pátra",
+   "lat": 38.2462,
+   "lon": 21.7351,
+   "population": 168034
+  },
+  {
+   "geonameid": 265560,
+   "name": "Agrínio",
+   "lat": 38.6214,
+   "lon": 21.4078,
+   "population": 46899
+  },
+  {
+   "geonameid": 255229,
+   "name": "Pýrgos",
+   "lat": 37.6751,
+   "lon": 21.441,
+   "population": 22399
+  },
+  {
+   "geonameid": 265500,
+   "name": "Aígio",
+   "lat": 38.2486,
+   "lon": 22.0819,
+   "population": 20422
+  }
+ ],
+ "EL64": [
+  {
+   "geonameid": 260133,
+   "name": "Chalkída",
+   "lat": 38.4635,
+   "lon": 23.6028,
+   "population": 59125
+  },
+  {
+   "geonameid": 258620,
+   "name": "Lamía",
+   "lat": 38.8995,
+   "lon": 22.4335,
+   "population": 52006
+  },
+  {
+   "geonameid": 252910,
+   "name": "Thívai",
+   "lat": 38.325,
+   "lon": 23.3189,
+   "population": 32410
+  },
+  {
+   "geonameid": 258463,
+   "name": "Livadeiá",
+   "lat": 38.4362,
+   "lon": 22.8767,
+   "population": 21492
+  }
+ ],
+ "EL65": [
+  {
+   "geonameid": 261604,
+   "name": "Kalamata",
+   "lat": 37.0391,
+   "lon": 22.1126,
+   "population": 54100
+  },
+  {
+   "geonameid": 259289,
+   "name": "Kórinthos",
+   "lat": 37.9401,
+   "lon": 22.9513,
+   "population": 30176
+  },
+  {
+   "geonameid": 252601,
+   "name": "Trípoli",
+   "lat": 37.5096,
+   "lon": 22.3788,
+   "population": 26561
+  },
+  {
+   "geonameid": 264670,
+   "name": "Árgos",
+   "lat": 37.6333,
+   "lon": 22.7333,
+   "population": 22209
+  }
+ ],
+ "ES11": [
+  {
+   "geonameid": 3105976,
+   "name": "Vigo",
+   "lat": 42.2328,
+   "lon": -8.7226,
+   "population": 293642
+  },
+  {
+   "geonameid": 3119841,
+   "name": "A Coruña",
+   "lat": 43.3713,
+   "lon": -8.396,
+   "population": 250438
+  },
+  {
+   "geonameid": 3114965,
+   "name": "Ourense",
+   "lat": 42.3367,
+   "lon": -7.8641,
+   "population": 105233
+  },
+  {
+   "geonameid": 3109642,
+   "name": "Santiago de Compostela",
+   "lat": 42.8805,
+   "lon": -8.5457,
+   "population": 99536
+  }
+ ],
+ "ES12": [
+  {
+   "geonameid": 3121424,
+   "name": "Gijón",
+   "lat": 43.5357,
+   "lon": -5.6615,
+   "population": 271780
+  },
+  {
+   "geonameid": 3114711,
+   "name": "Oviedo",
+   "lat": 43.3603,
+   "lon": -5.8448,
+   "population": 220027
+  },
+  {
+   "geonameid": 3129135,
+   "name": "Avilés",
+   "lat": 43.5547,
+   "lon": -5.9248,
+   "population": 78715
+  },
+  {
+   "geonameid": 3116789,
+   "name": "Mieres",
+   "lat": 43.25,
+   "lon": -5.7667,
+   "population": 44070
+  }
+ ],
+ "ES13": [
+  {
+   "geonameid": 3109718,
+   "name": "Santander",
+   "lat": 43.4659,
+   "lon": -3.8049,
+   "population": 173635
+  },
+  {
+   "geonameid": 3107775,
+   "name": "Torrelavega",
+   "lat": 43.3494,
+   "lon": -4.0479,
+   "population": 55297
+  },
+  {
+   "geonameid": 3125621,
+   "name": "Castro-Urdiales",
+   "lat": 43.3828,
+   "lon": -3.2204,
+   "population": 31977
+  },
+  {
+   "geonameid": 3126917,
+   "name": "Camargo",
+   "lat": 43.4074,
+   "lon": -3.885,
+   "population": 30263
+  }
+ ],
+ "ES21": [
+  {
+   "geonameid": 3128026,
+   "name": "Bilbao",
+   "lat": 43.2627,
+   "lon": -2.9253,
+   "population": 347342
+  },
+  {
+   "geonameid": 3104499,
+   "name": "Gasteiz / Vitoria",
+   "lat": 42.85,
+   "lon": -2.6727,
+   "population": 257407
+  },
+  {
+   "geonameid": 3110044,
+   "name": "Donostia / San Sebastián",
+   "lat": 43.3128,
+   "lon": -1.975,
+   "population": 185357
+  },
+  {
+   "geonameid": 3130380,
+   "name": "Algorta",
+   "lat": 43.3493,
+   "lon": -3.0094,
+   "population": 82624
+  }
+ ],
+ "ES22": [
+  {
+   "geonameid": 3114472,
+   "name": "Pamplona",
+   "lat": 42.8169,
+   "lon": -1.6432,
+   "population": 208243
+  },
+  {
+   "geonameid": 3107418,
+   "name": "Tudela",
+   "lat": 42.0617,
+   "lon": -1.6045,
+   "population": 34717
+  }
+ ],
+ "ES23": [
+  {
+   "geonameid": 3118150,
+   "name": "Logroño",
+   "lat": 42.4661,
+   "lon": -2.4512,
+   "population": 151164
+  },
+  {
+   "geonameid": 3127065,
+   "name": "Calahorra",
+   "lat": 42.3051,
+   "lon": -1.9652,
+   "population": 24787
+  }
+ ],
+ "ES24": [
+  {
+   "geonameid": 3104324,
+   "name": "Zaragoza",
+   "lat": 41.6561,
+   "lon": -0.8773,
+   "population": 686986
+  },
+  {
+   "geonameid": 3120514,
+   "name": "Huesca",
+   "lat": 42.1362,
+   "lon": -0.4087,
+   "population": 53956
+  },
+  {
+   "geonameid": 3108126,
+   "name": "Teruel",
+   "lat": 40.3456,
+   "lon": -1.1065,
+   "population": 36240
+  },
+  {
+   "geonameid": 3127047,
+   "name": "Calatayud",
+   "lat": 41.3535,
+   "lon": -1.6432,
+   "population": 20035
+  }
+ ],
+ "ES30": [
+  {
+   "geonameid": 3117735,
+   "name": "Madrid",
+   "lat": 40.4165,
+   "lon": -3.7026,
+   "population": 3255944
+  },
+  {
+   "geonameid": 3121969,
+   "name": "Fuencarral",
+   "lat": 40.5,
+   "lon": -3.6833,
+   "population": 238765
+  },
+  {
+   "geonameid": 3116025,
+   "name": "Móstoles",
+   "lat": 40.3223,
+   "lon": -3.865,
+   "population": 207095
+  },
+  {
+   "geonameid": 3130616,
+   "name": "Alcalá de Henares",
+   "lat": 40.4821,
+   "lon": -3.36,
+   "population": 193751
+  }
+ ],
+ "ES41": [
+  {
+   "geonameid": 3106672,
+   "name": "Valladolid",
+   "lat": 41.6554,
+   "lon": -4.7235,
+   "population": 300618
+  },
+  {
+   "geonameid": 3127461,
+   "name": "Burgos",
+   "lat": 42.3411,
+   "lon": -3.7018,
+   "population": 176418
+  },
+  {
+   "geonameid": 3111108,
+   "name": "Salamanca",
+   "lat": 40.9688,
+   "lon": -5.6639,
+   "population": 144825
+  },
+  {
+   "geonameid": 3118532,
+   "name": "León",
+   "lat": 42.6,
+   "lon": -5.5703,
+   "population": 124772
+  }
+ ],
+ "ES42": [
+  {
+   "geonameid": 2522258,
+   "name": "Albacete",
+   "lat": 38.9942,
+   "lon": -1.8564,
+   "population": 173050
+  },
+  {
+   "geonameid": 3121070,
+   "name": "Guadalajara",
+   "lat": 40.6286,
+   "lon": -3.1618,
+   "population": 93470
+  },
+  {
+   "geonameid": 2510693,
+   "name": "Talavera de la Reina",
+   "lat": 39.9635,
+   "lon": -4.8308,
+   "population": 88856
+  },
+  {
+   "geonameid": 2510409,
+   "name": "Toledo",
+   "lat": 39.8581,
+   "lon": -4.0226,
+   "population": 86526
+  }
+ ],
+ "ES43": [
+  {
+   "geonameid": 2521420,
+   "name": "Badajoz",
+   "lat": 38.8779,
+   "lon": -6.9706,
+   "population": 150530
+  },
+  {
+   "geonameid": 2520611,
+   "name": "Cáceres",
+   "lat": 39.4765,
+   "lon": -6.3722,
+   "population": 96068
+  },
+  {
+   "geonameid": 2513917,
+   "name": "Mérida",
+   "lat": 38.918,
+   "lon": -6.3429,
+   "population": 59857
+  },
+  {
+   "geonameid": 3113331,
+   "name": "Plasencia",
+   "lat": 40.0312,
+   "lon": -6.0884,
+   "population": 40141
+  }
+ ],
+ "ES51": [
+  {
+   "geonameid": 3128760,
+   "name": "Barcelona",
+   "lat": 41.3888,
+   "lon": 2.159,
+   "population": 1686208
+  },
+  {
+   "geonameid": 6544100,
+   "name": "Eixample",
+   "lat": 41.389,
+   "lon": 2.1618,
+   "population": 266477
+  },
+  {
+   "geonameid": 3108286,
+   "name": "Terrassa",
+   "lat": 41.5667,
+   "lon": 2.0167,
+   "population": 218535
+  },
+  {
+   "geonameid": 3129028,
+   "name": "Badalona",
+   "lat": 41.45,
+   "lon": 2.2474,
+   "population": 217741
+  },
+  {
+   "geonameid": 3111199,
+   "name": "Sabadell",
+   "lat": 41.5433,
+   "lon": 2.1094,
+   "population": 211734
+  }
+ ],
+ "ES52": [
+  {
+   "geonameid": 2509954,
+   "name": "Valencia",
+   "lat": 39.4739,
+   "lon": -0.3797,
+   "population": 824340
+  },
+  {
+   "geonameid": 2521978,
+   "name": "Alicante",
+   "lat": 38.3452,
+   "lon": -0.4815,
+   "population": 348901
+  },
+  {
+   "geonameid": 2518559,
+   "name": "Elche",
+   "lat": 38.2622,
+   "lon": -0.7011,
+   "population": 234765
+  },
+  {
+   "geonameid": 2519752,
+   "name": "Castelló de la Plana",
+   "lat": 39.9857,
+   "lon": -0.0493,
+   "population": 171857
+  }
+ ],
+ "ES53": [
+  {
+   "geonameid": 2512989,
+   "name": "Palma",
+   "lat": 39.5694,
+   "lon": 2.6502,
+   "population": 438234
+  },
+  {
+   "geonameid": 2520493,
+   "name": "Calvià",
+   "lat": 39.5657,
+   "lon": 2.5062,
+   "population": 51774
+  },
+  {
+   "geonameid": 2516479,
+   "name": "Ibiza",
+   "lat": 38.9088,
+   "lon": 1.433,
+   "population": 49727
+  },
+  {
+   "geonameid": 2514216,
+   "name": "Manacor",
+   "lat": 39.5696,
+   "lon": 3.2096,
+   "population": 42631
+  }
+ ],
+ "ES61": [
+  {
+   "geonameid": 2510911,
+   "name": "Sevilla",
+   "lat": 37.3828,
+   "lon": -5.9732,
+   "population": 686741
+  },
+  {
+   "geonameid": 2514256,
+   "name": "Málaga",
+   "lat": 36.7202,
+   "lon": -4.4203,
+   "population": 592346
+  },
+  {
+   "geonameid": 2519240,
+   "name": "Córdoba",
+   "lat": 37.8916,
+   "lon": -4.7728,
+   "population": 325708
+  },
+  {
+   "geonameid": 2517117,
+   "name": "Granada",
+   "lat": 37.1882,
+   "lon": -3.6067,
+   "population": 233532
+  },
+  {
+   "geonameid": 2516326,
+   "name": "Jerez de la Frontera",
+   "lat": 36.6865,
+   "lon": -6.1361,
+   "population": 212879
+  }
+ ],
+ "ES62": [
+  {
+   "geonameid": 2513416,
+   "name": "Murcia",
+   "lat": 37.987,
+   "lon": -1.13,
+   "population": 471982
+  },
+  {
+   "geonameid": 2520058,
+   "name": "Cartagena",
+   "lat": 37.602,
+   "lon": -0.984,
+   "population": 213943
+  },
+  {
+   "geonameid": 2514891,
+   "name": "Lorca",
+   "lat": 37.6712,
+   "lon": -1.7017,
+   "population": 93079
+  },
+  {
+   "geonameid": 2513759,
+   "name": "Molina de Segura",
+   "lat": 38.0546,
+   "lon": -1.2076,
+   "population": 64065
+  }
+ ],
+ "ES63": [
+  {
+   "geonameid": 6362987,
+   "name": "Ceuta",
+   "lat": 35.8892,
+   "lon": -5.3204,
+   "population": 83179
+  }
+ ],
+ "ES64": [
+  {
+   "geonameid": 2513947,
+   "name": "Melilla",
+   "lat": 35.2937,
+   "lon": -2.9383,
+   "population": 85985
+  }
+ ],
+ "FI19": [
+  {
+   "geonameid": 634963,
+   "name": "Tampere",
+   "lat": 61.4991,
+   "lon": 23.7871,
+   "population": 260646
+  },
+  {
+   "geonameid": 655194,
+   "name": "Jyväskylä",
+   "lat": 62.2415,
+   "lon": 25.7209,
+   "population": 148744
+  },
+  {
+   "geonameid": 640999,
+   "name": "Pori",
+   "lat": 61.4807,
+   "lon": 21.7852,
+   "population": 83157
+  },
+  {
+   "geonameid": 632978,
+   "name": "Vaasa",
+   "lat": 63.096,
+   "lon": 21.6158,
+   "population": 69819
+  }
+ ],
+ "FI1B": [
+  {
+   "geonameid": 658225,
+   "name": "Helsinki",
+   "lat": 60.1695,
+   "lon": 24.9354,
+   "population": 658864
+  },
+  {
+   "geonameid": 660158,
+   "name": "Espoo",
+   "lat": 60.2052,
+   "lon": 24.6522,
+   "population": 323910
+  },
+  {
+   "geonameid": 632453,
+   "name": "Vantaa",
+   "lat": 60.2941,
+   "lon": 25.041,
+   "population": 252724
+  },
+  {
+   "geonameid": 12747032,
+   "name": "East Helsinki",
+   "lat": 60.2104,
+   "lon": 25.0829,
+   "population": 170557
+  }
+ ],
+ "FI1C": [
+  {
+   "geonameid": 633679,
+   "name": "Turku",
+   "lat": 60.4515,
+   "lon": 22.2687,
+   "population": 206655
+  },
+  {
+   "geonameid": 649360,
+   "name": "Lahti",
+   "lat": 60.9827,
+   "lon": 25.6615,
+   "population": 121622
+  },
+  {
+   "geonameid": 650859,
+   "name": "Kouvola",
+   "lat": 60.8667,
+   "lon": 26.7,
+   "population": 78094
+  },
+  {
+   "geonameid": 648900,
+   "name": "Lappeenranta",
+   "lat": 61.0587,
+   "lon": 28.1887,
+   "population": 72909
+  }
+ ],
+ "FI1D": [
+  {
+   "geonameid": 643492,
+   "name": "Oulu",
+   "lat": 65.0124,
+   "lon": 25.4682,
+   "population": 216066
+  },
+  {
+   "geonameid": 650224,
+   "name": "Kuopio",
+   "lat": 62.8924,
+   "lon": 27.677,
+   "population": 125462
+  },
+  {
+   "geonameid": 655808,
+   "name": "Joensuu",
+   "lat": 62.6012,
+   "lon": 29.7632,
+   "population": 78398
+  },
+  {
+   "geonameid": 638936,
+   "name": "Rovaniemi",
+   "lat": 66.499,
+   "lon": 25.6887,
+   "population": 65670
+  }
+ ],
+ "FI20": [],
+ "FR10": [
+  {
+   "geonameid": 2988507,
+   "name": "Paris",
+   "lat": 48.8534,
+   "lon": 2.3488,
+   "population": 2138551
+  },
+  {
+   "geonameid": 12278193,
+   "name": "Marne La Vallée",
+   "lat": 48.8358,
+   "lon": 2.6424,
+   "population": 318325
+  },
+  {
+   "geonameid": 2970479,
+   "name": "Paris 15 Vaugirard",
+   "lat": 48.8412,
+   "lon": 2.3003,
+   "population": 229713
+  },
+  {
+   "geonameid": 8555643,
+   "name": "Cergy-Pontoise",
+   "lat": 49.0389,
+   "lon": 2.0781,
+   "population": 183430
+  },
+  {
+   "geonameid": 8533870,
+   "name": "Saint-Quentin-en-Yvelines",
+   "lat": 48.7719,
+   "lon": 2.0189,
+   "population": 146598
+  }
+ ],
+ "FRB0": [
+  {
+   "geonameid": 2972191,
+   "name": "Tours",
+   "lat": 47.3948,
+   "lon": 0.704,
+   "population": 141621
+  },
+  {
+   "geonameid": 2989317,
+   "name": "Orléans",
+   "lat": 47.9025,
+   "lon": 1.9041,
+   "population": 116344
+  },
+  {
+   "geonameid": 3031005,
+   "name": "Bourges",
+   "lat": 47.0833,
+   "lon": 2.4,
+   "population": 67987
+  },
+  {
+   "geonameid": 3032213,
+   "name": "Blois",
+   "lat": 47.5943,
+   "lon": 1.3291,
+   "population": 53660
+  }
+ ],
+ "FRC1": [
+  {
+   "geonameid": 3021372,
+   "name": "Dijon",
+   "lat": 47.3134,
+   "lon": 5.0139,
+   "population": 159941
+  },
+  {
+   "geonameid": 3027484,
+   "name": "Chalon-sur-Saône",
+   "lat": 46.7811,
+   "lon": 4.8537,
+   "population": 47251
+  },
+  {
+   "geonameid": 2990474,
+   "name": "Nevers",
+   "lat": 46.9896,
+   "lon": 3.159,
+   "population": 43988
+  },
+  {
+   "geonameid": 3035843,
+   "name": "Auxerre",
+   "lat": 47.7996,
+   "lon": 3.5703,
+   "population": 41516
+  }
+ ],
+ "FRC2": [
+  {
+   "geonameid": 3033123,
+   "name": "Besançon",
+   "lat": 47.2488,
+   "lon": 6.0182,
+   "population": 128426
+  },
+  {
+   "geonameid": 3033791,
+   "name": "Belfort",
+   "lat": 47.6422,
+   "lon": 6.8539,
+   "population": 54562
+  },
+  {
+   "geonameid": 2992938,
+   "name": "Montbéliard",
+   "lat": 47.5096,
+   "lon": 6.7982,
+   "population": 28865
+  },
+  {
+   "geonameid": 3021263,
+   "name": "Dole",
+   "lat": 47.0922,
+   "lon": 5.4897,
+   "population": 25878
+  }
+ ],
+ "FRD1": [
+  {
+   "geonameid": 3029241,
+   "name": "Caen",
+   "lat": 49.1859,
+   "lon": -0.3591,
+   "population": 110624
+  },
+  {
+   "geonameid": 3038230,
+   "name": "Alençon",
+   "lat": 48.4348,
+   "lon": 0.0931,
+   "population": 30786
+  },
+  {
+   "geonameid": 3025466,
+   "name": "Cherbourg",
+   "lat": 49.6398,
+   "lon": -1.6164,
+   "population": 26655
+  },
+  {
+   "geonameid": 2998150,
+   "name": "Lisieux",
+   "lat": 49.1466,
+   "lon": 0.2293,
+   "population": 24473
+  }
+ ],
+ "FRD2": [
+  {
+   "geonameid": 3003796,
+   "name": "Le Havre",
+   "lat": 49.4935,
+   "lon": 0.1079,
+   "population": 185972
+  },
+  {
+   "geonameid": 2982652,
+   "name": "Rouen",
+   "lat": 49.4431,
+   "lon": 1.0993,
+   "population": 116331
+  },
+  {
+   "geonameid": 3019265,
+   "name": "Évreux",
+   "lat": 49.0241,
+   "lon": 1.1508,
+   "population": 57795
+  },
+  {
+   "geonameid": 3021411,
+   "name": "Dieppe",
+   "lat": 49.9216,
+   "lon": 1.0777,
+   "population": 35707
+  }
+ ],
+ "FRE1": [
+  {
+   "geonameid": 2998324,
+   "name": "Lille",
+   "lat": 50.6339,
+   "lon": 3.0551,
+   "population": 238695
+  },
+  {
+   "geonameid": 2982681,
+   "name": "Roubaix",
+   "lat": 50.6942,
+   "lon": 3.1746,
+   "population": 99507
+  },
+  {
+   "geonameid": 3020686,
+   "name": "Dunkirk",
+   "lat": 51.0344,
+   "lon": 2.3768,
+   "population": 86263
+  },
+  {
+   "geonameid": 3029162,
+   "name": "Calais",
+   "lat": 50.9519,
+   "lon": 1.8563,
+   "population": 74433
+  }
+ ],
+ "FRE2": [
+  {
+   "geonameid": 3037854,
+   "name": "Amiens",
+   "lat": 49.9,
+   "lon": 2.3,
+   "population": 143086
+  },
+  {
+   "geonameid": 2977295,
+   "name": "Saint-Quentin",
+   "lat": 49.8489,
+   "lon": 3.2876,
+   "population": 55407
+  },
+  {
+   "geonameid": 3034006,
+   "name": "Beauvais",
+   "lat": 49.4333,
+   "lon": 2.0833,
+   "population": 53393
+  },
+  {
+   "geonameid": 3024066,
+   "name": "Compiègne",
+   "lat": 49.4179,
+   "lon": 2.8261,
+   "population": 44243
+  }
+ ],
+ "FRF1": [
+  {
+   "geonameid": 2973783,
+   "name": "Strasbourg",
+   "lat": 48.5839,
+   "lon": 7.7455,
+   "population": 274845
+  },
+  {
+   "geonameid": 2991214,
+   "name": "Mulhouse",
+   "lat": 47.752,
+   "lon": 7.3287,
+   "population": 111430
+  },
+  {
+   "geonameid": 3024297,
+   "name": "Colmar",
+   "lat": 48.0808,
+   "lon": 7.3558,
+   "population": 65405
+  },
+  {
+   "geonameid": 3014078,
+   "name": "Haguenau",
+   "lat": 48.8156,
+   "lon": 7.7905,
+   "population": 38721
+  }
+ ],
+ "FRF2": [
+  {
+   "geonameid": 2984114,
+   "name": "Reims",
+   "lat": 49.2653,
+   "lon": 4.0285,
+   "population": 196565
+  },
+  {
+   "geonameid": 2971549,
+   "name": "Troyes",
+   "lat": 48.3007,
+   "lon": 4.0852,
+   "population": 60785
+  },
+  {
+   "geonameid": 3026613,
+   "name": "Charleville-Mézières",
+   "lat": 49.7685,
+   "lon": 4.7249,
+   "population": 52415
+  },
+  {
+   "geonameid": 3027487,
+   "name": "Châlons-en-Champagne",
+   "lat": 48.9539,
+   "lon": 4.3672,
+   "population": 51257
+  }
+ ],
+ "FRF3": [
+  {
+   "geonameid": 2994160,
+   "name": "Metz",
+   "lat": 49.1191,
+   "lon": 6.1727,
+   "population": 123914
+  },
+  {
+   "geonameid": 2990999,
+   "name": "Nancy",
+   "lat": 48.6844,
+   "lon": 6.185,
+   "population": 105058
+  },
+  {
+   "geonameid": 2972811,
+   "name": "Thionville",
+   "lat": 49.3599,
+   "lon": 6.1604,
+   "population": 44311
+  },
+  {
+   "geonameid": 3020035,
+   "name": "Épinal",
+   "lat": 48.1832,
+   "lon": 6.453,
+   "population": 39518
+  }
+ ],
+ "FRG0": [
+  {
+   "geonameid": 2990969,
+   "name": "Nantes",
+   "lat": 47.2172,
+   "lon": -1.5534,
+   "population": 325070
+  },
+  {
+   "geonameid": 3037656,
+   "name": "Angers",
+   "lat": 47.4716,
+   "lon": -0.552,
+   "population": 168279
+  },
+  {
+   "geonameid": 3003603,
+   "name": "Le Mans",
+   "lat": 48.0021,
+   "lon": 0.2025,
+   "population": 144515
+  },
+  {
+   "geonameid": 2977921,
+   "name": "Saint-Nazaire",
+   "lat": 47.2751,
+   "lon": -2.2179,
+   "population": 67054
+  }
+ ],
+ "FRH0": [
+  {
+   "geonameid": 2983990,
+   "name": "Rennes",
+   "lat": 48.1111,
+   "lon": -1.6743,
+   "population": 227830
+  },
+  {
+   "geonameid": 3030300,
+   "name": "Brest",
+   "lat": 48.3903,
+   "lon": -4.4863,
+   "population": 144899
+  },
+  {
+   "geonameid": 2984701,
+   "name": "Quimper",
+   "lat": 47.996,
+   "lon": -4.0979,
+   "population": 63849
+  },
+  {
+   "geonameid": 2997577,
+   "name": "Lorient",
+   "lat": 47.7482,
+   "lon": -3.3718,
+   "population": 58112
+  },
+  {
+   "geonameid": 2978640,
+   "name": "Saint-Malo",
+   "lat": 48.6474,
+   "lon": -2.0088,
+   "population": 50676
+  }
+ ],
+ "FRI1": [
+  {
+   "geonameid": 3031582,
+   "name": "Bordeaux",
+   "lat": 44.8412,
+   "lon": -0.5805,
+   "population": 265328
+  },
+  {
+   "geonameid": 2988358,
+   "name": "Pau",
+   "lat": 43.3112,
+   "lon": -0.3558,
+   "population": 82697
+  },
+  {
+   "geonameid": 3034475,
+   "name": "Bayonne",
+   "lat": 43.4932,
+   "lon": -1.473,
+   "population": 44396
+  },
+  {
+   "geonameid": 2992771,
+   "name": "Mont-de-Marsan",
+   "lat": 43.8902,
+   "lon": -0.4971,
+   "population": 36205
+  }
+ ],
+ "FRI2": [
+  {
+   "geonameid": 2998286,
+   "name": "Limoges",
+   "lat": 45.8336,
+   "lon": 1.2476,
+   "population": 141176
+  },
+  {
+   "geonameid": 3029974,
+   "name": "Brive-la-Gaillarde",
+   "lat": 45.1589,
+   "lon": 1.5333,
+   "population": 53466
+  },
+  {
+   "geonameid": 2971482,
+   "name": "Tulle",
+   "lat": 45.2658,
+   "lon": 1.7723,
+   "population": 16969
+  },
+  {
+   "geonameid": 3014383,
+   "name": "Guéret",
+   "lat": 46.1718,
+   "lon": 1.8717,
+   "population": 15853
+  }
+ ],
+ "FRI3": [
+  {
+   "geonameid": 2986495,
+   "name": "Poitiers",
+   "lat": 46.5826,
+   "lon": 0.3435,
+   "population": 85960
+  },
+  {
+   "geonameid": 3006787,
+   "name": "La Rochelle",
+   "lat": 46.1631,
+   "lon": -1.1522,
+   "population": 76810
+  },
+  {
+   "geonameid": 2990355,
+   "name": "Niort",
+   "lat": 46.3231,
+   "lon": -0.4588,
+   "population": 54660
+  },
+  {
+   "geonameid": 3037598,
+   "name": "Angoulême",
+   "lat": 45.65,
+   "lon": 0.1535,
+   "population": 49468
+  }
+ ],
+ "FRJ1": [
+  {
+   "geonameid": 2992166,
+   "name": "Montpellier",
+   "lat": 43.6109,
+   "lon": 3.8763,
+   "population": 248252
+  },
+  {
+   "geonameid": 2990363,
+   "name": "Nîmes",
+   "lat": 43.8366,
+   "lon": 4.3579,
+   "population": 148236
+  },
+  {
+   "geonameid": 2987914,
+   "name": "Perpignan",
+   "lat": 42.6976,
+   "lon": 2.8954,
+   "population": 110706
+  },
+  {
+   "geonameid": 3032833,
+   "name": "Béziers",
+   "lat": 43.3412,
+   "lon": 3.214,
+   "population": 74081
+  }
+ ],
+ "FRJ2": [
+  {
+   "geonameid": 2972315,
+   "name": "Toulouse",
+   "lat": 43.6043,
+   "lon": 1.4437,
+   "population": 511684
+  },
+  {
+   "geonameid": 2993002,
+   "name": "Montauban",
+   "lat": 44.0176,
+   "lon": 1.3542,
+   "population": 52434
+  },
+  {
+   "geonameid": 3038261,
+   "name": "Albi",
+   "lat": 43.9298,
+   "lon": 2.148,
+   "population": 52409
+  },
+  {
+   "geonameid": 2973385,
+   "name": "Tarbes",
+   "lat": 43.2341,
+   "lon": 0.0714,
+   "population": 52106
+  }
+ ],
+ "FRK1": [
+  {
+   "geonameid": 3024635,
+   "name": "Clermont-Ferrand",
+   "lat": 45.7797,
+   "lon": 3.0868,
+   "population": 147865
+  },
+  {
+   "geonameid": 2992292,
+   "name": "Montluçon",
+   "lat": 46.3402,
+   "lon": 2.6025,
+   "population": 44960
+  },
+  {
+   "geonameid": 3036016,
+   "name": "Aurillac",
+   "lat": 44.9254,
+   "lon": 2.4398,
+   "population": 34724
+  },
+  {
+   "geonameid": 2969392,
+   "name": "Vichy",
+   "lat": 46.1271,
+   "lon": 3.4258,
+   "population": 27019
+  }
+ ],
+ "FRK2": [
+  {
+   "geonameid": 2996944,
+   "name": "Lyon",
+   "lat": 45.7491,
+   "lon": 4.8479,
+   "population": 520774
+  },
+  {
+   "geonameid": 2980291,
+   "name": "Saint-Étienne",
+   "lat": 45.4339,
+   "lon": 4.39,
+   "population": 176280
+  },
+  {
+   "geonameid": 3014728,
+   "name": "Grenoble",
+   "lat": 45.1787,
+   "lon": 5.7148,
+   "population": 158552
+  },
+  {
+   "geonameid": 2971053,
+   "name": "Valence",
+   "lat": 44.9256,
+   "lon": 4.9096,
+   "population": 63864
+  }
+ ],
+ "FRL0": [
+  {
+   "geonameid": 2995469,
+   "name": "Marseille",
+   "lat": 43.297,
+   "lon": 5.3811,
+   "population": 877215
+  },
+  {
+   "geonameid": 2990440,
+   "name": "Nice",
+   "lat": 43.7031,
+   "lon": 7.2661,
+   "population": 342669
+  },
+  {
+   "geonameid": 2972328,
+   "name": "Toulon",
+   "lat": 43.1244,
+   "lon": 5.9284,
+   "population": 168701
+  },
+  {
+   "geonameid": 3038354,
+   "name": "Aix-en-Provence",
+   "lat": 43.5283,
+   "lon": 5.4497,
+   "population": 146821
+  }
+ ],
+ "FRM0": [
+  {
+   "geonameid": 3038334,
+   "name": "Ajaccio",
+   "lat": 41.9189,
+   "lon": 8.7381,
+   "population": 54364
+  },
+  {
+   "geonameid": 3034640,
+   "name": "Bastia",
+   "lat": 42.7022,
+   "lon": 9.4512,
+   "population": 41001
+  }
+ ],
+ "HR02": [
+  {
+   "geonameid": 3193935,
+   "name": "Osijek",
+   "lat": 45.5507,
+   "lon": 18.6942,
+   "population": 75535
+  },
+  {
+   "geonameid": 3190586,
+   "name": "Slavonski Brod",
+   "lat": 45.1616,
+   "lon": 18.0163,
+   "population": 45005
+  },
+  {
+   "geonameid": 3345300,
+   "name": "Karlovac",
+   "lat": 45.4917,
+   "lon": 15.55,
+   "population": 41869
+  },
+  {
+   "geonameid": 3187719,
+   "name": "Vinkovci",
+   "lat": 45.2883,
+   "lon": 18.8047,
+   "population": 28111
+  }
+ ],
+ "HR03": [
+  {
+   "geonameid": 3190261,
+   "name": "Split",
+   "lat": 43.5089,
+   "lon": 16.4392,
+   "population": 149830
+  },
+  {
+   "geonameid": 3191648,
+   "name": "Rijeka",
+   "lat": 45.3267,
+   "lon": 14.4424,
+   "population": 107964
+  },
+  {
+   "geonameid": 3186952,
+   "name": "Zadar",
+   "lat": 44.1158,
+   "lon": 15.2251,
+   "population": 67309
+  },
+  {
+   "geonameid": 3192224,
+   "name": "Pula",
+   "lat": 44.8683,
+   "lon": 13.8481,
+   "population": 52220
+  },
+  {
+   "geonameid": 3201047,
+   "name": "Dubrovnik",
+   "lat": 42.6412,
+   "lon": 18.1091,
+   "population": 26922
+  }
+ ],
+ "HR05": [
+  {
+   "geonameid": 3186886,
+   "name": "Zagreb",
+   "lat": 45.8144,
+   "lon": 15.978,
+   "population": 663592
+  },
+  {
+   "geonameid": 3190966,
+   "name": "Sesvete",
+   "lat": 45.8311,
+   "lon": 16.1164,
+   "population": 55313
+  }
+ ],
+ "HR06": [
+  {
+   "geonameid": 3188383,
+   "name": "Varaždin",
+   "lat": 46.3044,
+   "lon": 16.3378,
+   "population": 36187
+  },
+  {
+   "geonameid": 3188244,
+   "name": "Velika Gorica",
+   "lat": 45.7125,
+   "lon": 16.0756,
+   "population": 30036
+  },
+  {
+   "geonameid": 3197728,
+   "name": "Koprivnica",
+   "lat": 46.1636,
+   "lon": 16.8297,
+   "population": 22262
+  },
+  {
+   "geonameid": 3186781,
+   "name": "Zaprešić",
+   "lat": 45.8564,
+   "lon": 15.8078,
+   "population": 18768
+  }
+ ],
+ "HU11": [
+  {
+   "geonameid": 3054643,
+   "name": "Budapest",
+   "lat": 47.4984,
+   "lon": 19.0404,
+   "population": 1741041
+  },
+  {
+   "geonameid": 3043470,
+   "name": "Újpest",
+   "lat": 47.5686,
+   "lon": 19.0846,
+   "population": 100694
+  },
+  {
+   "geonameid": 7284836,
+   "name": "Budapest XVIII. kerület",
+   "lat": 47.4442,
+   "lon": 19.176,
+   "population": 93225
+  },
+  {
+   "geonameid": 7284839,
+   "name": "Budapest XXI. kerület",
+   "lat": 47.4222,
+   "lon": 19.0664,
+   "population": 76339
+  }
+ ],
+ "HU12": [
+  {
+   "geonameid": 3053281,
+   "name": "Érd",
+   "lat": 47.3949,
+   "lon": 18.9136,
+   "population": 62408
+  },
+  {
+   "geonameid": 3054543,
+   "name": "Cegléd",
+   "lat": 47.1727,
+   "lon": 19.7995,
+   "population": 39287
+  },
+  {
+   "geonameid": 3043293,
+   "name": "Vác",
+   "lat": 47.7759,
+   "lon": 19.1361,
+   "population": 35108
+  },
+  {
+   "geonameid": 3052236,
+   "name": "Gödöllő",
+   "lat": 47.5966,
+   "lon": 19.3551,
+   "population": 32374
+  }
+ ],
+ "HU21": [
+  {
+   "geonameid": 3044774,
+   "name": "Székesfehérvár",
+   "lat": 47.19,
+   "lon": 18.4103,
+   "population": 101600
+  },
+  {
+   "geonameid": 3044082,
+   "name": "Tatabánya",
+   "lat": 47.5925,
+   "lon": 18.381,
+   "population": 65849
+  },
+  {
+   "geonameid": 3042929,
+   "name": "Veszprém",
+   "lat": 47.0933,
+   "lon": 17.9115,
+   "population": 56927
+  },
+  {
+   "geonameid": 3053438,
+   "name": "Dunaújváros",
+   "lat": 46.9648,
+   "lon": 18.9397,
+   "population": 50084
+  }
+ ],
+ "HU22": [
+  {
+   "geonameid": 3052009,
+   "name": "Győr",
+   "lat": 47.6833,
+   "lon": 17.6351,
+   "population": 129301
+  },
+  {
+   "geonameid": 3044310,
+   "name": "Szombathely",
+   "lat": 47.2309,
+   "lon": 16.6215,
+   "population": 78025
+  },
+  {
+   "geonameid": 3045190,
+   "name": "Sopron",
+   "lat": 47.685,
+   "lon": 16.5905,
+   "population": 62246
+  },
+  {
+   "geonameid": 3042638,
+   "name": "Zalaegerszeg",
+   "lat": 46.837,
+   "lon": 16.844,
+   "population": 61898
+  }
+ ],
+ "HU23": [
+  {
+   "geonameid": 3046526,
+   "name": "Pécs",
+   "lat": 46.0762,
+   "lon": 18.2281,
+   "population": 145347
+  },
+  {
+   "geonameid": 3050616,
+   "name": "Kaposvár",
+   "lat": 46.3667,
+   "lon": 17.8,
+   "population": 64280
+  },
+  {
+   "geonameid": 3044760,
+   "name": "Szekszárd",
+   "lat": 46.3472,
+   "lon": 18.7119,
+   "population": 34174
+  },
+  {
+   "geonameid": 3049512,
+   "name": "Komló",
+   "lat": 46.1928,
+   "lon": 18.2649,
+   "population": 26924
+  }
+ ],
+ "HU31": [
+  {
+   "geonameid": 717582,
+   "name": "Miskolc",
+   "lat": 48.1033,
+   "lon": 20.7781,
+   "population": 154521
+  },
+  {
+   "geonameid": 721239,
+   "name": "Eger",
+   "lat": 47.9027,
+   "lon": 20.3733,
+   "population": 53876
+  },
+  {
+   "geonameid": 3045643,
+   "name": "Salgótarján",
+   "lat": 48.0987,
+   "lon": 19.803,
+   "population": 34627
+  },
+  {
+   "geonameid": 3052040,
+   "name": "Gyöngyös",
+   "lat": 47.7826,
+   "lon": 19.928,
+   "population": 32938
+  }
+ ],
+ "HU32": [
+  {
+   "geonameid": 721472,
+   "name": "Debrecen",
+   "lat": 47.5317,
+   "lon": 21.6244,
+   "population": 202402
+  },
+  {
+   "geonameid": 716935,
+   "name": "Nyíregyháza",
+   "lat": 47.9554,
+   "lon": 21.7167,
+   "population": 117689
+  },
+  {
+   "geonameid": 715126,
+   "name": "Szolnok",
+   "lat": 47.1807,
+   "lon": 20.1984,
+   "population": 71285
+  },
+  {
+   "geonameid": 720292,
+   "name": "Hajdúböszörmény",
+   "lat": 47.6667,
+   "lon": 21.5167,
+   "population": 31957
+  }
+ ],
+ "HU33": [
+  {
+   "geonameid": 715429,
+   "name": "Szeged",
+   "lat": 46.253,
+   "lon": 20.1482,
+   "population": 160766
+  },
+  {
+   "geonameid": 3050434,
+   "name": "Kecskemét",
+   "lat": 46.9062,
+   "lon": 19.6913,
+   "population": 109847
+  },
+  {
+   "geonameid": 722437,
+   "name": "Békéscsaba",
+   "lat": 46.6833,
+   "lon": 21.1,
+   "population": 59732
+  },
+  {
+   "geonameid": 719965,
+   "name": "Hódmezővásárhely",
+   "lat": 46.4167,
+   "lon": 20.3333,
+   "population": 44009
+  }
+ ],
+ "IE04": [
+  {
+   "geonameid": 2964180,
+   "name": "Galway",
+   "lat": 53.2724,
+   "lon": -9.051,
+   "population": 85910
+  },
+  {
+   "geonameid": 2962961,
+   "name": "Letterkenny",
+   "lat": 54.95,
+   "lon": -7.7333,
+   "population": 22549
+  },
+  {
+   "geonameid": 2961423,
+   "name": "Sligo",
+   "lat": 54.2697,
+   "lon": -8.4694,
+   "population": 20608
+  }
+ ],
+ "IE05": [
+  {
+   "geonameid": 2965140,
+   "name": "Cork",
+   "lat": 51.898,
+   "lon": -8.4706,
+   "population": 224004
+  },
+  {
+   "geonameid": 2962943,
+   "name": "Limerick",
+   "lat": 52.6647,
+   "lon": -8.6231,
+   "population": 102287
+  },
+  {
+   "geonameid": 2960992,
+   "name": "Waterford",
+   "lat": 52.2583,
+   "lon": -7.1119,
+   "population": 60079
+  },
+  {
+   "geonameid": 2964405,
+   "name": "Ennis",
+   "lat": 52.8436,
+   "lon": -8.9864,
+   "population": 27923
+  }
+ ],
+ "IE06": [
+  {
+   "geonameid": 2964574,
+   "name": "Dublin",
+   "lat": 53.3331,
+   "lon": -6.2489,
+   "population": 1024027
+  },
+  {
+   "geonameid": 2961284,
+   "name": "Tallaght",
+   "lat": 53.2859,
+   "lon": -6.3734,
+   "population": 81022
+  },
+  {
+   "geonameid": 2964661,
+   "name": "Drogheda",
+   "lat": 53.7189,
+   "lon": -6.3478,
+   "population": 44135
+  },
+  {
+   "geonameid": 2964540,
+   "name": "Dundalk",
+   "lat": 54.0,
+   "lon": -6.4167,
+   "population": 43112
+  }
+ ],
+ "IS00": [
+  {
+   "geonameid": 3413829,
+   "name": "Reykjavík",
+   "lat": 64.1355,
+   "lon": -21.8954,
+   "population": 118918
+  },
+  {
+   "geonameid": 8644037,
+   "name": "Reykjanesbær",
+   "lat": 63.9981,
+   "lon": -22.5611,
+   "population": 19724
+  },
+  {
+   "geonameid": 2633274,
+   "name": "Akureyri",
+   "lat": 65.6835,
+   "lon": -18.0878,
+   "population": 19219
+  }
+ ],
+ "ITC1": [
+  {
+   "geonameid": 3165524,
+   "name": "Turin",
+   "lat": 45.0705,
+   "lon": 7.6868,
+   "population": 847287
+  },
+  {
+   "geonameid": 3172189,
+   "name": "Novara",
+   "lat": 45.4469,
+   "lon": 8.6212,
+   "population": 101916
+  },
+  {
+   "geonameid": 3183299,
+   "name": "Alessandria",
+   "lat": 44.9092,
+   "lon": 8.6101,
+   "population": 92104
+  },
+  {
+   "geonameid": 3182714,
+   "name": "Asti",
+   "lat": 44.9016,
+   "lon": 8.2075,
+   "population": 74348
+  }
+ ],
+ "ITC2": [
+  {
+   "geonameid": 3182997,
+   "name": "Aosta",
+   "lat": 45.7376,
+   "lon": 7.3172,
+   "population": 35261
+  }
+ ],
+ "ITC3": [
+  {
+   "geonameid": 3176219,
+   "name": "Genoa",
+   "lat": 44.4048,
+   "lon": 8.9444,
+   "population": 580097
+  },
+  {
+   "geonameid": 3175081,
+   "name": "La Spezia",
+   "lat": 44.103,
+   "lon": 9.8238,
+   "population": 93288
+  },
+  {
+   "geonameid": 3167022,
+   "name": "Savona",
+   "lat": 44.309,
+   "lon": 8.4771,
+   "population": 61345
+  },
+  {
+   "geonameid": 3167777,
+   "name": "Sanremo",
+   "lat": 43.8173,
+   "lon": 7.7772,
+   "population": 47043
+  }
+ ],
+ "ITC4": [
+  {
+   "geonameid": 3173435,
+   "name": "Milan",
+   "lat": 45.4643,
+   "lon": 9.1895,
+   "population": 1371498
+  },
+  {
+   "geonameid": 3181554,
+   "name": "Brescia",
+   "lat": 45.5356,
+   "lon": 10.2147,
+   "population": 200423
+  },
+  {
+   "geonameid": 3172629,
+   "name": "Monza",
+   "lat": 45.58,
+   "lon": 9.2725,
+   "population": 124398
+  },
+  {
+   "geonameid": 3182164,
+   "name": "Bergamo",
+   "lat": 45.696,
+   "lon": 9.6672,
+   "population": 121200
+  }
+ ],
+ "ITF1": [
+  {
+   "geonameid": 3171168,
+   "name": "Pescara",
+   "lat": 42.4584,
+   "lon": 14.2028,
+   "population": 119554
+  },
+  {
+   "geonameid": 3165803,
+   "name": "Teramo",
+   "lat": 42.6612,
+   "lon": 13.699,
+   "population": 54338
+  },
+  {
+   "geonameid": 3178796,
+   "name": "Chieti",
+   "lat": 42.3483,
+   "lon": 14.1649,
+   "population": 44444
+  },
+  {
+   "geonameid": 3164672,
+   "name": "Vasto",
+   "lat": 42.1115,
+   "lon": 14.7065,
+   "population": 41409
+  }
+ ],
+ "ITF2": [
+  {
+   "geonameid": 3180991,
+   "name": "Campobasso",
+   "lat": 41.5595,
+   "lon": 14.6674,
+   "population": 49230
+  },
+  {
+   "geonameid": 3165773,
+   "name": "Termoli",
+   "lat": 41.9999,
+   "lon": 14.9939,
+   "population": 31044
+  },
+  {
+   "geonameid": 3175445,
+   "name": "Isernia",
+   "lat": 41.596,
+   "lon": 14.234,
+   "population": 16945
+  }
+ ],
+ "ITF3": [
+  {
+   "geonameid": 3172394,
+   "name": "Naples",
+   "lat": 40.8522,
+   "lon": 14.2681,
+   "population": 909048
+  },
+  {
+   "geonameid": 3168673,
+   "name": "Salerno",
+   "lat": 40.6754,
+   "lon": 14.7933,
+   "population": 125797
+  },
+  {
+   "geonameid": 3165456,
+   "name": "Torre del Greco",
+   "lat": 40.7893,
+   "lon": 14.3681,
+   "population": 85332
+  },
+  {
+   "geonameid": 3169984,
+   "name": "Pozzuoli",
+   "lat": 40.8439,
+   "lon": 14.0952,
+   "population": 81231
+  }
+ ],
+ "ITF4": [
+  {
+   "geonameid": 3182351,
+   "name": "Bari",
+   "lat": 41.1207,
+   "lon": 16.8698,
+   "population": 316491
+  },
+  {
+   "geonameid": 3165926,
+   "name": "Taranto",
+   "lat": 40.4644,
+   "lon": 17.2471,
+   "population": 198585
+  },
+  {
+   "geonameid": 3176885,
+   "name": "Foggia",
+   "lat": 41.4584,
+   "lon": 15.5519,
+   "population": 137032
+  },
+  {
+   "geonameid": 3183072,
+   "name": "Andria",
+   "lat": 41.2312,
+   "lon": 16.298,
+   "population": 99784
+  },
+  {
+   "geonameid": 3182340,
+   "name": "Barletta",
+   "lat": 41.3143,
+   "lon": 16.2816,
+   "population": 93279
+  }
+ ],
+ "ITF5": [
+  {
+   "geonameid": 3173721,
+   "name": "Matera",
+   "lat": 40.666,
+   "lon": 16.6046,
+   "population": 60403
+  },
+  {
+   "geonameid": 3170027,
+   "name": "Potenza",
+   "lat": 40.6418,
+   "lon": 15.8079,
+   "population": 56433
+  }
+ ],
+ "ITF6": [
+  {
+   "geonameid": 2523630,
+   "name": "Reggio Calabria",
+   "lat": 38.1105,
+   "lon": 15.6613,
+   "population": 182455
+  },
+  {
+   "geonameid": 2525059,
+   "name": "Catanzaro",
+   "lat": 38.8825,
+   "lon": 16.6009,
+   "population": 78970
+  },
+  {
+   "geonameid": 6534232,
+   "name": "Lamezia Terme",
+   "lat": 38.9626,
+   "lon": 16.3094,
+   "population": 70501
+  },
+  {
+   "geonameid": 2524881,
+   "name": "Crotone",
+   "lat": 39.0808,
+   "lon": 17.1276,
+   "population": 64603
+  }
+ ],
+ "ITG1": [
+  {
+   "geonameid": 2523920,
+   "name": "Palermo",
+   "lat": 38.1166,
+   "lon": 13.3636,
+   "population": 648260
+  },
+  {
+   "geonameid": 2525068,
+   "name": "Catania",
+   "lat": 37.4922,
+   "lon": 15.0704,
+   "population": 311584
+  },
+  {
+   "geonameid": 2524170,
+   "name": "Messina",
+   "lat": 38.1939,
+   "lon": 15.5526,
+   "population": 219948
+  },
+  {
+   "geonameid": 2523083,
+   "name": "Siracusa",
+   "lat": 37.0754,
+   "lon": 15.2866,
+   "population": 121605
+  }
+ ],
+ "ITG2": [
+  {
+   "geonameid": 2525473,
+   "name": "Cagliari",
+   "lat": 39.2305,
+   "lon": 9.1192,
+   "population": 149257
+  },
+  {
+   "geonameid": 3167096,
+   "name": "Sassari",
+   "lat": 40.7259,
+   "lon": 8.5555,
+   "population": 91895
+  },
+  {
+   "geonameid": 2523665,
+   "name": "Quartu Sant'Elena",
+   "lat": 39.2293,
+   "lon": 9.25,
+   "population": 66620
+  },
+  {
+   "geonameid": 3172087,
+   "name": "Olbia",
+   "lat": 40.9234,
+   "lon": 9.498,
+   "population": 60345
+  }
+ ],
+ "ITH1": [
+  {
+   "geonameid": 3181913,
+   "name": "Bolzano",
+   "lat": 46.4907,
+   "lon": 11.3398,
+   "population": 107436
+  },
+  {
+   "geonameid": 3173577,
+   "name": "Merano",
+   "lat": 46.6682,
+   "lon": 11.1595,
+   "population": 41051
+  },
+  {
+   "geonameid": 3181550,
+   "name": "Bressanone",
+   "lat": 46.715,
+   "lon": 11.656,
+   "population": 15868
+  }
+ ],
+ "ITH2": [
+  {
+   "geonameid": 3165243,
+   "name": "Trento",
+   "lat": 46.0679,
+   "lon": 11.1211,
+   "population": 120709
+  },
+  {
+   "geonameid": 3168854,
+   "name": "Rovereto",
+   "lat": 45.8904,
+   "lon": 11.0405,
+   "population": 34152
+  },
+  {
+   "geonameid": 3169272,
+   "name": "Riva del Garda",
+   "lat": 45.8858,
+   "lon": 10.8412,
+   "population": 17331
+  }
+ ],
+ "ITH3": [
+  {
+   "geonameid": 3164527,
+   "name": "Verona",
+   "lat": 45.4385,
+   "lon": 10.9938,
+   "population": 258031
+  },
+  {
+   "geonameid": 3171728,
+   "name": "Padua",
+   "lat": 45.408,
+   "lon": 11.8859,
+   "population": 203725
+  },
+  {
+   "geonameid": 3173529,
+   "name": "Mestre",
+   "lat": 45.4917,
+   "lon": 12.2454,
+   "population": 147662
+  },
+  {
+   "geonameid": 3164419,
+   "name": "Vicenza",
+   "lat": 45.5467,
+   "lon": 11.5475,
+   "population": 111980
+  }
+ ],
+ "ITH4": [
+  {
+   "geonameid": 3165185,
+   "name": "Trieste",
+   "lat": 45.6495,
+   "lon": 13.7768,
+   "population": 204338
+  },
+  {
+   "geonameid": 3165072,
+   "name": "Udine",
+   "lat": 46.0693,
+   "lon": 13.2371,
+   "population": 100170
+  },
+  {
+   "geonameid": 3170147,
+   "name": "Pordenone",
+   "lat": 45.9569,
+   "lon": 12.6605,
+   "population": 49878
+  },
+  {
+   "geonameid": 3173153,
+   "name": "Monfalcone",
+   "lat": 45.8046,
+   "lon": 13.5329,
+   "population": 26706
+  }
+ ],
+ "ITH5": [
+  {
+   "geonameid": 3181928,
+   "name": "Bologna",
+   "lat": 44.4938,
+   "lon": 11.3387,
+   "population": 394843
+  },
+  {
+   "geonameid": 3171457,
+   "name": "Parma",
+   "lat": 44.7993,
+   "lon": 10.3262,
+   "population": 198292
+  },
+  {
+   "geonameid": 3173331,
+   "name": "Modena",
+   "lat": 44.6478,
+   "lon": 10.9254,
+   "population": 184732
+  },
+  {
+   "geonameid": 3169522,
+   "name": "Reggio nell'Emilia",
+   "lat": 44.6983,
+   "lon": 10.6312,
+   "population": 171944
+  }
+ ],
+ "ITI1": [
+  {
+   "geonameid": 3176959,
+   "name": "Florence",
+   "lat": 43.7792,
+   "lon": 11.2463,
+   "population": 367150
+  },
+  {
+   "geonameid": 3169921,
+   "name": "Prato",
+   "lat": 43.8805,
+   "lon": 11.097,
+   "population": 195089
+  },
+  {
+   "geonameid": 3174659,
+   "name": "Livorno",
+   "lat": 43.5443,
+   "lon": 10.3262,
+   "population": 157017
+  },
+  {
+   "geonameid": 3170647,
+   "name": "Pisa",
+   "lat": 43.7085,
+   "lon": 10.4036,
+   "population": 109960
+  },
+  {
+   "geonameid": 3182884,
+   "name": "Arezzo",
+   "lat": 43.4628,
+   "lon": 11.8807,
+   "population": 100734
+  }
+ ],
+ "ITI2": [
+  {
+   "geonameid": 3171180,
+   "name": "Perugia",
+   "lat": 43.1122,
+   "lon": 12.3888,
+   "population": 120137
+  },
+  {
+   "geonameid": 3165771,
+   "name": "Terni",
+   "lat": 42.5633,
+   "lon": 12.6433,
+   "population": 111189
+  },
+  {
+   "geonameid": 3176854,
+   "name": "Foligno",
+   "lat": 42.9549,
+   "lon": 12.7027,
+   "population": 56918
+  },
+  {
+   "geonameid": 3178619,
+   "name": "Città di Castello",
+   "lat": 43.4656,
+   "lon": 12.2375,
+   "population": 22497
+  }
+ ],
+ "ITI3": [
+  {
+   "geonameid": 3183089,
+   "name": "Ancona",
+   "lat": 43.6072,
+   "lon": 13.5103,
+   "population": 89994
+  },
+  {
+   "geonameid": 3171173,
+   "name": "Pesaro",
+   "lat": 43.9092,
+   "lon": 12.9164,
+   "population": 77241
+  },
+  {
+   "geonameid": 3177219,
+   "name": "Fano",
+   "lat": 43.8405,
+   "lon": 13.0167,
+   "population": 60978
+  },
+  {
+   "geonameid": 3168550,
+   "name": "San Benedetto del Tronto",
+   "lat": 42.9568,
+   "lon": 13.8768,
+   "population": 45873
+  }
+ ],
+ "ITI4": [
+  {
+   "geonameid": 3169070,
+   "name": "Rome",
+   "lat": 41.8919,
+   "lon": 12.5113,
+   "population": 2318895
+  },
+  {
+   "geonameid": 3183539,
+   "name": "Acilia-Castel Fusano-Ostia Antica",
+   "lat": 41.7634,
+   "lon": 12.3308,
+   "population": 129362
+  },
+  {
+   "geonameid": 6534228,
+   "name": "Guidonia Montecelio",
+   "lat": 41.9936,
+   "lon": 12.7224,
+   "population": 89165
+  },
+  {
+   "geonameid": 3175058,
+   "name": "Latina",
+   "lat": 41.4661,
+   "lon": 12.9043,
+   "population": 76305
+  },
+  {
+   "geonameid": 3182957,
+   "name": "Aprilia",
+   "lat": 41.5945,
+   "lon": 12.6542,
+   "population": 74977
+  }
+ ],
+ "LI00": [
+  {
+   "geonameid": 3042030,
+   "name": "Vaduz",
+   "lat": 47.1415,
+   "lon": 9.5215,
+   "population": 5197
+  }
+ ],
+ "LT01": [
+  {
+   "geonameid": 593116,
+   "name": "Vilnius",
+   "lat": 54.6892,
+   "lon": 25.2798,
+   "population": 542366
+  },
+  {
+   "geonameid": 596713,
+   "name": "Naujoji Vilnia",
+   "lat": 54.6951,
+   "lon": 25.4197,
+   "population": 36800
+  },
+  {
+   "geonameid": 593733,
+   "name": "Ukmerge",
+   "lat": 55.25,
+   "lon": 24.75,
+   "population": 20154
+  }
+ ],
+ "LT02": [
+  {
+   "geonameid": 598316,
+   "name": "Kaunas",
+   "lat": 54.9016,
+   "lon": 23.9091,
+   "population": 289380
+  },
+  {
+   "geonameid": 598098,
+   "name": "Klaipėda",
+   "lat": 55.7068,
+   "lon": 21.1391,
+   "population": 172292
+  },
+  {
+   "geonameid": 594739,
+   "name": "Šiauliai",
+   "lat": 55.9333,
+   "lon": 23.3167,
+   "population": 99462
+  },
+  {
+   "geonameid": 596128,
+   "name": "Panevėžys",
+   "lat": 55.7319,
+   "lon": 24.3598,
+   "population": 85885
+  }
+ ],
+ "LU00": [
+  {
+   "geonameid": 2960316,
+   "name": "Luxembourg",
+   "lat": 49.6098,
+   "lon": 6.1327,
+   "population": 76684
+  },
+  {
+   "geonameid": 2960596,
+   "name": "Esch-sur-Alzette",
+   "lat": 49.4958,
+   "lon": 5.9806,
+   "population": 36625
+  }
+ ],
+ "LV00": [
+  {
+   "geonameid": 456172,
+   "name": "Riga",
+   "lat": 56.946,
+   "lon": 24.1059,
+   "population": 742572
+  },
+  {
+   "geonameid": 460413,
+   "name": "Daugavpils",
+   "lat": 55.8833,
+   "lon": 26.5333,
+   "population": 78126
+  },
+  {
+   "geonameid": 457954,
+   "name": "Liepāja",
+   "lat": 56.5047,
+   "lon": 21.0109,
+   "population": 67421
+  },
+  {
+   "geonameid": 459279,
+   "name": "Jelgava",
+   "lat": 56.65,
+   "lon": 23.7128,
+   "population": 54834
+  }
+ ],
+ "ME00": [
+  {
+   "geonameid": 3193044,
+   "name": "Podgorica",
+   "lat": 42.4412,
+   "lon": 19.2631,
+   "population": 236852
+  },
+  {
+   "geonameid": 3194494,
+   "name": "Nikšić",
+   "lat": 42.7731,
+   "lon": 18.9445,
+   "population": 58212
+  },
+  {
+   "geonameid": 3199394,
+   "name": "Herceg Novi",
+   "lat": 42.4531,
+   "lon": 18.5375,
+   "population": 19536
+  },
+  {
+   "geonameid": 3193161,
+   "name": "Pljevlja",
+   "lat": 43.3567,
+   "lon": 19.3584,
+   "population": 19489
+  }
+ ],
+ "MK00": [
+  {
+   "geonameid": 785842,
+   "name": "Skopje",
+   "lat": 41.9965,
+   "lon": 21.4314,
+   "population": 474889
+  },
+  {
+   "geonameid": 788886,
+   "name": "Kumanovo",
+   "lat": 42.1328,
+   "lon": 21.7158,
+   "population": 75051
+  },
+  {
+   "geonameid": 786735,
+   "name": "Prilep",
+   "lat": 41.3456,
+   "lon": 21.5537,
+   "population": 73814
+  },
+  {
+   "geonameid": 792578,
+   "name": "Bitola",
+   "lat": 41.0323,
+   "lon": 21.3355,
+   "population": 69287
+  }
+ ],
+ "MT00": [
+  {
+   "geonameid": 2562541,
+   "name": "San Pawl il-Baħar",
+   "lat": 35.9506,
+   "lon": 14.4156,
+   "population": 32042
+  },
+  {
+   "geonameid": 2562501,
+   "name": "Sliema",
+   "lat": 35.9125,
+   "lon": 14.5017,
+   "population": 22591
+  }
+ ],
+ "NL11": [
+  {
+   "geonameid": 2755251,
+   "name": "Groningen",
+   "lat": 53.2192,
+   "lon": 6.5667,
+   "population": 244807
+  },
+  {
+   "geonameid": 2757340,
+   "name": "Delfzijl",
+   "lat": 53.33,
+   "lon": 6.9181,
+   "population": 28649
+  },
+  {
+   "geonameid": 2745783,
+   "name": "Veendam",
+   "lat": 53.1067,
+   "lon": 6.8792,
+   "population": 28155
+  },
+  {
+   "geonameid": 2753706,
+   "name": "Hoogezand",
+   "lat": 53.1617,
+   "lon": 6.7611,
+   "population": 21480
+  }
+ ],
+ "NL12": [
+  {
+   "geonameid": 2751792,
+   "name": "Leeuwarden",
+   "lat": 53.2027,
+   "lon": 5.8097,
+   "population": 124481
+  },
+  {
+   "geonameid": 2756644,
+   "name": "Drachten",
+   "lat": 53.1125,
+   "lon": 6.0989,
+   "population": 45186
+  },
+  {
+   "geonameid": 2754669,
+   "name": "Heerenveen",
+   "lat": 52.9593,
+   "lon": 5.9185,
+   "population": 43094
+  },
+  {
+   "geonameid": 2747063,
+   "name": "Sneek",
+   "lat": 53.033,
+   "lon": 5.6589,
+   "population": 32811
+  }
+ ],
+ "NL13": [
+  {
+   "geonameid": 2759633,
+   "name": "Assen",
+   "lat": 52.9967,
+   "lon": 6.5625,
+   "population": 68836
+  },
+  {
+   "geonameid": 2756136,
+   "name": "Emmen",
+   "lat": 52.7792,
+   "lon": 6.9069,
+   "population": 57010
+  },
+  {
+   "geonameid": 2753719,
+   "name": "Hoogeveen",
+   "lat": 52.7225,
+   "lon": 6.4764,
+   "population": 38754
+  },
+  {
+   "geonameid": 2750947,
+   "name": "Meppel",
+   "lat": 52.6958,
+   "lon": 6.1944,
+   "population": 30697
+  }
+ ],
+ "NL21": [
+  {
+   "geonameid": 2756071,
+   "name": "Enschede",
+   "lat": 52.2183,
+   "lon": 6.8958,
+   "population": 153655
+  },
+  {
+   "geonameid": 2743477,
+   "name": "Zwolle",
+   "lat": 52.5125,
+   "lon": 6.0944,
+   "population": 129840
+  },
+  {
+   "geonameid": 2756987,
+   "name": "Deventer",
+   "lat": 52.255,
+   "lon": 6.1639,
+   "population": 97331
+  },
+  {
+   "geonameid": 2754394,
+   "name": "Hengelo",
+   "lat": 52.2658,
+   "lon": 6.7931,
+   "population": 82311
+  }
+ ],
+ "NL22": [
+  {
+   "geonameid": 2750053,
+   "name": "Nijmegen",
+   "lat": 51.8425,
+   "lon": 5.8528,
+   "population": 177359
+  },
+  {
+   "geonameid": 2759661,
+   "name": "Arnhem",
+   "lat": 51.98,
+   "lon": 5.9111,
+   "population": 162424
+  },
+  {
+   "geonameid": 2759706,
+   "name": "Apeldoorn",
+   "lat": 52.21,
+   "lon": 5.9694,
+   "population": 136670
+  },
+  {
+   "geonameid": 2756429,
+   "name": "Ede",
+   "lat": 52.0333,
+   "lon": 5.6583,
+   "population": 67670
+  }
+ ],
+ "NL23": [
+  {
+   "geonameid": 2759879,
+   "name": "Almere Stad",
+   "lat": 52.3702,
+   "lon": 5.2141,
+   "population": 176432
+  },
+  {
+   "geonameid": 2751738,
+   "name": "Lelystad",
+   "lat": 52.5083,
+   "lon": 5.475,
+   "population": 79811
+  },
+  {
+   "geonameid": 2756139,
+   "name": "Emmeloord",
+   "lat": 52.7108,
+   "lon": 5.7486,
+   "population": 46409
+  },
+  {
+   "geonameid": 2756559,
+   "name": "Dronten",
+   "lat": 52.525,
+   "lon": 5.7181,
+   "population": 28073
+  }
+ ],
+ "NL31": [
+  {
+   "geonameid": 2745912,
+   "name": "Utrecht",
+   "lat": 52.0908,
+   "lon": 5.1222,
+   "population": 376435
+  },
+  {
+   "geonameid": 2759821,
+   "name": "Amersfoort",
+   "lat": 52.155,
+   "lon": 5.3875,
+   "population": 139914
+  },
+  {
+   "geonameid": 2744248,
+   "name": "Woerden",
+   "lat": 52.085,
+   "lon": 4.8833,
+   "population": 48431
+  },
+  {
+   "geonameid": 2753355,
+   "name": "IJsselstein",
+   "lat": 52.02,
+   "lon": 5.0431,
+   "population": 33886
+  }
+ ],
+ "NL32": [
+  {
+   "geonameid": 2759794,
+   "name": "Amsterdam",
+   "lat": 52.374,
+   "lon": 4.8897,
+   "population": 741636
+  },
+  {
+   "geonameid": 2755003,
+   "name": "Haarlem",
+   "lat": 52.3808,
+   "lon": 4.6368,
+   "population": 162543
+  },
+  {
+   "geonameid": 2744114,
+   "name": "Zaanstad",
+   "lat": 52.4531,
+   "lon": 4.8136,
+   "population": 140085
+  },
+  {
+   "geonameid": 2753801,
+   "name": "Hoofddorp",
+   "lat": 52.3025,
+   "lon": 4.6889,
+   "population": 132734
+  }
+ ],
+ "NL33": [
+  {
+   "geonameid": 2747891,
+   "name": "Rotterdam",
+   "lat": 51.9225,
+   "lon": 4.4792,
+   "population": 868135
+  },
+  {
+   "geonameid": 2747373,
+   "name": "The Hague",
+   "lat": 52.0767,
+   "lon": 4.2986,
+   "population": 474292
+  },
+  {
+   "geonameid": 2751773,
+   "name": "Leiden",
+   "lat": 52.1583,
+   "lon": 4.4931,
+   "population": 119713
+  },
+  {
+   "geonameid": 2756669,
+   "name": "Dordrecht",
+   "lat": 51.81,
+   "lon": 4.6736,
+   "population": 119260
+  }
+ ],
+ "NL34": [
+  {
+   "geonameid": 2750896,
+   "name": "Middelburg",
+   "lat": 51.5,
+   "lon": 3.6139,
+   "population": 46485
+  },
+  {
+   "geonameid": 2755476,
+   "name": "Goes",
+   "lat": 51.5042,
+   "lon": 3.8889,
+   "population": 36931
+  },
+  {
+   "geonameid": 2746420,
+   "name": "Terneuzen",
+   "lat": 51.3358,
+   "lon": 3.8278,
+   "population": 27930
+  },
+  {
+   "geonameid": 2758587,
+   "name": "Borssele",
+   "lat": 51.4233,
+   "lon": 3.7347,
+   "population": 22285
+  }
+ ],
+ "NL41": [
+  {
+   "geonameid": 2756253,
+   "name": "Eindhoven",
+   "lat": 51.4408,
+   "lon": 5.4778,
+   "population": 235691
+  },
+  {
+   "geonameid": 2746301,
+   "name": "Tilburg",
+   "lat": 51.5555,
+   "lon": 5.0913,
+   "population": 221947
+  },
+  {
+   "geonameid": 2758401,
+   "name": "Breda",
+   "lat": 51.5866,
+   "lon": 4.776,
+   "population": 184126
+  },
+  {
+   "geonameid": 2747351,
+   "name": "'s-Hertogenbosch",
+   "lat": 51.6992,
+   "lon": 5.3042,
+   "population": 160783
+  }
+ ],
+ "NL42": [
+  {
+   "geonameid": 2751283,
+   "name": "Maastricht",
+   "lat": 50.8483,
+   "lon": 5.6889,
+   "population": 122378
+  },
+  {
+   "geonameid": 2745641,
+   "name": "Venlo",
+   "lat": 51.37,
+   "lon": 6.1681,
+   "population": 101988
+  },
+  {
+   "geonameid": 2754652,
+   "name": "Heerlen",
+   "lat": 50.8837,
+   "lon": 5.9815,
+   "population": 93084
+  },
+  {
+   "geonameid": 2744911,
+   "name": "Weert",
+   "lat": 51.2517,
+   "lon": 5.7069,
+   "population": 48662
+  }
+ ],
+ "NO02": [
+  {
+   "geonameid": 3154084,
+   "name": "Hamar",
+   "lat": 60.7945,
+   "lon": 11.068,
+   "population": 29479
+  },
+  {
+   "geonameid": 3147474,
+   "name": "Lillehammer",
+   "lat": 61.1151,
+   "lon": 10.4663,
+   "population": 29011
+  },
+  {
+   "geonameid": 3155573,
+   "name": "Gjøvik",
+   "lat": 60.7957,
+   "lon": 10.6915,
+   "population": 17596
+  }
+ ],
+ "NO06": [
+  {
+   "geonameid": 3133880,
+   "name": "Trondheim",
+   "lat": 63.4305,
+   "lon": 10.3951,
+   "population": 216518
+  },
+  {
+   "geonameid": 3147698,
+   "name": "Levanger",
+   "lat": 63.7464,
+   "lon": 11.2996,
+   "population": 20171
+  },
+  {
+   "geonameid": 3136765,
+   "name": "Stjørdalshalsen",
+   "lat": 63.4681,
+   "lon": 10.9262,
+   "population": 15693
+  }
+ ],
+ "NO07": [
+  {
+   "geonameid": 3133895,
+   "name": "Tromsø",
+   "lat": 69.6489,
+   "lon": 18.9551,
+   "population": 41915
+  },
+  {
+   "geonameid": 3160881,
+   "name": "Bodø",
+   "lat": 67.2827,
+   "lon": 14.3751,
+   "population": 34073
+  },
+  {
+   "geonameid": 3153823,
+   "name": "Harstad",
+   "lat": 68.7983,
+   "lon": 16.5417,
+   "population": 20953
+  },
+  {
+   "geonameid": 3145614,
+   "name": "Mo i Rana",
+   "lat": 66.3128,
+   "lon": 14.1428,
+   "population": 18866
+  }
+ ],
+ "NO08": [
+  {
+   "geonameid": 3143244,
+   "name": "Oslo",
+   "lat": 59.9127,
+   "lon": 10.7461,
+   "population": 1082575
+  },
+  {
+   "geonameid": 3159016,
+   "name": "Drammen",
+   "lat": 59.7439,
+   "lon": 10.2045,
+   "population": 106013
+  },
+  {
+   "geonameid": 3147465,
+   "name": "Lillestrøm",
+   "lat": 59.956,
+   "lon": 11.0492,
+   "population": 89684
+  },
+  {
+   "geonameid": 3156529,
+   "name": "Fredrikstad",
+   "lat": 59.2181,
+   "lon": 10.9298,
+   "population": 83761
+  }
+ ],
+ "NO09": [
+  {
+   "geonameid": 3149318,
+   "name": "Kristiansand",
+   "lat": 58.1467,
+   "lon": 7.9956,
+   "population": 117237
+  },
+  {
+   "geonameid": 3140390,
+   "name": "Sandefjord",
+   "lat": 59.1312,
+   "lon": 10.2166,
+   "population": 64345
+  },
+  {
+   "geonameid": 3134331,
+   "name": "Tønsberg",
+   "lat": 59.2675,
+   "lon": 10.4076,
+   "population": 55387
+  },
+  {
+   "geonameid": 3139075,
+   "name": "Skien",
+   "lat": 59.2096,
+   "lon": 9.609,
+   "population": 50595
+  }
+ ],
+ "NO0A": [
+  {
+   "geonameid": 3161732,
+   "name": "Bergen",
+   "lat": 60.393,
+   "lon": 5.3242,
+   "population": 294029
+  },
+  {
+   "geonameid": 3137115,
+   "name": "Stavanger",
+   "lat": 58.9701,
+   "lon": 5.7333,
+   "population": 151669
+  },
+  {
+   "geonameid": 3140321,
+   "name": "Sandnes",
+   "lat": 58.8524,
+   "lon": 5.7352,
+   "population": 85386
+  },
+  {
+   "geonameid": 3163392,
+   "name": "Ålesund",
+   "lat": 62.4723,
+   "lon": 6.1549,
+   "population": 52626
+  },
+  {
+   "geonameid": 3153623,
+   "name": "Haugesund",
+   "lat": 59.4138,
+   "lon": 5.268,
+   "population": 40321
+  }
+ ],
+ "NO0B": [],
+ "PL21": [
+  {
+   "geonameid": 3094802,
+   "name": "Kraków",
+   "lat": 50.0614,
+   "lon": 19.9366,
+   "population": 816614
+  },
+  {
+   "geonameid": 757026,
+   "name": "Tarnów",
+   "lat": 50.0138,
+   "lon": 20.987,
+   "population": 117799
+  },
+  {
+   "geonameid": 763534,
+   "name": "Nowy Sącz",
+   "lat": 49.6218,
+   "lon": 20.6971,
+   "population": 84376
+  },
+  {
+   "geonameid": 3101547,
+   "name": "Chrzanów",
+   "lat": 50.1355,
+   "lon": 19.402,
+   "population": 39973
+  }
+ ],
+ "PL22": [
+  {
+   "geonameid": 3096472,
+   "name": "Katowice",
+   "lat": 50.2597,
+   "lon": 19.0217,
+   "population": 286960
+  },
+  {
+   "geonameid": 3100946,
+   "name": "Częstochowa",
+   "lat": 50.7965,
+   "lon": 19.1241,
+   "population": 248125
+  },
+  {
+   "geonameid": 3099230,
+   "name": "Gliwice",
+   "lat": 50.2976,
+   "lon": 18.6766,
+   "population": 198835
+  },
+  {
+   "geonameid": 3080985,
+   "name": "Zabrze",
+   "lat": 50.3249,
+   "lon": 18.7858,
+   "population": 192177
+  }
+ ],
+ "PL41": [
+  {
+   "geonameid": 3088171,
+   "name": "Poznań",
+   "lat": 52.4069,
+   "lon": 16.9299,
+   "population": 536151
+  },
+  {
+   "geonameid": 3096880,
+   "name": "Kalisz",
+   "lat": 51.7611,
+   "lon": 18.091,
+   "population": 108759
+  },
+  {
+   "geonameid": 3095321,
+   "name": "Konin",
+   "lat": 52.2234,
+   "lon": 18.2512,
+   "population": 81258
+  },
+  {
+   "geonameid": 3089033,
+   "name": "Piła",
+   "lat": 53.1514,
+   "lon": 16.7378,
+   "population": 75532
+  }
+ ],
+ "PL42": [
+  {
+   "geonameid": 3083829,
+   "name": "Szczecin",
+   "lat": 53.4289,
+   "lon": 14.553,
+   "population": 395513
+  },
+  {
+   "geonameid": 3095049,
+   "name": "Koszalin",
+   "lat": 54.1944,
+   "lon": 16.1722,
+   "population": 107450
+  },
+  {
+   "geonameid": 3084840,
+   "name": "Stargard",
+   "lat": 53.3367,
+   "lon": 15.0499,
+   "population": 71224
+  },
+  {
+   "geonameid": 3095795,
+   "name": "Kołobrzeg",
+   "lat": 54.1756,
+   "lon": 15.5834,
+   "population": 44377
+  }
+ ],
+ "PL43": [
+  {
+   "geonameid": 3080165,
+   "name": "Zielona Góra",
+   "lat": 51.9355,
+   "lon": 15.5064,
+   "population": 118433
+  },
+  {
+   "geonameid": 3098722,
+   "name": "Gorzów Wielkopolski",
+   "lat": 52.7337,
+   "lon": 15.225,
+   "population": 114567
+  },
+  {
+   "geonameid": 3090764,
+   "name": "Nowa Sól",
+   "lat": 51.8033,
+   "lon": 15.717,
+   "population": 40354
+  },
+  {
+   "geonameid": 3080644,
+   "name": "Żary",
+   "lat": 51.642,
+   "lon": 15.1373,
+   "population": 38779
+  }
+ ],
+ "PL51": [
+  {
+   "geonameid": 3081368,
+   "name": "Wrocław",
+   "lat": 51.1029,
+   "lon": 17.0301,
+   "population": 672545
+  },
+  {
+   "geonameid": 3082707,
+   "name": "Wałbrzych",
+   "lat": 50.7714,
+   "lon": 16.2843,
+   "population": 127431
+  },
+  {
+   "geonameid": 3093692,
+   "name": "Legnica",
+   "lat": 51.2101,
+   "lon": 16.1619,
+   "population": 106033
+  },
+  {
+   "geonameid": 3092931,
+   "name": "Lubin",
+   "lat": 51.4009,
+   "lon": 16.2015,
+   "population": 77532
+  }
+ ],
+ "PL52": [
+  {
+   "geonameid": 3090048,
+   "name": "Opole",
+   "lat": 50.6712,
+   "lon": 17.926,
+   "population": 127676
+  },
+  {
+   "geonameid": 3096372,
+   "name": "Kędzierzyn-Koźle",
+   "lat": 50.3498,
+   "lon": 18.2261,
+   "population": 65636
+  },
+  {
+   "geonameid": 3090436,
+   "name": "Nysa",
+   "lat": 50.4738,
+   "lon": 17.3344,
+   "population": 47283
+  },
+  {
+   "geonameid": 3102459,
+   "name": "Brzeg",
+   "lat": 50.8608,
+   "lon": 17.4674,
+   "population": 38259
+  }
+ ],
+ "PL61": [
+  {
+   "geonameid": 3102014,
+   "name": "Bydgoszcz",
+   "lat": 53.1235,
+   "lon": 18.0076,
+   "population": 330038
+  },
+  {
+   "geonameid": 3083271,
+   "name": "Toruń",
+   "lat": 53.0138,
+   "lon": 18.5981,
+   "population": 196935
+  },
+  {
+   "geonameid": 3081741,
+   "name": "Włocławek",
+   "lat": 52.6482,
+   "lon": 19.0678,
+   "population": 120339
+  },
+  {
+   "geonameid": 3098218,
+   "name": "Grudziądz",
+   "lat": 53.4841,
+   "lon": 18.7537,
+   "population": 92552
+  }
+ ],
+ "PL62": [
+  {
+   "geonameid": 763166,
+   "name": "Olsztyn",
+   "lat": 53.7838,
+   "lon": 20.4927,
+   "population": 169793
+  },
+  {
+   "geonameid": 3099759,
+   "name": "Elbląg",
+   "lat": 54.1522,
+   "lon": 19.4088,
+   "population": 127558
+  },
+  {
+   "geonameid": 772621,
+   "name": "Ełk",
+   "lat": 53.8282,
+   "lon": 22.3647,
+   "population": 55769
+  },
+  {
+   "geonameid": 3089779,
+   "name": "Ostróda",
+   "lat": 53.6967,
+   "lon": 19.9649,
+   "population": 33524
+  }
+ ],
+ "PL63": [
+  {
+   "geonameid": 3099434,
+   "name": "Gdańsk",
+   "lat": 54.3523,
+   "lon": 18.6491,
+   "population": 487371
+  },
+  {
+   "geonameid": 3099424,
+   "name": "Gdynia",
+   "lat": 54.5189,
+   "lon": 18.5319,
+   "population": 257000
+  },
+  {
+   "geonameid": 3085450,
+   "name": "Słupsk",
+   "lat": 54.4641,
+   "lon": 17.0287,
+   "population": 98608
+  },
+  {
+   "geonameid": 3083426,
+   "name": "Tczew",
+   "lat": 54.0924,
+   "lon": 18.7779,
+   "population": 60133
+  }
+ ],
+ "PL71": [
+  {
+   "geonameid": 3093133,
+   "name": "Łódź",
+   "lat": 51.7706,
+   "lon": 19.4739,
+   "population": 639890
+  },
+  {
+   "geonameid": 3088972,
+   "name": "Piotrków Trybunalski",
+   "lat": 51.4055,
+   "lon": 19.7032,
+   "population": 80128
+  },
+  {
+   "geonameid": 3089578,
+   "name": "Pabianice",
+   "lat": 51.6645,
+   "lon": 19.3547,
+   "population": 70542
+  },
+  {
+   "geonameid": 756867,
+   "name": "Tomaszów Mazowiecki",
+   "lat": 51.5313,
+   "lon": 20.0085,
+   "population": 67197
+  }
+ ],
+ "PL72": [
+  {
+   "geonameid": 769250,
+   "name": "Kielce",
+   "lat": 50.8703,
+   "lon": 20.6275,
+   "population": 192468
+  },
+  {
+   "geonameid": 762863,
+   "name": "Ostrowiec Świętokrzyski",
+   "lat": 50.9294,
+   "lon": 21.3852,
+   "population": 73989
+  },
+  {
+   "geonameid": 758390,
+   "name": "Starachowice",
+   "lat": 51.0374,
+   "lon": 21.0713,
+   "population": 53739
+  },
+  {
+   "geonameid": 759141,
+   "name": "Skarżysko-Kamienna",
+   "lat": 51.1131,
+   "lon": 20.8716,
+   "population": 49410
+  }
+ ],
+ "PL81": [
+  {
+   "geonameid": 765876,
+   "name": "Lublin",
+   "lat": 51.2506,
+   "lon": 22.5701,
+   "population": 336339
+  },
+  {
+   "geonameid": 753866,
+   "name": "Zamość",
+   "lat": 50.7231,
+   "lon": 23.252,
+   "population": 66034
+  },
+  {
+   "geonameid": 774558,
+   "name": "Chełm",
+   "lat": 51.1431,
+   "lon": 23.4716,
+   "population": 60231
+  },
+  {
+   "geonameid": 776175,
+   "name": "Biała Podlaska",
+   "lat": 52.0324,
+   "lon": 23.1165,
+   "population": 57541
+  }
+ ],
+ "PL82": [
+  {
+   "geonameid": 759734,
+   "name": "Rzeszów",
+   "lat": 50.0413,
+   "lon": 21.999,
+   "population": 198317
+  },
+  {
+   "geonameid": 761168,
+   "name": "Przemyśl",
+   "lat": 49.785,
+   "lon": 22.7673,
+   "population": 67013
+  },
+  {
+   "geonameid": 758445,
+   "name": "Stalowa Wola",
+   "lat": 50.5829,
+   "lon": 22.0533,
+   "population": 66495
+  },
+  {
+   "geonameid": 764849,
+   "name": "Mielec",
+   "lat": 50.2871,
+   "lon": 21.4239,
+   "population": 59509
+  }
+ ],
+ "PL84": [
+  {
+   "geonameid": 776069,
+   "name": "Białystok",
+   "lat": 53.1333,
+   "lon": 23.1643,
+   "population": 295683
+  },
+  {
+   "geonameid": 757718,
+   "name": "Suwałki",
+   "lat": 54.1118,
+   "lon": 22.9309,
+   "population": 69222
+  },
+  {
+   "geonameid": 766027,
+   "name": "Łomża",
+   "lat": 53.1781,
+   "lon": 22.0593,
+   "population": 62019
+  },
+  {
+   "geonameid": 776597,
+   "name": "Augustów",
+   "lat": 53.8432,
+   "lon": 22.9798,
+   "population": 29752
+  }
+ ],
+ "PL91": [
+  {
+   "geonameid": 756135,
+   "name": "Warsaw",
+   "lat": 52.2298,
+   "lon": 21.0118,
+   "population": 1702139
+  },
+  {
+   "geonameid": 6545326,
+   "name": "Ursynów",
+   "lat": 52.1505,
+   "lon": 21.0504,
+   "population": 149775
+  },
+  {
+   "geonameid": 776029,
+   "name": "Bielany",
+   "lat": 52.2924,
+   "lon": 20.9353,
+   "population": 131910
+  },
+  {
+   "geonameid": 756092,
+   "name": "Wawer",
+   "lat": 52.1966,
+   "lon": 21.1775,
+   "population": 77205
+  }
+ ],
+ "PL92": [
+  {
+   "geonameid": 760778,
+   "name": "Radom",
+   "lat": 51.4025,
+   "lon": 21.1471,
+   "population": 226794
+  },
+  {
+   "geonameid": 3088825,
+   "name": "Płock",
+   "lat": 52.5468,
+   "lon": 19.7064,
+   "population": 127474
+  },
+  {
+   "geonameid": 759412,
+   "name": "Siedlce",
+   "lat": 52.1677,
+   "lon": 22.2901,
+   "population": 77185
+  },
+  {
+   "geonameid": 762909,
+   "name": "Ostrołęka",
+   "lat": 53.0862,
+   "lon": 21.5757,
+   "population": 53740
+  }
+ ],
+ "PT11": [
+  {
+   "geonameid": 2735943,
+   "name": "Porto",
+   "lat": 41.1485,
+   "lon": -8.611,
+   "population": 252687
+  },
+  {
+   "geonameid": 2742032,
+   "name": "Braga",
+   "lat": 41.5514,
+   "lon": -8.4231,
+   "population": 193324
+  },
+  {
+   "geonameid": 2739693,
+   "name": "Felgueiras",
+   "lat": 41.3681,
+   "lon": -8.194,
+   "population": 58065
+  },
+  {
+   "geonameid": 2736041,
+   "name": "Ponte de Lima",
+   "lat": 41.7672,
+   "lon": -8.5839,
+   "population": 44667
+  }
+ ],
+ "PT15": [
+  {
+   "geonameid": 2268339,
+   "name": "Faro",
+   "lat": 37.0187,
+   "lon": -7.9272,
+   "population": 70347
+  },
+  {
+   "geonameid": 2264456,
+   "name": "Portimão",
+   "lat": 37.1386,
+   "lon": -8.5378,
+   "population": 38487
+  },
+  {
+   "geonameid": 2267226,
+   "name": "Lagos",
+   "lat": 37.102,
+   "lon": -8.6742,
+   "population": 33494
+  },
+  {
+   "geonameid": 2264299,
+   "name": "Quarteira",
+   "lat": 37.0695,
+   "lon": -8.1006,
+   "population": 24420
+  },
+  {
+   "geonameid": 2264428,
+   "name": "Porto de Mós",
+   "lat": 37.0853,
+   "lon": -8.6837,
+   "population": 23648
+  }
+ ],
+ "PT16": [
+  {
+   "geonameid": 2740637,
+   "name": "Coimbra",
+   "lat": 40.2069,
+   "lon": -8.42,
+   "population": 140796
+  },
+  {
+   "geonameid": 2267095,
+   "name": "Leiria",
+   "lat": 39.7436,
+   "lon": -8.8071,
+   "population": 128640
+  },
+  {
+   "geonameid": 2732265,
+   "name": "Viseu",
+   "lat": 40.6617,
+   "lon": -7.909,
+   "population": 103502
+  },
+  {
+   "geonameid": 2742611,
+   "name": "Aveiro",
+   "lat": 40.6457,
+   "lon": -8.6464,
+   "population": 80880
+  }
+ ],
+ "PT17": [
+  {
+   "geonameid": 2267057,
+   "name": "Lisbon",
+   "lat": 38.7251,
+   "lon": -9.1498,
+   "population": 517802
+  },
+  {
+   "geonameid": 2271772,
+   "name": "Amadora",
+   "lat": 38.7538,
+   "lon": -9.2308,
+   "population": 178858
+  },
+  {
+   "geonameid": 2262963,
+   "name": "Setúbal",
+   "lat": 38.5244,
+   "lon": -8.8882,
+   "population": 118166
+  },
+  {
+   "geonameid": 2271977,
+   "name": "Algueirão",
+   "lat": 38.7976,
+   "lon": -9.3437,
+   "population": 66250
+  },
+  {
+   "geonameid": 2266977,
+   "name": "Loures",
+   "lat": 38.8309,
+   "lon": -9.1684,
+   "population": 66231
+  }
+ ],
+ "PT18": [
+  {
+   "geonameid": 2268406,
+   "name": "Évora",
+   "lat": 38.5659,
+   "lon": -7.904,
+   "population": 53591
+  },
+  {
+   "geonameid": 2270985,
+   "name": "Beja",
+   "lat": 38.0147,
+   "lon": -7.8628,
+   "population": 34760
+  },
+  {
+   "geonameid": 2263480,
+   "name": "Santarém",
+   "lat": 39.2338,
+   "lon": -8.6862,
+   "population": 29385
+  },
+  {
+   "geonameid": 2264508,
+   "name": "Portalegre",
+   "lat": 39.2938,
+   "lon": -7.4312,
+   "population": 22368
+  }
+ ],
+ "PT20": [
+  {
+   "geonameid": 6941014,
+   "name": "Ponta Delgada",
+   "lat": 37.7395,
+   "lon": -25.6687,
+   "population": 20056
+  }
+ ],
+ "PT30": [
+  {
+   "geonameid": 2267827,
+   "name": "Funchal",
+   "lat": 32.6657,
+   "lon": -16.9255,
+   "population": 105795
+  },
+  {
+   "geonameid": 2270258,
+   "name": "Caniço",
+   "lat": 32.6508,
+   "lon": -16.8375,
+   "population": 23368
+  }
+ ],
+ "RO11": [
+  {
+   "geonameid": 681290,
+   "name": "Cluj-Napoca",
+   "lat": 46.7667,
+   "lon": 23.6,
+   "population": 286598
+  },
+  {
+   "geonameid": 671768,
+   "name": "Oradea",
+   "lat": 47.0458,
+   "lon": 21.9183,
+   "population": 183105
+  },
+  {
+   "geonameid": 667873,
+   "name": "Satu Mare",
+   "lat": 47.7993,
+   "lon": 22.8625,
+   "population": 112490
+  },
+  {
+   "geonameid": 685826,
+   "name": "Baia Mare",
+   "lat": 47.6573,
+   "lon": 23.5681,
+   "population": 108759
+  }
+ ],
+ "RO12": [
+  {
+   "geonameid": 683844,
+   "name": "Braşov",
+   "lat": 45.6486,
+   "lon": 25.6061,
+   "population": 253200
+  },
+  {
+   "geonameid": 665004,
+   "name": "Târgu Mureş",
+   "lat": 46.5425,
+   "lon": 24.5575,
+   "population": 212752
+  },
+  {
+   "geonameid": 667268,
+   "name": "Sibiu",
+   "lat": 45.8,
+   "lon": 24.15,
+   "population": 134309
+  },
+  {
+   "geonameid": 686578,
+   "name": "Alba Iulia",
+   "lat": 46.0667,
+   "lon": 23.5833,
+   "population": 64227
+  }
+ ],
+ "RO21": [
+  {
+   "geonameid": 675810,
+   "name": "Iaşi",
+   "lat": 47.1667,
+   "lon": 27.6,
+   "population": 378954
+  },
+  {
+   "geonameid": 685948,
+   "name": "Bacău",
+   "lat": 46.5672,
+   "lon": 26.9138,
+   "population": 136087
+  },
+  {
+   "geonameid": 670889,
+   "name": "Piatra Neamţ",
+   "lat": 46.9167,
+   "lon": 26.3333,
+   "population": 102688
+  },
+  {
+   "geonameid": 684039,
+   "name": "Botoşani",
+   "lat": 47.75,
+   "lon": 26.6667,
+   "population": 90010
+  }
+ ],
+ "RO22": [
+  {
+   "geonameid": 680963,
+   "name": "Constanţa",
+   "lat": 44.1807,
+   "lon": 28.6343,
+   "population": 317832
+  },
+  {
+   "geonameid": 677697,
+   "name": "Galaţi",
+   "lat": 45.4369,
+   "lon": 28.0503,
+   "population": 217851
+  },
+  {
+   "geonameid": 683902,
+   "name": "Brăila",
+   "lat": 45.2715,
+   "lon": 27.9743,
+   "population": 154686
+  },
+  {
+   "geonameid": 683123,
+   "name": "Buzău",
+   "lat": 45.15,
+   "lon": 26.8333,
+   "population": 103481
+  }
+ ],
+ "RO31": [
+  {
+   "geonameid": 670474,
+   "name": "Ploieşti",
+   "lat": 44.95,
+   "lon": 26.0167,
+   "population": 180540
+  },
+  {
+   "geonameid": 670609,
+   "name": "Piteşti",
+   "lat": 44.85,
+   "lon": 24.8667,
+   "population": 141275
+  },
+  {
+   "geonameid": 665024,
+   "name": "Târgovişte",
+   "lat": 44.9254,
+   "lon": 25.4567,
+   "population": 66965
+  },
+  {
+   "geonameid": 677106,
+   "name": "Giurgiu",
+   "lat": 43.8866,
+   "lon": 25.9627,
+   "population": 54551
+  }
+ ],
+ "RO32": [
+  {
+   "geonameid": 683506,
+   "name": "Bucharest",
+   "lat": 44.4323,
+   "lon": 26.1063,
+   "population": 1877155
+  },
+  {
+   "geonameid": 11048317,
+   "name": "Sector 1",
+   "lat": 44.4924,
+   "lon": 26.0483,
+   "population": 225453
+  },
+  {
+   "geonameid": 662476,
+   "name": "Voluntari",
+   "lat": 44.49,
+   "lon": 26.1734,
+   "population": 30323
+  },
+  {
+   "geonameid": 683394,
+   "name": "Buftea",
+   "lat": 44.5614,
+   "lon": 25.9489,
+   "population": 20691
+  }
+ ],
+ "RO41": [
+  {
+   "geonameid": 680332,
+   "name": "Craiova",
+   "lat": 44.3167,
+   "lon": 23.8,
+   "population": 234140
+  },
+  {
+   "geonameid": 668872,
+   "name": "Râmnicu Vâlcea",
+   "lat": 45.1,
+   "lon": 24.3667,
+   "population": 93151
+  },
+  {
+   "geonameid": 678817,
+   "name": "Drobeta-Turnu Severin",
+   "lat": 44.6269,
+   "lon": 22.6529,
+   "population": 79865
+  },
+  {
+   "geonameid": 665010,
+   "name": "Târgu Jiu",
+   "lat": 45.05,
+   "lon": 23.2833,
+   "population": 73545
+  }
+ ],
+ "RO42": [
+  {
+   "geonameid": 665087,
+   "name": "Timişoara",
+   "lat": 45.7537,
+   "lon": 21.2257,
+   "population": 250849
+  },
+  {
+   "geonameid": 686254,
+   "name": "Arad",
+   "lat": 46.1833,
+   "lon": 21.3167,
+   "population": 169065
+  },
+  {
+   "geonameid": 668954,
+   "name": "Reşiţa",
+   "lat": 45.3008,
+   "lon": 21.8892,
+   "population": 81228
+  },
+  {
+   "geonameid": 675918,
+   "name": "Hunedoara",
+   "lat": 45.75,
+   "lon": 22.9,
+   "population": 69136
+  }
+ ],
+ "RS11": [
+  {
+   "geonameid": 792680,
+   "name": "Belgrade",
+   "lat": 44.804,
+   "lon": 20.4651,
+   "population": 1273651
+  },
+  {
+   "geonameid": 788771,
+   "name": "Lazarevac",
+   "lat": 44.3853,
+   "lon": 20.2557,
+   "population": 23551
+  },
+  {
+   "geonameid": 785615,
+   "name": "Sremčica",
+   "lat": 44.6765,
+   "lon": 20.3923,
+   "population": 23000
+  },
+  {
+   "geonameid": 787516,
+   "name": "Obrenovac",
+   "lat": 44.6549,
+   "lon": 20.2002,
+   "population": 16821
+  }
+ ],
+ "RS12": [
+  {
+   "geonameid": 3194360,
+   "name": "Novi Sad",
+   "lat": 45.2517,
+   "lon": 19.8369,
+   "population": 215400
+  },
+  {
+   "geonameid": 3189595,
+   "name": "Subotica",
+   "lat": 46.1,
+   "lon": 19.6667,
+   "population": 100000
+  },
+  {
+   "geonameid": 783814,
+   "name": "Zrenjanin",
+   "lat": 45.3836,
+   "lon": 20.3819,
+   "population": 79773
+  },
+  {
+   "geonameid": 787237,
+   "name": "Pančevo",
+   "lat": 44.8718,
+   "lon": 20.6417,
+   "population": 76654
+  }
+ ],
+ "RS21": [
+  {
+   "geonameid": 789128,
+   "name": "Kragujevac",
+   "lat": 44.0167,
+   "lon": 20.9167,
+   "population": 147473
+  },
+  {
+   "geonameid": 792078,
+   "name": "Čačak",
+   "lat": 43.8914,
+   "lon": 20.3497,
+   "population": 117072
+  },
+  {
+   "geonameid": 787595,
+   "name": "Novi Pazar",
+   "lat": 43.1367,
+   "lon": 20.5122,
+   "population": 85996
+  },
+  {
+   "geonameid": 789107,
+   "name": "Kraljevo",
+   "lat": 43.7258,
+   "lon": 20.6894,
+   "population": 82846
+  }
+ ],
+ "RS22": [
+  {
+   "geonameid": 787657,
+   "name": "Niš",
+   "lat": 43.3247,
+   "lon": 21.9033,
+   "population": 250000
+  },
+  {
+   "geonameid": 788709,
+   "name": "Leskovac",
+   "lat": 42.9981,
+   "lon": 21.9461,
+   "population": 94758
+  },
+  {
+   "geonameid": 785756,
+   "name": "Smederevo",
+   "lat": 44.6644,
+   "lon": 20.9276,
+   "population": 62000
+  },
+  {
+   "geonameid": 784227,
+   "name": "Vranje",
+   "lat": 42.5514,
+   "lon": 21.9003,
+   "population": 56199
+  }
+ ],
+ "SE11": [
+  {
+   "geonameid": 2673730,
+   "name": "Stockholm",
+   "lat": 59.3294,
+   "lon": 18.0687,
+   "population": 1515017
+  },
+  {
+   "geonameid": 2675408,
+   "name": "Sollentuna",
+   "lat": 59.428,
+   "lon": 17.9509,
+   "population": 139606
+  },
+  {
+   "geonameid": 2704620,
+   "name": "Huddinge",
+   "lat": 59.2371,
+   "lon": 17.9819,
+   "population": 90182
+  },
+  {
+   "geonameid": 2707953,
+   "name": "Haninge",
+   "lat": 59.1677,
+   "lon": 18.1448,
+   "population": 74968
+  }
+ ],
+ "SE12": [
+  {
+   "geonameid": 2666199,
+   "name": "Uppsala",
+   "lat": 59.8588,
+   "lon": 17.6389,
+   "population": 177074
+  },
+  {
+   "geonameid": 2694762,
+   "name": "Linköping",
+   "lat": 58.4109,
+   "lon": 15.6216,
+   "population": 166673
+  },
+  {
+   "geonameid": 2686657,
+   "name": "Örebro",
+   "lat": 59.2741,
+   "lon": 15.2066,
+   "population": 155989
+  },
+  {
+   "geonameid": 2664454,
+   "name": "Västerås",
+   "lat": 59.6162,
+   "lon": 16.5528,
+   "population": 127799
+  }
+ ],
+ "SE21": [
+  {
+   "geonameid": 2702979,
+   "name": "Jönköping",
+   "lat": 57.7814,
+   "lon": 14.1562,
+   "population": 112766
+  },
+  {
+   "geonameid": 2663536,
+   "name": "Växjö",
+   "lat": 56.8777,
+   "lon": 14.8091,
+   "population": 71282
+  },
+  {
+   "geonameid": 2702261,
+   "name": "Kalmar",
+   "lat": 56.6616,
+   "lon": 16.3616,
+   "population": 38408
+  },
+  {
+   "geonameid": 2662689,
+   "name": "Visby",
+   "lat": 57.6409,
+   "lon": 18.296,
+   "population": 23402
+  }
+ ],
+ "SE22": [
+  {
+   "geonameid": 2692969,
+   "name": "Malmö",
+   "lat": 55.6059,
+   "lon": 13.0007,
+   "population": 362133
+  },
+  {
+   "geonameid": 2706767,
+   "name": "Helsingborg",
+   "lat": 56.0467,
+   "lon": 12.6944,
+   "population": 104250
+  },
+  {
+   "geonameid": 2693678,
+   "name": "Lund",
+   "lat": 55.7058,
+   "lon": 13.1932,
+   "population": 87244
+  },
+  {
+   "geonameid": 2701713,
+   "name": "Karlskrona",
+   "lat": 56.1616,
+   "lon": 15.5866,
+   "population": 66675
+  }
+ ],
+ "SE23": [
+  {
+   "geonameid": 2711537,
+   "name": "Gothenburg",
+   "lat": 57.7072,
+   "lon": 11.9668,
+   "population": 608462
+  },
+  {
+   "geonameid": 2720501,
+   "name": "Borås",
+   "lat": 57.721,
+   "lon": 12.9401,
+   "population": 71700
+  },
+  {
+   "geonameid": 2708365,
+   "name": "Halmstad",
+   "lat": 56.6745,
+   "lon": 12.8568,
+   "population": 70480
+  },
+  {
+   "geonameid": 2667303,
+   "name": "Trollhättan",
+   "lat": 58.2837,
+   "lon": 12.2886,
+   "population": 48573
+  }
+ ],
+ "SE31": [
+  {
+   "geonameid": 2712414,
+   "name": "Gävle",
+   "lat": 60.6745,
+   "lon": 17.1417,
+   "population": 74884
+  },
+  {
+   "geonameid": 2701680,
+   "name": "Karlstad",
+   "lat": 59.3793,
+   "lon": 13.5036,
+   "population": 61492
+  },
+  {
+   "geonameid": 2720383,
+   "name": "Borlänge",
+   "lat": 60.4858,
+   "lon": 15.4371,
+   "population": 41955
+  },
+  {
+   "geonameid": 2715459,
+   "name": "Falun",
+   "lat": 60.6036,
+   "lon": 15.626,
+   "population": 37291
+  }
+ ],
+ "SE32": [
+  {
+   "geonameid": 2670781,
+   "name": "Sundsvall",
+   "lat": 62.3913,
+   "lon": 17.3063,
+   "population": 57606
+  },
+  {
+   "geonameid": 2685750,
+   "name": "Östersund",
+   "lat": 63.1792,
+   "lon": 14.6357,
+   "population": 49806
+  },
+  {
+   "geonameid": 2686469,
+   "name": "Örnsköldsvik",
+   "lat": 63.2909,
+   "lon": 18.7153,
+   "population": 32493
+  },
+  {
+   "geonameid": 2707684,
+   "name": "Härnösand",
+   "lat": 62.6323,
+   "lon": 17.9379,
+   "population": 25012
+  }
+ ],
+ "SE33": [
+  {
+   "geonameid": 602150,
+   "name": "Umeå",
+   "lat": 63.8284,
+   "lon": 20.2597,
+   "population": 130224
+  },
+  {
+   "geonameid": 604490,
+   "name": "Luleå",
+   "lat": 65.5841,
+   "lon": 22.1547,
+   "population": 77832
+  },
+  {
+   "geonameid": 602913,
+   "name": "Skellefteå",
+   "lat": 64.7507,
+   "lon": 20.9528,
+   "population": 35516
+  },
+  {
+   "geonameid": 603570,
+   "name": "Piteå",
+   "lat": 65.3172,
+   "lon": 21.4794,
+   "population": 23067
+  }
+ ],
+ "SI03": [
+  {
+   "geonameid": 3195506,
+   "name": "Maribor",
+   "lat": 46.5558,
+   "lon": 15.6459,
+   "population": 96209
+  },
+  {
+   "geonameid": 3202781,
+   "name": "Celje",
+   "lat": 46.2309,
+   "lon": 15.2604,
+   "population": 38059
+  },
+  {
+   "geonameid": 3194351,
+   "name": "Novo Mesto",
+   "lat": 45.804,
+   "lon": 15.1689,
+   "population": 24446
+  },
+  {
+   "geonameid": 3189075,
+   "name": "Velenje",
+   "lat": 46.3572,
+   "lon": 15.1128,
+   "population": 24327
+  }
+ ],
+ "SI04": [
+  {
+   "geonameid": 3196359,
+   "name": "Ljubljana",
+   "lat": 46.0511,
+   "lon": 14.5051,
+   "population": 272220
+  },
+  {
+   "geonameid": 3197378,
+   "name": "Kranj",
+   "lat": 46.2389,
+   "lon": 14.3556,
+   "population": 37966
+  },
+  {
+   "geonameid": 3197753,
+   "name": "Koper",
+   "lat": 45.5482,
+   "lon": 13.7296,
+   "population": 25753
+  }
+ ],
+ "SK01": [
+  {
+   "geonameid": 3060972,
+   "name": "Bratislava",
+   "lat": 48.1482,
+   "lon": 17.1067,
+   "population": 423737
+  },
+  {
+   "geonameid": 3058210,
+   "name": "Pezinok",
+   "lat": 48.2899,
+   "lon": 17.2666,
+   "population": 24443
+  },
+  {
+   "geonameid": 3057692,
+   "name": "Senec",
+   "lat": 48.2195,
+   "lon": 17.4004,
+   "population": 20115
+  },
+  {
+   "geonameid": 3058897,
+   "name": "Malacky",
+   "lat": 48.436,
+   "lon": 17.0219,
+   "population": 18804
+  }
+ ],
+ "SK02": [
+  {
+   "geonameid": 3058531,
+   "name": "Nitra",
+   "lat": 48.3076,
+   "lon": 18.0845,
+   "population": 86329
+  },
+  {
+   "geonameid": 3057124,
+   "name": "Trnava",
+   "lat": 48.3777,
+   "lon": 17.586,
+   "population": 62806
+  },
+  {
+   "geonameid": 3057140,
+   "name": "Trenčín",
+   "lat": 48.8945,
+   "lon": 18.0444,
+   "population": 58278
+  },
+  {
+   "geonameid": 3058000,
+   "name": "Prievidza",
+   "lat": 48.7745,
+   "lon": 18.6275,
+   "population": 43645
+  }
+ ],
+ "SK03": [
+  {
+   "geonameid": 3056508,
+   "name": "Žilina",
+   "lat": 49.2231,
+   "lon": 18.7394,
+   "population": 81219
+  },
+  {
+   "geonameid": 3061186,
+   "name": "Banská Bystrica",
+   "lat": 48.7395,
+   "lon": 19.1493,
+   "population": 74590
+  },
+  {
+   "geonameid": 3058780,
+   "name": "Martin",
+   "lat": 49.0665,
+   "lon": 18.924,
+   "population": 51139
+  },
+  {
+   "geonameid": 3056459,
+   "name": "Zvolen",
+   "lat": 48.5744,
+   "lon": 19.1532,
+   "population": 39844
+  }
+ ],
+ "SK04": [
+  {
+   "geonameid": 724443,
+   "name": "Košice",
+   "lat": 48.7144,
+   "lon": 21.258,
+   "population": 225044
+  },
+  {
+   "geonameid": 723819,
+   "name": "Prešov",
+   "lat": 48.9992,
+   "lon": 21.2355,
+   "population": 82927
+  },
+  {
+   "geonameid": 723846,
+   "name": "Poprad",
+   "lat": 49.0614,
+   "lon": 20.298,
+   "population": 49091
+  },
+  {
+   "geonameid": 724144,
+   "name": "Michalovce",
+   "lat": 48.7543,
+   "lon": 21.9195,
+   "population": 35874
+  }
+ ],
+ "TR10": [
+  {
+   "geonameid": 745044,
+   "name": "Istanbul",
+   "lat": 41.0138,
+   "lon": 28.9497,
+   "population": 15701602
+  },
+  {
+   "geonameid": 747323,
+   "name": "Esenyurt",
+   "lat": 41.027,
+   "lon": 28.6773,
+   "population": 983571
+  },
+  {
+   "geonameid": 742394,
+   "name": "Küçükçekmece",
+   "lat": 40.991,
+   "lon": 28.7712,
+   "population": 792030
+  },
+  {
+   "geonameid": 751324,
+   "name": "Bağcılar",
+   "lat": 41.039,
+   "lon": 28.8567,
+   "population": 740069
+  },
+  {
+   "geonameid": 738377,
+   "name": "Umraniye",
+   "lat": 41.0164,
+   "lon": 29.1248,
+   "population": 573265
+  }
+ ],
+ "TR21": [
+  {
+   "geonameid": 748893,
+   "name": "Çorlu",
+   "lat": 41.1607,
+   "lon": 27.8009,
+   "population": 202578
+  },
+  {
+   "geonameid": 747712,
+   "name": "Edirne",
+   "lat": 41.6772,
+   "lon": 26.556,
+   "population": 180002
+  },
+  {
+   "geonameid": 738927,
+   "name": "Tekirdağ",
+   "lat": 40.9781,
+   "lon": 27.511,
+   "population": 122287
+  },
+  {
+   "geonameid": 741855,
+   "name": "Lüleburgaz",
+   "lat": 41.4017,
+   "lon": 27.3575,
+   "population": 90899
+  }
+ ],
+ "TR22": [
+  {
+   "geonameid": 322165,
+   "name": "Balıkesir",
+   "lat": 39.6492,
+   "lon": 27.8861,
+   "population": 238151
+  },
+  {
+   "geonameid": 749780,
+   "name": "Çanakkale",
+   "lat": 40.1555,
+   "lon": 26.4127,
+   "population": 143622
+  },
+  {
+   "geonameid": 751077,
+   "name": "Bandırma",
+   "lat": 40.3522,
+   "lon": 27.9767,
+   "population": 107631
+  },
+  {
+   "geonameid": 322673,
+   "name": "Ayvalık",
+   "lat": 39.3193,
+   "lon": 26.6934,
+   "population": 70002
+  }
+ ],
+ "TR31": [
+  {
+   "geonameid": 311046,
+   "name": "İzmir",
+   "lat": 38.4127,
+   "lon": 27.1384,
+   "population": 2938292
+  },
+  {
+   "geonameid": 320257,
+   "name": "Çiğli",
+   "lat": 38.4965,
+   "lon": 27.0703,
+   "population": 214065
+  },
+  {
+   "geonameid": 303700,
+   "name": "Ödemiş",
+   "lat": 38.2278,
+   "lon": 27.9696,
+   "population": 67153
+  },
+  {
+   "geonameid": 298316,
+   "name": "Urla",
+   "lat": 38.3229,
+   "lon": 26.764,
+   "population": 62989
+  }
+ ],
+ "TR32": [
+  {
+   "geonameid": 317109,
+   "name": "Denizli",
+   "lat": 37.7742,
+   "lon": 29.0875,
+   "population": 313238
+  },
+  {
+   "geonameid": 322830,
+   "name": "Aydın",
+   "lat": 37.845,
+   "lon": 27.8396,
+   "population": 163022
+  },
+  {
+   "geonameid": 303873,
+   "name": "Nazilli",
+   "lat": 37.9163,
+   "lon": 28.3223,
+   "population": 119370
+  },
+  {
+   "geonameid": 304184,
+   "name": "Muğla",
+   "lat": 37.2181,
+   "lon": 28.3665,
+   "population": 92328
+  }
+ ],
+ "TR33": [
+  {
+   "geonameid": 298299,
+   "name": "Uşak",
+   "lat": 38.6735,
+   "lon": 29.4058,
+   "population": 369433
+  },
+  {
+   "geonameid": 325303,
+   "name": "Afyonkarahisar",
+   "lat": 38.7567,
+   "lon": 30.5433,
+   "population": 251799
+  },
+  {
+   "geonameid": 304827,
+   "name": "Manisa",
+   "lat": 38.612,
+   "lon": 27.4265,
+   "population": 243971
+  },
+  {
+   "geonameid": 305268,
+   "name": "Kütahya",
+   "lat": 39.4242,
+   "lon": 29.9833,
+   "population": 185008
+  }
+ ],
+ "TR41": [
+  {
+   "geonameid": 750269,
+   "name": "Bursa",
+   "lat": 40.1956,
+   "lon": 29.0601,
+   "population": 3101833
+  },
+  {
+   "geonameid": 315202,
+   "name": "Eskişehir",
+   "lat": 39.7767,
+   "lon": 30.5206,
+   "population": 921630
+  },
+  {
+   "geonameid": 10346824,
+   "name": "Nilüfer",
+   "lat": 40.214,
+   "lon": 28.9157,
+   "population": 536365
+  },
+  {
+   "geonameid": 745169,
+   "name": "İnegol",
+   "lat": 40.0781,
+   "lon": 29.5133,
+   "population": 133959
+  }
+ ],
+ "TR42": [
+  {
+   "geonameid": 752850,
+   "name": "Adapazarı",
+   "lat": 40.7806,
+   "lon": 30.4033,
+   "population": 286787
+  },
+  {
+   "geonameid": 747014,
+   "name": "Gebze",
+   "lat": 40.8028,
+   "lon": 29.4307,
+   "population": 281436
+  },
+  {
+   "geonameid": 745028,
+   "name": "İzmit",
+   "lat": 40.765,
+   "lon": 29.9293,
+   "population": 196571
+  },
+  {
+   "geonameid": 747764,
+   "name": "Düzce",
+   "lat": 40.8389,
+   "lon": 31.1639,
+   "population": 194097
+  }
+ ],
+ "TR51": [
+  {
+   "geonameid": 323786,
+   "name": "Ankara",
+   "lat": 39.9199,
+   "lon": 32.8543,
+   "population": 3517182
+  },
+  {
+   "geonameid": 442301,
+   "name": "Batikent",
+   "lat": 39.9683,
+   "lon": 32.7308,
+   "population": 300000
+  },
+  {
+   "geonameid": 314133,
+   "name": "Gölbaşı",
+   "lat": 39.7904,
+   "lon": 32.809,
+   "population": 165201
+  },
+  {
+   "geonameid": 302525,
+   "name": "Polatlı",
+   "lat": 39.5772,
+   "lon": 32.1413,
+   "population": 93262
+  }
+ ],
+ "TR52": [
+  {
+   "geonameid": 306571,
+   "name": "Konya",
+   "lat": 37.8713,
+   "lon": 32.4846,
+   "population": 1433861
+  },
+  {
+   "geonameid": 309527,
+   "name": "Karaman",
+   "lat": 37.1811,
+   "lon": 33.215,
+   "population": 175390
+  },
+  {
+   "geonameid": 315498,
+   "name": "Ereğli",
+   "lat": 37.5133,
+   "lon": 34.0467,
+   "population": 156253
+  },
+  {
+   "geonameid": 324490,
+   "name": "Akşehir",
+   "lat": 38.3575,
+   "lon": 31.4164,
+   "population": 64446
+  }
+ ],
+ "TR61": [
+  {
+   "geonameid": 323777,
+   "name": "Antalya",
+   "lat": 36.9081,
+   "lon": 30.6956,
+   "population": 1335002
+  },
+  {
+   "geonameid": 324190,
+   "name": "Alanya",
+   "lat": 36.5438,
+   "lon": 31.9998,
+   "population": 364180
+  },
+  {
+   "geonameid": 311073,
+   "name": "Isparta",
+   "lat": 37.7644,
+   "lon": 30.5522,
+   "population": 172334
+  },
+  {
+   "geonameid": 304854,
+   "name": "Manavgat",
+   "lat": 36.7867,
+   "lon": 31.4409,
+   "population": 99254
+  }
+ ],
+ "TR62": [
+  {
+   "geonameid": 325363,
+   "name": "Adana",
+   "lat": 36.9862,
+   "lon": 35.3253,
+   "population": 1816750
+  },
+  {
+   "geonameid": 304531,
+   "name": "Mersin",
+   "lat": 36.812,
+   "lon": 34.6389,
+   "population": 537842
+  },
+  {
+   "geonameid": 299817,
+   "name": "Tarsus",
+   "lat": 36.9177,
+   "lon": 34.8928,
+   "population": 350732
+  },
+  {
+   "geonameid": 300808,
+   "name": "Silifke",
+   "lat": 36.3778,
+   "lon": 33.9344,
+   "population": 132665
+  }
+ ],
+ "TR63": [
+  {
+   "geonameid": 323779,
+   "name": "Antakya",
+   "lat": 36.2066,
+   "lon": 36.1572,
+   "population": 399045
+  },
+  {
+   "geonameid": 310859,
+   "name": "Kahramanmaraş",
+   "lat": 37.5847,
+   "lon": 36.9264,
+   "population": 384953
+  },
+  {
+   "geonameid": 311111,
+   "name": "İskenderun",
+   "lat": 36.5872,
+   "lon": 36.1735,
+   "population": 251682
+  },
+  {
+   "geonameid": 303195,
+   "name": "Osmaniye",
+   "lat": 37.0742,
+   "lon": 36.2478,
+   "population": 202837
+  }
+ ],
+ "TR71": [
+  {
+   "geonameid": 324496,
+   "name": "Aksaray",
+   "lat": 38.3725,
+   "lon": 34.0254,
+   "population": 327575
+  },
+  {
+   "geonameid": 307654,
+   "name": "Kırıkkale",
+   "lat": 39.8453,
+   "lon": 33.5064,
+   "population": 186960
+  },
+  {
+   "geonameid": 307515,
+   "name": "Kırşehir",
+   "lat": 39.1458,
+   "lon": 34.1639,
+   "population": 150700
+  },
+  {
+   "geonameid": 303827,
+   "name": "Niğde",
+   "lat": 37.9658,
+   "lon": 34.6793,
+   "population": 91039
+  }
+ ],
+ "TR72": [
+  {
+   "geonameid": 308464,
+   "name": "Kayseri",
+   "lat": 38.7322,
+   "lon": 35.4853,
+   "population": 1452458
+  },
+  {
+   "geonameid": 300619,
+   "name": "Sivas",
+   "lat": 39.7483,
+   "lon": 37.0161,
+   "population": 264022
+  },
+  {
+   "geonameid": 296562,
+   "name": "Yozgat",
+   "lat": 39.82,
+   "lon": 34.8044,
+   "population": 87881
+  },
+  {
+   "geonameid": 300352,
+   "name": "Sorgun",
+   "lat": 39.8101,
+   "lon": 35.186,
+   "population": 62862
+  }
+ ],
+ "TR81": [
+  {
+   "geonameid": 744562,
+   "name": "Karabük",
+   "lat": 41.2049,
+   "lon": 32.6277,
+   "population": 125403
+  },
+  {
+   "geonameid": 737022,
+   "name": "Zonguldak",
+   "lat": 41.4514,
+   "lon": 31.7931,
+   "population": 101749
+  },
+  {
+   "geonameid": 747471,
+   "name": "Ereğli",
+   "lat": 41.2826,
+   "lon": 31.4181,
+   "population": 88848
+  },
+  {
+   "geonameid": 751057,
+   "name": "Bartın",
+   "lat": 41.6358,
+   "lon": 32.3375,
+   "population": 81692
+  }
+ ],
+ "TR82": [
+  {
+   "geonameid": 743882,
+   "name": "Kastamonu",
+   "lat": 41.3781,
+   "lon": 33.7753,
+   "population": 125622
+  },
+  {
+   "geonameid": 749748,
+   "name": "Çankırı",
+   "lat": 40.5999,
+   "lon": 33.6153,
+   "population": 90564
+  },
+  {
+   "geonameid": 739600,
+   "name": "Sinop",
+   "lat": 42.0268,
+   "lon": 35.1625,
+   "population": 34834
+  },
+  {
+   "geonameid": 750468,
+   "name": "Boyabat",
+   "lat": 41.4689,
+   "lon": 34.7667,
+   "population": 27717
+  }
+ ],
+ "TR83": [
+  {
+   "geonameid": 740264,
+   "name": "Samsun",
+   "lat": 41.2798,
+   "lon": 36.3361,
+   "population": 394050
+  },
+  {
+   "geonameid": 748879,
+   "name": "Çorum",
+   "lat": 40.5489,
+   "lon": 34.9533,
+   "population": 269595
+  },
+  {
+   "geonameid": 738743,
+   "name": "Tokat",
+   "lat": 40.3139,
+   "lon": 36.5544,
+   "population": 129702
+  },
+  {
+   "geonameid": 752015,
+   "name": "Amasya",
+   "lat": 40.6533,
+   "lon": 35.8331,
+   "population": 114921
+  }
+ ],
+ "TR90": [
+  {
+   "geonameid": 738648,
+   "name": "Trabzon",
+   "lat": 41.005,
+   "lon": 39.7269,
+   "population": 244083
+  },
+  {
+   "geonameid": 741100,
+   "name": "Ordu",
+   "lat": 40.9778,
+   "lon": 37.8905,
+   "population": 229214
+  },
+  {
+   "geonameid": 746881,
+   "name": "Giresun",
+   "lat": 40.917,
+   "lon": 38.3874,
+   "population": 125682
+  },
+  {
+   "geonameid": 740483,
+   "name": "Rize",
+   "lat": 41.0208,
+   "lon": 40.5219,
+   "population": 119828
+  }
+ ],
+ "TRA1": [
+  {
+   "geonameid": 315368,
+   "name": "Erzurum",
+   "lat": 39.9086,
+   "lon": 41.2769,
+   "population": 767848
+  },
+  {
+   "geonameid": 315373,
+   "name": "Erzincan",
+   "lat": 39.7392,
+   "lon": 39.4901,
+   "population": 150714
+  },
+  {
+   "geonameid": 750938,
+   "name": "Bayburt",
+   "lat": 40.2563,
+   "lon": 40.2229,
+   "population": 48036
+  },
+  {
+   "geonameid": 298230,
+   "name": "Cimin",
+   "lat": 39.7095,
+   "lon": 39.7002,
+   "population": 39591
+  }
+ ],
+ "TRA2": [
+  {
+   "geonameid": 309647,
+   "name": "Ağrı",
+   "lat": 39.7147,
+   "lon": 43.0401,
+   "population": 124483
+  },
+  {
+   "geonameid": 311665,
+   "name": "Iğdır",
+   "lat": 39.9237,
+   "lon": 44.045,
+   "population": 101700
+  },
+  {
+   "geonameid": 743952,
+   "name": "Kars",
+   "lat": 40.5983,
+   "lon": 43.0855,
+   "population": 91450
+  },
+  {
+   "geonameid": 302819,
+   "name": "Patnos",
+   "lat": 39.2249,
+   "lon": 42.8569,
+   "population": 87451
+  }
+ ],
+ "TRB1": [
+  {
+   "geonameid": 304922,
+   "name": "Malatya",
+   "lat": 38.3502,
+   "lon": 38.3167,
+   "population": 750491
+  },
+  {
+   "geonameid": 315808,
+   "name": "Elazığ",
+   "lat": 38.6743,
+   "lon": 39.2232,
+   "population": 443363
+  },
+  {
+   "geonameid": 321082,
+   "name": "Bingöl",
+   "lat": 38.8847,
+   "lon": 40.4939,
+   "population": 128935
+  },
+  {
+   "geonameid": 324859,
+   "name": "Akçapınar",
+   "lat": 38.9473,
+   "lon": 38.9423,
+   "population": 84366
+  }
+ ],
+ "TRB2": [
+  {
+   "geonameid": 298117,
+   "name": "Van",
+   "lat": 38.4946,
+   "lon": 43.3832,
+   "population": 525016
+  },
+  {
+   "geonameid": 315530,
+   "name": "Erciş",
+   "lat": 39.0259,
+   "lon": 43.3596,
+   "population": 91915
+  },
+  {
+   "geonameid": 304081,
+   "name": "Muş",
+   "lat": 38.7316,
+   "lon": 41.4848,
+   "population": 82536
+  },
+  {
+   "geonameid": 318137,
+   "name": "Hakkâri",
+   "lat": 37.5744,
+   "lon": 43.7408,
+   "population": 77699
+  }
+ ],
+ "TRC1": [
+  {
+   "geonameid": 314830,
+   "name": "Gaziantep",
+   "lat": 37.0594,
+   "lon": 37.3825,
+   "population": 2222415
+  },
+  {
+   "geonameid": 325330,
+   "name": "Adıyaman",
+   "lat": 37.7644,
+   "lon": 38.2763,
+   "population": 290883
+  },
+  {
+   "geonameid": 307864,
+   "name": "Kilis",
+   "lat": 36.7161,
+   "lon": 37.115,
+   "population": 111648
+  },
+  {
+   "geonameid": 310855,
+   "name": "Kâhta",
+   "lat": 37.7855,
+   "lon": 38.6237,
+   "population": 97875
+  }
+ ],
+ "TRC2": [
+  {
+   "geonameid": 316541,
+   "name": "Diyarbakır",
+   "lat": 37.9136,
+   "lon": 40.2172,
+   "population": 1833684
+  },
+  {
+   "geonameid": 298333,
+   "name": "Şanlıurfa",
+   "lat": 37.1671,
+   "lon": 38.7939,
+   "population": 449549
+  },
+  {
+   "geonameid": 300614,
+   "name": "Siverek",
+   "lat": 37.755,
+   "lon": 39.3167,
+   "population": 175341
+  },
+  {
+   "geonameid": 298033,
+   "name": "Viranşehir",
+   "lat": 37.2235,
+   "lon": 39.7552,
+   "population": 154163
+  }
+ ],
+ "TRC3": [
+  {
+   "geonameid": 321836,
+   "name": "Batman",
+   "lat": 37.8874,
+   "lon": 41.1322,
+   "population": 452157
+  },
+  {
+   "geonameid": 307084,
+   "name": "Kızıltepe",
+   "lat": 37.1884,
+   "lon": 40.5772,
+   "population": 150174
+  },
+  {
+   "geonameid": 318253,
+   "name": "Cizre",
+   "lat": 37.3302,
+   "lon": 42.1848,
+   "population": 134041
+  },
+  {
+   "geonameid": 304797,
+   "name": "Mardin",
+   "lat": 37.3131,
+   "lon": 40.7436,
+   "population": 129864
+  }
+ ],
+ "UKC1": [
+  {
+   "geonameid": 2642607,
+   "name": "Middlesbrough",
+   "lat": 54.5762,
+   "lon": -1.2348,
+   "population": 142707
+  },
+  {
+   "geonameid": 2651513,
+   "name": "Darlington",
+   "lat": 54.5243,
+   "lon": -1.5504,
+   "population": 92363
+  },
+  {
+   "geonameid": 2647400,
+   "name": "Hartlepool",
+   "lat": 54.6855,
+   "lon": -1.2103,
+   "population": 88855
+  },
+  {
+   "geonameid": 2650628,
+   "name": "Durham",
+   "lat": 54.7768,
+   "lon": -1.5757,
+   "population": 47785
+  }
+ ],
+ "UKC2": [
+  {
+   "geonameid": 2641673,
+   "name": "Newcastle upon Tyne",
+   "lat": 54.9733,
+   "lon": -1.614,
+   "population": 300125
+  },
+  {
+   "geonameid": 2636531,
+   "name": "Sunderland",
+   "lat": 54.9046,
+   "lon": -1.3822,
+   "population": 170134
+  },
+  {
+   "geonameid": 2637329,
+   "name": "South Shields",
+   "lat": 54.9986,
+   "lon": -1.4323,
+   "population": 83655
+  },
+  {
+   "geonameid": 2634715,
+   "name": "Washington",
+   "lat": 54.9,
+   "lon": -1.5167,
+   "population": 67085
+  }
+ ],
+ "UKD1": [
+  {
+   "geonameid": 2653775,
+   "name": "Carlisle",
+   "lat": 54.8951,
+   "lon": -2.9382,
+   "population": 78470
+  },
+  {
+   "geonameid": 2656241,
+   "name": "Barrow in Furness",
+   "lat": 54.1109,
+   "lon": -3.2276,
+   "population": 55489
+  },
+  {
+   "geonameid": 2645826,
+   "name": "Kendal",
+   "lat": 54.3268,
+   "lon": -2.7476,
+   "population": 29147
+  },
+  {
+   "geonameid": 2634096,
+   "name": "Whitehaven",
+   "lat": 54.549,
+   "lon": -3.5841,
+   "population": 22945
+  }
+ ],
+ "UKD3": [
+  {
+   "geonameid": 2643123,
+   "name": "Manchester",
+   "lat": 53.4809,
+   "lon": -2.2374,
+   "population": 568996
+  },
+  {
+   "geonameid": 2641022,
+   "name": "Oldham",
+   "lat": 53.5405,
+   "lon": -2.1183,
+   "population": 237110
+  },
+  {
+   "geonameid": 2633948,
+   "name": "Wigan",
+   "lat": 53.543,
+   "lon": -2.6371,
+   "population": 175405
+  },
+  {
+   "geonameid": 2655237,
+   "name": "Bolton",
+   "lat": 53.5833,
+   "lon": -2.4333,
+   "population": 141331
+  }
+ ],
+ "UKD4": [
+  {
+   "geonameid": 2639912,
+   "name": "Preston",
+   "lat": 53.7628,
+   "lon": -2.7045,
+   "population": 313332
+  },
+  {
+   "geonameid": 2654264,
+   "name": "Burnley",
+   "lat": 53.8,
+   "lon": -2.2333,
+   "population": 149422
+  },
+  {
+   "geonameid": 2655524,
+   "name": "Blackburn",
+   "lat": 53.75,
+   "lon": -2.4833,
+   "population": 146521
+  },
+  {
+   "geonameid": 2655459,
+   "name": "Blackpool",
+   "lat": 53.8167,
+   "lon": -3.05,
+   "population": 145007
+  }
+ ],
+ "UKD6": [
+  {
+   "geonameid": 2634739,
+   "name": "Warrington",
+   "lat": 53.3925,
+   "lon": -2.5802,
+   "population": 172330
+  },
+  {
+   "geonameid": 2653228,
+   "name": "Chester",
+   "lat": 53.1905,
+   "lon": -2.8919,
+   "population": 90524
+  },
+  {
+   "geonameid": 2652002,
+   "name": "Crewe",
+   "lat": 53.0979,
+   "lon": -2.4416,
+   "population": 76437
+  },
+  {
+   "geonameid": 2650096,
+   "name": "Ellesmere Port Town",
+   "lat": 53.2788,
+   "lon": -2.9013,
+   "population": 65430
+  }
+ ],
+ "UKD7": [
+  {
+   "geonameid": 2644210,
+   "name": "Liverpool",
+   "lat": 53.4106,
+   "lon": -2.9779,
+   "population": 496770
+  },
+  {
+   "geonameid": 2638785,
+   "name": "St Helens",
+   "lat": 53.45,
+   "lon": -2.7333,
+   "population": 183200
+  },
+  {
+   "geonameid": 2637343,
+   "name": "Southport",
+   "lat": 53.6458,
+   "lon": -3.0101,
+   "population": 91703
+  },
+  {
+   "geonameid": 2633954,
+   "name": "Widnes",
+   "lat": 53.3618,
+   "lon": -2.7341,
+   "population": 61464
+  }
+ ],
+ "UKE1": [
+  {
+   "geonameid": 2645425,
+   "name": "Kingston upon Hull",
+   "lat": 53.7446,
+   "lon": -0.3352,
+   "population": 314018
+  },
+  {
+   "geonameid": 2647878,
+   "name": "Grimsby",
+   "lat": 53.5654,
+   "lon": -0.0755,
+   "population": 86138
+  },
+  {
+   "geonameid": 2638324,
+   "name": "Scunthorpe",
+   "lat": 53.5791,
+   "lon": -0.6544,
+   "population": 81576
+  },
+  {
+   "geonameid": 2654728,
+   "name": "Bridlington",
+   "lat": 54.0831,
+   "lon": -0.1919,
+   "population": 35154
+  }
+ ],
+ "UKE2": [
+  {
+   "geonameid": 2633352,
+   "name": "York",
+   "lat": 53.9576,
+   "lon": -1.0827,
+   "population": 156135
+  },
+  {
+   "geonameid": 2647428,
+   "name": "Harrogate",
+   "lat": 53.9908,
+   "lon": -1.5373,
+   "population": 89060
+  },
+  {
+   "geonameid": 2638419,
+   "name": "Scarborough",
+   "lat": 54.2797,
+   "lon": -0.4044,
+   "population": 61749
+  },
+  {
+   "geonameid": 2638235,
+   "name": "Selby",
+   "lat": 53.7833,
+   "lon": -1.0667,
+   "population": 24859
+  }
+ ],
+ "UKE3": [
+  {
+   "geonameid": 2638077,
+   "name": "Sheffield",
+   "lat": 53.383,
+   "lon": -1.4659,
+   "population": 556500
+  },
+  {
+   "geonameid": 2639093,
+   "name": "Rotherham",
+   "lat": 53.4301,
+   "lon": -1.3568,
+   "population": 117618
+  },
+  {
+   "geonameid": 2651123,
+   "name": "Doncaster",
+   "lat": 53.5228,
+   "lon": -1.1312,
+   "population": 113566
+  },
+  {
+   "geonameid": 2656284,
+   "name": "Barnsley",
+   "lat": 53.55,
+   "lon": -1.4833,
+   "population": 71447
+  }
+ ],
+ "UKE4": [
+  {
+   "geonameid": 2644688,
+   "name": "Leeds",
+   "lat": 53.7965,
+   "lon": -1.5478,
+   "population": 536280
+  },
+  {
+   "geonameid": 2654993,
+   "name": "Bradford",
+   "lat": 53.7939,
+   "lon": -1.7521,
+   "population": 366187
+  },
+  {
+   "geonameid": 2646458,
+   "name": "Huddersfield",
+   "lat": 53.649,
+   "lon": -1.7842,
+   "population": 149017
+  },
+  {
+   "geonameid": 2634910,
+   "name": "Wakefield",
+   "lat": 53.6833,
+   "lon": -1.4977,
+   "population": 109766
+  }
+ ],
+ "UKF1": [
+  {
+   "geonameid": 2641170,
+   "name": "Nottingham",
+   "lat": 52.9536,
+   "lon": -1.1505,
+   "population": 323632
+  },
+  {
+   "geonameid": 2651347,
+   "name": "Derby",
+   "lat": 52.9228,
+   "lon": -1.4766,
+   "population": 270468
+  },
+  {
+   "geonameid": 2643097,
+   "name": "Mansfield",
+   "lat": 53.1333,
+   "lon": -1.2,
+   "population": 171958
+  },
+  {
+   "geonameid": 2654200,
+   "name": "Burton upon Trent",
+   "lat": 52.8073,
+   "lon": -1.6426,
+   "population": 122199
+  }
+ ],
+ "UKF2": [
+  {
+   "geonameid": 2644668,
+   "name": "Leicester",
+   "lat": 52.6386,
+   "lon": -1.1317,
+   "population": 368600
+  },
+  {
+   "geonameid": 2641430,
+   "name": "Northampton",
+   "lat": 52.25,
+   "lon": -0.8833,
+   "population": 245899
+  },
+  {
+   "geonameid": 2652381,
+   "name": "Corby",
+   "lat": 52.4964,
+   "lon": -0.6894,
+   "population": 68164
+  },
+  {
+   "geonameid": 2643567,
+   "name": "Loughborough",
+   "lat": 52.7667,
+   "lon": -1.2,
+   "population": 64884
+  }
+ ],
+ "UKF3": [
+  {
+   "geonameid": 2644487,
+   "name": "Lincoln",
+   "lat": 53.2268,
+   "lon": -0.5379,
+   "population": 103813
+  },
+  {
+   "geonameid": 2655138,
+   "name": "Boston",
+   "lat": 52.9763,
+   "lon": -0.0266,
+   "population": 45339
+  },
+  {
+   "geonameid": 2648208,
+   "name": "Grantham",
+   "lat": 52.9115,
+   "lon": -0.6418,
+   "population": 44580
+  },
+  {
+   "geonameid": 2637265,
+   "name": "Spalding",
+   "lat": 52.7871,
+   "lon": -0.1514,
+   "population": 30556
+  }
+ ],
+ "UKG1": [
+  {
+   "geonameid": 2633563,
+   "name": "Worcester",
+   "lat": 52.1893,
+   "lon": -2.22,
+   "population": 101659
+  },
+  {
+   "geonameid": 2641157,
+   "name": "Nuneaton",
+   "lat": 52.5232,
+   "lon": -1.4652,
+   "population": 88813
+  },
+  {
+   "geonameid": 2639557,
+   "name": "Redditch",
+   "lat": 52.3065,
+   "lon": -1.9457,
+   "population": 87847
+  },
+  {
+   "geonameid": 2638978,
+   "name": "Rugby",
+   "lat": 52.3709,
+   "lon": -1.2642,
+   "population": 78117
+  }
+ ],
+ "UKG2": [
+  {
+   "geonameid": 2636841,
+   "name": "Stoke-on-Trent",
+   "lat": 53.0042,
+   "lon": -2.1854,
+   "population": 258366
+  },
+  {
+   "geonameid": 3345439,
+   "name": "Telford",
+   "lat": 52.6766,
+   "lon": -2.4493,
+   "population": 155570
+  },
+  {
+   "geonameid": 2653883,
+   "name": "Cannock",
+   "lat": 52.6904,
+   "lon": -2.0309,
+   "population": 86121
+  },
+  {
+   "geonameid": 2636276,
+   "name": "Tamworth",
+   "lat": 52.634,
+   "lon": -1.6959,
+   "population": 81964
+  }
+ ],
+ "UKG3": [
+  {
+   "geonameid": 2655603,
+   "name": "Birmingham",
+   "lat": 52.4814,
+   "lon": -1.8998,
+   "population": 1157603
+  },
+  {
+   "geonameid": 2652221,
+   "name": "Coventry",
+   "lat": 52.4066,
+   "lon": -1.5122,
+   "population": 345324
+  },
+  {
+   "geonameid": 2633691,
+   "name": "Wolverhampton",
+   "lat": 52.5855,
+   "lon": -2.123,
+   "population": 263700
+  },
+  {
+   "geonameid": 2650839,
+   "name": "Dudley",
+   "lat": 52.5,
+   "lon": -2.0833,
+   "population": 199059
+  }
+ ],
+ "UKH1": [
+  {
+   "geonameid": 2646057,
+   "name": "Ipswich",
+   "lat": 52.0592,
+   "lon": 1.1555,
+   "population": 178835
+  },
+  {
+   "geonameid": 2640354,
+   "name": "Peterborough",
+   "lat": 52.5736,
+   "lon": -0.2478,
+   "population": 163379
+  },
+  {
+   "geonameid": 2653941,
+   "name": "Cambridge",
+   "lat": 52.2,
+   "lon": 0.1167,
+   "population": 145674
+  },
+  {
+   "geonameid": 2641181,
+   "name": "Norwich",
+   "lat": 52.6278,
+   "lon": 1.2983,
+   "population": 143135
+  }
+ ],
+ "UKH2": [
+  {
+   "geonameid": 2643339,
+   "name": "Luton",
+   "lat": 51.8797,
+   "lon": -0.4175,
+   "population": 225262
+  },
+  {
+   "geonameid": 2634677,
+   "name": "Watford",
+   "lat": 51.6553,
+   "lon": -0.396,
+   "population": 125707
+  },
+  {
+   "geonameid": 2656046,
+   "name": "Bedford",
+   "lat": 52.1346,
+   "lon": -0.4663,
+   "population": 106940
+  },
+  {
+   "geonameid": 2647138,
+   "name": "Hemel Hempstead",
+   "lat": 51.7537,
+   "lon": -0.4497,
+   "population": 95961
+  }
+ ],
+ "UKH3": [
+  {
+   "geonameid": 2637433,
+   "name": "Southend-on-Sea",
+   "lat": 51.5378,
+   "lon": 0.7143,
+   "population": 295310
+  },
+  {
+   "geonameid": 2656194,
+   "name": "Basildon",
+   "lat": 51.5684,
+   "lon": 0.4578,
+   "population": 144859
+  },
+  {
+   "geonameid": 2652618,
+   "name": "Colchester",
+   "lat": 51.8892,
+   "lon": 0.9042,
+   "population": 130245
+  },
+  {
+   "geonameid": 2653266,
+   "name": "Chelmsford",
+   "lat": 51.7358,
+   "lon": 0.4696,
+   "population": 111511
+  }
+ ],
+ "UKI3": [
+  {
+   "geonameid": 2643743,
+   "name": "London",
+   "lat": 51.5085,
+   "lon": -0.1257,
+   "population": 8961989
+  },
+  {
+   "geonameid": 2639835,
+   "name": "Putney",
+   "lat": 51.4607,
+   "lon": -0.2181,
+   "population": 77140
+  }
+ ],
+ "UKI4": [
+  {
+   "geonameid": 2646003,
+   "name": "Islington",
+   "lat": 51.5362,
+   "lon": -0.103,
+   "population": 319143
+  },
+  {
+   "geonameid": 2636675,
+   "name": "Streatham",
+   "lat": 51.429,
+   "lon": -0.1318,
+   "population": 58055
+  },
+  {
+   "geonameid": 11549407,
+   "name": "Canning Town",
+   "lat": 51.5136,
+   "lon": 0.0195,
+   "population": 42667
+  }
+ ],
+ "UKI5": [
+  {
+   "geonameid": 2655775,
+   "name": "Bexley",
+   "lat": 51.4416,
+   "lon": 0.1487,
+   "population": 228000
+  },
+  {
+   "geonameid": 2656333,
+   "name": "Barking",
+   "lat": 51.5333,
+   "lon": 0.0833,
+   "population": 218534
+  },
+  {
+   "geonameid": 2649997,
+   "name": "Enfield Town",
+   "lat": 51.6515,
+   "lon": -0.085,
+   "population": 156858
+  },
+  {
+   "geonameid": 2634838,
+   "name": "Walthamstow",
+   "lat": 51.5907,
+   "lon": -0.0208,
+   "population": 109424
+  }
+ ],
+ "UKI6": [
+  {
+   "geonameid": 2636503,
+   "name": "Sutton",
+   "lat": 51.35,
+   "lon": -0.2,
+   "population": 187600
+  },
+  {
+   "geonameid": 2656065,
+   "name": "Beckenham",
+   "lat": 51.4088,
+   "lon": -0.0253,
+   "population": 60739
+  },
+  {
+   "geonameid": 6690866,
+   "name": "Surbiton",
+   "lat": 51.3915,
+   "lon": -0.2983,
+   "population": 38158
+  },
+  {
+   "geonameid": 2640894,
+   "name": "Orpington",
+   "lat": 51.3746,
+   "lon": 0.0979,
+   "population": 15248
+  }
+ ],
+ "UKI7": [
+  {
+   "geonameid": 2654789,
+   "name": "Brent",
+   "lat": 51.5531,
+   "lon": -0.3023,
+   "population": 329100
+  },
+  {
+   "geonameid": 2647261,
+   "name": "Hayes",
+   "lat": 51.5158,
+   "lon": -0.4234,
+   "population": 93928
+  },
+  {
+   "geonameid": 2649441,
+   "name": "Finchley",
+   "lat": 51.601,
+   "lon": -0.1952,
+   "population": 65812
+  },
+  {
+   "geonameid": 2647514,
+   "name": "Hanworth",
+   "lat": 51.4333,
+   "lon": -0.3833,
+   "population": 23563
+  }
+ ],
+ "UKJ1": [
+  {
+   "geonameid": 2639577,
+   "name": "Reading",
+   "lat": 51.4562,
+   "lon": -0.9711,
+   "population": 318014
+  },
+  {
+   "geonameid": 2642465,
+   "name": "Milton Keynes",
+   "lat": 52.0417,
+   "lon": -0.7558,
+   "population": 256385
+  },
+  {
+   "geonameid": 2637627,
+   "name": "Slough",
+   "lat": 51.5095,
+   "lon": -0.5954,
+   "population": 164793
+  },
+  {
+   "geonameid": 2640729,
+   "name": "Oxford",
+   "lat": 51.7522,
+   "lon": -1.256,
+   "population": 162100
+  }
+ ],
+ "UKJ2": [
+  {
+   "geonameid": 2654710,
+   "name": "Brighton",
+   "lat": 50.8284,
+   "lon": -0.1395,
+   "population": 283870
+  },
+  {
+   "geonameid": 2652053,
+   "name": "Crawley",
+   "lat": 51.113,
+   "lon": -0.1831,
+   "population": 124008
+  },
+  {
+   "geonameid": 2633521,
+   "name": "Worthing",
+   "lat": 50.818,
+   "lon": -0.3754,
+   "population": 113866
+  },
+  {
+   "geonameid": 2633709,
+   "name": "Woking",
+   "lat": 51.319,
+   "lon": -0.5589,
+   "population": 103900
+  }
+ ],
+ "UKJ3": [
+  {
+   "geonameid": 2637487,
+   "name": "Southampton",
+   "lat": 50.904,
+   "lon": -1.4043,
+   "population": 269781
+  },
+  {
+   "geonameid": 2639996,
+   "name": "Portsmouth",
+   "lat": 50.799,
+   "lon": -1.0913,
+   "population": 208100
+  },
+  {
+   "geonameid": 2656192,
+   "name": "Basingstoke",
+   "lat": 51.2625,
+   "lon": -1.0871,
+   "population": 107642
+  },
+  {
+   "geonameid": 2634686,
+   "name": "Waterlooville",
+   "lat": 50.8807,
+   "lon": -1.0304,
+   "population": 64350
+  }
+ ],
+ "UKJ4": [
+  {
+   "geonameid": 2638703,
+   "name": "Saint Peters",
+   "lat": 51.3667,
+   "lon": 1.4167,
+   "population": 125370
+  },
+  {
+   "geonameid": 2643179,
+   "name": "Maidstone",
+   "lat": 51.2667,
+   "lon": 0.5167,
+   "population": 107627
+  },
+  {
+   "geonameid": 2648657,
+   "name": "Gillingham",
+   "lat": 51.3891,
+   "lon": 0.5486,
+   "population": 101187
+  },
+  {
+   "geonameid": 2639022,
+   "name": "Royal Tunbridge Wells",
+   "lat": 51.1332,
+   "lon": 0.2626,
+   "population": 68910
+  }
+ ],
+ "UKK1": [
+  {
+   "geonameid": 2654675,
+   "name": "Bristol",
+   "lat": 51.4552,
+   "lon": -2.5966,
+   "population": 479024
+  },
+  {
+   "geonameid": 2636389,
+   "name": "Swindon",
+   "lat": 51.558,
+   "lon": -1.7812,
+   "population": 201669
+  },
+  {
+   "geonameid": 2648404,
+   "name": "Gloucester",
+   "lat": 51.8657,
+   "lon": -2.2431,
+   "population": 132416
+  },
+  {
+   "geonameid": 2653261,
+   "name": "Cheltenham",
+   "lat": 51.9001,
+   "lon": -2.0797,
+   "population": 118836
+  }
+ ],
+ "UKK2": [
+  {
+   "geonameid": 2655095,
+   "name": "Bournemouth",
+   "lat": 50.7205,
+   "lon": -1.8795,
+   "population": 163600
+  },
+  {
+   "geonameid": 6947756,
+   "name": "Mendip",
+   "lat": 51.2372,
+   "lon": -2.6266,
+   "population": 110000
+  },
+  {
+   "geonameid": 2636177,
+   "name": "Taunton",
+   "lat": 51.0149,
+   "lon": -3.1029,
+   "population": 64621
+  },
+  {
+   "geonameid": 2634202,
+   "name": "Weymouth",
+   "lat": 50.6145,
+   "lon": -2.4599,
+   "population": 53416
+  }
+ ],
+ "UKK3": [
+  {
+   "geonameid": 2639524,
+   "name": "Redruth",
+   "lat": 50.2332,
+   "lon": -5.2243,
+   "population": 42690
+  },
+  {
+   "geonameid": 2649715,
+   "name": "Falmouth",
+   "lat": 50.1544,
+   "lon": -5.0711,
+   "population": 31988
+  },
+  {
+   "geonameid": 2638853,
+   "name": "St Austell",
+   "lat": 50.3425,
+   "lon": -4.7744,
+   "population": 24360
+  },
+  {
+   "geonameid": 2635412,
+   "name": "Truro",
+   "lat": 50.2653,
+   "lon": -5.0544,
+   "population": 23041
+  }
+ ],
+ "UKK4": [
+  {
+   "geonameid": 2640194,
+   "name": "Plymouth",
+   "lat": 50.3715,
+   "lon": -4.143,
+   "population": 260203
+  },
+  {
+   "geonameid": 2649808,
+   "name": "Exeter",
+   "lat": 50.7236,
+   "lon": -3.5275,
+   "population": 130709
+  },
+  {
+   "geonameid": 2640681,
+   "name": "Paignton",
+   "lat": 50.4357,
+   "lon": -3.5679,
+   "population": 67520
+  },
+  {
+   "geonameid": 2641557,
+   "name": "Newton Abbot",
+   "lat": 50.5286,
+   "lon": -3.6119,
+   "population": 36474
+  }
+ ],
+ "UKL1": [
+  {
+   "geonameid": 2636432,
+   "name": "Swansea",
+   "lat": 51.6208,
+   "lon": -3.9432,
+   "population": 300352
+  },
+  {
+   "geonameid": 2639447,
+   "name": "Rhondda",
+   "lat": 51.659,
+   "lon": -3.4489,
+   "population": 69506
+  },
+  {
+   "geonameid": 2654755,
+   "name": "Bridgend",
+   "lat": 51.5058,
+   "lon": -3.5772,
+   "population": 49597
+  },
+  {
+   "geonameid": 2644100,
+   "name": "Llanelli",
+   "lat": 51.682,
+   "lon": -4.1619,
+   "population": 49591
+  }
+ ],
+ "UKL2": [
+  {
+   "geonameid": 2653822,
+   "name": "Cardiff",
+   "lat": 51.48,
+   "lon": -3.18,
+   "population": 372089
+  },
+  {
+   "geonameid": 2641598,
+   "name": "Newport",
+   "lat": 51.5877,
+   "lon": -2.9983,
+   "population": 161506
+  },
+  {
+   "geonameid": 2633485,
+   "name": "Wrexham",
+   "lat": 53.0466,
+   "lon": -2.9913,
+   "population": 65692
+  },
+  {
+   "geonameid": 2654394,
+   "name": "Buckley",
+   "lat": 53.1667,
+   "lon": -3.0833,
+   "population": 63576
+  }
+ ],
+ "UKM5": [
+  {
+   "geonameid": 2657832,
+   "name": "Aberdeen",
+   "lat": 57.1437,
+   "lon": -2.0981,
+   "population": 198590
+  },
+  {
+   "geonameid": 2640351,
+   "name": "Peterhead",
+   "lat": 57.5052,
+   "lon": -1.7844,
+   "population": 19060
+  }
+ ],
+ "UKM6": [
+  {
+   "geonameid": 2646088,
+   "name": "Inverness",
+   "lat": 57.4791,
+   "lon": -4.224,
+   "population": 47790
+  },
+  {
+   "geonameid": 2650122,
+   "name": "Elgin",
+   "lat": 57.6495,
+   "lon": -3.3184,
+   "population": 25040
+  },
+  {
+   "geonameid": 8299620,
+   "name": "Isle of Lewis",
+   "lat": 58.219,
+   "lon": -6.388,
+   "population": 18500
+  },
+  {
+   "geonameid": 2649169,
+   "name": "Fort William",
+   "lat": 56.8165,
+   "lon": -5.1121,
+   "population": 15757
+  }
+ ],
+ "UKM7": [
+  {
+   "geonameid": 2650225,
+   "name": "Edinburgh",
+   "lat": 55.9521,
+   "lon": -3.1965,
+   "population": 514990
+  },
+  {
+   "geonameid": 2650752,
+   "name": "Dundee",
+   "lat": 56.4691,
+   "lon": -2.9749,
+   "population": 148210
+  },
+  {
+   "geonameid": 2644204,
+   "name": "Livingston",
+   "lat": 55.9029,
+   "lon": -3.5226,
+   "population": 56840
+  },
+  {
+   "geonameid": 2650732,
+   "name": "Dunfermline",
+   "lat": 56.0716,
+   "lon": -3.4589,
+   "population": 54990
+  }
+ ],
+ "UKM8": [
+  {
+   "geonameid": 2648579,
+   "name": "Glasgow",
+   "lat": 55.8651,
+   "lon": -4.2576,
+   "population": 626410
+  },
+  {
+   "geonameid": 2640677,
+   "name": "Paisley",
+   "lat": 55.8317,
+   "lon": -4.4325,
+   "population": 77270
+  },
+  {
+   "geonameid": 2651715,
+   "name": "Cumbernauld",
+   "lat": 55.9468,
+   "lon": -3.9905,
+   "population": 50530
+  },
+  {
+   "geonameid": 2652696,
+   "name": "Coatbridge",
+   "lat": 55.8622,
+   "lon": -4.0247,
+   "population": 43950
+  }
+ ],
+ "UKM9": [
+  {
+   "geonameid": 2650405,
+   "name": "East Kilbride",
+   "lat": 55.7641,
+   "lon": -4.1767,
+   "population": 75310
+  },
+  {
+   "geonameid": 2642814,
+   "name": "Meikle Earnock",
+   "lat": 55.75,
+   "lon": -4.0333,
+   "population": 54480
+  },
+  {
+   "geonameid": 2645605,
+   "name": "Kilmarnock",
+   "lat": 55.6117,
+   "lon": -4.4958,
+   "population": 46970
+  },
+  {
+   "geonameid": 2650798,
+   "name": "Dumfries",
+   "lat": 55.0696,
+   "lon": -3.6114,
+   "population": 46500
+  }
+ ],
+ "UKN0": [
+  {
+   "geonameid": 2655984,
+   "name": "Belfast",
+   "lat": 54.5968,
+   "lon": -5.9254,
+   "population": 348005
+  },
+  {
+   "geonameid": 2643734,
+   "name": "Londonderry County Borough",
+   "lat": 54.9972,
+   "lon": -7.3092,
+   "population": 87153
+  },
+  {
+   "geonameid": 2644411,
+   "name": "Lisburn",
+   "lat": 54.5234,
+   "lon": -6.0353,
+   "population": 77506
+  },
+  {
+   "geonameid": 2656396,
+   "name": "Bangor",
+   "lat": 54.6608,
+   "lon": -5.668,
+   "population": 61011
+  }
+ ]
+}

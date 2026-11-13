@@ -87,3 +87,30 @@ def test_unknown_region_is_a_404(client):
 
 def test_bad_month_is_rejected(client):
     assert client.get("/api/regions/ITI1?month=13").status_code == 400
+
+
+def test_region_detail_lists_its_cities(client):
+    cities = client.get("/api/regions/ITI4").get_json()["cities"]
+    assert "Rome" in [city["name"] for city in cities]
+    rome = next(city for city in cities if city["name"] == "Rome")
+    assert rome["has_notes"] is True
+    assert rome["region_id"] == "ITI4"
+
+
+def test_city_list_is_brief(client):
+    cities = client.get("/api/cities").get_json()["cities"]
+    assert len(cities) > 1000
+    assert set(cities[0]) == {"id", "name", "region_id", "lat", "lon", "population", "has_notes"}
+
+
+def test_city_detail(client):
+    body = client.get("/api/cities/bari-it").get_json()
+    assert body["name"] == "Bari"
+    assert body["region_name"] == "Apulia"
+    assert body["country_name"] == "Italy"
+    assert body["summary"]
+    assert len(body["things_to_do"]) >= 3
+
+
+def test_unknown_city_is_a_404(client):
+    assert client.get("/api/cities/atlantis-xx").status_code == 404

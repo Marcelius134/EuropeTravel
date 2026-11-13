@@ -2,7 +2,9 @@
 
 GeoNames data is licensed CC BY 4.0 (https://www.geonames.org).
 """
-from .common import COMPUTED, iso_country, load_json, percentile_ranks, save_json
+import math
+
+from .common import COMPUTED, CURATED, iso_country, load_json, percentile_ranks, save_json
 from .geometry import load_region_shapes
 
 # A city just off the simplified coastline still belongs to the nearest region.
@@ -69,3 +71,62 @@ def build_settlement(grouped=None):
     save_json(COMPUTED / "settlement.json", result)
     print(f"settlement: wrote {len(result)} regions to data/computed/settlement.json")
     return result
+
+
+CITIES_PER_REGION = 4
+# GeoNames lists big-city districts as separate places. Anything this close to
+# a larger city that is already on the list is treated as part of that city.
+MIN_SPACING_KM = 8.0
+
+
+def _distance_km(a, b):
+    """Good enough over a few kilometres: flat-earth distance."""
+    mean_lat = math.radians((a["lat"] + b["lat"]) / 2)
+    dx = (a["lon"] - b["lon"]) * 111.32 * math.cos(mean_lat)
+    dy = (a["lat"] - b["lat"]) * 110.57
+    return math.hypot(dx, dy)
+
+
+def pick_main_cities(cities, always=(), limit=CITIES_PER_REGION):
+    """Choose the largest well-separated cities from a list sorted largest first.
+
+    Names in `always` are kept even when they are small or close to another city.
+    """
+    chosen = []
+    for city in cities:
+        if city["name"] in always:
+            continue
+        if len(chosen) >= limit:
+            break
+        if all(_distance_km(city, other) >= MIN_SPACING_KM for other in chosen):
+            chosen.append(city)
+    chosen_names = {city["name"] for city in chosen}
+    for city in cities:
+        if city["name"] in always and city["name"] not in chosen_names:
+            chosen.append(city)
+            chosen_names.add(city["name"])
+    chosen.sort(key=lambda c: -c["population"])
+    return chosen
+
+
+def build_cities(grouped=None):
+    """Keep the largest few cities of every region, plus the hand-written ones."""
+    grouped = grouped or cities_by_region()
+    curated = load_json(CURATED / "cities.json", {"cities": []})["cities"]
+    always = {}
+    for entry in curated:
+        always.setdefault(entry["region_id"], set()).add(entry["geonames_name"])
+    result = {
+        region_id: pick_main_cities(cities, always.get(region_id, ()))
+        for region_id, cities in sorted(grouped.items())
+    }
+    save_json(COMPUTED / "cities.json", result)
+    total = sum(len(cities) for cities in result.values())
+    print(f"cities: wrote {total} cities in {len(result)} regions to data/computed/cities.json")
+    return result
+
+
+def build_settlement_and_cities():
+    grouped = cities_by_region()
+    build_settlement(grouped)
+    build_cities(grouped)

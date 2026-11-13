@@ -336,6 +336,41 @@ ul { padding: 0; list-style: none; }
 .chart__key .key-rain { background: #4f6b8a; }
 
 .fineprint { color: var(--text-soft); font-size: 12px; }
+.fineprint a { color: inherit; }
+
+/* ---------- Cities ---------- */
+
+.city-label {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 500;
+  text-shadow: 0 0 3px var(--sea), 0 0 3px var(--sea), 0 0 6px var(--sea);
+  white-space: nowrap;
+}
+.city-label::before { display: none; }
+
+.city-list { border-top: 1px solid var(--hairline); }
+.city-list button {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid var(--hairline);
+  background: transparent;
+  padding: 9px 2px;
+  text-align: left;
+}
+.city-list__dot { width: 8px; height: 8px; border-radius: 50%; background: var(--city); }
+.city-list button:hover .city-list__name { color: var(--city); }
+.city-list__meta { color: var(--text-soft); font-size: 13px; }
+
+.fact { color: var(--text-soft); }
 
 /* ---------- Status message ---------- */
 

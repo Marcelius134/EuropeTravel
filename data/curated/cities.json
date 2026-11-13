@@ -1,0 +1,201 @@
+{
+ "_note": "Hand-written city notes. Cities are matched to the GeoNames list by geonames_name within the region.",
+ "cities": [
+  {
+   "region_id": "ITI4",
+   "name": "Rome",
+   "geonames_name": "Rome",
+   "lat": 41.8933,
+   "lon": 12.4829,
+   "summary": "Three thousand years of history in one walkable centre: ancient forums, baroque fountains, the Vatican and neighbourhoods built around long lunches.",
+   "things_to_do": [
+    "Walk the Forum and the Colosseum early, before the heat",
+    "See the Vatican Museums and St Peter's",
+    "Spend an evening eating in Trastevere",
+    "Take the train to the ruins of Ostia Antica"
+   ]
+  },
+  {
+   "region_id": "ITF4",
+   "name": "Bari",
+   "geonames_name": "Bari",
+   "lat": 41.1177,
+   "lon": 16.8512,
+   "summary": "A port city on the Adriatic with a tangled old town, a seafront promenade and beaches a short ride away. A good base for the rest of Apulia.",
+   "things_to_do": [
+    "Get lost in Bari Vecchia and watch pasta being made in the street",
+    "Swim at Pane e Pomodoro beach",
+    "Eat raw seafood at the old port",
+    "Take a day trip to Polignano a Mare or Alberobello"
+   ]
+  },
+  {
+   "region_id": "ITI1",
+   "name": "Florence",
+   "geonames_name": "Florence",
+   "lat": 43.7696,
+   "lon": 11.2558,
+   "summary": "The city of the Renaissance, small enough to cross on foot and packed with galleries, churches and workshops.",
+   "things_to_do": [
+    "Book the Uffizi and the Accademia ahead",
+    "Climb to Piazzale Michelangelo for sunset",
+    "Cross the Ponte Vecchio to the Oltrarno workshops",
+    "Take a bus into the Chianti hills"
+   ]
+  },
+  {
+   "region_id": "ES61",
+   "name": "Seville",
+   "geonames_name": "Sevilla",
+   "lat": 37.3891,
+   "lon": -5.9845,
+   "summary": "Andalusia's capital: orange trees, tiled courtyards, a vast Gothic cathedral and flamenco late into the night. Summers are extremely hot.",
+   "things_to_do": [
+    "Visit the Alcazar palace gardens",
+    "Climb the Giralda tower",
+    "Watch flamenco in Triana",
+    "Go from bar to bar for tapas"
+   ]
+  },
+  {
+   "region_id": "ES51",
+   "name": "Barcelona",
+   "geonames_name": "Barcelona",
+   "lat": 41.3874,
+   "lon": 2.1686,
+   "summary": "A big Mediterranean city with its own architecture, a Gothic core and beaches at the end of the metro line.",
+   "things_to_do": [
+    "See the Sagrada Familia and Park Guell",
+    "Wander the Gothic Quarter",
+    "Swim at Barceloneta or head up the coast",
+    "Eat at the Boqueria and Sant Antoni markets"
+   ]
+  },
+  {
+   "region_id": "PT17",
+   "name": "Lisbon",
+   "geonames_name": "Lisbon",
+   "lat": 38.7223,
+   "lon": -9.1393,
+   "summary": "A hilly capital of trams, tiles and river views, with the Atlantic twenty minutes away.",
+   "things_to_do": [
+    "Ride tram 28 through Alfama",
+    "Visit the Belem tower and monastery",
+    "Watch the sunset from a miradouro",
+    "Take the train to Sintra or the beach at Cascais"
+   ]
+  },
+  {
+   "region_id": "PT15",
+   "name": "Lagos",
+   "geonames_name": "Lagos",
+   "lat": 37.1028,
+   "lon": -8.673,
+   "summary": "A small walled town at the western end of the Algarve, known for sandstone cliffs, sea caves and sheltered coves.",
+   "things_to_do": [
+    "Take a kayak or boat to the Ponta da Piedade caves",
+    "Swim at Praia Dona Ana and Praia do Camilo",
+    "Walk the cliff-top path",
+    "Surf on the west coast at Sagres"
+   ]
+  },
+  {
+   "region_id": "EL30",
+   "name": "Athens",
+   "geonames_name": "Athens",
+   "lat": 37.9838,
+   "lon": 23.7275,
+   "summary": "The ancient city beneath a loud modern one. The Acropolis is visible from almost everywhere and the coast is a tram ride away.",
+   "things_to_do": [
+    "Climb the Acropolis at opening time",
+    "Spend a morning in the Acropolis Museum",
+    "Eat in Psyrri and Monastiraki",
+    "Take the tram to the beaches of the Athens Riviera"
+   ]
+  },
+  {
+   "region_id": "EL43",
+   "name": "Heraklion",
+   "geonames_name": "Irákleion",
+   "lat": 35.3387,
+   "lon": 25.1442,
+   "summary": "Crete's main city and port, with a Venetian harbour and the island's best museum. The palace of Knossos is on its edge.",
+   "things_to_do": [
+    "Visit the palace of Knossos",
+    "See the Minoan frescoes in the Archaeological Museum",
+    "Walk the Venetian walls and harbour",
+    "Use it as a base for beaches and gorges"
+   ]
+  },
+  {
+   "region_id": "HR03",
+   "name": "Dubrovnik",
+   "geonames_name": "Dubrovnik",
+   "lat": 42.6507,
+   "lon": 18.0944,
+   "summary": "A walled city on the Adriatic, almost unchanged in outline since the Middle Ages. Very busy in summer.",
+   "things_to_do": [
+    "Walk the full circuit of the city walls",
+    "Take the cable car up Mount Srd",
+    "Swim off the rocks at Buza",
+    "Take a boat to Lokrum island"
+   ]
+  },
+  {
+   "region_id": "NO0A",
+   "name": "Bergen",
+   "geonames_name": "Bergen",
+   "lat": 60.3913,
+   "lon": 5.3221,
+   "summary": "The gateway to the fjords, with a wooden wharf from Hanseatic times and seven hills around it. Bring a raincoat.",
+   "things_to_do": [
+    "See the wooden houses of Bryggen",
+    "Ride the funicular up Floyen and walk down",
+    "Eat at the fish market",
+    "Take a day cruise into the Sognefjord or Hardangerfjord"
+   ]
+  },
+  {
+   "region_id": "FRH0",
+   "name": "Saint-Malo",
+   "geonames_name": "Saint-Malo",
+   "lat": 48.6493,
+   "lon": -2.0257,
+   "summary": "A granite walled port on the Channel, famous for some of the largest tides in Europe.",
+   "things_to_do": [
+    "Walk the ramparts around the old town",
+    "Cross to Grand Be island at low tide",
+    "Eat oysters in nearby Cancale",
+    "Take a day trip to Mont-Saint-Michel"
+   ]
+  },
+  {
+   "region_id": "TR10",
+   "name": "Istanbul",
+   "geonames_name": "Istanbul",
+   "lat": 41.0082,
+   "lon": 28.9784,
+   "summary": "A city on two continents, layered with Byzantine and Ottoman monuments and held together by ferries on the Bosphorus.",
+   "things_to_do": [
+    "Visit Hagia Sophia and the Blue Mosque",
+    "Cross to Kadikoy by ferry for food",
+    "Explore the Grand Bazaar and Spice Bazaar",
+    "See Topkapi Palace and the Basilica Cistern"
+   ]
+  },
+  {
+   "region_id": "FR10",
+   "name": "Paris",
+   "geonames_name": "Paris",
+   "lat": 48.8566,
+   "lon": 2.3522,
+   "summary": "Wide boulevards, river walks and some of the world's best-known museums, with a different character in every neighbourhood.",
+   "things_to_do": [
+    "Pick one big museum per day: the Louvre or the Musee d'Orsay",
+    "Walk the Seine from Notre-Dame to the Eiffel Tower",
+    "Climb Montmartre",
+    "Take the train to Versailles"
+   ]
+  }
+ ]
+}
