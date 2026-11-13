@@ -120,7 +120,7 @@ The tests cover the scoring, the API, the consistency of the data files and the 
 | Climate | [NASA POWER](https://power.larc.nasa.gov), with [Open-Meteo](https://open-meteo.com) as a fallback | Free to use, credit required |
 | Heritage counts | [Wikidata](https://www.wikidata.org) | CC0 |
 | City notes and places | [Wikivoyage](https://en.wikivoyage.org) | CC BY-SA 4.0 |
-| Base maps | CARTO and OpenStreetMap contributors; Esri for terrain and satellite | Credit shown on the map |
+| Base maps | Esri (dark gray, terrain and satellite) | Credit shown on the map |
 | Map library | [Leaflet](https://leafletjs.com) | BSD 2-Clause |
 
 Some values are hand-written estimates rather than measurements. `STATUS.md` lists which, and every record in the data files says where each of its values came from.

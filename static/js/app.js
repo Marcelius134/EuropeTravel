@@ -100,31 +100,22 @@
     if (name === "glow" || name === "labels") pane.style.pointerEvents = "none";
   });
 
-  const OSM = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
-  const CARTO = '&copy; <a href="https://carto.com/attributions">CARTO</a>';
   const ESRI = "Tiles &copy; Esri and its data providers";
   const BOUNDARIES = "Regions &copy; EuroGeographics, Eurostat GISCO";
 
-  function cartoLayer(style, pane) {
-    return L.tileLayer("https://{s}.basemaps.cartocdn.com/" + style + "/{z}/{x}/{y}{r}.png", {
-      subdomains: "abcd",
-      maxZoom: 20,
-      pane: pane || "tilePane",
-      attribution: OSM + " " + CARTO + " | " + BOUNDARIES,
-    });
-  }
-  function esriLayer(service) {
+  // Esri's base maps need no key. (CARTO now watermarks tiles without one.)
+  function esriLayer(service, options) {
     return L.tileLayer(
       "https://server.arcgisonline.com/ArcGIS/rest/services/" + service + "/MapServer/tile/{z}/{y}/{x}",
-      { maxZoom: 18, attribution: ESRI + " | " + BOUNDARIES }
+      Object.assign({ maxZoom: 16, attribution: ESRI + " | " + BOUNDARIES }, options)
     );
   }
 
-  const labelLayer = cartoLayer("dark_only_labels", "labels");
+  const labelLayer = esriLayer("Canvas/World_Dark_Gray_Reference", { pane: "labels" });
   const basemaps = {
-    dark: { layer: cartoLayer("dark_nolabels"), labels: true },
-    terrain: { layer: esriLayer("World_Topo_Map"), labels: false },
-    satellite: { layer: esriLayer("World_Imagery"), labels: true },
+    dark: { layer: esriLayer("Canvas/World_Dark_Gray_Base"), labels: true },
+    terrain: { layer: esriLayer("World_Topo_Map", { maxZoom: 18 }), labels: false },
+    satellite: { layer: esriLayer("World_Imagery", { maxZoom: 18 }), labels: true },
   };
   let currentBasemap = null;
 
