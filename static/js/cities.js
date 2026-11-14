@@ -44,7 +44,8 @@
       if (!visible) return;
       marker.setStyle(markerStyle(city));
       // Names stay on screen for the open region; elsewhere they appear on hover.
-      const wantPermanent = inOpenRegion;
+      // Not on a base map that prints city names itself, or each would show twice.
+      const wantPermanent = inOpenRegion && !state.basemapNamesCities;
       if (marker.labelIsPermanent !== wantPermanent) {
         marker.unbindTooltip();
         marker.bindTooltip(city.name, {
@@ -191,6 +192,7 @@
     refreshMarkers();
   });
   map.on("zoomend", refreshMarkers);
+  on("basemap:changed", refreshMarkers);
 
   on("ready", async () => {
     try {

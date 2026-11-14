@@ -10,6 +10,12 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Marcellus&display=swap">
   <link rel="stylesheet" href="{{ url_for('static', filename='vendor/leaflet/leaflet.css') }}">
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script>
+    // Apply the saved theme before the page paints, so it doesn't flash.
+    try {
+      if (localStorage.getItem("et-theme") === "warm") document.documentElement.dataset.theme = "warm";
+    } catch (error) {}
+  </script>
 </head>
 <body>
   <main id="map" aria-label="Map of Europe"></main>
@@ -26,7 +32,17 @@
     </button>
     <div id="sidebar-body" class="sidebar__body">
       <header class="sidebar__head">
-        <h1 class="wordmark">EuropeTravel</h1>
+        <div class="sidebar__top">
+          <h1 class="wordmark">EuropeTravel</h1>
+          <div class="themes" role="group" aria-label="Colour theme">
+            <button type="button" data-theme-choice="night" aria-pressed="true" aria-label="Night theme" title="Night theme">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.2A8 8 0 0 1 9.8 4 8 8 0 1 0 20 14.2z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            </button>
+            <button type="button" data-theme-choice="warm" aria-pressed="false" aria-label="Warm theme" title="Warm theme">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></g></svg>
+            </button>
+          </div>
+        </div>
         <p class="lead">Choose what you want from a trip. The regions that fit light up.</p>
       </header>
 

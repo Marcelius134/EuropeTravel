@@ -13,6 +13,7 @@ Last updated: 14 November 2026
 - 1,238 city dots; city card with notes and ideas
 - Place pins with a matching list; hovering or clicking one highlights the other
 - Dark, terrain and satellite base maps
+- Two colour themes for the panels, night and warm, switched with the moon and sun buttons; the choice is remembered
 - Layout for phones: the panels become sheets at the bottom
 - Data build script with one step per source
 
@@ -43,6 +44,7 @@ The 46 regions and 14 cities with hand-written content are listed in `data/curat
 - GeoNames sometimes lists a suburb or beach as a city (for example "Acilia-Castel Fusano-Ostia Antica" in Lazio).
 - Region names are Eurostat's, in the local language, except for the 46 with hand-written English names.
 - The Canary Islands and the French overseas regions are not in the outline file used.
+- On the terrain map city names come from the map itself, so small towns are only named when you hover their dot.
 - Region outlines are simplified, so a coastal pin can sit slightly outside its region.
 - Git tags `v0.1-scaffold` to `v0.4-phase3` exist only in the build environment; see the commit list below to recreate them.
 

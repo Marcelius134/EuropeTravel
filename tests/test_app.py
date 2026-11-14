@@ -16,6 +16,12 @@ def test_index_page_loads(client):
     assert b"EuropeTravel" in response.data
 
 
+def test_index_page_offers_both_themes(client):
+    page = client.get("/").data
+    assert b'data-theme-choice="night"' in page
+    assert b'data-theme-choice="warm"' in page
+
+
 def test_health(client):
     body = client.get("/api/health").get_json()
     assert body["status"] == "ok"

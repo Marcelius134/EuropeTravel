@@ -20,6 +20,7 @@
     ranked: [],
     selected: null,
     view: null, // what the drawer shows: "region", "city" or null
+    basemapNamesCities: false, // true when the base map prints city names itself
     names: {},
   };
 
@@ -114,7 +115,8 @@
   const labelLayer = esriLayer("Canvas/World_Dark_Gray_Reference", { pane: "labels" });
   const basemaps = {
     dark: { layer: esriLayer("Canvas/World_Dark_Gray_Base"), labels: true },
-    terrain: { layer: esriLayer("World_Topo_Map", { maxZoom: 18 }), labels: false },
+    // The terrain map already has city names printed on it, so ours would show twice.
+    terrain: { layer: esriLayer("World_Topo_Map", { maxZoom: 18 }), labels: false, namesCities: true },
     satellite: { layer: esriLayer("World_Imagery", { maxZoom: 18 }), labels: true },
   };
   let currentBasemap = null;
@@ -129,11 +131,35 @@
       button.setAttribute("aria-pressed", String(button.dataset.basemap === name));
     });
     restyleRegions();
+    state.basemapNamesCities = Boolean(basemaps[name].namesCities);
+    emit("basemap:changed", { name });
   }
 
   document.querySelectorAll(".basemaps button").forEach((button) => {
     button.addEventListener("click", () => setBasemap(button.dataset.basemap));
   });
+
+  // ---------- Colour theme ----------
+
+  // "night" is the default; "warm" is set as data-theme on <html> and remembered.
+  function setTheme(name) {
+    const warm = name === "warm";
+    if (warm) document.documentElement.dataset.theme = "warm";
+    else delete document.documentElement.dataset.theme;
+    document.querySelectorAll(".themes button").forEach((button) => {
+      button.setAttribute("aria-pressed", String(button.dataset.themeChoice === (warm ? "warm" : "night")));
+    });
+    try {
+      localStorage.setItem("et-theme", warm ? "warm" : "night");
+    } catch (error) {
+      // Private windows can refuse storage; the theme still applies for this visit.
+    }
+  }
+
+  document.querySelectorAll(".themes button").forEach((button) => {
+    button.addEventListener("click", () => setTheme(button.dataset.themeChoice));
+  });
+  setTheme(document.documentElement.dataset.theme === "warm" ? "warm" : "night");
 
   // ---------- Regions on the map ----------
 
@@ -671,7 +697,7 @@
           width: (column - 10).toFixed(1),
           height: Math.max(1, barHeight).toFixed(1),
           rx: 2,
-          fill: focus.includes(index + 1) ? "#7d9cc0" : "#4f6b8a",
+          class: focus.includes(index + 1) ? "chart-rain is-focus" : "chart-rain",
         })
       );
       const label = svg("text", {
@@ -679,8 +705,7 @@
         y: height - 5,
         "text-anchor": "middle",
         "font-size": 11,
-        fill: focus.includes(index + 1) ? TEXT : "#a9b7c6",
-        "font-weight": focus.includes(index + 1) ? 600 : 400,
+        class: focus.includes(index + 1) ? "chart-month is-focus" : "chart-month",
       });
       label.textContent = MONTH_LETTERS[index];
       chart.append(label);
@@ -689,8 +714,7 @@
     chart.append(
       svg("polyline", {
         points: temps.map((value, index) => (index * column + column / 2).toFixed(1) + "," + yTemp(value).toFixed(1)).join(" "),
-        fill: "none",
-        stroke: GLOW,
+        class: "chart-temp",
         "stroke-width": 2,
         "stroke-linejoin": "round",
         "stroke-linecap": "round",
@@ -699,7 +723,7 @@
     temps.forEach((value, index) => {
       if (!focus.includes(index + 1)) return;
       chart.append(
-        svg("circle", { cx: (index * column + column / 2).toFixed(1), cy: yTemp(value).toFixed(1), r: 3.5, fill: GLOW })
+        svg("circle", { cx: (index * column + column / 2).toFixed(1), cy: yTemp(value).toFixed(1), r: 3.5, class: "chart-temp-dot" })
       );
     });
 

@@ -1,22 +1,54 @@
 /* EuropeTravel: a night atlas. The map and its glow carry the page; panels stay quiet. */
 
+/* Night theme (the default). Panel colours only; the map keeps its own colours below. */
 :root {
-  --sea: #0b1420;
   --panel: #101a27;
   --panel-raised: #17243a;
   --line: #7f93a8;
   --hairline: rgba(127, 147, 168, 0.22);
+  --track: rgba(127, 147, 168, 0.28);
+  --veil: rgba(11, 20, 32, 0.78);
   --text: #eef2f6;
   --text-soft: #a9b7c6;
+  --text-faint: #55667a;
   --glow: #f5b942;
   --glow-ink: #2a1d02;
+  --accent-text: #f5b942;
+  --accent-line: rgba(245, 185, 66, 0.45);
   --city: #4dd0e1;
+  --rain: #4f6b8a;
+  --rain-strong: #7d9cc0;
+
+  /* Drawn on the map itself, so the same in every theme. */
+  --sea: #0b1420;
+  --map-ink: #eef2f6;
+  --map-glow: #f5b942;
 
   --font-display: "Marcellus", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
   --font-ui: "Hanken Grotesk", "Segoe UI", system-ui, sans-serif;
 
   --sidebar-width: 336px;
   --drawer-width: 380px;
+}
+
+/* Warm theme: sunlit sand panels with dark ink. Chosen with the sun button. */
+:root[data-theme="warm"] {
+  --panel: #f6e7cf;
+  --panel-raised: #ecd6b1;
+  --line: #a5825c;
+  --hairline: rgba(110, 76, 40, 0.26);
+  --track: rgba(110, 76, 40, 0.2);
+  --veil: rgba(246, 231, 207, 0.86);
+  --text: #35210f;
+  --text-soft: #6f5238;
+  --text-faint: #b39a7c;
+  --glow: #ec9a1c;
+  --glow-ink: #2b1500;
+  --accent-text: #96490a;
+  --accent-line: rgba(150, 73, 10, 0.5);
+  --city: #0b6b75;
+  --rain: #a9bcc4;
+  --rain-strong: #5b8294;
 }
 
 * { box-sizing: border-box; }
@@ -65,7 +97,7 @@ ul { padding: 0; list-style: none; }
 }
 
 .leaflet-control-attribution {
-  background: rgba(11, 20, 32, 0.78) !important;
+  background: var(--veil) !important;
   color: var(--text-soft);
   font-size: 11px;
 }
@@ -78,7 +110,7 @@ ul { padding: 0; list-style: none; }
   border-bottom-color: var(--hairline);
 }
 .leaflet-bar a:hover, .leaflet-bar a:focus { background: var(--panel-raised); color: var(--text); }
-.leaflet-bar a.leaflet-disabled { background: var(--panel); color: #55667a; }
+.leaflet-bar a.leaflet-disabled { background: var(--panel); color: var(--text-faint); }
 
 .leaflet-interactive:focus { outline: none; }
 
@@ -95,7 +127,7 @@ ul { padding: 0; list-style: none; }
 .map-tip::before { display: none; }
 .map-tip strong { font-family: var(--font-display); font-weight: 400; font-size: 15px; }
 .map-tip span { display: block; color: var(--text-soft); }
-.map-tip .map-tip__score { color: var(--glow); }
+.map-tip .map-tip__score { color: var(--accent-text); }
 
 .basemaps {
   position: absolute;
@@ -152,6 +184,29 @@ ul { padding: 0; list-style: none; }
 
 .lead { margin-top: 10px; color: var(--text-soft); max-width: 30ch; }
 
+.sidebar__top { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+
+.themes {
+  display: flex;
+  flex: none;
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.themes button {
+  border: 0;
+  background: transparent;
+  width: 36px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  color: var(--text-soft);
+}
+.themes button + button { border-left: 1px solid var(--hairline); }
+.themes button:hover { color: var(--text); }
+.themes button[aria-pressed="true"] { background: var(--panel-raised); color: var(--accent-text); }
+.themes svg { width: 18px; height: 18px; display: block; }
+
 .section-title {
   display: block;
   font-family: var(--font-ui);
@@ -202,7 +257,7 @@ ul { padding: 0; list-style: none; }
 .months button[aria-pressed="true"] {
   background: var(--text);
   border-color: var(--text);
-  color: var(--sea);
+  color: var(--panel);
   font-weight: 600;
 }
 
@@ -229,9 +284,9 @@ ul { padding: 0; list-style: none; }
   padding: 9px 2px;
   text-align: left;
 }
-.results__list button:hover .results__name { color: var(--glow); }
+.results__list button:hover .results__name { color: var(--accent-text); }
 .results__name small { display: block; color: var(--text-soft); font-size: 12px; }
-.results__score { color: var(--glow); font-variant-numeric: tabular-nums; }
+.results__score { color: var(--accent-text); font-variant-numeric: tabular-nums; }
 
 .text-button {
   border: 0;
@@ -301,9 +356,9 @@ ul { padding: 0; list-style: none; }
 .drawer__body h3 { font-size: 14px; font-weight: 600; margin-bottom: 8px; }
 .drawer__body p { max-width: 62ch; }
 
-.fit { border: 1px solid rgba(245, 185, 66, 0.45); border-radius: 8px; padding: 14px 16px; }
+.fit { border: 1px solid var(--accent-line); border-radius: 8px; padding: 14px 16px; }
 .fit--quiet { border-color: var(--hairline); }
-.fit__score { font-family: var(--font-display); font-size: 26px; color: var(--glow); line-height: 1.1; }
+.fit__score { font-family: var(--font-display); font-size: 26px; color: var(--accent-text); line-height: 1.1; }
 .fit--quiet .fit__score { color: var(--text); }
 .fit__rows { margin-top: 10px; display: grid; gap: 6px; font-size: 14px; }
 .fit__row { display: grid; grid-template-columns: 1fr auto; gap: 10px; }
@@ -325,15 +380,21 @@ ul { padding: 0; list-style: none; }
 .glance__row { display: grid; grid-template-columns: 1fr auto; gap: 12px; align-items: center; font-size: 14px; }
 .glance__value { display: flex; align-items: center; gap: 8px; color: var(--text-soft); }
 .meter { display: inline-flex; gap: 3px; }
-.meter i { width: 14px; height: 5px; border-radius: 2px; background: rgba(127, 147, 168, 0.28); }
+.meter i { width: 14px; height: 5px; border-radius: 2px; background: var(--track); }
 .meter i.is-on { background: var(--text); }
 
 .chart svg { display: block; width: 100%; height: auto; }
 .chart__caption { color: var(--text-soft); font-size: 13px; margin-top: 6px; }
 .chart__key { display: flex; gap: 16px; font-size: 12px; color: var(--text-soft); margin-top: 4px; }
 .chart__key i { display: inline-block; width: 10px; height: 10px; margin-right: 5px; vertical-align: -1px; }
-.chart__key .key-temp { background: var(--glow); height: 2px; vertical-align: 3px; }
-.chart__key .key-rain { background: #4f6b8a; }
+.chart__key .key-temp { background: var(--accent-text); height: 2px; vertical-align: 3px; }
+.chart__key .key-rain { background: var(--rain); }
+.chart-rain { fill: var(--rain); }
+.chart-rain.is-focus { fill: var(--rain-strong); }
+.chart-month { fill: var(--text-soft); }
+.chart-month.is-focus { fill: var(--text); font-weight: 600; }
+.chart-temp { fill: none; stroke: var(--accent-text); }
+.chart-temp-dot { fill: var(--accent-text); }
 
 .fineprint { color: var(--text-soft); font-size: 12px; }
 .fineprint a { color: inherit; }
@@ -345,7 +406,7 @@ ul { padding: 0; list-style: none; }
   border: 0;
   box-shadow: none;
   padding: 0;
-  color: var(--text);
+  color: var(--map-ink);
   font-size: 13px;
   font-weight: 500;
   text-shadow: 0 0 3px var(--sea), 0 0 3px var(--sea), 0 0 6px var(--sea);
@@ -378,7 +439,7 @@ ul { padding: 0; list-style: none; }
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background: var(--text);
+  background: var(--map-ink);
   color: var(--sea);
   border: 2px solid var(--sea);
   display: grid;
@@ -386,7 +447,7 @@ ul { padding: 0; list-style: none; }
   transition: transform 0.15s ease, background-color 0.15s ease;
 }
 .place-pin svg { width: 16px; height: 16px; display: block; }
-.place-pin.is-active { background: var(--glow); transform: scale(1.25); }
+.place-pin.is-active { background: var(--map-glow); transform: scale(1.25); }
 .leaflet-marker-icon.place-marker { background: transparent; border: 0; }
 .leaflet-marker-icon.place-marker:focus-visible { outline: 2px solid var(--city); outline-offset: 2px; border-radius: 50%; }
 
@@ -416,7 +477,7 @@ ul { padding: 0; list-style: none; }
 .place-list__kind { display: block; color: var(--text-soft); font-size: 12px; }
 .place-list__text { display: block; margin-top: 4px; color: var(--text-soft); font-size: 14px; }
 .place-list li.is-active .place-list__icon { background: var(--glow); border-color: var(--glow); color: var(--glow-ink); }
-.place-list li.is-active .place-list__name { color: var(--glow); }
+.place-list li.is-active .place-list__name { color: var(--accent-text); }
 
 /* ---------- Status message ---------- */
 
