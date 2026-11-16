@@ -104,6 +104,22 @@ def create_app(store=None):
             return jsonify({"error": "'month' must be a number from 1 to 12."}), 400
         return jsonify(region_payload(region, month, store.cities_in(region["id"])))
 
+    @app.post("/api/regions/<region_id>/year")
+    def region_year(region_id):
+        """How well one region fits the chosen filters in each month."""
+        region = store.region(region_id.upper())
+        if region is None:
+            return jsonify({"error": f"No region with id '{region_id}'."}), 404
+        body = request.get_json(silent=True)
+        if not isinstance(body, dict):
+            return jsonify({"error": "Send a JSON object with 'filters'."}), 400
+        filters = body.get("filters", {})
+        try:
+            scores = matcher.score_by_month(region, filters)
+        except matcher.FilterError as error:
+            return jsonify({"error": str(error)}), 400
+        return jsonify({"id": region["id"], "scores": scores, "seasonal": matcher.is_seasonal(filters)})
+
     @app.get("/api/cities")
     def city_list():
         """Every city, briefly, for the dots on the map."""

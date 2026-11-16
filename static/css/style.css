@@ -345,6 +345,26 @@ ul { padding: 0; list-style: none; }
   outline: none;
 }
 
+.drawer__actions { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.drawer__actions[hidden] { display: none; }
+
+.action-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  background: transparent;
+  padding: 6px 12px 6px 10px;
+  font-size: 13px;
+  color: var(--text-soft);
+}
+.action-button svg { width: 16px; height: 16px; display: block; flex: none; }
+.action-button:hover { color: var(--text); border-color: var(--line); }
+.action-button[aria-pressed="true"] { background: var(--panel-raised); color: var(--text); border-color: var(--line); }
+.action-button[aria-pressed="true"] svg { color: var(--accent-text); }
+.action-button:disabled { opacity: 0.5; cursor: default; }
+
 .drawer__body {
   overflow-y: auto;
   padding: 20px 24px 36px;
@@ -395,6 +415,33 @@ ul { padding: 0; list-style: none; }
 .chart-month.is-focus { fill: var(--text); font-weight: 600; }
 .chart-temp { fill: none; stroke: var(--accent-text); }
 .chart-temp-dot { fill: var(--accent-text); }
+
+.year { display: grid; grid-template-columns: repeat(12, 1fr); gap: 3px; }
+.year__month {
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  padding: 4px 0 2px;
+  display: grid;
+  gap: 4px;
+  justify-items: center;
+  color: var(--text-soft);
+}
+.year__month:hover { background: var(--panel-raised); color: var(--text); }
+.year__bar {
+  width: 14px;
+  height: 56px;
+  border-radius: 3px;
+  background: var(--track);
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+}
+.year__bar i { display: block; width: 100%; background: var(--text-faint); }
+.year__month.is-fit .year__bar i { background: var(--glow); }
+.year__letter { font-size: 11px; line-height: 1; }
+.year__month[aria-pressed="true"] { background: var(--panel-raised); color: var(--text); }
+.year__month[aria-pressed="true"] .year__letter { font-weight: 600; }
 
 .fineprint { color: var(--text-soft); font-size: 12px; }
 .fineprint a { color: inherit; }

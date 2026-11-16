@@ -180,6 +180,20 @@ def score_all(regions, filters, month=None):
     return results
 
 
+def score_by_month(region, filters):
+    """Score one region for each month of the year: twelve scores, January first.
+
+    A score is None when the region has no data for one of the chosen filters.
+    """
+    filters, _ = validate(filters, None)
+    return [score_region(region, filters, month)["score"] for month in range(1, 13)]
+
+
+def is_seasonal(filters):
+    """True when at least one chosen filter changes from month to month."""
+    return any(FILTERS[name]["seasonal"] for name, level in filters.items() if name in FILTERS and level)
+
+
 def describe(region):
     """A plain sentence about a region, used when nobody has written a summary."""
     features = region["features"]

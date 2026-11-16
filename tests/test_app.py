@@ -167,3 +167,18 @@ def test_the_app_starts_without_any_data(tmp_path):
     empty = create_app(Store(tmp_path)).test_client()
     assert empty.get("/api/meta").get_json()["region_count"] == 0
     assert empty.post("/api/match", json={"filters": {"coast": "high"}}).get_json() == {"results": []}
+
+
+def test_region_year_scores_every_month(client):
+    response = client.post("/api/regions/ES61/year", json={"filters": {"temperature": "high"}})
+    body = response.get_json()
+    assert response.status_code == 200
+    assert body["id"] == "ES61" and body["seasonal"] is True
+    assert len(body["scores"]) == 12
+    assert body["scores"][6] > body["scores"][0]  # Andalusia is hotter in July than in January
+
+
+def test_region_year_reports_bad_requests(client):
+    assert client.post("/api/regions/ZZ99/year", json={"filters": {}}).status_code == 404
+    assert client.post("/api/regions/ES61/year", json={"filters": {"weather": "high"}}).status_code == 400
+    assert client.post("/api/regions/ES61/year", data="nonsense").status_code == 400

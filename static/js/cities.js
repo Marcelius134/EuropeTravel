@@ -125,11 +125,13 @@
     ET.focusOn([city.lat, city.lon], Math.max(map.getZoom(), CITY_ZOOM));
 
     const body = cityBody(city);
-    emit("city:render", { city, body });
+    const actions = [];
+    emit("city:render", { city, body, actions });
     ET.openDrawer({
       kicker: city.region_name + ", " + city.country_name,
       title: city.name,
       body,
+      actions,
       focus: true,
       back: { label: city.region_name, action: () => ET.selectRegion(city.region_id) },
     });

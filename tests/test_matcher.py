@@ -110,3 +110,28 @@ def test_generated_description_mentions_what_is_known():
     text = matcher.describe(make_region())
     assert "Nowhere" in text and "coastline" in text and "few crowds" in text
     assert "31 °C" in text
+
+
+def test_score_by_month_follows_the_seasons():
+    scores = matcher.score_by_month(make_region(), {"temperature": "high", "rainfall": "low"})
+    assert len(scores) == 12
+    assert scores[6] == 100 and scores[7] == 100  # July and August are hot and dry
+    assert scores[0] == 0  # January is neither
+    assert scores[5] > scores[4] > scores[3]  # it gets better towards summer
+
+
+def test_score_by_month_is_flat_without_a_seasonal_filter():
+    scores = matcher.score_by_month(make_region(), {"coast": "high"})
+    assert scores == [100] * 12
+    assert not matcher.is_seasonal({"coast": "high"})
+    assert matcher.is_seasonal({"coast": "high", "rainfall": "low"})
+
+
+def test_score_by_month_is_unknown_without_climate():
+    scores = matcher.score_by_month(make_region(climate=None), {"temperature": "high"})
+    assert scores == [None] * 12
+
+
+def test_score_by_month_rejects_an_unknown_filter():
+    with pytest.raises(matcher.FilterError):
+        matcher.score_by_month(make_region(), {"weather": "high"})

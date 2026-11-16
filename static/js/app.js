@@ -20,6 +20,7 @@
     ranked: [],
     selected: null,
     view: null, // what the drawer shows: "region", "city" or null
+    basemap: "dark",
     basemapNamesCities: false, // true when the base map prints city names itself
     names: {},
   };
@@ -137,6 +138,7 @@
       button.setAttribute("aria-pressed", String(button.dataset.basemap === name));
     });
     restyleRegions();
+    state.basemap = name;
     state.basemapNamesCities = Boolean(basemaps[name].namesCities);
     emit("basemap:changed", { name });
   }
@@ -357,12 +359,37 @@
     runMatch();
   }
 
+  // Set several choices at once, for example from a shared link. Unknown names are ignored.
+  function applyState(choices) {
+    const known = {};
+    state.meta.filters.forEach((filter) => {
+      const level = choices.filters && choices.filters[filter.name];
+      if (["low", "medium", "high"].includes(level)) known[filter.name] = level;
+    });
+    state.filters = known;
+    state.month = Number.isInteger(choices.month) && choices.month >= 1 && choices.month <= 12 ? choices.month : null;
+    const min = Number(thresholdInput.min);
+    const max = Number(thresholdInput.max);
+    if (Number.isFinite(choices.threshold) && choices.threshold >= min && choices.threshold <= max) {
+      state.threshold = Math.round(choices.threshold / 5) * 5;
+      thresholdInput.value = state.threshold;
+      thresholdValue.textContent = state.threshold + "%";
+    }
+    renderFilters();
+    renderMonths();
+    return runMatch();
+  }
+
   thresholdInput.addEventListener("input", () => {
     state.threshold = Number(thresholdInput.value);
     thresholdValue.textContent = state.threshold + "%";
     restyleRegions();
     renderResults();
     emit("match:updated", state);
+  });
+  // When the slider is let go, bring an open region card in line with the new threshold.
+  thresholdInput.addEventListener("change", () => {
+    if (state.selected && state.view === "region") selectRegion(state.selected, { keepView: true });
   });
 
   clearButton.addEventListener("click", () => {
@@ -495,6 +522,7 @@
   const drawerTitle = document.getElementById("drawer-title");
   const drawerBody = document.getElementById("drawer-body");
   const drawerBack = document.getElementById("drawer-back");
+  const drawerActions = document.getElementById("drawer-actions");
   let drawerBackHandler = null;
 
   function openDrawer(view) {
@@ -502,6 +530,8 @@
     drawerKicker.textContent = view.kicker || "";
     drawerTitle.textContent = view.title;
     drawerBody.replaceChildren(...view.body);
+    drawerActions.replaceChildren(...(view.actions || []));
+    drawerActions.hidden = !view.actions || view.actions.length === 0;
     drawerBackHandler = view.back ? view.back.action : null;
     drawerBack.hidden = !view.back;
     drawerBack.textContent = view.back ? "Back to " + view.back.label : "";
@@ -553,8 +583,9 @@
     if (request !== regionRequest) return;
     showStatus("");
     const body = regionBody(region);
-    emit("region:render", { region, body, changed });
-    openDrawer({ kicker: region.country_name, title: region.name, body, focus: changed });
+    const actions = []; // buttons under the title; later scripts add theirs
+    emit("region:render", { region, body, changed, actions });
+    openDrawer({ kicker: region.country_name, title: region.name, body, actions, focus: changed });
     emit("region:opened", { region, changed });
   }
 
@@ -763,7 +794,8 @@
   // ---------- Start ----------
 
   window.ET = {
-    map, state, on, emit, h, api, showStatus, openDrawer, closeDrawer, selectRegion, restyleRegions, focusOn, isNarrow, layersById,
+    map, state, on, emit, h, svg, api, showStatus, openDrawer, closeDrawer, selectRegion, restyleRegions, focusOn, isNarrow,
+    layersById, hasFilters, isMatch, toggleMonth, applyState, setBasemap, monthLabel, missingLabels, glanceRow,
   };
 
   async function start() {
