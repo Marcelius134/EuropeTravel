@@ -65,7 +65,16 @@
 
       <section class="results" aria-live="polite">
         <div id="results"></div>
-        <button type="button" id="clear-filters" class="text-button" hidden>Clear filters</button>
+        <div class="results__actions">
+          <button type="button" id="clear-filters" class="text-button" hidden>Clear filters</button>
+          <button type="button" id="copy-link" class="text-button">Copy a link to this view</button>
+        </div>
+      </section>
+
+      <section id="saved" class="saved" aria-labelledby="saved-title" hidden>
+        <h2 id="saved-title" class="section-title">Saved</h2>
+        <ul id="saved-list" class="saved__list"></ul>
+        <p id="saved-note" class="note" hidden></p>
       </section>
     </div>
   </aside>
@@ -83,6 +92,18 @@
     <div id="drawer-body" class="drawer__body"></div>
   </aside>
 
+  <div id="compare-tray" class="tray" role="region" aria-label="Regions to compare" hidden></div>
+
+  <section id="compare" class="compare" role="dialog" aria-labelledby="compare-title" hidden>
+    <header class="compare__head">
+      <h2 id="compare-title" class="compare__title" tabindex="-1">Compare regions</h2>
+      <button type="button" id="compare-close" class="icon-button" aria-label="Close the comparison">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </header>
+    <div id="compare-body" class="compare__body"></div>
+  </section>
+
   <p id="status" class="status" role="status" hidden></p>
 
   <script src="{{ url_for('static', filename='vendor/leaflet/leaflet.js') }}"></script>
@@ -90,5 +111,8 @@
   <script src="{{ url_for('static', filename='js/cities.js') }}"></script>
   <script src="{{ url_for('static', filename='js/places.js') }}"></script>
   <script src="{{ url_for('static', filename='js/year.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/compare.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/saved.js') }}"></script>
+  <script src="{{ url_for('static', filename='js/share.js') }}"></script>
 </body>
 </html>
