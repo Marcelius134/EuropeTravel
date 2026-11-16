@@ -1,0 +1,3 @@
+# Keep line endings right for the start scripts on every computer.
+*.bat text eol=crlf
+*.sh text eol=lf

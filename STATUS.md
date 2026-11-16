@@ -1,21 +1,25 @@
 # Status
 
-Last updated: 14 November 2026
+Last updated: 16 November 2026
 
 ## Done and working
 
-- Flask app with a JSON API, 70 passing tests
+- Flask app with a JSON API
 - Dark map of 328 NUTS-2 regions (EU, EFTA, the United Kingdom, Turkey and the western Balkans)
 - Filter panel: temperature, rainfall, sea and coast, mountains and wild nature, historic feel, crowds
 - Month choice; without one, temperature and rainfall use June to August
 - Fit threshold slider (70% by default); regions at or above it glow, brighter for a closer fit
-- Region card: fit breakdown per filter, summary, climate chart, cities
+- Region card: fit breakdown per filter, best months for the chosen filters, summary, climate chart, cities
 - 1,238 city dots; city card with notes and ideas
 - Place pins with a matching list; hovering or clicking one highlights the other
+- Compare two or three regions side by side
+- Save regions and cities; the list is kept in the browser
+- The page address follows the view, so a copied link reopens the same filters, region or city
 - Dark, terrain and satellite base maps
 - Two colour themes for the panels, night and warm, switched with the moon and sun buttons; the choice is remembered
-- Layout for phones: the panels become sheets at the bottom
-- Data build script with one step per source
+- Data build script with one step per source; downloads are cached, retried and resumable
+- Start scripts: `run.bat` and `run.sh`
+- 98 tests without a browser and 20 in a real browser
 
 ## Works, but on estimates until the data build has been run
 
@@ -33,8 +37,10 @@ The 46 regions and 14 cities with hand-written content are listed in `data/curat
 ## Not verified
 
 - **The download steps have never run against the real services.** The environment this was built in could only reach GitHub, so `climate`, `heritage` and `places` were written from knowledge of the APIs and tested with made-up sample responses. Expect to fix small things on the first real run. `boundaries`, `geometry` and `cities` did run for real.
-- **The page has not been seen with its base map.** Map tiles could not load in that environment either. Outlines, glow, panels and pins were checked in a browser on a blank background; how they look over the real dark, terrain and satellite tiles has not been checked.
-- Only Chromium was tried. Firefox and Safari have not been.
+- **`run.bat` has never run.** It was written on Linux. `run.sh` was tried on a fresh copy and works.
+- **Most of the page has not been seen over its base map.** Map tiles could not load in the build environment. Only the terrain map was seen on a real computer. The dark map (now Esri's dark gray; the first choice, CARTO, turned out to need a key), the satellite map, the warm theme over a real map, and the compare tray over a real map have not been reviewed.
+- **City names may show twice on the dark and satellite maps.** This was seen and fixed on the terrain map. The other two also print some city names of their own and have not been checked.
+- Only Chromium was tried, at widths of 1280 and 1366 pixels. Firefox, Edge and Safari have not been.
 
 ## Known limits
 
@@ -46,33 +52,11 @@ The 46 regions and 14 cities with hand-written content are listed in `data/curat
 - The Canary Islands and the French overseas regions are not in the outline file used.
 - On the terrain map city names come from the map itself, so small towns are only named when you hover their dot.
 - Region outlines are simplified, so a coastal pin can sit slightly outside its region.
-- Git tags `v0.1-scaffold` to `v0.4-phase3` exist only in the build environment; see the commit list below to recreate them.
+- Saved places live in one browser on one computer. A private window does not keep them.
+- The app needs internet for the base map and the fonts. Without it the panels and outlines still work on an empty background.
+- Built for a laptop screen. An early phone layout is still in the stylesheet, but compare, saved places and the tray were not designed or tested for it.
+- The README screenshots were taken without map tiles, so their background is empty.
 
-## Ideas for what to do next
+## What to do next
 
-- Run the data build and review what it produces
-- An activity filter (beach, culture, hiking, skiing, food)
-- Free-text search that fills in the filters
-- Tourism nights from Eurostat for a better crowd score
-- Forest cover for a better nature score
-- English names for all regions
-- A screenshot in the README
-
-## Commits
-
-| Commit | Contents |
-|---|---|
-| `8414f2e` | Skeleton, base map, docs |
-| `885f174` | Phase 1: regions, filters, matching, glow |
-| `f0b0ae3` | Phase 2: cities |
-| `793ea21` | Phase 3: places |
-
-To go back to any of them: `git checkout <commit>`. To tag them:
-
-```bash
-git tag v0.1-scaffold 8414f2e
-git tag v0.2-phase1 885f174
-git tag v0.3-phase2 f0b0ae3
-git tag v0.4-phase3 793ea21
-git push --tags
-```
+`docs/tasks.md` has fourteen tasks written as ready-to-paste issues, in a suggested order. The first is running the data build.

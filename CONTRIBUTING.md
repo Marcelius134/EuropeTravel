@@ -36,7 +36,8 @@ test: cover regions without climate data
 - Say what changed and how to test it.
 - Keep each pull request to one feature.
 - Don't merge your own pull request.
-- Run `pytest` before you push.
+- Run `pytest` before you push. If you changed the page, run the browser tests too (see `README.md`).
+- Update `STATUS.md` when you finish something from `docs/tasks.md` or find a new limit.
 
 ## Who owns what
 
@@ -44,8 +45,8 @@ test: cover regions without climate data
 |---|---|
 | Backend and API | `app.py`, `store.py` |
 | Matching and tests | `matcher.py`, `tests/` |
-| Map and interface | `static/js/`, `static/css/`, `templates/` |
-| Data and docs | `scripts/`, `data/`, `README.md`, `STATUS.md` |
+| Map and interface | `static/js/`, `static/css/`, `templates/`, `tests/browser/` |
+| Data and docs | `scripts/`, `data/`, `README.md`, `STATUS.md`, `HANDOVER.md`, `docs/` |
 
 `data/regions.json`, `data/cities.json` and `data/places.json` are generated.
 Change `data/curated/*.json` or the scripts, then run

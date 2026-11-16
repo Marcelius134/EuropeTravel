@@ -95,3 +95,20 @@ chosen):
 
 The page lights up every region whose score reaches the threshold (70% by
 default).
+
+### Best months
+
+`matcher.score_by_month` repeats the same scoring twelve times for one region,
+once per month. Only temperature and rainfall change between months, so the
+region card shows the "Best months" bars only when one of those two filters is
+chosen.
+
+## What the browser keeps
+
+Nothing personal is sent to the server. Two things are kept in the browser's
+`localStorage`:
+
+| Key | Value |
+|---|---|
+| `et-theme` | `"night"` or `"warm"` |
+| `et-saved` | A list of `{ "kind": "region" or "city", "id", "name", "where" }`, newest first, at most 40 |
