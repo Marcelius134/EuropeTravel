@@ -12,7 +12,7 @@ import math
 import re
 import time
 
-from .common import CACHE, COMPUTED, COUNTRY_NAMES, CURATED, fetch, load_json, save_json
+from .common import CACHE, COMPUTED, COUNTRY_NAMES, CURATED, fetch, forget_cached, load_json, save_json
 
 API_URL = "https://en.wikivoyage.org/w/api.php"
 # An article whose own coordinates are further than this from the city is about somewhere else.
@@ -23,6 +23,8 @@ PLACES_PER_CITY = 8
 SUMMARY_MAX_CHARS = 320
 DESCRIPTION_MAX_CHARS = 240
 LISTING_TYPES = ("see", "do")
+# Stop the step once this many cities fail one after another: the service is down, not the cities.
+MAX_FAILURES_IN_A_ROW = 5
 
 CATEGORY_WORDS = [
     ("museum", ("museum", "museo", "musee", "musée", "gallery", "galerie", "galleria")),
@@ -214,6 +216,7 @@ def parse_article(payload, city_lat, city_lon):
 def fetch_article(city, country_name):
     """Try the plain city name, then 'Name (Country)'. Returns a parsed article or None."""
     for attempt, title in enumerate([city["name"], f"{city['name']} ({country_name})"]):
+        cache_file = CACHE / "wikivoyage" / f"{city['id']}.{attempt}.json"
         payload = fetch(
             API_URL,
             params={
@@ -221,8 +224,14 @@ def fetch_article(city, country_name):
                 "titles": title, "prop": "extracts|revisions",
                 "exintro": 1, "explaintext": 1, "rvprop": "content", "rvslots": "main",
             },
-            cache_file=CACHE / "wikivoyage" / f"{city['id']}.{attempt}.json",
+            cache_file=cache_file,
         )
+        if not isinstance(payload, dict) or "error" in payload:
+            # The API answers 200 even when it refuses a request (for example
+            # when it is busy). Don't keep that answer, and don't mark the city as checked.
+            forget_cached(cache_file)
+            reason = payload.get("error", {}).get("info", "unknown") if isinstance(payload, dict) else "unexpected answer"
+            raise RuntimeError(f"Wikivoyage refused the request: {reason}")
         article = parse_article(payload, city["lat"], city["lon"])
         if article:
             return article
@@ -238,14 +247,25 @@ def build_places(pause_seconds=0.3):
     places = load_json(COMPUTED / "places.json", {})
     checked = set(load_json(CACHE / "wikivoyage" / "_checked.json", []))
     found = 0
+    failed = 0
+    failed_in_a_row = 0
     for number, city in enumerate(cities, start=1):
         if city["id"] in checked or city["id"] in curated_places:
             continue
         try:
             article = fetch_article(city, COUNTRY_NAMES[city["region_id"][:2]])
         except RuntimeError as error:
+            failed += 1
+            failed_in_a_row += 1
             print(f"places: {number}/{len(cities)} {city['name']} FAILED: {error}")
+            if failed_in_a_row >= MAX_FAILURES_IN_A_ROW:
+                _save(notes, places, checked)
+                raise RuntimeError(
+                    f"{failed_in_a_row} cities failed one after another, so Wikivoyage is probably "
+                    "unreachable. What was fetched is saved; run the step again to continue."
+                )
             continue
+        failed_in_a_row = 0
         checked.add(city["id"])
         if article:
             found += 1
@@ -261,6 +281,8 @@ def build_places(pause_seconds=0.3):
         time.sleep(pause_seconds)
     _save(notes, places, checked)
     print(f"places: found articles for {found} more cities; {len(notes)} cities have notes in total")
+    if failed:
+        print(f"places: {failed} cities failed; run the step again to retry them")
 
 
 def _save(notes, places, checked):

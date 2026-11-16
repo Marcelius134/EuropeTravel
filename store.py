@@ -23,8 +23,14 @@ class Store:
         path = self.data_dir / name
         if not path.exists():
             return []
-        with open(path, encoding="utf-8") as handle:
-            return json.load(handle)
+        try:
+            with open(path, encoding="utf-8") as handle:
+                return json.load(handle)
+        except ValueError as error:
+            raise RuntimeError(
+                f"{path} is damaged ({error}). Restore it with 'git checkout -- data/{name}' "
+                "or rebuild it with 'python -m scripts.build_data merge'."
+            ) from error
 
     def region(self, region_id):
         return self.regions_by_id.get(region_id)

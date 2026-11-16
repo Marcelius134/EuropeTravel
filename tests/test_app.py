@@ -132,3 +132,38 @@ def test_city_detail_includes_its_places(client):
 
 def test_city_without_places_returns_an_empty_list(client):
     assert client.get("/api/cities/telfs-at").get_json()["places"] == []
+
+
+def test_unknown_api_address_answers_in_json(client):
+    response = client.get("/api/nothing-here")
+    assert response.status_code == 404
+    assert "no API address" in response.get_json()["error"]
+
+
+def test_wrong_method_answers_in_json(client):
+    response = client.get("/api/match")
+    assert response.status_code == 405
+    assert "does not accept GET" in response.get_json()["error"]
+
+
+def test_unknown_page_is_a_plain_404(client):
+    response = client.get("/nothing-here")
+    assert response.status_code == 404
+    assert response.get_json(silent=True) is None
+
+
+def test_a_damaged_data_file_is_reported_clearly(tmp_path):
+    from store import Store
+
+    (tmp_path / "regions.json").write_text("[{", encoding="utf-8")
+    with pytest.raises(RuntimeError, match="is damaged"):
+        Store(tmp_path)
+
+
+def test_the_app_starts_without_any_data(tmp_path):
+    from app import create_app
+    from store import Store
+
+    empty = create_app(Store(tmp_path)).test_client()
+    assert empty.get("/api/meta").get_json()["region_count"] == 0
+    assert empty.post("/api/match", json={"filters": {"coast": "high"}}).get_json() == {"results": []}

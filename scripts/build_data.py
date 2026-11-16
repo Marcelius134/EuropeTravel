@@ -37,6 +37,13 @@ def main(argv=None):
         print(f"\n== {name}: {description}")
         try:
             run()
+        except ImportError as error:
+            failures.append(name)
+            print(f"{name}: FAILED: a package is missing ({error}).")
+            print("Run: pip install -r requirements-data.txt")
+        except KeyboardInterrupt:
+            print(f"\nStopped during '{name}'. Finished downloads are kept; run the same command to continue.")
+            return 130
         except Exception as error:  # keep going so one broken source does not block the rest
             failures.append(name)
             print(f"{name}: FAILED: {error}")

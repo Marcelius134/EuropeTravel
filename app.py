@@ -114,13 +114,31 @@ def create_app(store=None):
         city = store.city(city_id.lower())
         if city is None:
             return jsonify({"error": f"No city with id '{city_id}'."}), 404
-        region = store.region(city["region_id"])
+        region = store.region(city["region_id"]) or {}
         return jsonify({
             **city,
-            "region_name": region["name"],
-            "country_name": region["country_name"],
+            "region_name": region.get("name", city["region_id"]),
+            "country_name": region.get("country_name", ""),
             "places": store.places_in(city["id"]),
         })
+
+    @app.errorhandler(404)
+    def not_found(error):
+        if request.path.startswith("/api/"):
+            return jsonify({"error": f"There is no API address '{request.path}'."}), 404
+        return error
+
+    @app.errorhandler(405)
+    def wrong_method(error):
+        if request.path.startswith("/api/"):
+            return jsonify({"error": f"'{request.path}' does not accept {request.method} requests."}), 405
+        return error
+
+    @app.errorhandler(500)
+    def server_error(error):
+        if request.path.startswith("/api/"):
+            return jsonify({"error": "The server hit a problem. Look at the terminal running Flask for details."}), 500
+        return error
 
     return app
 

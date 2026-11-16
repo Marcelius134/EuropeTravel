@@ -57,7 +57,13 @@
   }
 
   async function api(path, options) {
-    const response = await fetch(path, options);
+    let response;
+    try {
+      response = await fetch(path, options);
+    } catch (error) {
+      // fetch only throws when there was no answer at all.
+      throw new Error("The server didn't answer. Check that Flask is still running.");
+    }
     const data = await response.json().catch(() => ({}));
     if (!response.ok) throw new Error(data.error || "The server returned an error (" + response.status + ").");
     return data;
@@ -769,6 +775,9 @@
         api("/api/regions"),
       ]);
       state.meta = meta;
+      if (meta.region_count === 0 || geojson.features.length === 0) {
+        showStatus("The region data is missing. Run 'python -m scripts.build_data merge' in the project folder, then reload.");
+      }
       state.threshold = meta.default_threshold;
       thresholdInput.value = state.threshold;
       thresholdValue.textContent = state.threshold + "%";

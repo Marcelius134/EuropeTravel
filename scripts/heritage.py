@@ -5,7 +5,7 @@ ranks the regions. Wikidata is CC0. https://query.wikidata.org
 """
 import re
 
-from .common import CACHE, COMPUTED, fetch, percentile_ranks, save_json
+from .common import CACHE, COMPUTED, fetch, forget_cached, percentile_ranks, save_json
 from .geometry import EUROPE_BOX, load_region_shapes
 
 SPARQL_URL = "https://query.wikidata.org/sparql"
@@ -39,14 +39,19 @@ def parse_points(payload):
 
 
 def _run_query(name, query):
+    cache_file = CACHE / "wikidata" / f"{name}.json"
     payload = fetch(
         SPARQL_URL,
         params={"query": query, "format": "json"},
         headers={"Accept": "application/sparql-results+json"},
-        cache_file=CACHE / "wikidata" / f"{name}.json",
+        cache_file=cache_file,
         timeout=120,
     )
-    return parse_points(payload)
+    try:
+        return parse_points(payload)
+    except (KeyError, TypeError) as error:
+        forget_cached(cache_file)
+        raise RuntimeError(f"Wikidata answered the '{name}' query in an unexpected shape: {error}")
 
 
 def count_by_region(points, shapes):
@@ -73,7 +78,14 @@ def heritage_score(world_heritage_sites, castles):
 def build_heritage():
     shapes = load_region_shapes()
     sites = count_by_region(_run_query("world_heritage", WORLD_HERITAGE_QUERY), shapes)
-    castles = count_by_region(_run_query("castles", CASTLE_QUERY), shapes)
+    try:
+        castles = count_by_region(_run_query("castles", CASTLE_QUERY), shapes)
+    except RuntimeError as error:
+        # The castle list is long and Wikidata sometimes times out on it. World
+        # Heritage sites alone still give a usable ranking.
+        print(f"heritage: castles FAILED ({error}); ranking on World Heritage sites only")
+        print("heritage: run the step again later to add castles")
+        castles = {region_id: 0 for region_id in shapes}
     raw = {region_id: heritage_score(sites[region_id], castles[region_id]) for region_id in shapes}
     ranks = percentile_ranks(raw)
     result = {

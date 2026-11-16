@@ -81,38 +81,103 @@ def percentile_ranks(values):
     }
 
 
+class FetchError(RuntimeError):
+    """A download failed for good. The message says which URL and why."""
+
+
+# Worth another try: the server was busy or briefly broken.
+RETRY_STATUSES = (408, 425, 429, 500, 502, 503, 504)
+# Never wait longer than this for one retry, whatever the server asks for.
+MAX_WAIT_SECONDS = 90
+
+
+def _http_get(url, params, headers, timeout):
+    """One GET. Returns (status code, body text, Retry-After header or None).
+
+    Kept separate so the tests can replace it and never touch the network.
+    Raises OSError when there is no answer at all.
+    """
+    try:
+        import requests  # imported here so the app and tests do not need it
+    except ImportError:
+        raise FetchError("The 'requests' package is missing. Run: pip install -r requirements-data.txt")
+    try:
+        response = requests.get(url, params=params, headers=headers, timeout=timeout)
+    except requests.RequestException as error:
+        raise OSError(str(error))
+    return response.status_code, response.text, response.headers.get("Retry-After")
+
+
+def _read_cache(cache_file, as_json):
+    """Return the cached answer, or None when there is none or it is damaged."""
+    if cache_file is None or not cache_file.exists():
+        return None
+    try:
+        text = cache_file.read_text(encoding="utf-8")
+        return json.loads(text) if as_json else text
+    except (OSError, ValueError):
+        # A download that was cut off mid-write. Throw it away and fetch again.
+        cache_file.unlink(missing_ok=True)
+        return None
+
+
+def _write_cache(cache_file, text):
+    """Write through a temporary file so a stopped run never leaves half a file."""
+    cache_file.parent.mkdir(parents=True, exist_ok=True)
+    temporary = cache_file.with_name(cache_file.name + ".part")
+    temporary.write_text(text, encoding="utf-8")
+    temporary.replace(cache_file)
+
+
+def _wait_seconds(attempt, retry_after):
+    try:
+        asked = float(retry_after)
+    except (TypeError, ValueError):
+        asked = 0.0
+    return min(MAX_WAIT_SECONDS, max(asked, 3 * (attempt + 1) ** 2))
+
+
 def fetch(url, params=None, cache_file=None, as_json=True, headers=None, retries=4, timeout=60):
     """GET a URL, with an on-disk cache and polite retries.
 
-    Returns parsed JSON (or text when as_json is False). Raises RuntimeError
-    with a readable message when the request keeps failing.
+    Returns parsed JSON (or text when as_json is False). Raises FetchError,
+    a RuntimeError, with a readable message when the request fails for good:
+    straight away for answers like 400 or 404 that will not change, and after
+    `retries` attempts for busy servers, dropped connections and cut-off bodies.
     """
-    import requests  # imported here so the app and tests do not need it
-
-    if cache_file is not None:
-        cache_file = Path(cache_file)
-        if cache_file.exists():
-            text = cache_file.read_text(encoding="utf-8")
-            return json.loads(text) if as_json else text
+    cache_file = Path(cache_file) if cache_file is not None else None
+    cached = _read_cache(cache_file, as_json)
+    if cached is not None:
+        return cached
 
     all_headers = {"User-Agent": USER_AGENT}
     all_headers.update(headers or {})
-    last_error = None
+    last_error = "no attempt was made"
     for attempt in range(retries):
         try:
-            response = requests.get(url, params=params, headers=all_headers, timeout=timeout)
-            if response.status_code in (429, 500, 502, 503, 504):
-                last_error = f"HTTP {response.status_code}"
-                time.sleep(3 * (attempt + 1) ** 2)
-                continue
-            response.raise_for_status()
-            text = response.text
+            status, text, retry_after = _http_get(url, params, all_headers, timeout)
+        except OSError as error:
+            last_error = str(error) or "no answer"
+            time.sleep(_wait_seconds(attempt, None))
+            continue
+        if status in RETRY_STATUSES:
+            last_error = f"HTTP {status}"
+            time.sleep(_wait_seconds(attempt, retry_after))
+            continue
+        if status >= 400:
+            raise FetchError(f"Could not fetch {url}: HTTP {status}: {text[:200].strip()}")
+        try:
             result = json.loads(text) if as_json else text
-            if cache_file is not None:
-                cache_file.parent.mkdir(parents=True, exist_ok=True)
-                cache_file.write_text(text, encoding="utf-8")
-            return result
-        except (requests.RequestException, ValueError) as error:
-            last_error = str(error)
-            time.sleep(2 * (attempt + 1))
-    raise RuntimeError(f"Could not fetch {url}: {last_error}")
+        except ValueError:
+            last_error = "the answer was not valid JSON (probably cut off)"
+            time.sleep(_wait_seconds(attempt, None))
+            continue
+        if cache_file is not None:
+            _write_cache(cache_file, text)
+        return result
+    raise FetchError(f"Could not fetch {url} after {retries} tries: {last_error}")
+
+
+def forget_cached(cache_file):
+    """Delete a cached answer that turned out to be useless, so it is fetched again."""
+    Path(cache_file).unlink(missing_ok=True)

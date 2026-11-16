@@ -10,13 +10,27 @@ Both are free and need no API key.
 """
 import time
 
-from .common import CACHE, COMPUTED, fetch, load_json, save_json
+from .common import CACHE, COMPUTED, fetch, forget_cached, load_json, save_json
 
 POWER_URL = "https://power.larc.nasa.gov/api/temporal/climatology/point"
 OPEN_METEO_URL = "https://archive-api.open-meteo.com/v1/archive"
 MONTH_KEYS = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
 DAYS_IN_MONTH = [31, 28.25, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 POWER_MISSING = -900  # POWER marks missing values with -999
+# Stop once this many regions fail one after another: the services are down, not the regions.
+MAX_FAILURES_IN_A_ROW = 5
+
+
+def check_climate(climate):
+    """Refuse numbers no place in Europe could have, so a bad answer never reaches the app."""
+    temps, rain = climate["temp_max_c"], climate["precip_mm"]
+    if len(temps) != 12 or len(rain) != 12:
+        raise ValueError("expected twelve months of values")
+    if not all(-45 <= value <= 55 for value in temps):
+        raise ValueError(f"temperatures out of range: {temps}")
+    if not all(0 <= value <= 1500 for value in rain):
+        raise ValueError(f"rainfall out of range: {rain}")
+    return climate
 
 
 def parse_power(payload):
@@ -30,11 +44,11 @@ def parse_power(payload):
     rain_per_day = [parameters["PRECTOTCORR"][key] for key in MONTH_KEYS]
     if any(value is None or value < POWER_MISSING for value in temps + rain_per_day):
         raise ValueError("NASA POWER returned missing values")
-    return {
+    return check_climate({
         "temp_max_c": [round(value, 1) for value in temps],
         "precip_mm": [round(value * days) for value, days in zip(rain_per_day, DAYS_IN_MONTH)],
         "source": "nasa-power",
-    }
+    })
 
 
 def parse_open_meteo(payload):
@@ -54,11 +68,11 @@ def parse_open_meteo(payload):
             rain_sums[month] += rain
     if not years or any(count == 0 for count in temp_counts):
         raise ValueError("Open-Meteo returned no usable days")
-    return {
+    return check_climate({
         "temp_max_c": [round(total / count, 1) for total, count in zip(temp_sums, temp_counts)],
         "precip_mm": [round(total / len(years)) for total in rain_sums],
         "source": "open-meteo",
-    }
+    })
 
 
 def fetch_region_climate(region_id, lat, lon):
@@ -73,6 +87,7 @@ def fetch_region_climate(region_id, lat, lon):
         )
         return parse_power(payload)
     except (RuntimeError, KeyError, ValueError, TypeError) as power_error:
+        forget_cached(CACHE / "climate" / f"{region_id}.power.json")
         payload = fetch(
             OPEN_METEO_URL,
             params={
@@ -85,6 +100,7 @@ def fetch_region_climate(region_id, lat, lon):
         try:
             return parse_open_meteo(payload)
         except (KeyError, ValueError, TypeError) as meteo_error:
+            forget_cached(CACHE / "climate" / f"{region_id}.openmeteo.json")
             raise RuntimeError(f"NASA POWER: {power_error}; Open-Meteo: {meteo_error}")
 
 
@@ -94,6 +110,7 @@ def build_climate(pause_seconds=0.4):
         raise RuntimeError("data/computed/geometry.json is missing. Run the 'geometry' step first.")
     result = load_json(COMPUTED / "climate.json", {})
     failed = []
+    failed_in_a_row = 0
     total = len(geometry)
     for number, (region_id, info) in enumerate(sorted(geometry.items()), start=1):
         if region_id in result:
@@ -101,10 +118,17 @@ def build_climate(pause_seconds=0.4):
         lat, lon = info["centroid"]
         try:
             result[region_id] = fetch_region_climate(region_id, lat, lon)
+            failed_in_a_row = 0
             print(f"climate: {number}/{total} {region_id} ok ({result[region_id]['source']})")
         except RuntimeError as error:
             failed.append(region_id)
+            failed_in_a_row += 1
             print(f"climate: {number}/{total} {region_id} FAILED: {error}")
+            if failed_in_a_row >= MAX_FAILURES_IN_A_ROW:
+                raise RuntimeError(
+                    f"{failed_in_a_row} regions failed one after another, so both climate services are "
+                    f"probably unreachable. {len(result)} regions are saved; run the step again to continue."
+                )
         save_json(COMPUTED / "climate.json", dict(sorted(result.items())))
         time.sleep(pause_seconds)
     print(f"climate: {len(result)} regions have data, {len(failed)} failed")
