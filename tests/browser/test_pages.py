@@ -113,13 +113,13 @@ def test_escape_closes_the_card(context, base_url):
 
 # ---------- Base map and theme ----------
 
-def test_city_names_are_not_drawn_twice_on_the_terrain_map(context, base_url):
+def test_city_names_are_not_drawn_twice(context, base_url):
+    # Every base map prints city names itself, so ours appear only on hover.
     page = open_page(context, base_url, "?region=ES61")
-    expect(page.locator(".city-label").first).to_be_visible()
-    page.locator('.basemaps button[data-basemap="terrain"]').click()
-    expect(page.locator(".city-label")).to_have_count(0)
-    page.locator('.basemaps button[data-basemap="dark"]').click()
-    expect(page.locator(".city-label").first).to_be_visible()
+    expect(page.locator(".city-list button").first).to_be_visible()
+    for name in ("dark", "terrain", "satellite"):
+        page.locator(f'.basemaps button[data-basemap="{name}"]').click()
+        expect(page.locator(".city-label")).to_have_count(0)
 
 
 def test_the_warm_theme_is_remembered(page):

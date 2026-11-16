@@ -39,7 +39,6 @@ The 46 regions and 14 cities with hand-written content are listed in `data/curat
 - **The download steps have never run against the real services.** The environment this was built in could only reach GitHub, so `climate`, `heritage` and `places` were written from knowledge of the APIs and tested with made-up sample responses. Expect to fix small things on the first real run. `boundaries`, `geometry` and `cities` did run for real.
 - **`run.bat` has never run.** It was written on Linux. `run.sh` was tried on a fresh copy and works.
 - **Most of the page has not been seen over its base map.** Map tiles could not load in the build environment. Only the terrain map was seen on a real computer. The dark map (now Esri's dark gray; the first choice, CARTO, turned out to need a key), the satellite map, the warm theme over a real map, and the compare tray over a real map have not been reviewed.
-- **City names may show twice on the dark and satellite maps.** This was seen and fixed on the terrain map. The other two also print some city names of their own and have not been checked.
 - Only Chromium was tried, at widths of 1280 and 1366 pixels. Firefox, Edge and Safari have not been.
 
 ## Known limits
@@ -50,7 +49,7 @@ The 46 regions and 14 cities with hand-written content are listed in `data/curat
 - GeoNames sometimes lists a suburb or beach as a city (for example "Acilia-Castel Fusano-Ostia Antica" in Lazio).
 - Region names are Eurostat's, in the local language, except for the 46 with hand-written English names.
 - The Canary Islands and the French overseas regions are not in the outline file used.
-- On the terrain map city names come from the map itself, so small towns are only named when you hover their dot.
+- City names come from the base map itself, so small towns are only named when you hover their dot.
 - Region outlines are simplified, so a coastal pin can sit slightly outside its region.
 - Saved places live in one browser on one computer. A private window does not keep them.
 - The app needs internet for the base map and the fonts. Without it the panels and outlines still work on an empty background.

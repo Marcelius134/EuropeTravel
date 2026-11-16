@@ -120,11 +120,12 @@
   }
 
   const labelLayer = esriLayer("Canvas/World_Dark_Gray_Reference", { pane: "labels" });
+  // namesCities: the map (or its label layer) already prints city names, so ours
+  // would show twice. True for all three today; a base map without names would set false.
   const basemaps = {
-    dark: { layer: esriLayer("Canvas/World_Dark_Gray_Base"), labels: true },
-    // The terrain map already has city names printed on it, so ours would show twice.
+    dark: { layer: esriLayer("Canvas/World_Dark_Gray_Base"), labels: true, namesCities: true },
     terrain: { layer: esriLayer("World_Topo_Map", { maxZoom: 18 }), labels: false, namesCities: true },
-    satellite: { layer: esriLayer("World_Imagery", { maxZoom: 18 }), labels: true },
+    satellite: { layer: esriLayer("World_Imagery", { maxZoom: 18 }), labels: true, namesCities: true },
   };
   let currentBasemap = null;
 
